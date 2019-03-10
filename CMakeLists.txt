@@ -4,7 +4,6 @@ project (Tutorials)
 
 find_package(OpenGL REQUIRED)
 
-
 if( CMAKE_BINARY_DIR STREQUAL CMAKE_SOURCE_DIR )
     message( FATAL_ERROR "Please select another Build Directory ! (and give it a clever name, like bin_Visual2012_64bits/)" )
 endif()
@@ -56,18 +55,18 @@ add_definitions(
 	-D_CRT_SECURE_NO_WARNINGS
 )
 
-# User playground
-add_executable(playground
-		playground/Main.cpp
+# The game
+add_executable(TheGame
+		Main.cpp
 	common/shader.cpp
 	common/shader.hpp
 )
-target_link_libraries(playground
+target_link_libraries(TheGame
 	${ALL_LIBS}
 )
 # Xcode and Visual working directories
-set_target_properties(playground PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
-create_target_launcher(playground WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
+set_target_properties(TheGame PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
+create_target_launcher(TheGame WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
 
 
 
@@ -76,6 +75,6 @@ SOURCE_GROUP(shaders REGULAR_EXPRESSION ".*/.*shader$" )
 
 
 add_custom_command(
-   TARGET playground POST_BUILD
+   TARGET TheGame POST_BUILD
    COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/playground${CMAKE_EXECUTABLE_SUFFIX}" "${CMAKE_CURRENT_SOURCE_DIR}/playground/"
 )
