@@ -1,6 +1,6 @@
 # CMake entry point
 cmake_minimum_required (VERSION 3.0)
-project (Tutorials)
+project (Pool-Table)
 
 find_package(OpenGL REQUIRED)
 
@@ -65,10 +65,8 @@ target_link_libraries(TheGame
 	${ALL_LIBS}
 )
 # Xcode and Visual working directories
-set_target_properties(TheGame PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
-create_target_launcher(TheGame WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/playground/")
-
-
+set_target_properties(TheGame PROPERTIES XCODE_ATTRIBUTE_CONFIGURATION_BUILD_DIR "${CMAKE_CURRENT_SOURCE_DIR}/")
+create_target_launcher(TheGame WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/")
 
 SOURCE_GROUP(common REGULAR_EXPRESSION ".*/common/.*" )
 SOURCE_GROUP(shaders REGULAR_EXPRESSION ".*/.*shader$" )
@@ -76,5 +74,5 @@ SOURCE_GROUP(shaders REGULAR_EXPRESSION ".*/.*shader$" )
 
 add_custom_command(
    TARGET TheGame POST_BUILD
-   COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}/playground${CMAKE_EXECUTABLE_SUFFIX}" "${CMAKE_CURRENT_SOURCE_DIR}/playground/"
+   COMMAND ${CMAKE_COMMAND} -E copy "${CMAKE_CURRENT_BINARY_DIR}/${CMAKE_CFG_INTDIR}" "${CMAKE_CURRENT_SOURCE_DIR}"
 )

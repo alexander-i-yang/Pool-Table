@@ -2,65 +2,65 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Tutorials" targetName="gamma" />
-      <config projectName="Tutorials" targetName="tutorial01_first_window" />
-      <config projectName="Tutorials" targetName="BulletSoftBody" />
-      <config projectName="Tutorials" targetName="tutorial16_shadowmaps_simple" />
-      <config projectName="Tutorials" targetName="glfw" />
-      <config projectName="Tutorials" targetName="cursor" />
-      <config projectName="Tutorials" targetName="title" />
-      <config projectName="Tutorials" targetName="wave" />
-      <config projectName="Tutorials" targetName="misc05_picking_BulletPhysics" />
-      <config projectName="Tutorials" targetName="misc05_picking_custom" />
-      <config projectName="Tutorials" targetName="tutorial16_shadowmaps" />
-      <config projectName="Tutorials" targetName="TheGame" />
-      <config projectName="Tutorials" targetName="uninstall" />
-      <config projectName="Tutorials" targetName="tutorial13_normal_mapping" />
-      <config projectName="Tutorials" targetName="iconify" />
-      <config projectName="Tutorials" targetName="tutorial11_2d_fonts" />
-      <config projectName="Tutorials" targetName="tutorial18_particles" />
-      <config projectName="Tutorials" targetName="boing" />
-      <config projectName="Tutorials" targetName="GLEW_1130" />
-      <config projectName="Tutorials" targetName="misc05_picking_slow_easy" />
-      <config projectName="Tutorials" targetName="tutorial06_keyboard_and_mouse" />
-      <config projectName="Tutorials" targetName="gears" />
-      <config projectName="Tutorials" targetName="tutorial18_billboards" />
-      <config projectName="Tutorials" targetName="heightmap" />
-      <config projectName="Tutorials" targetName="tutorial08_basic_shading" />
-      <config projectName="Tutorials" targetName="empty" />
-      <config projectName="Tutorials" targetName="zlib" />
-      <config projectName="Tutorials" targetName="events" />
-      <config projectName="Tutorials" targetName="windows" />
-      <config projectName="Tutorials" targetName="tutorial09_AssImp" />
-      <config projectName="Tutorials" targetName="tutorial05_textured_cube" />
-      <config projectName="Tutorials" targetName="splitview" />
-      <config projectName="Tutorials" targetName="tutorial10_transparency" />
-      <config projectName="Tutorials" targetName="BulletCollision" />
-      <config projectName="Tutorials" targetName="tutorial02_red_triangle" />
-      <config projectName="Tutorials" targetName="glfwinfo" />
-      <config projectName="Tutorials" targetName="BulletDynamics" />
-      <config projectName="Tutorials" targetName="tutorial12_extensions" />
-      <config projectName="Tutorials" targetName="clipboard" />
-      <config projectName="Tutorials" targetName="tearing" />
-      <config projectName="Tutorials" targetName="assimp" />
-      <config projectName="Tutorials" targetName="tutorial04_colored_cube" />
-      <config projectName="Tutorials" targetName="msaa" />
-      <config projectName="Tutorials" targetName="tutorial09_vbo_indexing" />
-      <config projectName="Tutorials" targetName="monitors" />
-      <config projectName="Tutorials" targetName="tutorial07_model_loading" />
-      <config projectName="Tutorials" targetName="tutorial09_several_objects" />
-      <config projectName="Tutorials" targetName="tutorial03_matrices" />
-      <config projectName="Tutorials" targetName="tutorial14_render_to_texture" />
-      <config projectName="Tutorials" targetName="simple" />
-      <config projectName="Tutorials" targetName="tutorial15_lightmaps" />
-      <config projectName="Tutorials" targetName="sharing" />
-      <config projectName="Tutorials" targetName="reopen" />
-      <config projectName="Tutorials" targetName="threads" />
-      <config projectName="Tutorials" targetName="particles" />
-      <config projectName="Tutorials" targetName="ANTTWEAKBAR_116_OGLCORE_GLFW" />
-      <config projectName="Tutorials" targetName="joysticks" />
-      <config projectName="Tutorials" targetName="LinearMath" />
-      <config projectName="Tutorials" targetName="tutorial17_rotations" />
+      <config projectName="Pool-Table" targetName="tutorial05_textured_cube" />
+      <config projectName="Pool-Table" targetName="empty" />
+      <config projectName="Pool-Table" targetName="zlib" />
+      <config projectName="Pool-Table" targetName="LinearMath" />
+      <config projectName="Pool-Table" targetName="tutorial17_rotations" />
+      <config projectName="Pool-Table" targetName="tutorial18_billboards" />
+      <config projectName="Pool-Table" targetName="events" />
+      <config projectName="Pool-Table" targetName="tearing" />
+      <config projectName="Pool-Table" targetName="msaa" />
+      <config projectName="Pool-Table" targetName="heightmap" />
+      <config projectName="Pool-Table" targetName="assimp" />
+      <config projectName="Pool-Table" targetName="joysticks" />
+      <config projectName="Pool-Table" targetName="tutorial12_extensions" />
+      <config projectName="Pool-Table" targetName="tutorial14_render_to_texture" />
+      <config projectName="Pool-Table" targetName="BulletCollision" />
+      <config projectName="Pool-Table" targetName="uninstall" />
+      <config projectName="Pool-Table" targetName="tutorial03_matrices" />
+      <config projectName="Pool-Table" targetName="TheGame" />
+      <config projectName="Pool-Table" targetName="tutorial09_several_objects" />
+      <config projectName="Pool-Table" targetName="tutorial06_keyboard_and_mouse" />
+      <config projectName="Pool-Table" targetName="tutorial08_basic_shading" />
+      <config projectName="Pool-Table" targetName="monitors" />
+      <config projectName="Pool-Table" targetName="gears" />
+      <config projectName="Pool-Table" targetName="BulletDynamics" />
+      <config projectName="Pool-Table" targetName="glfwinfo" />
+      <config projectName="Pool-Table" targetName="clipboard" />
+      <config projectName="Pool-Table" targetName="tutorial18_particles" />
+      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps_simple" />
+      <config projectName="Pool-Table" targetName="misc05_picking_slow_easy" />
+      <config projectName="Pool-Table" targetName="glfw" />
+      <config projectName="Pool-Table" targetName="wave" />
+      <config projectName="Pool-Table" targetName="tutorial10_transparency" />
+      <config projectName="Pool-Table" targetName="gamma" />
+      <config projectName="Pool-Table" targetName="tutorial01_first_window" />
+      <config projectName="Pool-Table" targetName="boing" />
+      <config projectName="Pool-Table" targetName="GLEW_1130" />
+      <config projectName="Pool-Table" targetName="misc05_picking_custom" />
+      <config projectName="Pool-Table" targetName="ANTTWEAKBAR_116_OGLCORE_GLFW" />
+      <config projectName="Pool-Table" targetName="iconify" />
+      <config projectName="Pool-Table" targetName="reopen" />
+      <config projectName="Pool-Table" targetName="BulletSoftBody" />
+      <config projectName="Pool-Table" targetName="sharing" />
+      <config projectName="Pool-Table" targetName="tutorial09_vbo_indexing" />
+      <config projectName="Pool-Table" targetName="tutorial13_normal_mapping" />
+      <config projectName="Pool-Table" targetName="tutorial11_2d_fonts" />
+      <config projectName="Pool-Table" targetName="tutorial07_model_loading" />
+      <config projectName="Pool-Table" targetName="tutorial04_colored_cube" />
+      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps" />
+      <config projectName="Pool-Table" targetName="particles" />
+      <config projectName="Pool-Table" targetName="simple" />
+      <config projectName="Pool-Table" targetName="title" />
+      <config projectName="Pool-Table" targetName="windows" />
+      <config projectName="Pool-Table" targetName="tutorial09_AssImp" />
+      <config projectName="Pool-Table" targetName="splitview" />
+      <config projectName="Pool-Table" targetName="misc05_picking_BulletPhysics" />
+      <config projectName="Pool-Table" targetName="cursor" />
+      <config projectName="Pool-Table" targetName="tutorial02_red_triangle" />
+      <config projectName="Pool-Table" targetName="threads" />
+      <config projectName="Pool-Table" targetName="tutorial15_lightmaps" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -69,12 +69,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb7374bc-7566-4326-ba81-34c8fa7f0b11" name="Default Changelist" comment="">
+    <list default="true" id="cb7374bc-7566-4326-ba81-34c8fa7f0b11" name="Default Changelist" comment="Dem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphics.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphics.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheGame.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,20 +92,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="71" selection-start-line="71" selection-end-line="71" />
+            <state relative-caret-position="248">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="177">
+              <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -177,8 +174,8 @@
         <option value="$PROJECT_DIR$/common/controls.hpp" />
         <option value="$PROJECT_DIR$/playground/playground.cpp" />
         <option value="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/tutorial06.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Main.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -208,13 +205,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Tutorials" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pool-Table" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pool-Table" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tutorials" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pool-Table" type="462c0819:PsiDirectoryNode" />
-              <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -248,172 +240,172 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.TheGame">
-    <configuration name="ANTTWEAKBAR_116_OGLCORE_GLFW" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="ANTTWEAKBAR_116_OGLCORE_GLFW" CONFIG_NAME="Debug">
+    <configuration name="ANTTWEAKBAR_116_OGLCORE_GLFW" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="ANTTWEAKBAR_116_OGLCORE_GLFW" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BulletCollision" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="BulletCollision" CONFIG_NAME="Debug">
+    <configuration name="BulletCollision" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="BulletCollision" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BulletDynamics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="BulletDynamics" CONFIG_NAME="Debug">
+    <configuration name="BulletDynamics" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="BulletDynamics" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BulletSoftBody" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="BulletSoftBody" CONFIG_NAME="Debug">
+    <configuration name="BulletSoftBody" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="BulletSoftBody" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GLEW_1130" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="GLEW_1130" CONFIG_NAME="Debug">
+    <configuration name="GLEW_1130" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="GLEW_1130" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearMath" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="LinearMath" CONFIG_NAME="Debug">
+    <configuration name="LinearMath" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="LinearMath" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="TheGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="TheGame">
+    <configuration name="TheGame" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="TheGame" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="TheGame">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="assimp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="assimp" CONFIG_NAME="Debug">
+    <configuration name="assimp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="assimp" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="boing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="boing">
+    <configuration name="boing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="boing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="boing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="clipboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="clipboard">
+    <configuration name="clipboard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="clipboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="clipboard">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="cursor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="cursor">
+    <configuration name="cursor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="cursor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="cursor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="empty">
+    <configuration name="empty" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="empty" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="empty">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="events" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="events">
+    <configuration name="events" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="events" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="events">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="gamma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="gamma">
+    <configuration name="gamma" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="gamma" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="gamma">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="gears" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="gears">
+    <configuration name="gears" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="gears" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="gears">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="glfw" CONFIG_NAME="Debug">
+    <configuration name="glfw" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="glfw" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="glfwinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="glfwinfo">
+    <configuration name="glfwinfo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="glfwinfo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="glfwinfo">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="heightmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="heightmap">
+    <configuration name="heightmap" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="heightmap" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="heightmap">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="iconify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="iconify">
+    <configuration name="iconify" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="iconify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="iconify">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="joysticks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="joysticks">
+    <configuration name="joysticks" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="joysticks" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="joysticks">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="monitors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="monitors">
+    <configuration name="monitors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="monitors" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="monitors">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="msaa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="msaa">
+    <configuration name="msaa" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="msaa" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="msaa">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="particles">
+    <configuration name="particles" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="particles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="particles">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="reopen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="reopen">
+    <configuration name="reopen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="reopen" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="reopen">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="sharing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="sharing">
+    <configuration name="sharing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="sharing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="sharing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="simple">
+    <configuration name="simple" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="simple" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="simple">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="splitview" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="splitview">
+    <configuration name="splitview" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="splitview" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="splitview">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="tearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="tearing">
+    <configuration name="tearing" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="tearing" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="tearing">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="threads">
+    <configuration name="threads" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="threads" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="threads">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="title" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="title">
+    <configuration name="title" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="title" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="title">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="wave">
+    <configuration name="wave" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="wave" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="wave">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="windows" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tutorials" RUN_TARGET_NAME="windows">
+    <configuration name="windows" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="windows" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Pool-Table" RUN_TARGET_NAME="windows">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="zlib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tutorials" TARGET_NAME="zlib" CONFIG_NAME="Debug">
+    <configuration name="zlib" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Pool-Table" TARGET_NAME="zlib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -571,27 +563,34 @@
       <option name="project" value="LOCAL" />
       <updated>1552245774933</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cleaning up">
+      <created>1552246254045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552246254045</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25511000" />
+    <option name="totallyTimeSpent" value="28469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.152349" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.152349" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="CMake" order="0" weight="0.3286119" />
+      <window_info anchor="bottom" id="CMake" order="0" sideWeight="0.49932885" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.34560907" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50201344" side_tool="true" weight="0.398017" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50067115" side_tool="true" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.49530202" weight="0.4348442" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.4704698" weight="0.4348442" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.04249292" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.4966443" visible="true" weight="0.37252125" />
+      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.4704698" weight="0.37252125" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49798658" weight="0.4362606" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -608,7 +607,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Starting on graphics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting on graphics" />
+    <MESSAGE value="Cleaning up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,15 +741,29 @@
     <entry file="file://$PROJECT_DIR$/BUILDING.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/TheGame.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -763,18 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="248">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
