@@ -14,14 +14,12 @@ if( CMAKE_BINARY_DIR MATCHES " " )
 	message( "Your Build Directory contains spaces. If you experience problems when compiling, this can be the cause." )
 endif()
 
-
-
-# Compile external dependencies 
-add_subdirectory (external)
+# Compile external dependencies
+add_subdirectory (lib/external)
 
 # On Visual 2005 and above, this module can set the debug working directory
 cmake_policy(SET CMP0026 OLD)
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/external/rpavlik-cmake-modules-fe2273")
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/lib/external/rpavlik-cmake-modules-fe2273")
 include(CreateLaunchers)
 include(MSVCMultipleProcessCompile) # /MP
 
@@ -32,12 +30,12 @@ endif(INCLUDE_DISTRIB)
 
 
 include_directories(
-	external/AntTweakBar-1.16/include/
-	external/glfw-3.1.2/include/
-	external/glm-0.9.7.1/
-	external/glew-1.13.0/include/
-	external/assimp-3.0.1270/include/
-	external/bullet-2.81-rev2613/src/
+	lib/external/AntTweakBar-1.16/include/
+	lib/external/glfw-3.1.2/include/
+	lib/external/glm-0.9.7.1/
+	lib/external/glew-1.13.0/include/
+	lib/external/assimp-3.0.1270/include/
+	lib/external/bullet-2.81-rev2613/src/
 	.
 )
 
@@ -56,10 +54,20 @@ add_definitions(
 )
 
 # The game
-add_executable(TheGame
-		Main.cpp
-	common/shader.cpp
-	common/shader.hpp
+add_executable(TheGame Main.cpp
+	lib/common/shader.cpp
+	lib/common/shader.hpp
+	Ball.h
+	Ball.cpp
+	Wall.h
+	Wall.cpp
+	Drawable.h
+	Drawable.cpp
+	Drawables.cpp
+	Drawables.h
+	Collidable.cpp
+	Color.cpp
+	Color.h
 )
 target_link_libraries(TheGame
 	${ALL_LIBS}
