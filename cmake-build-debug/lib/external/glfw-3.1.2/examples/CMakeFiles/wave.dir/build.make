@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision
+CMAKE_SOURCE_DIR = C:\Users\samue\Documents\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\samue\Documents\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/depend.make
@@ -59,16 +59,16 @@ include lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/flags.make
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/wave.c.obj: lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/flags.make
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/wave.c.obj: lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/includes_C.rsp
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/wave.c.obj: ../lib/external/glfw-3.1.2/examples/wave.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/wave.c.obj"
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\wave.dir\wave.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\lib\external\glfw-3.1.2\examples\wave.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/wave.c.obj"
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\wave.dir\wave.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\glfw-3.1.2\examples\wave.c
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/wave.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/wave.dir/wave.c.i"
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\lib\external\glfw-3.1.2\examples\wave.c > CMakeFiles\wave.dir\wave.c.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\glfw-3.1.2\examples\wave.c > CMakeFiles\wave.dir\wave.c.i
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/wave.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/wave.dir/wave.c.s"
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\lib\external\glfw-3.1.2\examples\wave.c -o CMakeFiles\wave.dir\wave.c.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\glfw-3.1.2\examples\wave.c -o CMakeFiles\wave.dir\wave.c.s
 
 # Object files for target wave
 wave_OBJECTS = \
@@ -83,8 +83,8 @@ lib/external/glfw-3.1.2/examples/wave.exe: lib/external/glfw-3.1.2/src/libglfw3.
 lib/external/glfw-3.1.2/examples/wave.exe: lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/linklibs.rsp
 lib/external/glfw-3.1.2/examples/wave.exe: lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/objects1.rsp
 lib/external/glfw-3.1.2/examples/wave.exe: lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable wave.exe"
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\wave.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable wave.exe"
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\wave.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/build: lib/external/glfw-3.1.2/examples/wave.exe
@@ -92,10 +92,10 @@ lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/build: lib/external/glfw-3.
 .PHONY : lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/build
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/clean:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -P CMakeFiles\wave.dir\cmake_clean.cmake
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -P CMakeFiles\wave.dir\cmake_clean.cmake
 .PHONY : lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/clean
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\lib\external\glfw-3.1.2\examples C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\lib\external\glfw-3.1.2\examples C:\Users\Samuel\Documents\Coding\LASA\Pool-Table-collision\cmake-build-debug\lib\external\glfw-3.1.2\examples\CMakeFiles\wave.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\samue\Documents\Pool-Table C:\Users\samue\Documents\Pool-Table\lib\external\glfw-3.1.2\examples C:\Users\samue\Documents\Pool-Table\cmake-build-debug C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples\CMakeFiles\wave.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/glfw-3.1.2/examples/CMakeFiles/wave.dir/depend
 

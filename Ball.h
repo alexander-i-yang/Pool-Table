@@ -47,7 +47,7 @@ public:
 	double *getVerticesArray() override;
 	int getNumVertices() override;
 	void updateFrame() override; /* this is how the ball will 'move' */
-	double* getColorArray() override;
+	GLfloat* getColorArray() override;
 
 	/* for mechanics */
 	double friction(); /* returns the frictional force */

@@ -52,21 +52,22 @@ void Ball::draw() {
 	double x = this->getX();
 	double y = this->getY();
 	double triangleAmount = this->getNumVertices();
-	glColorPointer(3, GL_FLOAT, 0, this->getColorArray());
+	//glColorPointer(3, GL_FLOAT, 0, this->getColorArray());
+	glColor3f(this->getColor().getR(), this->getColor().getG(), this->getColor().getB());
 	glBegin(GL_TRIANGLE_FAN);
-		glVertex2f(x, y);
-		for (int i = 0; i <= triangleAmount; ++i) {
-			glVertex2f(x + r * cos(i * 2 * 3.1415926 / triangleAmount), y + r * sin(i * 2 * 3.1415926 / triangleAmount));
-//			std::cout << x + r * cos(i * 2 * 3.1415926 / triangleAmount) << " " << y + r * sin(i * 2 * 3.1415926 / triangleAmount) << std::endl;
-		}
+	glVertex2f(x, y);
+	for (int i = 0; i <= triangleAmount; ++i) {
+	    glVertex2f(x + r * cos(i * 2 * 3.1415926 / triangleAmount), y + r * sin(i * 2 * 3.1415926 / triangleAmount));
+//		std::cout << x + r * cos(i * 2 * 3.1415926 / triangleAmount) << " " << y + r * sin(i * 2 * 3.1415926 / triangleAmount) << std::endl;
+	}
 	glEnd();
-//	glEnableClientState( GL_VERTEX_ARRAY ); // tell OpenGL that you're using a vertex array for fixed-function attribute
-//	glEnableClientState( GL_COLOR_ARRAY );
-//	glVertexPointer( 3, GL_FLOAT, 0, this->getVerticesArray()); // point to the vertices to be used
-//	glColorPointer(3, GL_FLOAT, 0, this->getColorArray());
-//	glDrawArrays( GL_TRIANGLE_FAN, 0, this->getNumVertices()); // draw the vertixes
-//	glDisableClientState( GL_COLOR_ARRAY );
-//	glDisableClientState( GL_VERTEX_ARRAY ); // tell OpenGL that you're finished using the vertex array attribute
+	/*glEnableClientState( GL_VERTEX_ARRAY ); // tell OpenGL that you're using a vertex array for fixed-function attribute
+	glEnableClientState( GL_COLOR_ARRAY );
+	glVertexPointer( 3, GL_FLOAT, 0, this->getVerticesArray()); // point to the vertices to be used
+	glColorPointer(3, GL_FLOAT, 0, this->getColorArray());
+	glDrawArrays( GL_TRIANGLE_FAN, 0, this->getNumVertices()); // draw the vertixes
+	glDisableClientState( GL_COLOR_ARRAY );
+	glDisableClientState( GL_VERTEX_ARRAY ); // tell OpenGL that you're finished using the vertex array attribute*/
 }
 
 double* Ball::getVerticesArray() {
@@ -79,8 +80,8 @@ double* Ball::getVerticesArray() {
 
 	for ( int i = 1; i < numberOfVertices; i++ )
 	{
-		allCircleVertices[i * 3] = Drawable::x + ((int)this->getRadius() * cos(i * twicePi / numberOfSides));
-		allCircleVertices[(i * 3) + 1] = Drawable::y + ((int)this->getRadius() * sin(i * twicePi / numberOfSides));
+		allCircleVertices[i * 3] = Drawable::x + (this->getRadius() * cos(i * twicePi / numberOfSides));
+		allCircleVertices[(i * 3) + 1] = Drawable::y + (this->getRadius() * sin(i * twicePi / numberOfSides));
 		allCircleVertices[(i * 3) + 2] = Drawable::z;
 	}
 
@@ -103,15 +104,21 @@ void Ball::updateFrame() {
 }
 
 /* needs implementation */
-double* Ball::getColorArray() {
+GLfloat * Ball::getColorArray() {
 	int numberOfVertices = getNumVertices();
-	auto * color = new double[numberOfVertices*3];
+	auto * color = new GLfloat[numberOfVertices*3];
 
-	for ( int i = 0; i < numberOfVertices; i++ ) {
+    for ( int i = 0; i < numberOfVertices; i++ ) {
+        color[i*3] = 0;
+        color[i*3+1] = 0.7;
+        color[i*3+2] = 0.7;
+    }
+
+	/*for ( int i = 0; i < numberOfVertices; i++ ) {
 		color[i*3] = this->getColor().getR();
 		color[i*3+1] = this->getColor().getG();
 		color[i*3+2] = this->getColor().getB();
-	}
+	}*/
 	return color;
 }
 

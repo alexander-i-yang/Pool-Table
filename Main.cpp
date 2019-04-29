@@ -50,22 +50,23 @@ int main()
 	glMatrixMode( GL_MODELVIEW ); // (default matrix mode) modelview matrix defines how your objects are transformed (meaning translation, rotation and scaling) in your world
 	glLoadIdentity( ); // same as above comment
 
-	Drawables drawables;
-	Collidables collidables;
+	Drawables* drawables = new Drawables();
+	Collidables* collidables = new Collidables();
 	Color sunColor;
 	srand((unsigned)time(0));
 	sunColor.setColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+//	sunColor.setColor(0, 0, 1);
 	std::cout << sunColor.getR() << " " << sunColor.getG() << " " << sunColor.getB() << std::endl;
 	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, 15);
 	Ball* s2 = new Ball(sunColor, windowWidth * 3 / 4, windowHeight / 2, 0, 15);
 	s1->setVelocity(500, 0);
 	s1->setMass(10000);
 	s2->setMass(10000);
-	s2->setVelocity(-500, 0);
-	drawables.add(s1);
-	drawables.add(s2);
-	collidables.add(s1);
-	collidables.add(s2);
+	s2->setVelocity(0, 0);
+	drawables->add(s1);
+	drawables->add(s2);
+	collidables->add(s1);
+	collidables->add(s2);
 
 	/*for(int i = 0; i<10; ++i) {
 		Wall* w = new Wall(0, windowWidth - 50, 80 * i, sunColor, 50, 50);
@@ -81,8 +82,8 @@ int main()
 	while( glfwGetTime() - setTime < 2 ) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
-		drawables.drawAll();
-		collidables.updateAll();
+		drawables->drawAll();
+		collidables->updateAll();
 
 		// Swap front and back buffers
 		glfwSwapBuffers( window );

@@ -1,9 +1,9 @@
-cd C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/
+cd C:/Users/samue/Documents/Pool-Table/
 set 
 
 if [%1]==[--debugger] (
 	SHIFT
 )
 
-"C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/cmake-build-debug/TheGame.exe"  
+"C:/Users/samue/Documents/Pool-Table/cmake-build-debug/TheGame.exe"  
 pause

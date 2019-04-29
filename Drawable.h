@@ -36,7 +36,7 @@ public:
 	virtual double* getVerticesArray() = 0;
 	virtual int getNumVertices() = 0;
 	virtual void updateFrame() = 0;
-	virtual double* getColorArray() = 0;
+	virtual GLfloat* getColorArray() = 0;
 };
 
 #endif //POOL_TABLE_DRAWABLE_H

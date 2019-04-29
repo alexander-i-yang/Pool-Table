@@ -60,43 +60,43 @@ GL/glext.h
 GL/glu.h
 -
 
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Ball.h
+C:/Users/samue/Documents/Pool-Table/Ball.h
 utility
 -
 string
 -
 Drawable.h
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Collidables.h
+C:/Users/samue/Documents/Pool-Table/Collidables.h
 vector
 -
 Ball.h
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Ball.h
+C:/Users/samue/Documents/Pool-Table/Ball.h
 
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Color.h
+C:/Users/samue/Documents/Pool-Table/Color.h
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 iostream
 -
 Color.h
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Color.h
+C:/Users/samue/Documents/Pool-Table/Color.h
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Drawables.h
+C:/Users/samue/Documents/Pool-Table/Drawables.h
 vector
 -
 Drawable.h
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Main.cpp
+C:/Users/samue/Documents/Pool-Table/Main.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
@@ -108,11 +108,11 @@ ctime
 lib/common/shader.hpp
 -
 Ball.h
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Ball.h
+C:/Users/samue/Documents/Pool-Table/Ball.h
 Drawables.h
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Drawables.h
+C:/Users/samue/Documents/Pool-Table/Drawables.h
 Collidables.h
-C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/Collidables.h
+C:/Users/samue/Documents/Pool-Table/Collidables.h
 iostream
 -
 vector

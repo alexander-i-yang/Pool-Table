@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/cmake-build-debug/lib/external/glfw-3.1.2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/cmake-build-debug/lib/external/glfw-3.1.2/install_manifest.txt\"")
+if (NOT EXISTS "C:/Users/samue/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"C:/Users/samue/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/install_manifest.txt\"")
 endif()
 
-file(READ "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table-collision/cmake-build-debug/lib/external/glfw-3.1.2/install_manifest.txt" files)
+file(READ "C:/Users/samue/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})
