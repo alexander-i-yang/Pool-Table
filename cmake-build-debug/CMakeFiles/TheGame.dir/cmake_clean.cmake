@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/TheGame.dir/Drawables.cpp.obj"
   "CMakeFiles/TheGame.dir/Collidables.cpp.obj"
   "CMakeFiles/TheGame.dir/Color.cpp.obj"
+  "CMakeFiles/TheGame.dir/Wall.cpp.obj"
   "TheGame.pdb"
   "TheGame.exe"
   "TheGame.exe.manifest"

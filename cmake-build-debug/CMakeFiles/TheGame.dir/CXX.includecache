@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+.././lib/common/shader.hpp
+
 ../lib/external/glew-1.13.0/include/GL/glew.h
 stddef.h
 -
@@ -58,27 +60,21 @@ GL/glext.h
 GL/glu.h
 -
 
-C:/Users/Alex/CLionProjects/Pool-Table/Ball.cpp
+C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
 utility
 -
 string
 -
-cmath
--
-iostream
--
-Ball.h
-C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
 Drawable.h
 C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
 
+C:/Users/Alex/CLionProjects/Pool-Table/Collidables.h
+vector
+-
+Ball.h
 C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
-utility
--
-string
--
-Drawable.h
-C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+Wall.h
+C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
 
 C:/Users/Alex/CLionProjects/Pool-Table/Color.h
 GL/glew.h
@@ -95,4 +91,40 @@ GL/glew.h
 -
 GLFW/glfw3.h
 -
+
+C:/Users/Alex/CLionProjects/Pool-Table/Drawables.h
+vector
+-
+Drawable.h
+C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+
+C:/Users/Alex/CLionProjects/Pool-Table/Main.cpp
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+cmath
+-
+ctime
+-
+lib/common/shader.hpp
+-
+Ball.h
+C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
+Wall.h
+C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
+Drawables.h
+C:/Users/Alex/CLionProjects/Pool-Table/Drawables.h
+Collidables.h
+C:/Users/Alex/CLionProjects/Pool-Table/Collidables.h
+iostream
+-
+vector
+-
+
+C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
+Color.h
+C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+Drawable.h
+C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
 

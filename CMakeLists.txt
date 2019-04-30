@@ -67,6 +67,8 @@ add_executable(TheGame Main.cpp
 		Collidables.h
 		Color.cpp
 		Color.h
+		Wall.cpp
+		Wall.h
 		)
 target_link_libraries(TheGame
 		${ALL_LIBS}

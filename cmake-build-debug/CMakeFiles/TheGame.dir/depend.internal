@@ -16,6 +16,7 @@ CMakeFiles/TheGame.dir/Collidables.cpp.obj
  C:/Users/Alex/CLionProjects/Pool-Table/Collidables.h
  C:/Users/Alex/CLionProjects/Pool-Table/Color.h
  C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
 CMakeFiles/TheGame.dir/Color.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
@@ -44,6 +45,14 @@ CMakeFiles/TheGame.dir/Main.cpp.obj
  C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
  C:/Users/Alex/CLionProjects/Pool-Table/Drawables.h
  C:/Users/Alex/CLionProjects/Pool-Table/Main.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
+CMakeFiles/TheGame.dir/Wall.cpp.obj
+ ../lib/external/glew-1.13.0/include/GL/glew.h
+ ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
 CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  C:/Users/Alex/CLionProjects/Pool-Table/lib/common/shader.cpp

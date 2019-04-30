@@ -78,24 +78,6 @@ void Ball::draw() {
 	glDisableClientState( GL_VERTEX_ARRAY ); // tell OpenGL that you're finished using the vertex array attribute*/
 }
 
-double* Ball::getVerticesArray() {
-	int numberOfVertices = this->getNumVertices();
-	int numberOfSides = this->getNumSides();
-	double twicePi = 2.0f * M_PI;
-
-	auto * allCircleVertices = new double[( numberOfVertices ) * 3];
-
-
-	for ( int i = 1; i < numberOfVertices; i++ )
-	{
-		allCircleVertices[i * 3] = Drawable::x + (this->getRadius() * cos(i * twicePi / numberOfSides));
-		allCircleVertices[(i * 3) + 1] = Drawable::y + (this->getRadius() * sin(i * twicePi / numberOfSides));
-		allCircleVertices[(i * 3) + 2] = Drawable::z;
-	}
-
-	return allCircleVertices;
-}
-
 int Ball::getNumVertices() {
 	int numberOfSides = (int)(this->getRadius());
 	int numberOfVertices = numberOfSides + 2;
@@ -109,25 +91,6 @@ void Ball::updateFrame() {
 	this->setTime(glfwGetTime());
 	Drawable::setX(this->getX() + timeElapsed * xVelocity);
 	Drawable::setY(this->getY() + timeElapsed * yVelocity);
-}
-
-/* needs implementation */
-GLfloat * Ball::getColorArray() {
-	int numberOfVertices = getNumVertices();
-	auto * color = new GLfloat[numberOfVertices*3];
-
-    for ( int i = 0; i < numberOfVertices; i++ ) {
-        color[i*3] = 0;
-        color[i*3+1] = 0.7;
-        color[i*3+2] = 0.7;
-    }
-
-	/*for ( int i = 0; i < numberOfVertices; i++ ) {
-		color[i*3] = this->getColor().getR();
-		color[i*3+1] = this->getColor().getG();
-		color[i*3+2] = this->getColor().getB();
-	}*/
-	return color;
 }
 
 /* needs implementation */

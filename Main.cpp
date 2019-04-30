@@ -5,7 +5,7 @@
 #include <lib/common/shader.hpp>
 
 #include "Ball.h"
-//#include "Wall.h"
+#include "Wall.h"
 #include "Drawables.h"
 #include "Collidables.h"
 
@@ -34,6 +34,8 @@ int main()
 	int windowHeight = 768;
 	window = glfwCreateWindow(windowWidth, windowHeight, "The Game", NULL, NULL);
 
+	double friction = 0.1;
+
 	if ( !window )
 	{
 		glfwTerminate( );
@@ -50,6 +52,11 @@ int main()
 	glMatrixMode( GL_MODELVIEW ); // (default matrix mode) modelview matrix defines how your objects are transformed (meaning translation, rotation and scaling) in your world
 	glLoadIdentity( ); // same as above comment
 
+	int radius = windowHeight/40;
+	std::cout << radius << std::endl;
+	int vertSpacing = static_cast<int>(60.0 / 27.0 * radius);
+	int horizontalSpacing = static_cast<int>(55.0 / 27.0 * radius);
+
 	Drawables* drawables = new Drawables();
 	Collidables* collidables = new Collidables();
 	Color sunColor;
@@ -57,17 +64,15 @@ int main()
 	srand(std::rand());
 	//sunColor.setColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
 	sunColor.setColor(0.8, 0.8, 0.8);
-	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, 15);
+	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
 	s1->setVelocity(900, -10);
 	s1->setMass(3000);
 	drawables->add(s1);
 	collidables->add(s1);
 
-	int vertSpacing = 35;
-	int horizontalSpacing = 27;
 	for(int i = 0; i<4; ++i) {
 		for(int j = 0; j<=i; ++j) {
-			Ball* s2 = new Ball(sunColor, windowWidth * 3 / 4+horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, 15);
+			Ball* s2 = new Ball(sunColor, windowWidth * 3 / 4+horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
 			s2->setMass(1000);
 			s2->setVelocity(0, 0);
 			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
@@ -78,19 +83,22 @@ int main()
 		}
 	}
 
-
-	/*for(int i = 0; i<10; ++i) {
-		Wall* w = new Wall(0, windowWidth - 50, 80 * i, sunColor, 50, 50);
-		w->setVelocity(-0.01*i, 0);
-		drawables.add(w);
-		Ball* sun = new Ball(0, 80*i, 0, 20, sunColor);
-		sun->setVelocity(0.01*i, pow(-0.8, i));
-		drawables.add(sun);
-	}*/
+	Wall* right = new Wall(0, windowWidth-20, 0, sunColor, 20, windowHeight);
+	Wall* left = new Wall(0, 0, 0, sunColor, 20, windowHeight);
+	Wall* top = new Wall(0, 20, 0, sunColor, windowWidth-40, 20);
+	Wall* bottom = new Wall(0, 20, windowHeight-20, sunColor, windowWidth-40, 20);
+	drawables->add(right);
+	collidables->add(right);
+	drawables->add(left);
+	collidables->add(left);
+	drawables->add(top);
+	collidables->add(top);
+	drawables->add(bottom);
+	collidables->add(bottom);
 
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
-	while( glfwGetTime() - setTime < 100 && glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
+	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
 		drawables->drawAll();

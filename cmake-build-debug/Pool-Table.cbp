@@ -2165,6 +2165,12 @@
 		<Unit filename="C:/Users/Alex/CLionProjects/Pool-Table/Main.cpp">
 			<Option target="TheGame"/>
 		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/Pool-Table/Wall.cpp">
+			<Option target="TheGame"/>
+		</Unit>
+		<Unit filename="C:/Users/Alex/CLionProjects/Pool-Table/Wall.h">
+			<Option target="TheGame"/>
+		</Unit>
 		<Unit filename="C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/src/glfw_config.h">
 			<Option target="glfw"/>
 		</Unit>

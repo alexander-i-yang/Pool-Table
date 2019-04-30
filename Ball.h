@@ -42,14 +42,14 @@ public:
 	void updateAngle();
 	void setPos(double x, double y);
 	void setColorRGB(double r, double g, double b);
+	void flipXV() {velocity.first *= -1;}
+	void flipYV() {velocity.second *= -1;}
 
 	/* for drawing */
 	int getNumSides();
 	void draw() override;
-	double *getVerticesArray() override;
 	int getNumVertices() override;
 	void updateFrame() override; /* this is how the ball will 'move' */
-	GLfloat* getColorArray() override;
 
 	/* for mechanics */
 	double friction(); /* returns the frictional force */

@@ -154,6 +154,20 @@ CMakeFiles/TheGame.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Color.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Color.cpp -o CMakeFiles\TheGame.dir\Color.cpp.s
 
+CMakeFiles/TheGame.dir/Wall.cpp.obj: CMakeFiles/TheGame.dir/flags.make
+CMakeFiles/TheGame.dir/Wall.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
+CMakeFiles/TheGame.dir/Wall.cpp.obj: ../Wall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TheGame.dir/Wall.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Wall.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Wall.cpp
+
+CMakeFiles/TheGame.dir/Wall.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Wall.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Wall.cpp > CMakeFiles\TheGame.dir\Wall.cpp.i
+
+CMakeFiles/TheGame.dir/Wall.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Wall.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Wall.cpp -o CMakeFiles\TheGame.dir\Wall.cpp.s
+
 # Object files for target TheGame
 TheGame_OBJECTS = \
 "CMakeFiles/TheGame.dir/Main.cpp.obj" \
@@ -162,7 +176,8 @@ TheGame_OBJECTS = \
 "CMakeFiles/TheGame.dir/Drawable.cpp.obj" \
 "CMakeFiles/TheGame.dir/Drawables.cpp.obj" \
 "CMakeFiles/TheGame.dir/Collidables.cpp.obj" \
-"CMakeFiles/TheGame.dir/Color.cpp.obj"
+"CMakeFiles/TheGame.dir/Color.cpp.obj" \
+"CMakeFiles/TheGame.dir/Wall.cpp.obj"
 
 # External object files for target TheGame
 TheGame_EXTERNAL_OBJECTS =
@@ -174,13 +189,14 @@ TheGame.exe: CMakeFiles/TheGame.dir/Drawable.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Drawables.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Collidables.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Color.cpp.obj
+TheGame.exe: CMakeFiles/TheGame.dir/Wall.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/build.make
 TheGame.exe: lib/external/glfw-3.1.2/src/libglfw3.a
 TheGame.exe: lib/external/libGLEW_1130.a
 TheGame.exe: CMakeFiles/TheGame.dir/linklibs.rsp
 TheGame.exe: CMakeFiles/TheGame.dir/objects1.rsp
 TheGame.exe: CMakeFiles/TheGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable TheGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable TheGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TheGame.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E copy C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/. C:/Users/Alex/CLionProjects/Pool-Table
 

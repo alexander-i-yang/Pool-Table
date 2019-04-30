@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Alex/CLionProjects/Pool-Table/Drawable.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj"
   "C:/Users/Alex/CLionProjects/Pool-Table/Drawables.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj"
   "C:/Users/Alex/CLionProjects/Pool-Table/Main.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Main.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Wall.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Wall.cpp.obj"
   "C:/Users/Alex/CLionProjects/Pool-Table/lib/common/shader.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

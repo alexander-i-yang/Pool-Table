@@ -759,6 +759,33 @@ Main.cpp.s:
 	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+Wall.obj: Wall.cpp.obj
+
+.PHONY : Wall.obj
+
+# target to build an object file
+Wall.cpp.obj:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Wall.cpp.obj
+.PHONY : Wall.cpp.obj
+
+Wall.i: Wall.cpp.i
+
+.PHONY : Wall.i
+
+# target to preprocess a source file
+Wall.cpp.i:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Wall.cpp.i
+.PHONY : Wall.cpp.i
+
+Wall.s: Wall.cpp.s
+
+.PHONY : Wall.s
+
+# target to generate assembly for a file
+Wall.cpp.s:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Wall.cpp.s
+.PHONY : Wall.cpp.s
+
 lib/common/shader.obj: lib/common/shader.cpp.obj
 
 .PHONY : lib/common/shader.obj
@@ -850,6 +877,9 @@ help:
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
+	@echo ... Wall.obj
+	@echo ... Wall.i
+	@echo ... Wall.s
 	@echo ... lib/common/shader.obj
 	@echo ... lib/common/shader.i
 	@echo ... lib/common/shader.s
