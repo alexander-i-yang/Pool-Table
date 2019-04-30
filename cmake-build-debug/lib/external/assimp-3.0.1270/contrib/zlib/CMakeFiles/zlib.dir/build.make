@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\samue\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\samue\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/depend.make
@@ -59,128 +59,128 @@ include lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/adler32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\adler32.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\adler32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\adler32.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\adler32.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/adler32.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\adler32.c > CMakeFiles\zlib.dir\adler32.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\adler32.c > CMakeFiles\zlib.dir\adler32.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/adler32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/adler32.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\adler32.c -o CMakeFiles\zlib.dir\adler32.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\adler32.c -o CMakeFiles\zlib.dir\adler32.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/compress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\compress.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\compress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/compress.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\compress.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\compress.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/compress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/compress.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\compress.c > CMakeFiles\zlib.dir\compress.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\compress.c > CMakeFiles\zlib.dir\compress.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/compress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/compress.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\compress.c -o CMakeFiles\zlib.dir\compress.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\compress.c -o CMakeFiles\zlib.dir\compress.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/crc32.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\crc32.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\crc32.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\crc32.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\crc32.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/crc32.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\crc32.c > CMakeFiles\zlib.dir\crc32.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\crc32.c > CMakeFiles\zlib.dir\crc32.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/crc32.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/crc32.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\crc32.c -o CMakeFiles\zlib.dir\crc32.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\crc32.c -o CMakeFiles\zlib.dir\crc32.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/deflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\deflate.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\deflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\deflate.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\deflate.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/deflate.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\deflate.c > CMakeFiles\zlib.dir\deflate.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\deflate.c > CMakeFiles\zlib.dir\deflate.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/deflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/deflate.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\deflate.c -o CMakeFiles\zlib.dir\deflate.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\deflate.c -o CMakeFiles\zlib.dir\deflate.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/inffast.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\inffast.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inffast.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\inffast.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inffast.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inffast.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inffast.c > CMakeFiles\zlib.dir\inffast.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inffast.c > CMakeFiles\zlib.dir\inffast.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inffast.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inffast.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inffast.c -o CMakeFiles\zlib.dir\inffast.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inffast.c -o CMakeFiles\zlib.dir\inffast.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/inflate.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\inflate.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inflate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\inflate.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inflate.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inflate.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inflate.c > CMakeFiles\zlib.dir\inflate.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inflate.c > CMakeFiles\zlib.dir\inflate.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inflate.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inflate.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inflate.c -o CMakeFiles\zlib.dir\inflate.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inflate.c -o CMakeFiles\zlib.dir\inflate.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/inftrees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\inftrees.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inftrees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\inftrees.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inftrees.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/inftrees.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inftrees.c > CMakeFiles\zlib.dir\inftrees.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inftrees.c > CMakeFiles\zlib.dir\inftrees.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/inftrees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/inftrees.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inftrees.c -o CMakeFiles\zlib.dir\inftrees.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\inftrees.c -o CMakeFiles\zlib.dir\inftrees.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/trees.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\trees.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\trees.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/trees.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\trees.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\trees.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/trees.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/trees.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\trees.c > CMakeFiles\zlib.dir\trees.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\trees.c > CMakeFiles\zlib.dir\trees.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/trees.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/trees.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\trees.c -o CMakeFiles\zlib.dir\trees.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\trees.c -o CMakeFiles\zlib.dir\trees.c.s
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/flags.make
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj: ../lib/external/assimp-3.0.1270/contrib/zlib/zutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\zutil.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\zutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\zlib.dir\zutil.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\zutil.c
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/zlib.dir/zutil.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\zutil.c > CMakeFiles\zlib.dir\zutil.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\zutil.c > CMakeFiles\zlib.dir\zutil.c.i
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/zlib.dir/zutil.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\zutil.c -o CMakeFiles\zlib.dir\zutil.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib\zutil.c -o CMakeFiles\zlib.dir\zutil.c.s
 
 # Object files for target zlib
 zlib_OBJECTS = \
@@ -208,9 +208,9 @@ lib/external/assimp-3.0.1270/contrib/zlib/libzlib.a: lib/external/assimp-3.0.127
 lib/external/assimp-3.0.1270/contrib/zlib/libzlib.a: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/zutil.c.obj
 lib/external/assimp-3.0.1270/contrib/zlib/libzlib.a: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/build.make
 lib/external/assimp-3.0.1270/contrib/zlib/libzlib.a: lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libzlib.a"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && $(CMAKE_COMMAND) -P CMakeFiles\zlib.dir\cmake_clean_target.cmake
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\zlib.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libzlib.a"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && $(CMAKE_COMMAND) -P CMakeFiles\zlib.dir\cmake_clean_target.cmake
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\zlib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/build: lib/external/assimp-3.0.1270/contrib/zlib/libzlib.a
@@ -218,10 +218,10 @@ lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/build: lib/externa
 .PHONY : lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/build
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/clean:
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && $(CMAKE_COMMAND) -P CMakeFiles\zlib.dir\cmake_clean.cmake
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib && $(CMAKE_COMMAND) -P CMakeFiles\zlib.dir\cmake_clean.cmake
 .PHONY : lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/clean
 
 lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\samue\Documents\Pool-Table C:\Users\samue\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib C:\Users\samue\Documents\Pool-Table\cmake-build-debug C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib\CMakeFiles\zlib.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\CLionProjects\Pool-Table C:\Users\Alex\CLionProjects\Pool-Table\lib\external\assimp-3.0.1270\contrib\zlib C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\contrib\zlib\CMakeFiles\zlib.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/zlib.dir/depend
 

@@ -19,10 +19,6 @@ public:
 
 	GLfloat *getVerticesArray() override;
 	int getNumVertices() override;
-
-	double getCenterX() override;
-
-	double getCenterY() override;
 };
 
 

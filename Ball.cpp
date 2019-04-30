@@ -10,6 +10,14 @@
 #include "Ball.h"
 #include "Drawable.h"
 
+void wait(double seconds) {
+	double last = glfwGetTime();
+	//std::cout << last << std::endl;
+	while(last+seconds > glfwGetTime()) {
+		//std::cout << glfwGetTime()<< std::endl;
+	}
+}
+
 Ball::Ball() : Drawable() {
 	this->referenceTime = glfwGetTime();
 }
@@ -127,6 +135,10 @@ double Ball::friction() {
 	return 0;
 }
 
+void Ball::setColorRGB(double r, double g, double b) {
+	this->getColor().setColor(r, g, b);
+}
+
 bool Ball::checkCollide(Ball *other) {
 	/* calculate the distance between their centers
 	 * if this value is greater than the sum of their radii then they do not collide
@@ -134,7 +146,37 @@ bool Ball::checkCollide(Ball *other) {
 	 */
 	double distBetween = this->perpendicularDistance(other);
 	double radiiSum = this->getRadius() + other->getRadius();
+	if(distBetween+1 < radiiSum) {
+		//Shifts the balls over if they're on top of each other.
+		//Assumes they both have the same radius.
+		double a = this->getX();
+		double b = this->getY();
+		double c = other->getX();
+		double d = other->getY();
+		double t = tan((b-d)/(a-c));
+		double midX = (a+c)/2;
+		double midY = (b+d)/2;
+		double r = this->getRadius();
+		double addX = r*cos(t);
+		double addY = r*sin(t);
+		//wait(0.1);
+		if(a < c && b<d) {
+			this->setPos(midX-addX, midY-addY);
+			other->setPos(midX+addX, midY+addY);
+		} else {
+			this->setPos(midX+addX, midY+addY);
+			other->setPos(midX-addX, midY-addY);
+		}
+		this->draw();
+		other->draw();
+		//wait(0.1);
+	}
 	return distBetween <= radiiSum;
+}
+
+void Ball::setPos(double x, double y) {
+	setX(x);
+	setY(y);
 }
 
 /* clean up */

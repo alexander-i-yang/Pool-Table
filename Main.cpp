@@ -54,19 +54,30 @@ int main()
 	Collidables* collidables = new Collidables();
 	Color sunColor;
 	srand((unsigned)time(0));
-	sunColor.setColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
-//	sunColor.setColor(0, 0, 1);
-	std::cout << sunColor.getR() << " " << sunColor.getG() << " " << sunColor.getB() << std::endl;
+	srand(std::rand());
+	//sunColor.setColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+	sunColor.setColor(0.8, 0.8, 0.8);
 	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, 15);
-	Ball* s2 = new Ball(sunColor, windowWidth * 3 / 4, windowHeight / 2, 0, 15);
-	s1->setVelocity(500, 0);
-	s1->setMass(10000);
-	s2->setMass(10000);
-	s2->setVelocity(0, 0);
+	s1->setVelocity(900, -10);
+	s1->setMass(3000);
 	drawables->add(s1);
-	drawables->add(s2);
 	collidables->add(s1);
-	collidables->add(s2);
+
+	int vertSpacing = 35;
+	int horizontalSpacing = 27;
+	for(int i = 0; i<4; ++i) {
+		for(int j = 0; j<=i; ++j) {
+			Ball* s2 = new Ball(sunColor, windowWidth * 3 / 4+horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, 15);
+			s2->setMass(1000);
+			s2->setVelocity(0, 0);
+			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+			Color newColor(0, 0.8, 0.8);
+			s2->setColor(newColor);
+			drawables->add(s2);
+			collidables->add(s2);
+		}
+	}
+
 
 	/*for(int i = 0; i<10; ++i) {
 		Wall* w = new Wall(0, windowWidth - 50, 80 * i, sunColor, 50, 50);
@@ -79,7 +90,7 @@ int main()
 
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
-	while( glfwGetTime() - setTime < 2 ) {
+	while( glfwGetTime() - setTime < 100 && glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
 		drawables->drawAll();
@@ -90,7 +101,7 @@ int main()
 
 		// Poll for and process events
 		glfwPollEvents( );
-
+		//wait(0.1);
 	}
 	glfwTerminate();
 	free(collidables);

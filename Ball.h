@@ -40,6 +40,8 @@ public:
 	void setMass(double mass);
 	void setVelocity(double vx, double vy);
 	void updateAngle();
+	void setPos(double x, double y);
+	void setColorRGB(double r, double g, double b);
 
 	/* for drawing */
 	int getNumSides();

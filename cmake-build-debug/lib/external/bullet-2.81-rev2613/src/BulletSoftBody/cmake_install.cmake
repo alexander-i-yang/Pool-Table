@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/samue/Documents/Pool-Table/lib/external/bullet-2.81-rev2613/src/BulletSoftBody
+# Install script for directory: C:/Users/Alex/CLionProjects/Pool-Table/lib/external/bullet-2.81-rev2613/src/BulletSoftBody
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
