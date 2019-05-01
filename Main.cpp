@@ -52,7 +52,7 @@ int main()
 	glMatrixMode( GL_MODELVIEW ); // (default matrix mode) modelview matrix defines how your objects are transformed (meaning translation, rotation and scaling) in your world
 	glLoadIdentity( ); // same as above comment
 
-	int radius = windowHeight/40;
+	int radius = windowHeight/40+1;
 	int vertSpacing = static_cast<int>(60.0 / 27.0 * radius);
 	int horizontalSpacing = static_cast<int>(55.0 / 27.0 * radius);
 
@@ -77,6 +77,7 @@ int main()
 			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
 			Color newColor(0, 0.8, 0.8);
 			s2->setColor(newColor);
+			s2->setStriped(j%2);
 			drawables->add(s2);
 			collidables->add(s2);
 		}
@@ -97,7 +98,7 @@ int main()
 
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
-	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
+	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0 && !collidables->checkNotMoving(50)) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
 		drawables->drawAll();

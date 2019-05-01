@@ -60,6 +60,20 @@ GL/glext.h
 GL/glu.h
 -
 
+C:/Users/Alex/CLionProjects/Pool-Table/Ball.cpp
+utility
+-
+string
+-
+cmath
+-
+iostream
+-
+Ball.h
+C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
+Drawable.h
+C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+
 C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
 utility
 -
@@ -67,6 +81,12 @@ string
 -
 Drawable.h
 C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+
+C:/Users/Alex/CLionProjects/Pool-Table/Collidables.cpp
+Collidables.h
+C:/Users/Alex/CLionProjects/Pool-Table/Collidables.h
+cmath
+-
 
 C:/Users/Alex/CLionProjects/Pool-Table/Collidables.h
 vector

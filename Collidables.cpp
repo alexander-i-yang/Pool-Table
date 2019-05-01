@@ -71,7 +71,7 @@ void Collidables::updateAll() {
 		i->updateFrame();
 		double xv = i->getXVelocity();
 		double yv = i->getYVelocity();
-		i->setVelocity((xv)*0.9999, (yv)*0.9999);
+		i->setVelocity((xv)*0.9997, (yv)*0.9997);
 		for (auto j : walls) {
 			collision(i, j);
 		}
@@ -80,4 +80,13 @@ void Collidables::updateAll() {
 
 void Collidables::setFriction(double friction) {
 	Collidables::friction = friction;
+}
+
+bool Collidables::checkNotMoving(double threshold) {
+	for (auto i : objects) {
+		double vx = fabs(i->getXVelocity());
+		double vy = fabs(i->getYVelocity());
+		if(vx > 1 || vy>1) return false;
+	}
+	return true;
 }

@@ -20,13 +20,18 @@ protected:
     std::pair<double, double> velocity;
     double theta;
     double mass;
-
+	bool striped;
 public:
     Ball();
     Ball(Color c, double x, double y, double z, double radius);
     Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass);
 
     double getTime();
+
+	bool isStriped() const;
+
+	void setStriped(bool striped);
+
 	double getRadius();
 	double getTheta();
 	double getMass();

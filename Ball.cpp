@@ -65,17 +65,20 @@ void Ball::draw() {
 	glBegin(GL_TRIANGLE_FAN);
 	glVertex2f(x, y);
 	for (int i = 0; i <= triangleAmount; ++i) {
-	    glVertex2f(x + r * cos(i * 2 * 3.1415926 / triangleAmount), y + r * sin(i * 2 * 3.1415926 / triangleAmount));
-//		std::cout << x + r * cos(i * 2 * 3.1415926 / triangleAmount) << " " << y + r * sin(i * 2 * 3.1415926 / triangleAmount) << std::endl;
+		glVertex2f(x + r * cos(i * 2 * 3.1415926 / triangleAmount), y + r * sin(i * 2 * 3.1415926 / triangleAmount));
 	}
 	glEnd();
-	/*glEnableClientState( GL_VERTEX_ARRAY ); // tell OpenGL that you're using a vertex array for fixed-function attribute
-	glEnableClientState( GL_COLOR_ARRAY );
-	glVertexPointer( 3, GL_FLOAT, 0, this->getVerticesArray()); // point to the vertices to be used
-	glColorPointer(3, GL_FLOAT, 0, this->getColorArray());
-	glDrawArrays( GL_TRIANGLE_FAN, 0, this->getNumVertices()); // draw the vertixes
-	glDisableClientState( GL_COLOR_ARRAY );
-	glDisableClientState( GL_VERTEX_ARRAY ); // tell OpenGL that you're finished using the vertex array attribute*/
+
+	if(striped) {
+		glColor3f(1, 1, 1);
+		glBegin(GL_TRIANGLE_FAN);
+		glVertex2f(x, y);
+		for (int i = triangleAmount / 8; i <= triangleAmount * 5 / 8; ++i) {
+			glVertex2f(x + r * cos(i * 2 * 3.1415926538979323846 / triangleAmount),
+			           y + r * sin(i * 2 * 3.1415926538979323846 / triangleAmount));
+		}
+		glEnd();
+	}
 }
 
 int Ball::getNumVertices() {
@@ -182,4 +185,12 @@ double Ball::perpendicularDistance(Ball *other) {
 	double x2 = other->getX();
 	double y2 = other->getY();
 	return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+}
+
+bool Ball::isStriped() const {
+	return striped;
+}
+
+void Ball::setStriped(bool striped) {
+	Ball::striped = striped;
 }
