@@ -24,6 +24,7 @@ public:
 	void clear();
 	bool checkNotMoving(double threshold);
 	void stopAll();
+	void slowAll();
 	void updateAll(); // will this update the Ball in Drawables as well?
 	                  // it should, but this will pose problems if it doesn't
 	                  // lol nvm we good

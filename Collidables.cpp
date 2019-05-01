@@ -8,6 +8,7 @@
 Collidables::Collidables() {
 	objects = {};
 	walls = {};
+	friction = 1;
 }
 
 Collidables::~Collidables() {
@@ -52,9 +53,15 @@ void collision(Ball* b, Wall* w) {
 
 	// if the distance is less than the radius, collision!
 	if (distance <= b->getRadius()) {
-		if(cx-b->getRadius() > rx && cx+b->getRadius() < rx+rw) b->flipYV();
+		if(cx-b->getRadius() > rx && cx+b->getRadius() < rx+rw) {
+			b->flipYV();
+			if(testY == ry) b->setY(b->getY()+(distance-b->getRadius()));
+			else b->setY(b->getY()-(distance-b->getRadius()));
+		}
 		else {
 			b->flipXV();
+			if(testX == rx) b->setX(b->getX()+(distance-b->getRadius()));
+			else b->setX(b->getX()-(distance-b->getRadius()));
 		}
 	}
 	//return false;
@@ -71,7 +78,7 @@ void Collidables::updateAll() {
 		i->updateFrame();
 		double xv = i->getXVelocity();
 		double yv = i->getYVelocity();
-		i->setVelocity((xv)*0.9997, (yv)*0.9997);
+		i->setVelocity((xv)*friction, (yv)*friction);
 		for (auto j : walls) {
 			collision(i, j);
 		}
@@ -95,4 +102,8 @@ void Collidables::stopAll() {
 	for (auto i : objects) {
 		i->setVelocity(0, 0);
 	}
+}
+
+void Collidables::slowAll() {
+	friction = friction*friction;
 }

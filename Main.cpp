@@ -71,7 +71,7 @@ int main()
 	srand(std::rand());
 	sunColor.setColor(1, 1, 1);
 	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(windowHeight*2, 20);
+	s1->setVelocity(windowHeight*4, windowHeight/40);
 	s1->setMass(1000);
 	drawables->add(s1);
 	collidables->add(s1);
@@ -97,11 +97,12 @@ int main()
 	}
 
 	Color wallColor;
+	int wallThickness = windowWidth/1024.0*40.0;
 	wallColor.setColor(150.0/255, 104.0/255, 31.0/255);
-	Wall* right = new Wall(0, windowWidth-20, 0, wallColor, 20, windowHeight);
-	Wall* left = new Wall(0, 0, 0, wallColor, 20, windowHeight);
-	Wall* top = new Wall(0, 20, 0, wallColor, windowWidth-40, 20);
-	Wall* bottom = new Wall(0, 20, windowHeight-20, wallColor, windowWidth-40, 20);
+	Wall* right = new Wall(0, windowWidth-wallThickness, 0, wallColor, wallThickness, windowHeight);
+	Wall* left = new Wall(0, 0, 0, wallColor, wallThickness, windowHeight);
+	Wall* top = new Wall(0, wallThickness, 0, wallColor, windowWidth-wallThickness*2, wallThickness);
+	Wall* bottom = new Wall(0, wallThickness, windowHeight-wallThickness, wallColor, windowWidth-wallThickness*2, wallThickness);
 	drawables->add(right);
 	collidables->add(right);
 	drawables->add(left);
@@ -111,6 +112,10 @@ int main()
 	drawables->add(bottom);
 	collidables->add(bottom);
 
+	collidables->setFriction(0.99925);
+
+
+	bool slowed = false;
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
 	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
@@ -125,7 +130,12 @@ int main()
 		// Poll for and process events
 		glfwPollEvents( );
 
-		if(collidables->checkNotMoving(2)) collidables->stopAll();
+		if(!slowed && collidables->checkNotMoving(30)) {
+			collidables->slowAll();
+			collidables->slowAll();
+			collidables->slowAll();
+			slowed = true;
+		}
 		//wait(0.1);
 	}
 	glfwTerminate();
