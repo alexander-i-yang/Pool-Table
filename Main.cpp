@@ -12,38 +12,46 @@
 #include <iostream>
 #include <vector>
 
-#define PI 3.1415926538979323846
+#define FULLSCREEN true
 
 int main()
 {
 	GLFWwindow *window;
-
 	// Initialize the library
-	if ( !glfwInit( ) )
-	{
+	if ( !glfwInit( ) ){
+		std::cout << "Init failed" << std::endl;
 		return -1;
 	}
-
-	// Create a windowed mode window and its OpenGL context
-	/*const GLFWvidmode* mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
-	int windowWidth = mode->width;
-	int windowHeight = mode->height;
-	window = glfwCreateWindow(windowWidth, windowHeight, "The game", glfwGetPrimaryMonitor(), NULL);*/
-
 	int windowWidth = 1024;
 	int windowHeight = 768;
-	window = glfwCreateWindow(windowWidth, windowHeight, "The Game", NULL, NULL);
-
-	double friction = 0.1;
-
-	if ( !window )
-	{
+	if(FULLSCREEN) {
+		const GLFWvidmode* mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
+		windowWidth = mode->width;
+		windowHeight = mode->height;
+		window = glfwCreateWindow(windowWidth, windowHeight, "The game", glfwGetPrimaryMonitor(), NULL);
+	} else {
+		window = glfwCreateWindow(windowWidth, windowHeight, "The Game", NULL, NULL);
+	}
+	if ( !window ) {
 		glfwTerminate( );
+		std::cout << "Window failed" << std::endl;
 		return -1;
 	}
+
+	double rgbs[] = {
+		242, 227, 60,
+		73, 147, 244,
+		237, 18, 58,
+		139, 35, 224,
+		242, 163, 16,
+		27, 214, 34,
+		0, 0, 0
+	};
 
 	// Make the window's context current
 	glfwMakeContextCurrent( window );
+
+	glClearColor(9.0/255, 96.0/255, 89.0/255, 1);
 
 	glViewport( 0.0f, 0.0f, windowWidth, windowHeight ); // specifies the part of the window to which OpenGL will draw (in pixels), convert from normalised to pixels
 	glMatrixMode( GL_PROJECTION ); // projection matrix defines the properties of the camera that views the objects in the world coordinate frame. Here you typically set the zoom factor, aspect ratio and the near and far clipping planes
@@ -61,32 +69,39 @@ int main()
 	Color sunColor;
 	srand((unsigned)time(0));
 	srand(std::rand());
-	//sunColor.setColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
-	sunColor.setColor(0.8, 0.8, 0.8);
+	sunColor.setColor(1, 1, 1);
 	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(1000, 20);
-	s1->setMass(3000);
+	s1->setVelocity(windowHeight*2, 20);
+	s1->setMass(1000);
 	drawables->add(s1);
 	collidables->add(s1);
 
-	for(int i = 0; i<4; ++i) {
+	int index = 0;
+	bool stripes = false;
+	for(int i = 0; i<5; ++i) {
 		for(int j = 0; j<=i; ++j) {
 			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
 			s2->setMass(1000);
 			s2->setVelocity(0, 0);
 			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
-			Color newColor(0, 0.8, 0.8);
+			Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
+			               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
+			index+=3;
+			if(index >= 24) {index = 0; stripes = true;}
 			s2->setColor(newColor);
-			s2->setStriped(j%2);
+			//s2->setStriped(j%2);
+			s2->setStriped(stripes);
 			drawables->add(s2);
 			collidables->add(s2);
 		}
 	}
 
-	Wall* right = new Wall(0, windowWidth-20, 0, sunColor, 20, windowHeight);
-	Wall* left = new Wall(0, 0, 0, sunColor, 20, windowHeight);
-	Wall* top = new Wall(0, 20, 0, sunColor, windowWidth-40, 20);
-	Wall* bottom = new Wall(0, 20, windowHeight-20, sunColor, windowWidth-40, 20);
+	Color wallColor;
+	wallColor.setColor(150.0/255, 104.0/255, 31.0/255);
+	Wall* right = new Wall(0, windowWidth-20, 0, wallColor, 20, windowHeight);
+	Wall* left = new Wall(0, 0, 0, wallColor, 20, windowHeight);
+	Wall* top = new Wall(0, 20, 0, wallColor, windowWidth-40, 20);
+	Wall* bottom = new Wall(0, 20, windowHeight-20, wallColor, windowWidth-40, 20);
 	drawables->add(right);
 	collidables->add(right);
 	drawables->add(left);
@@ -98,7 +113,7 @@ int main()
 
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
-	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0 && !collidables->checkNotMoving(50)) {
+	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
 		drawables->drawAll();
@@ -109,6 +124,8 @@ int main()
 
 		// Poll for and process events
 		glfwPollEvents( );
+
+		if(collidables->checkNotMoving(2)) collidables->stopAll();
 		//wait(0.1);
 	}
 	glfwTerminate();

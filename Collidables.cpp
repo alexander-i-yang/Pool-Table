@@ -86,7 +86,13 @@ bool Collidables::checkNotMoving(double threshold) {
 	for (auto i : objects) {
 		double vx = fabs(i->getXVelocity());
 		double vy = fabs(i->getYVelocity());
-		if(vx > 1 || vy>1) return false;
+		if(vx > threshold || vy>threshold) return false;
 	}
 	return true;
+}
+
+void Collidables::stopAll() {
+	for (auto i : objects) {
+		i->setVelocity(0, 0);
+	}
 }
