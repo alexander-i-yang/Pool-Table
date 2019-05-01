@@ -25,8 +25,8 @@ int main()
 	}
 
 	// Create a windowed mode window and its OpenGL context
-	const GLFWvidmode* mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
-	/*int windowWidth = mode->width;
+	/*const GLFWvidmode* mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
+	int windowWidth = mode->width;
 	int windowHeight = mode->height;
 	window = glfwCreateWindow(windowWidth, windowHeight, "The game", glfwGetPrimaryMonitor(), NULL);*/
 
@@ -53,7 +53,6 @@ int main()
 	glLoadIdentity( ); // same as above comment
 
 	int radius = windowHeight/40;
-	std::cout << radius << std::endl;
 	int vertSpacing = static_cast<int>(60.0 / 27.0 * radius);
 	int horizontalSpacing = static_cast<int>(55.0 / 27.0 * radius);
 
@@ -65,14 +64,14 @@ int main()
 	//sunColor.setColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
 	sunColor.setColor(0.8, 0.8, 0.8);
 	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(900, -10);
+	s1->setVelocity(1000, 20);
 	s1->setMass(3000);
 	drawables->add(s1);
 	collidables->add(s1);
 
 	for(int i = 0; i<4; ++i) {
 		for(int j = 0; j<=i; ++j) {
-			Ball* s2 = new Ball(sunColor, windowWidth * 3 / 4+horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
+			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
 			s2->setMass(1000);
 			s2->setVelocity(0, 0);
 			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);

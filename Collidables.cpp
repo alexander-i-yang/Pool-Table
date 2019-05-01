@@ -52,8 +52,10 @@ void collision(Ball* b, Wall* w) {
 
 	// if the distance is less than the radius, collision!
 	if (distance <= b->getRadius()) {
-		if(distX < distY) b->flipXV();
-		else b->flipYV();
+		if(cx-b->getRadius() > rx && cx+b->getRadius() < rx+rw) b->flipYV();
+		else {
+			b->flipXV();
+		}
 	}
 	//return false;
 }
@@ -67,6 +69,9 @@ void Collidables::updateAll() {
 			}
 		}
 		i->updateFrame();
+		double xv = i->getXVelocity();
+		double yv = i->getYVelocity();
+		i->setVelocity((xv)*0.9999, (yv)*0.9999);
 		for (auto j : walls) {
 			collision(i, j);
 		}
