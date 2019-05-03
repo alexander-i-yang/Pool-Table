@@ -16,7 +16,6 @@ public:
 	Drawables();
 	~Drawables();
 	void drawAll();
-	void updateAll();
 	void add(Drawable*);
 	void clear();
 	Drawable* get(int i);

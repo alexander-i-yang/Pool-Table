@@ -7,22 +7,19 @@
 
 #include <iostream>
 #include "Color.h"
+#include <GL/glew.h>
+#include <GLFW/glfw3.h>
 
 class Drawable {
+
 protected:
 	Color color;
 	double x, y, z;
-	double timeLastIncrX;
-	double timeLastIncrY;
-public:
-	double getTimeSinceLastIncrX() const;
-	void setTimeSinceLastIncrX(double timeSinceLastIncrX);
-	double getTimeSinceLastIncrY() const;
-	void setTimeSinceLastIncrY(double timeSinceLastIncrY);
 
+public:
 	Drawable();
-	Drawable(Color c);
-	Drawable(double  x, double y, double z);
+	explicit Drawable(Color c);
+	Drawable(double x, double y, double z);
 	Drawable(Color c, double x, double y, double z);
 
 	double getX() {return x;}
@@ -35,21 +32,9 @@ public:
 	void setZ(double z) {Drawable::z = z;}
 	void setColor(Color c) {color = c;}
 
-	void incrX(double incr) {x+=incr;}
-	void incrY(double incr) {y+=incr;}
-
-	virtual double getCenterX() {return x;}
-	virtual double getCenterY() {return y;}
-
-	virtual bool checkCollide(Drawable*) {return NULL;}
-
-	virtual std::pair<double, double> getVelocityCollision(Drawable *) {std::cout << "Returning bad" << std::endl;}
-
-	virtual void draw();
-	virtual GLfloat* getVerticesArray() {return nullptr;}
-	virtual int getNumVertices() {return 0;}
-	GLfloat* getColorArray();
-	virtual void updateFrame() {}
+	virtual void draw() = 0;
+	virtual int getNumVertices() = 0;
+	virtual void updateFrame() = 0;
 };
 
 #endif //POOL_TABLE_DRAWABLE_H

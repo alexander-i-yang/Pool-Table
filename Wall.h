@@ -5,24 +5,30 @@
 #ifndef POOL_TABLE_WALL_H
 #define POOL_TABLE_WALL_H
 
-#include "Collidable.h"
 #include "Color.h"
+#include "Drawable.h"
 
-class Wall : public Collidable {
+class Wall : public Drawable {
 private:
 	int width;
 	int height;
 public:
+	int getWidth() const;
+
+	void setWidth(int width);
+
+	int getHeight() const;
+
+	void setHeight(int height);
+
 	Wall();
 	Wall(int z, int x, int y, Color c);
 	Wall(int z, int x, int y, Color c, int width, int height);
 
-	GLfloat *getVerticesArray() override;
 	int getNumVertices() override;
+	void draw() override;
 
-	double getCenterX() override;
-
-	double getCenterY() override;
+	void updateFrame() override;
 };
 
 

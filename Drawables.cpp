@@ -19,7 +19,7 @@ void Drawables::clear() {
 }
 
 Drawable* Drawables::get(int i) {
-	return objects.at((unsigned)i);
+	return objects.at(i);
 }
 
 void Drawables::drawAll() {
@@ -30,17 +30,4 @@ void Drawables::drawAll() {
 
 void Drawables::add(Drawable * add) {
 	objects.push_back(add);
-}
-
-void Drawables::updateAll() {
-	for(auto i: objects) {
-		for(auto j: objects) {
-			if(i->checkCollide(j) && i!=j) {
-				std::pair<double, double> iV = i->getVelocityCollision(j);
-				/*i->updateFrame();
-				j->updateFrame();*/
-			};
-		}
-		i->updateFrame();
-	}
 }

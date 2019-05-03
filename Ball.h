@@ -8,29 +8,62 @@
 #include <utility>
 #include <string>
 
-#include "Collidable.h"
 #include "Drawable.h"
 
-class Ball : public Collidable {
+class Ball : public Drawable {
+
 private:
-    std::string tag = "BALL";
-    int radius;
+	double referenceTime;
+
+protected:
+    double radius;
+    std::pair<double, double> velocity;
+    double theta;
+    double mass;
+	bool striped;
 public:
     Ball();
-    Ball(GLint x, GLint y, GLint z, GLint radius, Color c);
-	Ball(int radius);
+    Ball(Color c, double x, double y, double z, double radius);
+    Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass);
 
-	std::string getTag() {return tag;}
-	int getRadius() const;
-	void setRadius(int radius);
+    double getTime();
 
-	void setTag(std::string tag) {this->tag = tag;}
+	bool isStriped() const;
 
-	bool checkCollide(Drawable* collidable) override;
+	void setStriped(bool striped);
 
+	double getRadius();
+	double getTheta();
+	double getMass();
+	double getXVelocity();
+	double getYVelocity();
+	double getSpeed();
+
+	void setTime(double time);
+	void setRadius(double radius);
+	void setTheta(double theta);
+	void setMass(double mass);
+	void setVelocity(double vx, double vy);
+	void updateAngle();
+	void setPos(double x, double y);
+	void setColorRGB(double r, double g, double b);
+	void flipXV() {velocity.first *= -1;}
+	void flipYV() {velocity.second *= -1;}
+
+	/* for drawing */
 	int getNumSides();
-	GLfloat *getVerticesArray() override;
+	void draw() override;
 	int getNumVertices() override;
+	void updateFrame() override; /* this is how the ball will 'move' */
+
+	/* for mechanics */
+	double friction(); /* returns the frictional force */
+	bool checkCollide(Ball* other); /* consider moving this function to Collidables */
+	std::pair<double, double> getNewVelocity(Ball* other);
+	double getNewAngle(Ball* other);
+
+	/* utility */
+	double perpendicularDistance(Ball* other); /* consider creating a utility class */
 };
 
 
