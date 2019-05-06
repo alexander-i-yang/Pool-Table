@@ -2,64 +2,64 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Pool-Table" targetName="cursor" />
+      <config projectName="Pool-Table" targetName="gamma" />
+      <config projectName="Pool-Table" targetName="threads" />
       <config projectName="Pool-Table" targetName="tutorial01_first_window" />
       <config projectName="Pool-Table" targetName="tutorial05_textured_cube" />
-      <config projectName="Pool-Table" targetName="tutorial15_lightmaps" />
-      <config projectName="Pool-Table" targetName="tutorial09_vbo_indexing" />
-      <config projectName="Pool-Table" targetName="splitview" />
+      <config projectName="Pool-Table" targetName="tutorial09_several_objects" />
       <config projectName="Pool-Table" targetName="glfw" />
       <config projectName="Pool-Table" targetName="gears" />
-      <config projectName="Pool-Table" targetName="empty" />
+      <config projectName="Pool-Table" targetName="splitview" />
       <config projectName="Pool-Table" targetName="tutorial04_colored_cube" />
+      <config projectName="Pool-Table" targetName="tutorial13_normal_mapping" />
+      <config projectName="Pool-Table" targetName="tutorial15_lightmaps" />
+      <config projectName="Pool-Table" targetName="tutorial03_matrices" />
+      <config projectName="Pool-Table" targetName="boing" />
+      <config projectName="Pool-Table" targetName="GLEW_1130" />
+      <config projectName="Pool-Table" targetName="tearing" />
+      <config projectName="Pool-Table" targetName="wave" />
+      <config projectName="Pool-Table" targetName="empty" />
       <config projectName="Pool-Table" targetName="tutorial10_transparency" />
       <config projectName="Pool-Table" targetName="title" />
-      <config projectName="Pool-Table" targetName="tutorial03_matrices" />
-      <config projectName="Pool-Table" targetName="clipboard" />
-      <config projectName="Pool-Table" targetName="boing" />
-      <config projectName="Pool-Table" targetName="wave" />
-      <config projectName="Pool-Table" targetName="tutorial14_render_to_texture" />
-      <config projectName="Pool-Table" targetName="zlib" />
-      <config projectName="Pool-Table" targetName="tutorial07_model_loading" />
-      <config projectName="Pool-Table" targetName="tutorial09_several_objects" />
       <config projectName="Pool-Table" targetName="TheGame" />
       <config projectName="Pool-Table" targetName="tutorial16_shadowmaps" />
       <config projectName="Pool-Table" targetName="tutorial09_AssImp" />
       <config projectName="Pool-Table" targetName="ANTTWEAKBAR_116_OGLCORE_GLFW" />
-      <config projectName="Pool-Table" targetName="heightmap" />
+      <config projectName="Pool-Table" targetName="iconify" />
       <config projectName="Pool-Table" targetName="tutorial18_particles" />
       <config projectName="Pool-Table" targetName="misc05_picking_custom" />
+      <config projectName="Pool-Table" targetName="BulletCollision" />
       <config projectName="Pool-Table" targetName="LinearMath" />
-      <config projectName="Pool-Table" targetName="BulletDynamics" />
+      <config projectName="Pool-Table" targetName="zlib" />
       <config projectName="Pool-Table" targetName="sharing" />
-      <config projectName="Pool-Table" targetName="joysticks" />
-      <config projectName="Pool-Table" targetName="assimp" />
-      <config projectName="Pool-Table" targetName="simple" />
+      <config projectName="Pool-Table" targetName="clipboard" />
+      <config projectName="Pool-Table" targetName="tutorial07_model_loading" />
       <config projectName="Pool-Table" targetName="tutorial11_2d_fonts" />
       <config projectName="Pool-Table" targetName="BulletSoftBody" />
+      <config projectName="Pool-Table" targetName="tutorial08_basic_shading" />
       <config projectName="Pool-Table" targetName="glfwinfo" />
       <config projectName="Pool-Table" targetName="msaa" />
-      <config projectName="Pool-Table" targetName="iconify" />
-      <config projectName="Pool-Table" targetName="particles" />
       <config projectName="Pool-Table" targetName="reopen" />
-      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps_simple" />
-      <config projectName="Pool-Table" targetName="tutorial12_extensions" />
-      <config projectName="Pool-Table" targetName="tutorial13_normal_mapping" />
+      <config projectName="Pool-Table" targetName="assimp" />
+      <config projectName="Pool-Table" targetName="heightmap" />
+      <config projectName="Pool-Table" targetName="particles" />
       <config projectName="Pool-Table" targetName="tutorial06_keyboard_and_mouse" />
-      <config projectName="Pool-Table" targetName="BulletCollision" />
+      <config projectName="Pool-Table" targetName="simple" />
       <config projectName="Pool-Table" targetName="tutorial18_billboards" />
-      <config projectName="Pool-Table" targetName="tutorial17_rotations" />
+      <config projectName="Pool-Table" targetName="tutorial14_render_to_texture" />
+      <config projectName="Pool-Table" targetName="tutorial12_extensions" />
       <config projectName="Pool-Table" targetName="events" />
-      <config projectName="Pool-Table" targetName="tutorial02_red_triangle" />
-      <config projectName="Pool-Table" targetName="misc05_picking_BulletPhysics" />
-      <config projectName="Pool-Table" targetName="monitors" />
-      <config projectName="Pool-Table" targetName="GLEW_1130" />
-      <config projectName="Pool-Table" targetName="gamma" />
-      <config projectName="Pool-Table" targetName="tutorial08_basic_shading" />
-      <config projectName="Pool-Table" targetName="misc05_picking_slow_easy" />
-      <config projectName="Pool-Table" targetName="threads" />
       <config projectName="Pool-Table" targetName="windows" />
-      <config projectName="Pool-Table" targetName="tearing" />
+      <config projectName="Pool-Table" targetName="monitors" />
+      <config projectName="Pool-Table" targetName="misc05_picking_BulletPhysics" />
+      <config projectName="Pool-Table" targetName="joysticks" />
+      <config projectName="Pool-Table" targetName="tutorial02_red_triangle" />
+      <config projectName="Pool-Table" targetName="tutorial09_vbo_indexing" />
+      <config projectName="Pool-Table" targetName="tutorial17_rotations" />
+      <config projectName="Pool-Table" targetName="BulletDynamics" />
+      <config projectName="Pool-Table" targetName="misc05_picking_slow_easy" />
+      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps_simple" />
+      <config projectName="Pool-Table" targetName="cursor" />
       <config projectName="Pool-Table" targetName="uninstall" />
     </generated>
   </component>
@@ -69,13 +69,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb7374bc-7566-4326-ba81-34c8fa7f0b11" name="Default Changelist" comment="Shift balls when collide with walls">
+    <list default="true" id="cb7374bc-7566-4326-ba81-34c8fa7f0b11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collidables.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collidables.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Collidables.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Collidables.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/TheGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TheGame.exe" afterDir="false" />
     </list>
@@ -90,17 +87,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AVL/AVLInsert.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Ball.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="143" column="12" lean-forward="true" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
+              <folding>
+                <element signature="e#41#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../AVL/main.cpp">
+        <entry file="file://$PROJECT_DIR$/Main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
               <folding>
-                <element signature="e#1#22#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -180,9 +184,9 @@
         <option value="$PROJECT_DIR$/Ball.h" />
         <option value="$PROJECT_DIR$/Collidables.h" />
         <option value="$PROJECT_DIR$/Collidables.cpp" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.cpp" />
         <option value="$PROJECT_DIR$/Ball.cpp" />
         <option value="$PROJECT_DIR$/Main.cpp" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.cpp" />
       </list>
     </option>
   </component>
@@ -209,6 +213,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,7 +234,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -578,6 +582,7 @@
       <workItem from="1556547703427" duration="3082000" />
       <workItem from="1556555377022" duration="32483000" />
       <workItem from="1556811773429" duration="5294000" />
+      <workItem from="1557158852382" duration="3510000" />
     </task>
     <task id="LOCAL-00001" summary="Starting on graphics">
       <created>1552245774933</created>
@@ -635,27 +640,41 @@
       <option name="project" value="LOCAL" />
       <updated>1556724472401</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fixed ball shifting">
+      <created>1557159033389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557159033389</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fixed ball shifting again">
+      <created>1557161519628</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557161519628</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90309000" />
+    <option name="totallyTimeSpent" value="93819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16040269" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1624161" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" sideWeight="0.49731544" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.34560907" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.34560907" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.6114094" side_tool="true" weight="0.36685553" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.38791946" weight="0.34560907" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49932885" weight="0.04249292" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.3885906" weight="0.36685553" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.3885906" visible="true" weight="0.36685553" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49798658" weight="0.4362606" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -702,7 +721,9 @@
     <MESSAGE value="Added stripes" />
     <MESSAGE value="Colored balls, striped balls" />
     <MESSAGE value="Shift balls when collide with walls" />
-    <option name="LAST_COMMIT_MESSAGE" value="Shift balls when collide with walls" />
+    <MESSAGE value="Fixed ball shifting" />
+    <MESSAGE value="Fixed ball shifting again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed ball shifting again" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -721,11 +742,6 @@
           <url>file://$PROJECT_DIR$/tutorial02_red_triangle/tutorial02.cpp</url>
           <line>58</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Ball.cpp</url>
-          <line>132</line>
-          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -899,16 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ball.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="126" column="11" selection-start-line="126" selection-start-column="11" selection-end-line="126" selection-end-column="11" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_3.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -919,25 +925,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.cpp">
+    <entry file="file://$PROJECT_DIR$/../AVL/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="1" column="21" lean-forward="true" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../AVL/AVLInsert.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AVL/main.cpp">
+    <entry file="file://$PROJECT_DIR$/Ball.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="229">
+          <caret line="143" column="12" lean-forward="true" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="12" />
           <folding>
-            <element signature="e#1#22#0" expanded="true" />
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="116" column="29" lean-forward="true" selection-start-line="116" selection-start-column="29" selection-end-line="116" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

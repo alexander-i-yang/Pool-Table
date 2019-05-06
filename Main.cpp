@@ -12,7 +12,7 @@
 #include <iostream>
 #include <vector>
 
-#define FULLSCREEN false
+#define FULLSCREEN true
 
 int main()
 {
@@ -42,6 +42,7 @@ int main()
 		242, 227, 60,
 		73, 147, 244,
 		191, 19, 50,
+		206, 88, 110,
 		139, 35, 224,
 		242, 163, 16,
 		27, 214, 34,
@@ -71,7 +72,8 @@ int main()
 	srand(std::rand());
 	sunColor.setColor(1, 1, 1);
 	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(windowHeight*3, windowHeight/40);
+	s1->setVelocity(windowHeight*2.5, windowHeight/40);
+//	s1->setVelocity(0, 0);
 	s1->setMass(radius*radius*radius);
 	drawables->add(s1);
 	collidables->add(s1);
@@ -80,13 +82,13 @@ int main()
 	bool stripes = false;
 	for(int i = 0; i<5; ++i) {
 		for(int j = 0; j<=i; ++j) {
-			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
+			Ball* s2 = new Ball(sunColor, windowWidth*5/8 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
 			s2->setMass(radius*radius*radius);
 			s2->setVelocity(0, 0);
+			if(index > 21) {index = 0; stripes = true;}
 			Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
 			               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
 			index+=3;
-			if(index >= 24) {index = 0; stripes = true;}
 			s2->setColor(newColor);
 			s2->setStriped(stripes);
 			drawables->add(s2);
@@ -110,11 +112,10 @@ int main()
 	drawables->add(bottom);
 	collidables->add(bottom);
 
-	collidables->setFriction(windowHeight*0.11/1024);
+	collidables->setFriction(windowHeight*0.13/1024);
 //	collidables->setFriction(0);
 
 
-	bool slowed = false;
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
 	while(glfwGetTime() - setTime < 50 && glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
