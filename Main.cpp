@@ -110,8 +110,8 @@ int main()
 	drawables->add(bottom);
 	collidables->add(bottom);
 
-	//Use vx = vx-a*cos()
-	collidables->setFriction(windowHeight*0.13/1024);
+	collidables->setFriction(windowHeight*0.11/1024);
+//	collidables->setFriction(0);
 
 
 	bool slowed = false;

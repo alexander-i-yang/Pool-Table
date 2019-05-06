@@ -127,18 +127,28 @@ bool Ball::checkCollide(Ball *other) {
 		double addX = r*cos(t);
 		double addY = r*sin(t);
 		//wait(0.1);
-		printf("(%f, %f)", this->getX(), this->getY());
-		printf("(%f, %f)", other->getX(), other->getY());
 		std::cout << std::endl;
-		if(a < c && b<d) {
+		if(sqrt((a-(midX-addX))*(a-(midX-addX))-(b-(midY-addY))*(b-(midY-addY))) < r-1) {
 			this->setPos(midX-addX, midY-addY);
-			other->setPos(midY+addY, midY+addY);
+			other->setPos(midX+addX, midY+addY);
+			/*if(sqrt((a-(midX-addX))*(a-(midX-addX))-(b-(midY-addY))*(b-(midY-addY))) > 20) {
+				printf("(%f, %f)", this->getX(), this->getY());
+				printf("(%f, %f)", other->getX(), other->getY());
+				std::cout << "rip" << std::endl;
+				printf("(%f, %f)", this->getX(), this->getY());
+				printf("(%f, %f)", other->getX(), other->getY());
+			}*/
 		} else {
 			this->setPos(midX+addX, midY+addY);
-			other->setPos(midY-addY, midY-addY);
+			other->setPos(midX-addX, midY-addY);
+			/*if(sqrt((a-(midX+addX))*(a-(midX+addX))-(b-(midY+addY))*(b-(midY+addY))) > 20) {
+				printf("(%f, %f)", this->getX(), this->getY());
+				printf("(%f, %f)", other->getX(), other->getY());
+				std::cout << "rip" << std::endl;
+				printf("(%f, %f)", this->getX(), this->getY());
+				printf("(%f, %f)", other->getX(), other->getY());
+			}*/
 		}
-		printf("(%f, %f)", this->getX(), this->getY());
-		printf("(%f, %f)", other->getX(), other->getY());
 		std::cout << std::endl << std::endl;
 	}
 	return distBetween <= radiiSum;
