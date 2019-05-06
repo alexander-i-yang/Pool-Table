@@ -119,23 +119,27 @@ bool Ball::checkCollide(Ball *other) {
 		double b = this->getY();
 		double c = other->getX();
 		double d = other->getY();
-		double t = tan((b-d)/(a-c));
+		double t = atanf((b-d)/(a-c));
+		if(a-c < 0) t += 3.14;
 		double midX = (a+c)/2;
 		double midY = (b+d)/2;
 		double r = this->getRadius();
 		double addX = r*cos(t);
 		double addY = r*sin(t);
 		//wait(0.1);
+		printf("(%f, %f)", this->getX(), this->getY());
+		printf("(%f, %f)", other->getX(), other->getY());
+		std::cout << std::endl;
 		if(a < c && b<d) {
 			this->setPos(midX-addX, midY-addY);
-			other->setPos(midX+addX, midY+addY);
+			other->setPos(midY+addY, midY+addY);
 		} else {
 			this->setPos(midX+addX, midY+addY);
-			other->setPos(midX-addX, midY-addY);
+			other->setPos(midY-addY, midY-addY);
 		}
-		this->draw();
-		other->draw();
-		//wait(0.1);
+		printf("(%f, %f)", this->getX(), this->getY());
+		printf("(%f, %f)", other->getX(), other->getY());
+		std::cout << std::endl << std::endl;
 	}
 	return distBetween <= radiiSum;
 }

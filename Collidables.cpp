@@ -78,7 +78,33 @@ void Collidables::updateAll() {
 		i->updateFrame();
 		double xv = i->getXVelocity();
 		double yv = i->getYVelocity();
-		i->setVelocity((xv)*friction, (yv)*friction);
+		double th = 0;
+		if (xv == 0) th = 3.14159265389/2;
+		else th = atanf(yv/xv);
+		if(xv < 0) th += 3.14159265389;
+
+		double newX, newY;
+		if (xv == 0) newX = 0;
+		else {
+			double amount = friction * cos(th);
+			if (amount < 0) amount *= -1;
+
+			if (xv > 0) newX = xv - amount;
+			else newX = xv + amount;
+			if (newX * xv < 0) newX = 0;
+		}
+
+		if (yv == 0) newY = 0;
+		else {
+			double amount = friction * sin(th);
+			if (amount < 0) amount *= -1;
+
+			if (yv > 0) newY = yv - amount;
+			else newY = yv + amount;
+			if (newY * yv < 0) newY = 0;
+		}
+
+		i->setVelocity(newX, newY);
 		for (auto j : walls) {
 			collision(i, j);
 		}

@@ -12,7 +12,7 @@
 #include <iostream>
 #include <vector>
 
-#define FULLSCREEN true
+#define FULLSCREEN false
 
 int main()
 {
@@ -41,7 +41,7 @@ int main()
 	double rgbs[] = {
 		242, 227, 60,
 		73, 147, 244,
-		237, 18, 58,
+		191, 19, 50,
 		139, 35, 224,
 		242, 163, 16,
 		27, 214, 34,
@@ -60,7 +60,7 @@ int main()
 	glMatrixMode( GL_MODELVIEW ); // (default matrix mode) modelview matrix defines how your objects are transformed (meaning translation, rotation and scaling) in your world
 	glLoadIdentity( ); // same as above comment
 
-	int radius = windowHeight/40+1;
+	int radius = 27*windowHeight/1000;
 	int vertSpacing = static_cast<int>(60.0 / 27.0 * radius);
 	int horizontalSpacing = static_cast<int>(55.0 / 27.0 * radius);
 
@@ -71,8 +71,8 @@ int main()
 	srand(std::rand());
 	sunColor.setColor(1, 1, 1);
 	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(windowHeight*4, windowHeight/40);
-	s1->setMass(1000);
+	s1->setVelocity(windowHeight*3, windowHeight/40);
+	s1->setMass(radius*radius*radius);
 	drawables->add(s1);
 	collidables->add(s1);
 
@@ -81,15 +81,13 @@ int main()
 	for(int i = 0; i<5; ++i) {
 		for(int j = 0; j<=i; ++j) {
 			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
-			s2->setMass(1000);
+			s2->setMass(radius*radius*radius);
 			s2->setVelocity(0, 0);
-			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
 			Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
 			               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
 			index+=3;
 			if(index >= 24) {index = 0; stripes = true;}
 			s2->setColor(newColor);
-			//s2->setStriped(j%2);
 			s2->setStriped(stripes);
 			drawables->add(s2);
 			collidables->add(s2);
@@ -97,7 +95,7 @@ int main()
 	}
 
 	Color wallColor;
-	int wallThickness = windowWidth/1024.0*40.0;
+	int wallThickness = windowWidth/1024.0*60.0;
 	wallColor.setColor(150.0/255, 104.0/255, 31.0/255);
 	Wall* right = new Wall(0, windowWidth-wallThickness, 0, wallColor, wallThickness, windowHeight);
 	Wall* left = new Wall(0, 0, 0, wallColor, wallThickness, windowHeight);
@@ -112,13 +110,14 @@ int main()
 	drawables->add(bottom);
 	collidables->add(bottom);
 
-	collidables->setFriction(0.99925);
+	//Use vx = vx-a*cos()
+	collidables->setFriction(windowHeight*0.13/1024);
 
 
 	bool slowed = false;
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
-	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
+	while(glfwGetTime() - setTime < 50 && glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
 		drawables->drawAll();
@@ -129,14 +128,6 @@ int main()
 
 		// Poll for and process events
 		glfwPollEvents( );
-
-		if(!slowed && collidables->checkNotMoving(30)) {
-			collidables->slowAll();
-			collidables->slowAll();
-			collidables->slowAll();
-			slowed = true;
-		}
-		//wait(0.1);
 	}
 	glfwTerminate();
 	free(collidables);
