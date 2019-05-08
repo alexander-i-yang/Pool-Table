@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Alex/CLionProjects/Pool-Table/lib/external/glew-1.13.0/src/glew.c" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj"
+  "C:/Users/samue/Documents/Pool-Table/lib/external/glew-1.13.0/src/glew.c" "C:/Users/samue/Documents/Pool-Table/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
