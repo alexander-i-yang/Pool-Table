@@ -26,7 +26,7 @@ public:
     void clear(Node<T>* curNode);
     void find(T key, Node<T>* parent, Node<T>* loc);
     void contains(Node<T>* curNode, T key);
-    void insert(node* curNode, node* insertNode);
+    void insert(Node<T>* curNode, T insertNode);
     void remove(T key);
 
 };

@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\samue\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\samue\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/CMakeFiles/GLEW_1130.dir/depend.make
@@ -59,16 +59,16 @@ include lib/external/CMakeFiles/GLEW_1130.dir/flags.make
 lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj: lib/external/CMakeFiles/GLEW_1130.dir/flags.make
 lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj: lib/external/CMakeFiles/GLEW_1130.dir/includes_C.rsp
 lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj: ../lib/external/glew-1.13.0/src/glew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\GLEW_1130.dir\glew-1.13.0\src\glew.c.obj   -c C:\Users\samue\Documents\Pool-Table\lib\external\glew-1.13.0\src\glew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\GLEW_1130.dir\glew-1.13.0\src\glew.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glew-1.13.0\src\glew.c
 
 lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.i"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\samue\Documents\Pool-Table\lib\external\glew-1.13.0\src\glew.c > CMakeFiles\GLEW_1130.dir\glew-1.13.0\src\glew.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glew-1.13.0\src\glew.c > CMakeFiles\GLEW_1130.dir\glew-1.13.0\src\glew.c.i
 
 lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.s"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external && C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\samue\Documents\Pool-Table\lib\external\glew-1.13.0\src\glew.c -o CMakeFiles\GLEW_1130.dir\glew-1.13.0\src\glew.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glew-1.13.0\src\glew.c -o CMakeFiles\GLEW_1130.dir\glew-1.13.0\src\glew.c.s
 
 # Object files for target GLEW_1130
 GLEW_1130_OBJECTS = \
@@ -80,9 +80,9 @@ GLEW_1130_EXTERNAL_OBJECTS =
 lib/external/libGLEW_1130.a: lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj
 lib/external/libGLEW_1130.a: lib/external/CMakeFiles/GLEW_1130.dir/build.make
 lib/external/libGLEW_1130.a: lib/external/CMakeFiles/GLEW_1130.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libGLEW_1130.a"
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external && $(CMAKE_COMMAND) -P CMakeFiles\GLEW_1130.dir\cmake_clean_target.cmake
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GLEW_1130.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libGLEW_1130.a"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external && $(CMAKE_COMMAND) -P CMakeFiles\GLEW_1130.dir\cmake_clean_target.cmake
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\GLEW_1130.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/CMakeFiles/GLEW_1130.dir/build: lib/external/libGLEW_1130.a
@@ -90,10 +90,10 @@ lib/external/CMakeFiles/GLEW_1130.dir/build: lib/external/libGLEW_1130.a
 .PHONY : lib/external/CMakeFiles/GLEW_1130.dir/build
 
 lib/external/CMakeFiles/GLEW_1130.dir/clean:
-	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external && $(CMAKE_COMMAND) -P CMakeFiles\GLEW_1130.dir\cmake_clean.cmake
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external && $(CMAKE_COMMAND) -P CMakeFiles\GLEW_1130.dir\cmake_clean.cmake
 .PHONY : lib/external/CMakeFiles/GLEW_1130.dir/clean
 
 lib/external/CMakeFiles/GLEW_1130.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\samue\Documents\Pool-Table C:\Users\samue\Documents\Pool-Table\lib\external C:\Users\samue\Documents\Pool-Table\cmake-build-debug C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\CMakeFiles\GLEW_1130.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Samuel\Documents\Coding\LASA\Pool-Table C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\CMakeFiles\GLEW_1130.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/CMakeFiles/GLEW_1130.dir/depend
 
