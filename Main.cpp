@@ -39,14 +39,13 @@ int main()
 	}
 
 	double rgbs[] = {
-		242, 227, 60,
-		73, 147, 244,
-		191, 19, 50,
-		206, 88, 110,
-		139, 35, 224,
-		242, 163, 16,
-		27, 214, 34,
-		0, 0, 0
+			242, 227, 60,
+			73, 147, 244,
+			237, 18, 58,
+			139, 35, 224,
+			242, 163, 16,
+			27, 214, 34,
+			0, 0, 0
 	};
 
 	// Make the window's context current
@@ -61,43 +60,15 @@ int main()
 	glMatrixMode( GL_MODELVIEW ); // (default matrix mode) modelview matrix defines how your objects are transformed (meaning translation, rotation and scaling) in your world
 	glLoadIdentity( ); // same as above comment
 
-	int radius = 27*windowHeight/1000;
+	int radius = windowHeight/40+1;
 	int vertSpacing = static_cast<int>(60.0 / 27.0 * radius);
 	int horizontalSpacing = static_cast<int>(55.0 / 27.0 * radius);
 
 	Drawables* drawables = new Drawables();
 	Collidables* collidables = new Collidables();
-	Color sunColor;
-	srand((unsigned)time(0));
-	srand(std::rand());
-	sunColor.setColor(1, 1, 1);
-	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(windowHeight*2.5, windowHeight/40);
-//	s1->setVelocity(0, 0);
-	s1->setMass(radius*radius*radius);
-	drawables->add(s1);
-	collidables->add(s1);
-
-	int index = 0;
-	bool stripes = false;
-	for(int i = 0; i<5; ++i) {
-		for(int j = 0; j<=i; ++j) {
-			Ball* s2 = new Ball(sunColor, windowWidth*5/8 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
-			s2->setMass(radius*radius*radius);
-			s2->setVelocity(0, 0);
-			if(index > 21) {index = 0; stripes = true;}
-			Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
-			               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
-			index+=3;
-			s2->setColor(newColor);
-			s2->setStriped(stripes);
-			drawables->add(s2);
-			collidables->add(s2);
-		}
-	}
 
 	Color wallColor;
-	int wallThickness = windowWidth/1024.0*60.0;
+	int wallThickness = windowWidth/1024.0*40.0;
 	wallColor.setColor(150.0/255, 104.0/255, 31.0/255);
 	Wall* right = new Wall(0, windowWidth-wallThickness, 0, wallColor, wallThickness, windowHeight);
 	Wall* left = new Wall(0, 0, 0, wallColor, wallThickness, windowHeight);
@@ -112,23 +83,86 @@ int main()
 	drawables->add(bottom);
 	collidables->add(bottom);
 
-	collidables->setFriction(windowHeight*0.13/1024);
-//	collidables->setFriction(0);
+	//Adding pockets
+	double pocketHeight = radius*1.75;  //In modern pool tables pockets are 1.75-2.25 x larger than the diameter of the balls
+	Color pocketColor;
+	pocketColor.setColor(0, 0, 0);
+	Pocket * topRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+	Pocket * middleTop = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2, windowHeight-pocketHeight*1.9, 0);
+	Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+	Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, 0+pocketHeight*1.9, 0);
+	Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2, 0+pocketHeight*1.9, 0);
+	Pocket * bottomRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, 0+pocketHeight*1.9, 0);
+	drawables->add(topRight);
+	drawables->add(middleTop);
+	drawables->add(topLeft);
+	drawables->add(bottomLeft);
+	drawables->add(middleBottom);
+	drawables->add(bottomRight);
+	collidables->add(topRight);
+	collidables->add(middleTop);
+	collidables->add(topLeft);
+	collidables->add(bottomLeft);
+	collidables->add(middleBottom);
+	collidables->add(bottomRight);
+
+	Color sunColor;
+	srand((unsigned)time(0));
+	srand(std::rand());
+	sunColor.setColor(1, 1, 1);
+	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
+	s1->setVelocity(windowHeight*4, windowHeight/40);
+	s1->setMass(1000);
+	drawables->add(s1);
+	collidables->add(s1);
+
+	int index = 0;
+	bool stripes = false;
+	for(int i = 0; i<5; ++i) {
+		for(int j = 0; j<=i; ++j) {
+			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
+			s2->setMass(1000);
+			s2->setVelocity(0, 0);
+			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+			Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
+						   static_cast<GLfloat>(rgbs[index + 2] / 255.0));
+			index+=3;
+			if(index >= 24) {index = 0; stripes = true;}
+			s2->setColor(newColor);
+			//s2->setStriped(j%2);
+			s2->setStriped(stripes);
+			drawables->add(s2);
+			collidables->add(s2);
+		}
+	}
 
 
+
+	collidables->setFriction(0.99925);
+
+
+	bool slowed = false;
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
-	while(glfwGetTime() - setTime < 50 && glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
+	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
+		collidables->updateAll(drawables);
 		drawables->drawAll();
-		collidables->updateAll();
 
 		// Swap front and back buffers
 		glfwSwapBuffers( window );
 
 		// Poll for and process events
 		glfwPollEvents( );
+
+		if(!slowed && collidables->checkNotMoving(30)) {
+			collidables->slowAll();
+			collidables->slowAll();
+			collidables->slowAll();
+			slowed = true;
+		}
+		//wait(0.1);
 	}
 	glfwTerminate();
 	free(collidables);

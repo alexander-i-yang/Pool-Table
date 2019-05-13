@@ -15,6 +15,8 @@ CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Collidables.cpp
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Collidables.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Color.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Drawable.h
+CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Drawables.h
+CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Pocket.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Wall.h
 
 CMakeFiles/TheGame.dir/Color.cpp.obj: ../lib/external/glew-1.13.0/include/GL/glew.h
@@ -44,7 +46,15 @@ CMakeFiles/TheGame.dir/Main.cpp.obj: ../Color.h
 CMakeFiles/TheGame.dir/Main.cpp.obj: ../Drawable.h
 CMakeFiles/TheGame.dir/Main.cpp.obj: ../Drawables.h
 CMakeFiles/TheGame.dir/Main.cpp.obj: ../Main.cpp
+CMakeFiles/TheGame.dir/Main.cpp.obj: ../Pocket.h
 CMakeFiles/TheGame.dir/Main.cpp.obj: ../Wall.h
+
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../lib/external/glew-1.13.0/include/GL/glew.h
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Color.h
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Drawable.h
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Pocket.cpp
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Pocket.h
 
 CMakeFiles/TheGame.dir/Wall.cpp.obj: ../lib/external/glew-1.13.0/include/GL/glew.h
 CMakeFiles/TheGame.dir/Wall.cpp.obj: ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h

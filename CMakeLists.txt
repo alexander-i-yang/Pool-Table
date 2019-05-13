@@ -69,7 +69,7 @@ add_executable(TheGame Main.cpp
 		Color.h
 		Wall.cpp
 		Wall.h
-		)
+        Pocket.h Pocket.cpp)
 target_link_libraries(TheGame
 		${ALL_LIBS}
 		)

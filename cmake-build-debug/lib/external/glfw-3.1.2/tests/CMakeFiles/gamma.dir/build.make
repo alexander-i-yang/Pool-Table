@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/depend.make
@@ -59,30 +59,30 @@ include lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/flags.make
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.obj: lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/flags.make
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.obj: lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/includes_C.rsp
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.obj: ../lib/external/glfw-3.1.2/tests/gamma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.obj"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\gamma.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests\gamma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.obj"
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\gamma.c.obj   -c C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests\gamma.c
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gamma.dir/gamma.c.i"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests\gamma.c > CMakeFiles\gamma.dir\gamma.c.i
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/gamma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gamma.dir/gamma.c.s"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests\gamma.c -o CMakeFiles\gamma.dir\gamma.c.s
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/flags.make
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/includes_C.rsp
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj: ../lib/external/glfw-3.1.2/deps/getopt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\__\deps\getopt.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\deps\getopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.obj"
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\gamma.dir\__\deps\getopt.c.obj   -c C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\deps\getopt.c
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/gamma.dir/__/deps/getopt.c.i"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\deps\getopt.c > CMakeFiles\gamma.dir\__\deps\getopt.c.i
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\deps\getopt.c > CMakeFiles\gamma.dir\__\deps\getopt.c.i
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/__/deps/getopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/gamma.dir/__/deps/getopt.c.s"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\deps\getopt.c -o CMakeFiles\gamma.dir\__\deps\getopt.c.s
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\deps\getopt.c -o CMakeFiles\gamma.dir\__\deps\getopt.c.s
 
 # Object files for target gamma
 gamma_OBJECTS = \
@@ -99,8 +99,8 @@ lib/external/glfw-3.1.2/tests/gamma.exe: lib/external/glfw-3.1.2/src/libglfw3.a
 lib/external/glfw-3.1.2/tests/gamma.exe: lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/linklibs.rsp
 lib/external/glfw-3.1.2/tests/gamma.exe: lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/objects1.rsp
 lib/external/glfw-3.1.2/tests/gamma.exe: lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable gamma.exe"
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gamma.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/build: lib/external/glfw-3.1.2/tests/gamma.exe
@@ -108,10 +108,10 @@ lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/build: lib/external/glfw-3.1.
 .PHONY : lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/build
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/clean:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -P CMakeFiles\gamma.dir\cmake_clean.cmake
 .PHONY : lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/clean
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\CLionProjects\Pool-Table C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests\CMakeFiles\gamma.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\Documents\Pool-Table C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests C:\Users\Alex\Documents\Pool-Table\cmake-build-debug C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests\CMakeFiles\gamma.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/glfw-3.1.2/tests/CMakeFiles/gamma.dir/depend
 

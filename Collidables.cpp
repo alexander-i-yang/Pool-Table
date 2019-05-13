@@ -3,7 +3,10 @@
 //
 
 #include "Collidables.h"
+#include "Drawables.h"
 #include <cmath>
+#include <algorithm>
+
 
 Collidables::Collidables() {
 	objects = {};
@@ -24,12 +27,32 @@ void Collidables::add(Ball *ball) {
 void Collidables::add(Wall *wall) {
 	this->walls.push_back(wall);
 }
-
+void Collidables::add(Pocket *pocket){
+	this->pockets.push_back(pocket);
+}
 void Collidables::clear() {
 	this->objects.clear();
 	this->walls.clear();
 }
+bool collision(Ball * b, Pocket * p){
+	double ballX = b->getX();
+	double ballY = b->getY();
+	double pocketX = p->getX();
+	double pocketY = p->getY();
+	double pocketWidth = p->getRadius();
+	double testX = pocketX;
+	double testY = pocketY;
 
+	float distX = ballX - testX;
+	float distY = ballY - testY;
+	float distance = sqrt((distX*distX)+(distY*distY));
+
+	//collision!
+	if(distance<=b->getRadius()*2){
+		return true;
+	}
+	return false;
+}
 void collision(Ball* b, Wall* w) {
 	double cx = b->getX();
 	double cy = b->getY();
@@ -66,8 +89,7 @@ void collision(Ball* b, Wall* w) {
 	}
 	//return false;
 }
-
-void Collidables::updateAll() {
+void Collidables::updateAll(Drawables * drawables) {
 	for (auto i : objects) {
 		for (auto j : objects) {
 			if (i != j && i->checkCollide(j)) {
@@ -78,38 +100,19 @@ void Collidables::updateAll() {
 		i->updateFrame();
 		double xv = i->getXVelocity();
 		double yv = i->getYVelocity();
-		double th = 0;
-		if (xv == 0) th = 3.14159265389/2;
-		else th = atanf(yv/xv);
-		if(xv < 0) th += 3.14159265389;
-
-		double newX, newY;
-		if (xv == 0) newX = 0;
-		else {
-			double amount = friction * cos(th);
-			if (amount < 0) amount *= -1;
-
-			if (xv > 0) newX = xv - amount;
-			else newX = xv + amount;
-			if (newX * xv < 0) newX = 0;
+		i->setVelocity((xv)*friction, (yv)*friction);
+		for(auto j : pockets){
+			if(collision(i, j)){
+				objects.erase(std::remove(objects.begin(), objects.end(), i), objects.end());
+				drawables->objects.erase(std::remove(drawables->objects.begin(), drawables->objects.end(), i), drawables->objects.end());
+			}
 		}
-
-		if (yv == 0) newY = 0;
-		else {
-			double amount = friction * sin(th);
-			if (amount < 0) amount *= -1;
-
-			if (yv > 0) newY = yv - amount;
-			else newY = yv + amount;
-			if (newY * yv < 0) newY = 0;
-		}
-
-		i->setVelocity(newX, newY);
 		for (auto j : walls) {
 			collision(i, j);
 		}
 	}
 }
+
 
 void Collidables::setFriction(double friction) {
 	Collidables::friction = friction;

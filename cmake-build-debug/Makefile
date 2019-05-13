@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,9 +125,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -759,6 +759,33 @@ Main.cpp.s:
 	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+Pocket.obj: Pocket.cpp.obj
+
+.PHONY : Pocket.obj
+
+# target to build an object file
+Pocket.cpp.obj:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Pocket.cpp.obj
+.PHONY : Pocket.cpp.obj
+
+Pocket.i: Pocket.cpp.i
+
+.PHONY : Pocket.i
+
+# target to preprocess a source file
+Pocket.cpp.i:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Pocket.cpp.i
+.PHONY : Pocket.cpp.i
+
+Pocket.s: Pocket.cpp.s
+
+.PHONY : Pocket.s
+
+# target to generate assembly for a file
+Pocket.cpp.s:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Pocket.cpp.s
+.PHONY : Pocket.cpp.s
+
 Wall.obj: Wall.cpp.obj
 
 .PHONY : Wall.obj
@@ -877,6 +904,9 @@ help:
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
+	@echo ... Pocket.obj
+	@echo ... Pocket.i
+	@echo ... Pocket.s
 	@echo ... Wall.obj
 	@echo ... Wall.i
 	@echo ... Wall.s

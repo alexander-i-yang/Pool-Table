@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Alex/CLionProjects/Pool-Table
+# Install script for directory: C:/Users/Alex/Documents/Pool-Table
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/cmake_install.cmake")
+  include("C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/lib/external/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
