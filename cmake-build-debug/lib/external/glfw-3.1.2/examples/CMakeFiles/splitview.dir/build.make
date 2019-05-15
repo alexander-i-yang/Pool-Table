@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/depend.make
@@ -59,16 +59,16 @@ include lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/flags.make
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.obj: lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/flags.make
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.obj: lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/includes_C.rsp
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.obj: ../lib/external/glfw-3.1.2/examples/splitview.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.obj"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\splitview.dir\splitview.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\examples\splitview.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.obj"
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\splitview.dir\splitview.c.obj   -c C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\examples\splitview.c
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/splitview.dir/splitview.c.i"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\examples\splitview.c > CMakeFiles\splitview.dir\splitview.c.i
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\examples\splitview.c > CMakeFiles\splitview.dir\splitview.c.i
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/splitview.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/splitview.dir/splitview.c.s"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\examples\splitview.c -o CMakeFiles\splitview.dir\splitview.c.s
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\examples\splitview.c -o CMakeFiles\splitview.dir\splitview.c.s
 
 # Object files for target splitview
 splitview_OBJECTS = \
@@ -83,8 +83,8 @@ lib/external/glfw-3.1.2/examples/splitview.exe: lib/external/glfw-3.1.2/src/libg
 lib/external/glfw-3.1.2/examples/splitview.exe: lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/linklibs.rsp
 lib/external/glfw-3.1.2/examples/splitview.exe: lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/objects1.rsp
 lib/external/glfw-3.1.2/examples/splitview.exe: lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable splitview.exe"
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\splitview.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable splitview.exe"
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\splitview.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/build: lib/external/glfw-3.1.2/examples/splitview.exe
@@ -92,10 +92,10 @@ lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/build: lib/external/gl
 .PHONY : lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/build
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/clean:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -P CMakeFiles\splitview.dir\cmake_clean.cmake
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples && $(CMAKE_COMMAND) -P CMakeFiles\splitview.dir\cmake_clean.cmake
 .PHONY : lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/clean
 
 lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\CLionProjects\Pool-Table C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\examples C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples\CMakeFiles\splitview.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\Documents\Pool-Table C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\examples C:\Users\Alex\Documents\Pool-Table\cmake-build-debug C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\examples\CMakeFiles\splitview.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/glfw-3.1.2/examples/CMakeFiles/splitview.dir/depend
 

@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,14 +125,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\CMakeFiles\progress.marks
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\CMakeFiles\progress.marks
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/clean
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/preinstall
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/preinstall
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/rule:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/rule
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/rule
 .PHONY : lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ uninstall: lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/rule
 
 # fast build rule for target.
 uninstall/fast:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\glfw-3.1.2\CMakeFiles\uninstall.dir\build.make lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/build
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\glfw-3.1.2\CMakeFiles\uninstall.dir\build.make lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
 # Help Target
@@ -194,6 +194,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

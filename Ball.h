@@ -21,9 +21,12 @@ protected:
     double theta;
     double mass;
 	bool striped;
+	int number;
+	double windowWidth;
+	double windowHeight;
 public:
     Ball();
-    Ball(Color c, double x, double y, double z, double radius);
+    Ball(Color c, double x, double y, double z, double radius, int number, double windowWidth, double windowHeight);
     Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass);
 
     double getTime();
@@ -31,6 +34,15 @@ public:
 	bool isStriped() const;
 
 	void setStriped(bool striped);
+
+	void setNumber(int n);
+	int getNumber();
+
+	void setWindowWidth(double width);
+	double getWindowWidth();
+
+	void setWindowHeight(double height);
+	double getWindowHeight();
 
 	double getRadius();
 	double getTheta();

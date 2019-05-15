@@ -21,9 +21,12 @@ Ball::Ball() : Drawable() {
 	this->referenceTime = glfwGetTime();
 }
 
-Ball::Ball(Color c, double x, double y, double z, double radius) : Drawable(c, x, y, z) {
+Ball::Ball(Color c, double x, double y, double z, double radius, int number, double windowWidth, double windowHeight) : Drawable(c, x, y, z) {
 	this->referenceTime = glfwGetTime();
 	this->radius = radius;
+	this->number = number;
+	this->windowWidth = windowWidth;
+	this->windowHeight = windowHeight;
 }
 
 Ball::Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass) : Drawable(c, x, y, z) {
@@ -33,6 +36,15 @@ Ball::Ball(Color c, double x, double y, double z, double radius, std::pair<doubl
 	this->theta = theta;
 	this->mass = mass;
 }
+
+void Ball::setNumber(int n){this->number = n;}
+int Ball::getNumber(){return this->number;}
+
+void Ball::setWindowWidth(double width){this->windowWidth = width;}
+double Ball::getWindowWidth(){return this->windowWidth;}
+
+void Ball::setWindowHeight(double width){this->windowHeight = width;}
+double Ball::getWindowHeight(){return this->windowHeight;}
 
 double Ball::getTime() {return this->referenceTime;}
 double Ball::getRadius() {return this->radius;}

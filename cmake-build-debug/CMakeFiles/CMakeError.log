@@ -1,22 +1,22 @@
 Performing C SOURCE FILE Test _GLFW_HAS_64ASLR failed with the following output:
-Change Dir: C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_f51cd/fast"
-C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_f51cd.dir\build.make CMakeFiles/cmTC_f51cd.dir/build
-mingw32-make.exe[1]: Entering directory 'C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f51cd.dir/src.c.obj
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_f51cd.dir\src.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
-Linking C executable cmTC_f51cd.exe
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_f51cd.dir\link.txt --verbose=1
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_f51cd.dir/objects.a
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_f51cd.dir/objects.a @CMakeFiles\cmTC_f51cd.dir\objects1.rsp
-C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_f51cd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_f51cd.exe -Wl,--out-implib,libcmTC_f51cd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_f51cd.dir\linklibs.rsp
+Run Build Command:"C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe" "cmTC_bef3b/fast"
+C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f CMakeFiles\cmTC_bef3b.dir\build.make CMakeFiles/cmTC_bef3b.dir/build
+mingw32-make.exe[1]: Entering directory 'C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bef3b.dir/src.c.obj
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTC_bef3b.dir\src.c.obj   -c C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_bef3b.exe
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bef3b.dir\link.txt --verbose=1
+"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_bef3b.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\cmTC_bef3b.dir/objects.a @CMakeFiles\cmTC_bef3b.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe  -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTC_bef3b.dir/objects.a -Wl,--no-whole-archive  -o cmTC_bef3b.exe -Wl,--out-implib,libcmTC_bef3b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_bef3b.dir\linklibs.rsp
 C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
 C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/bin/ld.exe: use the --help option for usage information
 collect2.exe: error: ld returned 1 exit status
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_f51cd.dir\build.make:88: cmTC_f51cd.exe] Error 1
-mingw32-make.exe[1]: Leaving directory 'C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:120: cmTC_f51cd/fast] Error 2
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_bef3b.dir\build.make:88: cmTC_bef3b.exe] Error 1
+mingw32-make.exe[1]: Leaving directory 'C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/CMakeTmp'
+mingw32-make.exe: *** [Makefile:120: cmTC_bef3b/fast] Error 2
 
 Source file was:
 int main(void) { return 0; }

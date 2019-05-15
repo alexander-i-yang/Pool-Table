@@ -5,6 +5,8 @@
 #include "Collidables.h"
 #include "Drawables.h"
 #include "ShootAI.h"
+#include "Ball.h"
+#include <ctime>
 #include <cmath>
 #include <algorithm>
 
@@ -104,8 +106,20 @@ void Collidables::updateAll(Drawables * drawables) {
 		i->setVelocity((xv)*friction, (yv)*friction);
 		for(auto j : pockets){
 			if(collision(i, j)){
-				objects.erase(std::remove(objects.begin(), objects.end(), i), objects.end());
-				drawables->objects.erase(std::remove(drawables->objects.begin(), drawables->objects.end(), i), drawables->objects.end());
+				if(i->getNumber()==0){
+					i->setPos(i->getWindowWidth()/2, i->getWindowHeight()/2);
+					i->setVelocity(0, 0);
+					std::cout<<"white ball fell in hole!"<<'\n';
+				}
+				else if(i->getNumber()==8){
+				    objects.clear();
+				    std::cout<<"8 Ball!"<<'\n';
+				}
+				else{
+                    objects.erase(std::remove(objects.begin(), objects.end(), i), objects.end());
+                    drawables->objects.erase(std::remove(drawables->objects.begin(), drawables->objects.end(), i), drawables->objects.end());
+				}
+
 			}
 		}
 		for (auto j : walls) {

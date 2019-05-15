@@ -2,60 +2,60 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps_simple" />
       <config projectName="Pool-Table" targetName="threads" />
       <config projectName="Pool-Table" targetName="tutorial01_first_window" />
       <config projectName="Pool-Table" targetName="tutorial05_textured_cube" />
-      <config projectName="Pool-Table" targetName="tutorial15_lightmaps" />
-      <config projectName="Pool-Table" targetName="tutorial09_vbo_indexing" />
-      <config projectName="Pool-Table" targetName="splitview" />
+      <config projectName="Pool-Table" targetName="tutorial09_several_objects" />
       <config projectName="Pool-Table" targetName="glfw" />
       <config projectName="Pool-Table" targetName="gears" />
-      <config projectName="Pool-Table" targetName="empty" />
+      <config projectName="Pool-Table" targetName="tutorial17_rotations" />
       <config projectName="Pool-Table" targetName="tutorial04_colored_cube" />
       <config projectName="Pool-Table" targetName="tutorial10_transparency" />
-      <config projectName="Pool-Table" targetName="title" />
+      <config projectName="Pool-Table" targetName="splitview" />
       <config projectName="Pool-Table" targetName="tutorial03_matrices" />
-      <config projectName="Pool-Table" targetName="clipboard" />
       <config projectName="Pool-Table" targetName="boing" />
       <config projectName="Pool-Table" targetName="wave" />
-      <config projectName="Pool-Table" targetName="tutorial14_render_to_texture" />
-      <config projectName="Pool-Table" targetName="zlib" />
-      <config projectName="Pool-Table" targetName="tutorial07_model_loading" />
-      <config projectName="Pool-Table" targetName="tutorial09_several_objects" />
+      <config projectName="Pool-Table" targetName="empty" />
+      <config projectName="Pool-Table" targetName="GLEW_1130" />
+      <config projectName="Pool-Table" targetName="particles" />
+      <config projectName="Pool-Table" targetName="title" />
       <config projectName="Pool-Table" targetName="TheGame" />
       <config projectName="Pool-Table" targetName="tutorial16_shadowmaps" />
       <config projectName="Pool-Table" targetName="tutorial09_AssImp" />
       <config projectName="Pool-Table" targetName="ANTTWEAKBAR_116_OGLCORE_GLFW" />
-      <config projectName="Pool-Table" targetName="heightmap" />
+      <config projectName="Pool-Table" targetName="iconify" />
       <config projectName="Pool-Table" targetName="tutorial18_particles" />
       <config projectName="Pool-Table" targetName="misc05_picking_custom" />
+      <config projectName="Pool-Table" targetName="tutorial18_billboards" />
       <config projectName="Pool-Table" targetName="LinearMath" />
-      <config projectName="Pool-Table" targetName="BulletDynamics" />
+      <config projectName="Pool-Table" targetName="zlib" />
       <config projectName="Pool-Table" targetName="sharing" />
-      <config projectName="Pool-Table" targetName="joysticks" />
-      <config projectName="Pool-Table" targetName="assimp" />
+      <config projectName="Pool-Table" targetName="clipboard" />
+      <config projectName="Pool-Table" targetName="tutorial07_model_loading" />
       <config projectName="Pool-Table" targetName="simple" />
       <config projectName="Pool-Table" targetName="tutorial11_2d_fonts" />
       <config projectName="Pool-Table" targetName="BulletSoftBody" />
       <config projectName="Pool-Table" targetName="cursor" />
       <config projectName="Pool-Table" targetName="glfwinfo" />
       <config projectName="Pool-Table" targetName="msaa" />
-      <config projectName="Pool-Table" targetName="iconify" />
-      <config projectName="Pool-Table" targetName="particles" />
+      <config projectName="Pool-Table" targetName="tutorial15_lightmaps" />
+      <config projectName="Pool-Table" targetName="BulletDynamics" />
       <config projectName="Pool-Table" targetName="reopen" />
-      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps_simple" />
-      <config projectName="Pool-Table" targetName="tutorial12_extensions" />
+      <config projectName="Pool-Table" targetName="assimp" />
+      <config projectName="Pool-Table" targetName="heightmap" />
       <config projectName="Pool-Table" targetName="tutorial13_normal_mapping" />
       <config projectName="Pool-Table" targetName="tutorial06_keyboard_and_mouse" />
       <config projectName="Pool-Table" targetName="BulletCollision" />
-      <config projectName="Pool-Table" targetName="tutorial18_billboards" />
-      <config projectName="Pool-Table" targetName="tutorial17_rotations" />
+      <config projectName="Pool-Table" targetName="gamma" />
+      <config projectName="Pool-Table" targetName="tutorial14_render_to_texture" />
+      <config projectName="Pool-Table" targetName="tutorial12_extensions" />
       <config projectName="Pool-Table" targetName="events" />
-      <config projectName="Pool-Table" targetName="tutorial02_red_triangle" />
+      <config projectName="Pool-Table" targetName="joysticks" />
       <config projectName="Pool-Table" targetName="misc05_picking_BulletPhysics" />
       <config projectName="Pool-Table" targetName="monitors" />
-      <config projectName="Pool-Table" targetName="GLEW_1130" />
-      <config projectName="Pool-Table" targetName="gamma" />
+      <config projectName="Pool-Table" targetName="tutorial02_red_triangle" />
+      <config projectName="Pool-Table" targetName="tutorial09_vbo_indexing" />
       <config projectName="Pool-Table" targetName="tutorial08_basic_shading" />
       <config projectName="Pool-Table" targetName="misc05_picking_slow_easy" />
       <config projectName="Pool-Table" targetName="windows" />
@@ -70,21 +70,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7374bc-7566-4326-ba81-34c8fa7f0b11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ShootAI.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShootAI.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ball.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ball.h" beforeDir="false" afterPath="$PROJECT_DIR$/Ball.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Collidables.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collidables.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Collidables.h" beforeDir="false" afterPath="$PROJECT_DIR$/Collidables.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Color.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Color.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Drawable.h" beforeDir="false" afterPath="$PROJECT_DIR$/Drawable.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pocket.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pocket.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pocket.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pocket.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wall.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Wall.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wall.h" beforeDir="false" afterPath="$PROJECT_DIR$/Wall.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
@@ -96,7 +86,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeRuleHashes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/OFF64_T.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/OFF64_T.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj" afterDir="false" />
@@ -107,14 +96,10 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/includes_CXX.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/launch-TheGame.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/launch-TheGame.cmd" afterDir="false" />
@@ -133,14 +118,12 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/includes_C.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/includes_C.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_C.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_C.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/code/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
@@ -152,32 +135,25 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/includes_CXX.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/includes_CXX.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/lib/external/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/lib/external/cmake_install.cmake" afterDir="false" />
@@ -296,38 +272,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Color.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <element signature="e#40#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ball.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-              <folding>
-                <element signature="e#94#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2794">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="170">
+              <caret line="157" column="13" lean-forward="true" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -335,8 +284,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collidables.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="147" column="104" selection-start-line="147" selection-start-column="104" selection-end-line="147" selection-end-column="104" />
+            <state relative-caret-position="153">
+              <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
               <folding>
                 <element signature="e#42#66#0" expanded="true" />
               </folding>
@@ -345,25 +294,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pocket.h">
+        <entry file="file://$PROJECT_DIR$/Drawables.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="e#94#112#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pocket.cpp">
+        <entry file="file://$PROJECT_DIR$/Drawables.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="43" column="11" selection-start-line="43" selection-start-column="11" selection-end-line="43" selection-end-column="11" />
-              <folding>
-                <element signature="e#38#57#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="231">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -371,44 +314,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Collidables.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ball.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2329">
-              <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
-              <folding>
-                <element signature="e#41#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShootAI.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="14" column="97" selection-start-line="14" selection-start-column="97" selection-end-line="14" selection-end-column="97" />
-              <folding>
-                <element signature="e#98#115#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ShootAI.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-              <folding>
-                <element signature="e#39#59#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -417,8 +324,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>standard</find>
-      <find>bill</find>
       <find>context</find>
       <find>mouse</find>
       <find>vertical</find>
@@ -447,6 +352,8 @@
       <find>true:</find>
       <find>setColorRGB</find>
       <find>cout</find>
+      <find>rgbs</find>
+      <find>stripes</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -478,7 +385,6 @@
         <option value="$PROJECT_DIR$/tutorial06_keyboard_and_mouse/tutorial06.cpp" />
         <option value="$PROJECT_DIR$/Collidable.h" />
         <option value="$PROJECT_DIR$/Utility.h" />
-        <option value="$PROJECT_DIR$/Drawables.cpp" />
         <option value="$PROJECT_DIR$/Drawable.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Drawable.h" />
@@ -486,15 +392,16 @@
         <option value="$PROJECT_DIR$/Wall.cpp" />
         <option value="$PROJECT_DIR$/Ball.h" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_3.cpp" />
-        <option value="$PROJECT_DIR$/Drawables.h" />
         <option value="$PROJECT_DIR$/Pocket.h" />
         <option value="$PROJECT_DIR$/Pocket.cpp" />
         <option value="$PROJECT_DIR$/Color.cpp" />
         <option value="$PROJECT_DIR$/Ball.cpp" />
         <option value="$PROJECT_DIR$/Collidables.h" />
-        <option value="$PROJECT_DIR$/Collidables.cpp" />
         <option value="$PROJECT_DIR$/ShootAI.h" />
         <option value="$PROJECT_DIR$/ShootAI.cpp" />
+        <option value="$PROJECT_DIR$/Drawables.cpp" />
+        <option value="$PROJECT_DIR$/Drawables.h" />
+        <option value="$PROJECT_DIR$/Collidables.cpp" />
         <option value="$PROJECT_DIR$/Main.cpp" />
       </list>
     </option>
@@ -894,6 +801,7 @@
       <workItem from="1557158852382" duration="3510000" />
       <workItem from="1557706692840" duration="455000" />
       <workItem from="1557926593900" duration="5777000" />
+      <workItem from="1557943445005" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="Starting on graphics">
       <created>1552245774933</created>
@@ -969,14 +877,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110823000" />
+    <option name="totallyTimeSpent" value="114618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16510066" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1671141" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" sideWeight="0.49731544" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.34560907" />
@@ -1151,20 +1059,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Drawables.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Drawables.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Drawable.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1225,23 +1119,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Collidables.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="29" column="56" selection-start-line="29" selection-start-column="56" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collidables.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="147" column="104" selection-start-line="147" selection-start-column="104" selection-end-line="147" selection-end-column="104" />
-          <folding>
-            <element signature="e#42#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ShootAI.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
@@ -1262,13 +1139,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Collidables.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drawables.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Drawables.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Collidables.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
+          <folding>
+            <element signature="e#42#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2794">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="157" column="13" lean-forward="true" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
         </state>
       </provider>
     </entry>
