@@ -90,10 +90,10 @@ int main()
 	Color pocketColor;
 	pocketColor.setColor(40, 45, 45);
 	Pocket * topRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
-	Pocket * middleTop = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2, windowHeight-pocketHeight*1.9, 0);
+	Pocket * middleTop = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (windowHeight-pocketHeight*1.9)*1, 0);
 	Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
-	Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, 0+pocketHeight*1.9, 0);
-	Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2, 0+pocketHeight*1.9, 0);
+	Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, 0+pocketHeight*2, 0);
+	Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (0+pocketHeight*1.9)*0.9, 0);
 	Pocket * bottomRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, 0+pocketHeight*1.9, 0);
 	drawables->add(topRight);
 	drawables->add(middleTop);

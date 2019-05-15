@@ -71,7 +71,7 @@ add_executable(TheGame Main.cpp
 		ShootAI.cpp
 		Wall.cpp
 		Wall.h
-        Pocket.h Pocket.cpp)
+        Pocket.h Pocket.cpp Pocket.cpp Pocket.h)
 target_link_libraries(TheGame
 		${ALL_LIBS}
 		)
