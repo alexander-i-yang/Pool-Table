@@ -4,66 +4,76 @@
 CMakeFiles/TheGame.dir/Ball.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Ball.cpp
- C:/Users/Alex/Documents/Pool-Table/Ball.h
- C:/Users/Alex/Documents/Pool-Table/Color.h
- C:/Users/Alex/Documents/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Ball.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Ball.h
- C:/Users/Alex/Documents/Pool-Table/Collidables.cpp
- C:/Users/Alex/Documents/Pool-Table/Collidables.h
- C:/Users/Alex/Documents/Pool-Table/Color.h
- C:/Users/Alex/Documents/Pool-Table/Drawable.h
- C:/Users/Alex/Documents/Pool-Table/Drawables.h
- C:/Users/Alex/Documents/Pool-Table/Pocket.h
- C:/Users/Alex/Documents/Pool-Table/Wall.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Collidables.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Collidables.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawables.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Pocket.h
+ C:/Users/Alex/CLionProjects/Pool-Table/ShootAI.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
 CMakeFiles/TheGame.dir/Color.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Color.cpp
- C:/Users/Alex/Documents/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
 CMakeFiles/TheGame.dir/Drawable.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Color.h
- C:/Users/Alex/Documents/Pool-Table/Drawable.cpp
- C:/Users/Alex/Documents/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
 CMakeFiles/TheGame.dir/Drawables.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Color.h
- C:/Users/Alex/Documents/Pool-Table/Drawable.h
- C:/Users/Alex/Documents/Pool-Table/Drawables.cpp
- C:/Users/Alex/Documents/Pool-Table/Drawables.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawables.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawables.h
 CMakeFiles/TheGame.dir/Main.cpp.obj
  .././lib/common/shader.hpp
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Ball.h
- C:/Users/Alex/Documents/Pool-Table/Collidables.h
- C:/Users/Alex/Documents/Pool-Table/Color.h
- C:/Users/Alex/Documents/Pool-Table/Drawable.h
- C:/Users/Alex/Documents/Pool-Table/Drawables.h
- C:/Users/Alex/Documents/Pool-Table/Main.cpp
- C:/Users/Alex/Documents/Pool-Table/Pocket.h
- C:/Users/Alex/Documents/Pool-Table/Wall.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Collidables.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawables.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Main.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Pocket.h
+ C:/Users/Alex/CLionProjects/Pool-Table/ShootAI.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
 CMakeFiles/TheGame.dir/Pocket.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Color.h
- C:/Users/Alex/Documents/Pool-Table/Drawable.h
- C:/Users/Alex/Documents/Pool-Table/Pocket.cpp
- C:/Users/Alex/Documents/Pool-Table/Pocket.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Pocket.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Pocket.h
+CMakeFiles/TheGame.dir/ShootAI.cpp.obj
+ ../lib/external/glew-1.13.0/include/GL/glew.h
+ ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Ball.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/ShootAI.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/ShootAI.h
 CMakeFiles/TheGame.dir/Wall.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
  ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
- C:/Users/Alex/Documents/Pool-Table/Color.h
- C:/Users/Alex/Documents/Pool-Table/Drawable.h
- C:/Users/Alex/Documents/Pool-Table/Wall.cpp
- C:/Users/Alex/Documents/Pool-Table/Wall.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Color.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Drawable.h
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/Wall.h
 CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj
  ../lib/external/glew-1.13.0/include/GL/glew.h
- C:/Users/Alex/Documents/Pool-Table/lib/common/shader.cpp
- C:/Users/Alex/Documents/Pool-Table/lib/common/shader.hpp
+ C:/Users/Alex/CLionProjects/Pool-Table/lib/common/shader.cpp
+ C:/Users/Alex/CLionProjects/Pool-Table/lib/common/shader.hpp

@@ -4,6 +4,7 @@
 
 #include "Collidables.h"
 #include "Drawables.h"
+#include "ShootAI.h"
 #include <cmath>
 #include <algorithm>
 
@@ -97,7 +98,7 @@ void Collidables::updateAll(Drawables * drawables) {
 				i->setVelocity(newVelocity.first, newVelocity.second);
 			}
 		}
-		i->updateFrame();
+		i->updateFrame(friction);
 		double xv = i->getXVelocity();
 		double yv = i->getYVelocity();
 		i->setVelocity((xv)*friction, (yv)*friction);
@@ -135,4 +136,24 @@ void Collidables::stopAll() {
 
 void Collidables::slowAll() {
 	friction = friction*friction;
+}
+
+void Collidables::shootAI() {
+	if(objects.size() > 1) {
+		Ball *whiteBall = objects.at(0);
+		for(auto b = objects.begin()+1; b!=objects.end(); ++b) {
+			std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, *b, pockets.at(0)->getX(), pockets.at(0)->getY());
+			bool theOne = true;
+			for(Ball* extra: objects) {
+				if(extra != *b && ShootAI::predictCollide(whiteBall, extra, v.first, v.second, (*b)->getX())) {
+					theOne = false;
+					break;
+				}
+			}
+			if(theOne) {
+				whiteBall->setVelocity(v.first, v.second);
+				break;
+			}
+		}
+	}
 }

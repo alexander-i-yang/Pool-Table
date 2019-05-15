@@ -27,10 +27,12 @@ public:
 	void add(Ball* ball);
 	void add(Wall* wall);
     void add(Pocket * pocket);
+    Ball* getBall(int index) {return objects.at(index);}
     void clear();
 	bool checkNotMoving(double threshold);
 	void stopAll();
 	void slowAll();
+	void shootAI();
     void updateAll(Drawables * drawables); // will this update the Ball in Drawables as well?
 	                  // it should, but this will pose problems if it doesn't
 	                  // lol nvm we good

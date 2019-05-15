@@ -34,7 +34,7 @@ public:
 
 	virtual void draw() = 0;
 	virtual int getNumVertices() = 0;
-	virtual void updateFrame() = 0;
+	virtual void updateFrame(double friction) = 0;
 };
 
 #endif //POOL_TABLE_DRAWABLE_H

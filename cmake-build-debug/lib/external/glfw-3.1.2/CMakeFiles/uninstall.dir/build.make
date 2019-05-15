@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
 include lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/progress.make
 
 lib/external/glfw-3.1.2/CMakeFiles/uninstall:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2 && "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -P C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/cmake_uninstall.cmake
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2 && "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -P C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/cmake_uninstall.cmake
 
 uninstall: lib/external/glfw-3.1.2/CMakeFiles/uninstall
 uninstall: lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/build.make
@@ -66,10 +66,10 @@ lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/build
 
 lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2 && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/clean
 
 lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\Documents\Pool-Table C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2 C:\Users\Alex\Documents\Pool-Table\cmake-build-debug C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2 C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\CLionProjects\Pool-Table C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2 C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2 C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\CMakeFiles\uninstall.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/glfw-3.1.2/CMakeFiles/uninstall.dir/depend
 

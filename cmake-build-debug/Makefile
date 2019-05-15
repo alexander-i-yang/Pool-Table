@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,9 +125,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -786,6 +786,33 @@ Pocket.cpp.s:
 	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Pocket.cpp.s
 .PHONY : Pocket.cpp.s
 
+ShootAI.obj: ShootAI.cpp.obj
+
+.PHONY : ShootAI.obj
+
+# target to build an object file
+ShootAI.cpp.obj:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/ShootAI.cpp.obj
+.PHONY : ShootAI.cpp.obj
+
+ShootAI.i: ShootAI.cpp.i
+
+.PHONY : ShootAI.i
+
+# target to preprocess a source file
+ShootAI.cpp.i:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/ShootAI.cpp.i
+.PHONY : ShootAI.cpp.i
+
+ShootAI.s: ShootAI.cpp.s
+
+.PHONY : ShootAI.s
+
+# target to generate assembly for a file
+ShootAI.cpp.s:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/ShootAI.cpp.s
+.PHONY : ShootAI.cpp.s
+
 Wall.obj: Wall.cpp.obj
 
 .PHONY : Wall.obj
@@ -907,6 +934,9 @@ help:
 	@echo ... Pocket.obj
 	@echo ... Pocket.i
 	@echo ... Pocket.s
+	@echo ... ShootAI.obj
+	@echo ... ShootAI.i
+	@echo ... ShootAI.s
 	@echo ... Wall.obj
 	@echo ... Wall.i
 	@echo ... Wall.s

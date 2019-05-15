@@ -40,6 +40,6 @@ int Pocket::getNumVertices() {
     int numberOfVertices = numberOfSides + 2;
     return numberOfVertices;
 }
-void Pocket::updateFrame() {
+void Pocket::updateFrame(double) {
     return;
 }

@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -125,14 +125,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\progress.marks
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\progress.marks
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/clean
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/preinstall
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/preinstall
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
 .PHONY : lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ BulletSoftBody: lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/B
 
 # fast build rule for target.
 BulletSoftBody/fast:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/build
 .PHONY : BulletSoftBody/fast
 
 btDefaultSoftBodySolver.obj: btDefaultSoftBodySolver.cpp.obj
@@ -176,7 +176,7 @@ btDefaultSoftBodySolver.obj: btDefaultSoftBodySolver.cpp.obj
 
 # target to build an object file
 btDefaultSoftBodySolver.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.cpp.obj
 .PHONY : btDefaultSoftBodySolver.cpp.obj
 
 btDefaultSoftBodySolver.i: btDefaultSoftBodySolver.cpp.i
@@ -185,7 +185,7 @@ btDefaultSoftBodySolver.i: btDefaultSoftBodySolver.cpp.i
 
 # target to preprocess a source file
 btDefaultSoftBodySolver.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.cpp.i
 .PHONY : btDefaultSoftBodySolver.cpp.i
 
 btDefaultSoftBodySolver.s: btDefaultSoftBodySolver.cpp.s
@@ -194,7 +194,7 @@ btDefaultSoftBodySolver.s: btDefaultSoftBodySolver.cpp.s
 
 # target to generate assembly for a file
 btDefaultSoftBodySolver.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btDefaultSoftBodySolver.cpp.s
 .PHONY : btDefaultSoftBodySolver.cpp.s
 
 btSoftBody.obj: btSoftBody.cpp.obj
@@ -203,7 +203,7 @@ btSoftBody.obj: btSoftBody.cpp.obj
 
 # target to build an object file
 btSoftBody.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.cpp.obj
 .PHONY : btSoftBody.cpp.obj
 
 btSoftBody.i: btSoftBody.cpp.i
@@ -212,7 +212,7 @@ btSoftBody.i: btSoftBody.cpp.i
 
 # target to preprocess a source file
 btSoftBody.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.cpp.i
 .PHONY : btSoftBody.cpp.i
 
 btSoftBody.s: btSoftBody.cpp.s
@@ -221,7 +221,7 @@ btSoftBody.s: btSoftBody.cpp.s
 
 # target to generate assembly for a file
 btSoftBody.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBody.cpp.s
 .PHONY : btSoftBody.cpp.s
 
 btSoftBodyConcaveCollisionAlgorithm.obj: btSoftBodyConcaveCollisionAlgorithm.cpp.obj
@@ -230,7 +230,7 @@ btSoftBodyConcaveCollisionAlgorithm.obj: btSoftBodyConcaveCollisionAlgorithm.cpp
 
 # target to build an object file
 btSoftBodyConcaveCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.obj
 .PHONY : btSoftBodyConcaveCollisionAlgorithm.cpp.obj
 
 btSoftBodyConcaveCollisionAlgorithm.i: btSoftBodyConcaveCollisionAlgorithm.cpp.i
@@ -239,7 +239,7 @@ btSoftBodyConcaveCollisionAlgorithm.i: btSoftBodyConcaveCollisionAlgorithm.cpp.i
 
 # target to preprocess a source file
 btSoftBodyConcaveCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.i
 .PHONY : btSoftBodyConcaveCollisionAlgorithm.cpp.i
 
 btSoftBodyConcaveCollisionAlgorithm.s: btSoftBodyConcaveCollisionAlgorithm.cpp.s
@@ -248,7 +248,7 @@ btSoftBodyConcaveCollisionAlgorithm.s: btSoftBodyConcaveCollisionAlgorithm.cpp.s
 
 # target to generate assembly for a file
 btSoftBodyConcaveCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyConcaveCollisionAlgorithm.cpp.s
 .PHONY : btSoftBodyConcaveCollisionAlgorithm.cpp.s
 
 btSoftBodyHelpers.obj: btSoftBodyHelpers.cpp.obj
@@ -257,7 +257,7 @@ btSoftBodyHelpers.obj: btSoftBodyHelpers.cpp.obj
 
 # target to build an object file
 btSoftBodyHelpers.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.cpp.obj
 .PHONY : btSoftBodyHelpers.cpp.obj
 
 btSoftBodyHelpers.i: btSoftBodyHelpers.cpp.i
@@ -266,7 +266,7 @@ btSoftBodyHelpers.i: btSoftBodyHelpers.cpp.i
 
 # target to preprocess a source file
 btSoftBodyHelpers.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.cpp.i
 .PHONY : btSoftBodyHelpers.cpp.i
 
 btSoftBodyHelpers.s: btSoftBodyHelpers.cpp.s
@@ -275,7 +275,7 @@ btSoftBodyHelpers.s: btSoftBodyHelpers.cpp.s
 
 # target to generate assembly for a file
 btSoftBodyHelpers.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyHelpers.cpp.s
 .PHONY : btSoftBodyHelpers.cpp.s
 
 btSoftBodyRigidBodyCollisionConfiguration.obj: btSoftBodyRigidBodyCollisionConfiguration.cpp.obj
@@ -284,7 +284,7 @@ btSoftBodyRigidBodyCollisionConfiguration.obj: btSoftBodyRigidBodyCollisionConfi
 
 # target to build an object file
 btSoftBodyRigidBodyCollisionConfiguration.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.obj
 .PHONY : btSoftBodyRigidBodyCollisionConfiguration.cpp.obj
 
 btSoftBodyRigidBodyCollisionConfiguration.i: btSoftBodyRigidBodyCollisionConfiguration.cpp.i
@@ -293,7 +293,7 @@ btSoftBodyRigidBodyCollisionConfiguration.i: btSoftBodyRigidBodyCollisionConfigu
 
 # target to preprocess a source file
 btSoftBodyRigidBodyCollisionConfiguration.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.i
 .PHONY : btSoftBodyRigidBodyCollisionConfiguration.cpp.i
 
 btSoftBodyRigidBodyCollisionConfiguration.s: btSoftBodyRigidBodyCollisionConfiguration.cpp.s
@@ -302,7 +302,7 @@ btSoftBodyRigidBodyCollisionConfiguration.s: btSoftBodyRigidBodyCollisionConfigu
 
 # target to generate assembly for a file
 btSoftBodyRigidBodyCollisionConfiguration.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftBodyRigidBodyCollisionConfiguration.cpp.s
 .PHONY : btSoftBodyRigidBodyCollisionConfiguration.cpp.s
 
 btSoftRigidCollisionAlgorithm.obj: btSoftRigidCollisionAlgorithm.cpp.obj
@@ -311,7 +311,7 @@ btSoftRigidCollisionAlgorithm.obj: btSoftRigidCollisionAlgorithm.cpp.obj
 
 # target to build an object file
 btSoftRigidCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.cpp.obj
 .PHONY : btSoftRigidCollisionAlgorithm.cpp.obj
 
 btSoftRigidCollisionAlgorithm.i: btSoftRigidCollisionAlgorithm.cpp.i
@@ -320,7 +320,7 @@ btSoftRigidCollisionAlgorithm.i: btSoftRigidCollisionAlgorithm.cpp.i
 
 # target to preprocess a source file
 btSoftRigidCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.cpp.i
 .PHONY : btSoftRigidCollisionAlgorithm.cpp.i
 
 btSoftRigidCollisionAlgorithm.s: btSoftRigidCollisionAlgorithm.cpp.s
@@ -329,7 +329,7 @@ btSoftRigidCollisionAlgorithm.s: btSoftRigidCollisionAlgorithm.cpp.s
 
 # target to generate assembly for a file
 btSoftRigidCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidCollisionAlgorithm.cpp.s
 .PHONY : btSoftRigidCollisionAlgorithm.cpp.s
 
 btSoftRigidDynamicsWorld.obj: btSoftRigidDynamicsWorld.cpp.obj
@@ -338,7 +338,7 @@ btSoftRigidDynamicsWorld.obj: btSoftRigidDynamicsWorld.cpp.obj
 
 # target to build an object file
 btSoftRigidDynamicsWorld.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.cpp.obj
 .PHONY : btSoftRigidDynamicsWorld.cpp.obj
 
 btSoftRigidDynamicsWorld.i: btSoftRigidDynamicsWorld.cpp.i
@@ -347,7 +347,7 @@ btSoftRigidDynamicsWorld.i: btSoftRigidDynamicsWorld.cpp.i
 
 # target to preprocess a source file
 btSoftRigidDynamicsWorld.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.cpp.i
 .PHONY : btSoftRigidDynamicsWorld.cpp.i
 
 btSoftRigidDynamicsWorld.s: btSoftRigidDynamicsWorld.cpp.s
@@ -356,7 +356,7 @@ btSoftRigidDynamicsWorld.s: btSoftRigidDynamicsWorld.cpp.s
 
 # target to generate assembly for a file
 btSoftRigidDynamicsWorld.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftRigidDynamicsWorld.cpp.s
 .PHONY : btSoftRigidDynamicsWorld.cpp.s
 
 btSoftSoftCollisionAlgorithm.obj: btSoftSoftCollisionAlgorithm.cpp.obj
@@ -365,7 +365,7 @@ btSoftSoftCollisionAlgorithm.obj: btSoftSoftCollisionAlgorithm.cpp.obj
 
 # target to build an object file
 btSoftSoftCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.cpp.obj
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.cpp.obj
 .PHONY : btSoftSoftCollisionAlgorithm.cpp.obj
 
 btSoftSoftCollisionAlgorithm.i: btSoftSoftCollisionAlgorithm.cpp.i
@@ -374,7 +374,7 @@ btSoftSoftCollisionAlgorithm.i: btSoftSoftCollisionAlgorithm.cpp.i
 
 # target to preprocess a source file
 btSoftSoftCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.cpp.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.cpp.i
 .PHONY : btSoftSoftCollisionAlgorithm.cpp.i
 
 btSoftSoftCollisionAlgorithm.s: btSoftSoftCollisionAlgorithm.cpp.s
@@ -383,7 +383,7 @@ btSoftSoftCollisionAlgorithm.s: btSoftSoftCollisionAlgorithm.cpp.s
 
 # target to generate assembly for a file
 btSoftSoftCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.cpp.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletSoftBody\CMakeFiles\BulletSoftBody.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/BulletSoftBody.dir/btSoftSoftCollisionAlgorithm.cpp.s
 .PHONY : btSoftSoftCollisionAlgorithm.cpp.s
 
 # Help Target
@@ -434,6 +434,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

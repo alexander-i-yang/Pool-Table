@@ -19,7 +19,7 @@ public:
     double getRadius();
     void draw() override;
     int getNumVertices() override;
-    void updateFrame() override;
+    void updateFrame(double) override;
 };
 
 

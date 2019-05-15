@@ -44,6 +44,8 @@ public:
 	void setTheta(double theta);
 	void setMass(double mass);
 	void setVelocity(double vx, double vy);
+	void setXVelocity(double vx);
+	void setYVelocity(double vy);
 	void updateAngle();
 	void setPos(double x, double y);
 	void setColorRGB(double r, double g, double b);
@@ -54,7 +56,7 @@ public:
 	int getNumSides();
 	void draw() override;
 	int getNumVertices() override;
-	void updateFrame() override; /* this is how the ball will 'move' */
+	void updateFrame(double friction) override; /* this is how the ball will 'move' */
 
 	/* for mechanics */
 	double friction(); /* returns the frictional force */

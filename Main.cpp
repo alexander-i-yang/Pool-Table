@@ -8,6 +8,8 @@
 #include "Wall.h"
 #include "Drawables.h"
 #include "Collidables.h"
+#include "Pocket.h"
+#include "ShootAI.h"
 
 #include <iostream>
 #include <vector>
@@ -86,7 +88,7 @@ int main()
 	//Adding pockets
 	double pocketHeight = radius*1.75;  //In modern pool tables pockets are 1.75-2.25 x larger than the diameter of the balls
 	Color pocketColor;
-	pocketColor.setColor(0, 0, 0);
+	pocketColor.setColor(40, 45, 45);
 	Pocket * topRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
 	Pocket * middleTop = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2, windowHeight-pocketHeight*1.9, 0);
 	Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
@@ -110,14 +112,37 @@ int main()
 	srand((unsigned)time(0));
 	srand(std::rand());
 	sunColor.setColor(1, 1, 1);
-	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(windowHeight*4, windowHeight/40);
-	s1->setMass(1000);
-	drawables->add(s1);
-	collidables->add(s1);
+	Ball* whiteBall = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
+	whiteBall->setMass(1000);
+	drawables->add(whiteBall);
+	collidables->add(whiteBall);
 
 	int index = 0;
 	bool stripes = false;
+	/*Ball* s2 = new Ball(sunColor, windowWidth*1/4-50, windowHeight/2+50, 0, radius);
+	s2->setMass(1000);
+	s2->setVelocity(0, 0);
+	//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+	Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
+	               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
+	index+=3;
+	s2->setColor(newColor);
+	s2->setStriped(stripes);
+	drawables->add(s2);
+	collidables->add(s2);
+
+	Ball* s3 = new Ball(sunColor, windowWidth*1/4-80, windowHeight/2+150, 0, radius);
+	s3->setMass(1000);
+	s3->setVelocity(0, 0);
+	//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+	Color newerColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
+	               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
+	index+=3;
+	s3->setColor(newerColor);
+	s3->setStriped(stripes);
+	drawables->add(s3);
+	collidables->add(s3);*/
+
 	for(int i = 0; i<5; ++i) {
 		for(int j = 0; j<=i; ++j) {
 			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
@@ -136,12 +161,17 @@ int main()
 		}
 	}
 
+	collidables->setFriction(0.9999);
+
+	/*std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, s3, topLeft->getX(), topLeft->getY());
+	if(!ShootAI::predictCollide(whiteBall, s2, v.first, v.second, s3->getX())) {
+		whiteBall->setVelocity(v.first/10, v.second/10);
+	} else {
+		std::cerr << "ERROR!" << std::endl;
+		whiteBall->setVelocity(v.first, v.second);
+	}*/
 
 
-	collidables->setFriction(0.99925);
-
-
-	bool slowed = false;
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
 	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
@@ -156,11 +186,8 @@ int main()
 		// Poll for and process events
 		glfwPollEvents( );
 
-		if(!slowed && collidables->checkNotMoving(30)) {
-			collidables->slowAll();
-			collidables->slowAll();
-			collidables->slowAll();
-			slowed = true;
+		if(collidables->checkNotMoving(1)) {
+			collidables->shootAI();
 		}
 		//wait(0.1);
 	}

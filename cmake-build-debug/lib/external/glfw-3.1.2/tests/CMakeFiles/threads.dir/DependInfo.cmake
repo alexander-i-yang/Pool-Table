@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Alex/Documents/Pool-Table/lib/external/glfw-3.1.2/deps/tinycthread.c" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj"
-  "C:/Users/Alex/Documents/Pool-Table/lib/external/glfw-3.1.2/tests/threads.c" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/tests/CMakeFiles/threads.dir/threads.c.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/lib/external/glfw-3.1.2/deps/tinycthread.c" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/tests/CMakeFiles/threads.dir/__/deps/tinycthread.c.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/lib/external/glfw-3.1.2/tests/threads.c" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/tests/CMakeFiles/threads.dir/threads.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -28,7 +28,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

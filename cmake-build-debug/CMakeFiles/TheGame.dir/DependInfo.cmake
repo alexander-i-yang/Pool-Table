@@ -4,15 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Alex/Documents/Pool-Table/Ball.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/Collidables.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Collidables.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/Color.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Color.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/Drawable.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/Drawables.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/Main.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Main.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/Pocket.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Pocket.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/Wall.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Wall.cpp.obj"
-  "C:/Users/Alex/Documents/Pool-Table/lib/common/shader.cpp" "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Ball.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Collidables.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Collidables.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Color.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Color.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Drawable.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Drawables.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Main.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Main.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Pocket.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Pocket.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/ShootAI.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/ShootAI.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/Wall.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Wall.cpp.obj"
+  "C:/Users/Alex/CLionProjects/Pool-Table/lib/common/shader.cpp" "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -38,8 +39,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/DependInfo.cmake"
+  "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

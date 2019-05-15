@@ -67,6 +67,8 @@ add_executable(TheGame Main.cpp
 		Collidables.h
 		Color.cpp
 		Color.h
+		ShootAI.h
+		ShootAI.cpp
 		Wall.cpp
 		Wall.h
         Pocket.h Pocket.cpp)

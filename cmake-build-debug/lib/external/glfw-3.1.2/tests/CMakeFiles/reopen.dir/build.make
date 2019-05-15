@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/depend.make
@@ -59,16 +59,16 @@ include lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/flags.make
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/reopen.c.obj: lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/flags.make
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/reopen.c.obj: lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/includes_C.rsp
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/reopen.c.obj: ../lib/external/glfw-3.1.2/tests/reopen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/reopen.c.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reopen.dir\reopen.c.obj   -c C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests\reopen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/reopen.c.obj"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\reopen.dir\reopen.c.obj   -c C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests\reopen.c
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/reopen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/reopen.dir/reopen.c.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests\reopen.c > CMakeFiles\reopen.dir\reopen.c.i
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests\reopen.c > CMakeFiles\reopen.dir\reopen.c.i
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/reopen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/reopen.dir/reopen.c.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests\reopen.c -o CMakeFiles\reopen.dir\reopen.c.s
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests\reopen.c -o CMakeFiles\reopen.dir\reopen.c.s
 
 # Object files for target reopen
 reopen_OBJECTS = \
@@ -83,8 +83,8 @@ lib/external/glfw-3.1.2/tests/reopen.exe: lib/external/glfw-3.1.2/src/libglfw3.a
 lib/external/glfw-3.1.2/tests/reopen.exe: lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/linklibs.rsp
 lib/external/glfw-3.1.2/tests/reopen.exe: lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/objects1.rsp
 lib/external/glfw-3.1.2/tests/reopen.exe: lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable reopen.exe"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\reopen.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable reopen.exe"
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\reopen.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build: lib/external/glfw-3.1.2/tests/reopen.exe
@@ -92,10 +92,10 @@ lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build: lib/external/glfw-3.1
 .PHONY : lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/build
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/clean:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -P CMakeFiles\reopen.dir\cmake_clean.cmake
+	cd /d C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests && $(CMAKE_COMMAND) -P CMakeFiles\reopen.dir\cmake_clean.cmake
 .PHONY : lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/clean
 
 lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\Documents\Pool-Table C:\Users\Alex\Documents\Pool-Table\lib\external\glfw-3.1.2\tests C:\Users\Alex\Documents\Pool-Table\cmake-build-debug C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests\CMakeFiles\reopen.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\CLionProjects\Pool-Table C:\Users\Alex\CLionProjects\Pool-Table\lib\external\glfw-3.1.2\tests C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\tests\CMakeFiles\reopen.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/glfw-3.1.2/tests/CMakeFiles/reopen.dir/depend
 

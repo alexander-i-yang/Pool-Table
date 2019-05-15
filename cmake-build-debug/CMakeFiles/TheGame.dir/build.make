@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Alex\CLionProjects\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TheGame.dir/depend.make
@@ -59,128 +59,142 @@ include CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Main.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Main.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Main.cpp.obj: ../Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TheGame.dir/Main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Main.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TheGame.dir/Main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Main.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Main.cpp
 
 CMakeFiles/TheGame.dir/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Main.cpp > CMakeFiles\TheGame.dir\Main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Main.cpp > CMakeFiles\TheGame.dir\Main.cpp.i
 
 CMakeFiles/TheGame.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Main.cpp -o CMakeFiles\TheGame.dir\Main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Main.cpp -o CMakeFiles\TheGame.dir\Main.cpp.s
 
 CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj: ../lib/common/shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\lib\common\shader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\common\shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\lib\common\shader.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\lib\common\shader.cpp
 
 CMakeFiles/TheGame.dir/lib/common/shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/lib/common/shader.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\common\shader.cpp > CMakeFiles\TheGame.dir\lib\common\shader.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\lib\common\shader.cpp > CMakeFiles\TheGame.dir\lib\common\shader.cpp.i
 
 CMakeFiles/TheGame.dir/lib/common/shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/lib/common/shader.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\common\shader.cpp -o CMakeFiles\TheGame.dir\lib\common\shader.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\lib\common\shader.cpp -o CMakeFiles\TheGame.dir\lib\common\shader.cpp.s
 
 CMakeFiles/TheGame.dir/Ball.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Ball.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Ball.cpp.obj: ../Ball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TheGame.dir/Ball.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Ball.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TheGame.dir/Ball.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Ball.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Ball.cpp
 
 CMakeFiles/TheGame.dir/Ball.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Ball.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Ball.cpp > CMakeFiles\TheGame.dir\Ball.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Ball.cpp > CMakeFiles\TheGame.dir\Ball.cpp.i
 
 CMakeFiles/TheGame.dir/Ball.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Ball.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Ball.cpp -o CMakeFiles\TheGame.dir\Ball.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Ball.cpp -o CMakeFiles\TheGame.dir\Ball.cpp.s
 
 CMakeFiles/TheGame.dir/Drawable.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Drawable.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Drawable.cpp.obj: ../Drawable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TheGame.dir/Drawable.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Drawable.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Drawable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TheGame.dir/Drawable.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Drawable.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Drawable.cpp
 
 CMakeFiles/TheGame.dir/Drawable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Drawable.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Drawable.cpp > CMakeFiles\TheGame.dir\Drawable.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Drawable.cpp > CMakeFiles\TheGame.dir\Drawable.cpp.i
 
 CMakeFiles/TheGame.dir/Drawable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Drawable.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Drawable.cpp -o CMakeFiles\TheGame.dir\Drawable.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Drawable.cpp -o CMakeFiles\TheGame.dir\Drawable.cpp.s
 
 CMakeFiles/TheGame.dir/Drawables.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Drawables.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Drawables.cpp.obj: ../Drawables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TheGame.dir/Drawables.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Drawables.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Drawables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TheGame.dir/Drawables.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Drawables.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Drawables.cpp
 
 CMakeFiles/TheGame.dir/Drawables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Drawables.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Drawables.cpp > CMakeFiles\TheGame.dir\Drawables.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Drawables.cpp > CMakeFiles\TheGame.dir\Drawables.cpp.i
 
 CMakeFiles/TheGame.dir/Drawables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Drawables.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Drawables.cpp -o CMakeFiles\TheGame.dir\Drawables.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Drawables.cpp -o CMakeFiles\TheGame.dir\Drawables.cpp.s
 
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Collidables.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TheGame.dir/Collidables.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Collidables.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Collidables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/TheGame.dir/Collidables.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Collidables.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Collidables.cpp
 
 CMakeFiles/TheGame.dir/Collidables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Collidables.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Collidables.cpp > CMakeFiles\TheGame.dir\Collidables.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Collidables.cpp > CMakeFiles\TheGame.dir\Collidables.cpp.i
 
 CMakeFiles/TheGame.dir/Collidables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Collidables.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Collidables.cpp -o CMakeFiles\TheGame.dir\Collidables.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Collidables.cpp -o CMakeFiles\TheGame.dir\Collidables.cpp.s
 
 CMakeFiles/TheGame.dir/Color.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Color.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Color.cpp.obj: ../Color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TheGame.dir/Color.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Color.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/TheGame.dir/Color.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Color.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Color.cpp
 
 CMakeFiles/TheGame.dir/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Color.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Color.cpp > CMakeFiles\TheGame.dir\Color.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Color.cpp > CMakeFiles\TheGame.dir\Color.cpp.i
 
 CMakeFiles/TheGame.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Color.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Color.cpp -o CMakeFiles\TheGame.dir\Color.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Color.cpp -o CMakeFiles\TheGame.dir\Color.cpp.s
+
+CMakeFiles/TheGame.dir/ShootAI.cpp.obj: CMakeFiles/TheGame.dir/flags.make
+CMakeFiles/TheGame.dir/ShootAI.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
+CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../ShootAI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TheGame.dir/ShootAI.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\ShootAI.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\ShootAI.cpp
+
+CMakeFiles/TheGame.dir/ShootAI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/ShootAI.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\ShootAI.cpp > CMakeFiles\TheGame.dir\ShootAI.cpp.i
+
+CMakeFiles/TheGame.dir/ShootAI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/ShootAI.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\ShootAI.cpp -o CMakeFiles\TheGame.dir\ShootAI.cpp.s
 
 CMakeFiles/TheGame.dir/Wall.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Wall.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Wall.cpp.obj: ../Wall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TheGame.dir/Wall.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Wall.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Wall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TheGame.dir/Wall.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Wall.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Wall.cpp
 
 CMakeFiles/TheGame.dir/Wall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Wall.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Wall.cpp > CMakeFiles\TheGame.dir\Wall.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Wall.cpp > CMakeFiles\TheGame.dir\Wall.cpp.i
 
 CMakeFiles/TheGame.dir/Wall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Wall.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Wall.cpp -o CMakeFiles\TheGame.dir\Wall.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Wall.cpp -o CMakeFiles\TheGame.dir\Wall.cpp.s
 
 CMakeFiles/TheGame.dir/Pocket.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Pocket.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Pocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TheGame.dir/Pocket.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Pocket.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\Pocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TheGame.dir/Pocket.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Pocket.cpp.obj -c C:\Users\Alex\CLionProjects\Pool-Table\Pocket.cpp
 
 CMakeFiles/TheGame.dir/Pocket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Pocket.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\Pocket.cpp > CMakeFiles\TheGame.dir\Pocket.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\CLionProjects\Pool-Table\Pocket.cpp > CMakeFiles\TheGame.dir\Pocket.cpp.i
 
 CMakeFiles/TheGame.dir/Pocket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Pocket.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\Pocket.cpp -o CMakeFiles\TheGame.dir\Pocket.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\CLionProjects\Pool-Table\Pocket.cpp -o CMakeFiles\TheGame.dir\Pocket.cpp.s
 
 # Object files for target TheGame
 TheGame_OBJECTS = \
@@ -191,6 +205,7 @@ TheGame_OBJECTS = \
 "CMakeFiles/TheGame.dir/Drawables.cpp.obj" \
 "CMakeFiles/TheGame.dir/Collidables.cpp.obj" \
 "CMakeFiles/TheGame.dir/Color.cpp.obj" \
+"CMakeFiles/TheGame.dir/ShootAI.cpp.obj" \
 "CMakeFiles/TheGame.dir/Wall.cpp.obj" \
 "CMakeFiles/TheGame.dir/Pocket.cpp.obj"
 
@@ -204,6 +219,7 @@ TheGame.exe: CMakeFiles/TheGame.dir/Drawable.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Drawables.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Collidables.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Color.cpp.obj
+TheGame.exe: CMakeFiles/TheGame.dir/ShootAI.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Wall.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Pocket.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/build.make
@@ -212,9 +228,9 @@ TheGame.exe: lib/external/libGLEW_1130.a
 TheGame.exe: CMakeFiles/TheGame.dir/linklibs.rsp
 TheGame.exe: CMakeFiles/TheGame.dir/objects1.rsp
 TheGame.exe: CMakeFiles/TheGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable TheGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable TheGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TheGame.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E copy C:/Users/Alex/Documents/Pool-Table/cmake-build-debug/. C:/Users/Alex/Documents/Pool-Table
+	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E copy C:/Users/Alex/CLionProjects/Pool-Table/cmake-build-debug/. C:/Users/Alex/CLionProjects/Pool-Table
 
 # Rule to build all files generated by this target.
 CMakeFiles/TheGame.dir/build: TheGame.exe
@@ -226,6 +242,6 @@ CMakeFiles/TheGame.dir/clean:
 .PHONY : CMakeFiles/TheGame.dir/clean
 
 CMakeFiles/TheGame.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\Documents\Pool-Table C:\Users\Alex\Documents\Pool-Table C:\Users\Alex\Documents\Pool-Table\cmake-build-debug C:\Users\Alex\Documents\Pool-Table\cmake-build-debug C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles\TheGame.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\CLionProjects\Pool-Table C:\Users\Alex\CLionProjects\Pool-Table C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug C:\Users\Alex\CLionProjects\Pool-Table\cmake-build-debug\CMakeFiles\TheGame.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/TheGame.dir/depend
 
