@@ -5,18 +5,18 @@
 #include "Color.h"
 
 Color::Color(GLfloat rFloat, GLfloat gFloat, GLfloat bFloat) {
-	setColor(rFloat, gFloat, bFloat);
+    setColor(rFloat, gFloat, bFloat);
 }
 
 void Color::setColor(GLfloat rFloat, GLfloat gFloat, GLfloat bFloat) {
-	if(rFloat > 1 || gFloat > 1 || bFloat > 1) {
-		rFloat /= 255;
-		gFloat /= 255;
-		bFloat /= 255;
-	}
-	r = rFloat;
-	g = gFloat;
-	b = bFloat;
+    if(rFloat > 1 || gFloat > 1 || bFloat > 1) {
+        rFloat /= 255;
+        gFloat /= 255;
+        bFloat /= 255;
+    }
+    r = rFloat;
+    g = gFloat;
+    b = bFloat;
 }
 
 GLfloat Color::getR() {return r;}

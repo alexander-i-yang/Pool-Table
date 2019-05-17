@@ -10,21 +10,21 @@
 
 class Color {
 private:
-	GLfloat r;
-	GLfloat g;
-	GLfloat b;
+    GLfloat r;
+    GLfloat g;
+    GLfloat b;
 public:
-	Color() : r(0), g(0), b(0) {}
-	Color(GLfloat, GLfloat, GLfloat);
+    Color() : r(0), g(0), b(0) {}
+    Color(GLfloat, GLfloat, GLfloat);
 
-	void setColor(GLfloat, GLfloat, GLfloat);
-	GLfloat getR();
-	GLfloat getG();
-	GLfloat getB();
+    void setColor(GLfloat, GLfloat, GLfloat);
+    GLfloat getR();
+    GLfloat getG();
+    GLfloat getB();
 
-	GLint getIntR();
-	GLint getIntG();
-	GLint getIntB();
+    GLint getIntR();
+    GLint getIntG();
+    GLint getIntB();
 };
 
 
