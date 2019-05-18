@@ -1,7 +1,6 @@
 //
 // Created by Alex on 5/7/2019.
 //
-
 #include "ShootAI.h"
 #include "Ball.h"
 #include <utility>
@@ -24,8 +23,8 @@ std::pair<double,double> ShootAI::shootWhiteBall(Ball *whiteBall, Ball* shoot, d
 	double yv = yf-b;
 	double targetDistance = sqrt((c-targetX)*(c-targetX)+(d-targetY)*(d-targetY));
 	double ballDistance = sqrt((a-c)*(a-c)+(b-d)*(b-d));
-	double xvf = log(targetDistance+ballDistance)*xv;
-	double yvf = log(targetDistance+ballDistance)*yv;
+	double xvf = xv / sqrt(xv * xv + yv * yv) * 300;
+	double yvf = yv / sqrt(xv * xv + yv * yv) * 300;
 	std::pair<double, double> ret = {xvf, yvf};
 	return ret;
 }

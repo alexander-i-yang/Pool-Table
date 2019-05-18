@@ -17,6 +17,8 @@ CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Color.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Drawable.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Drawables.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Pocket.h
+CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Set.h
+CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Set.tpp
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../ShootAI.h
 CMakeFiles/TheGame.dir/Collidables.cpp.obj: ../Wall.h
 

@@ -3,6 +3,7 @@
 #include <cmath>
 #include <ctime>
 #include <lib/common/shader.hpp>
+#include <stdlib.h>
 
 #include "Ball.h"
 #include "Wall.h"
@@ -14,7 +15,7 @@
 #include <iostream>
 #include <vector>
 
-#define FULLSCREEN true
+#define FULLSCREEN false
 
 int main()
 {
@@ -114,6 +115,7 @@ int main()
 	srand(std::rand());
 	sunColor.setColor(1, 1, 1);
 	Ball* whiteBall = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius, 0, windowWidth, windowHeight);
+	whiteBall->setVelocity(4000, 300);
 	whiteBall->setMass(1000);
 	drawables->add(whiteBall);
 	collidables->add(whiteBall);
@@ -179,10 +181,9 @@ int main()
 		whiteBall->setVelocity(v.first, v.second);
 	}*/
 
-
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
-	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
+	while(glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
 		collidables->updateAll(drawables);
@@ -194,8 +195,9 @@ int main()
 		// Poll for and process events
 		glfwPollEvents( );
 
-		if(collidables->checkNotMoving(1)) {
-			collidables->shootAI();
+		if(collidables->checkNotMoving(0.01)) {
+//			break;
+		    collidables->shootAI();
 		}
 		//wait(0.1);
 	}

@@ -140,7 +140,6 @@ bool Ball::checkCollide(Ball *other) {
 		double r = this->getRadius();
 		double addX = r*cos(t);
 		double addY = r*sin(t);
-		std::cout << std::endl;
 		if(sqrt((a-(midX-addX))*(a-(midX-addX))-(b-(midY-addY))*(b-(midY-addY))) < r-1) {
 			this->setPos(midX-addX, midY-addY);
 			other->setPos(midX+addX, midY+addY);

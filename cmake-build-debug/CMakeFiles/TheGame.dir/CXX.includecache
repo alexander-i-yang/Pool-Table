@@ -60,49 +60,51 @@ GL/glext.h
 GL/glu.h
 -
 
-C:/Users/Alex/Documents/Pool-Table/Ball.h
+C:/Users/samue/Documents/Pool-Table/Ball.h
 utility
 -
 string
 -
 Drawable.h
-C:/Users/Alex/Documents/Pool-Table/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 
-C:/Users/Alex/Documents/Pool-Table/Collidables.h
+C:/Users/samue/Documents/Pool-Table/Collidables.h
 vector
 -
+cmath
+-
 Ball.h
-C:/Users/Alex/Documents/Pool-Table/Ball.h
+C:/Users/samue/Documents/Pool-Table/Ball.h
 Drawables.h
-C:/Users/Alex/Documents/Pool-Table/Drawables.h
+C:/Users/samue/Documents/Pool-Table/Drawables.h
 Wall.h
-C:/Users/Alex/Documents/Pool-Table/Wall.h
+C:/Users/samue/Documents/Pool-Table/Wall.h
 Pocket.h
-C:/Users/Alex/Documents/Pool-Table/Pocket.h
+C:/Users/samue/Documents/Pool-Table/Pocket.h
 
-C:/Users/Alex/Documents/Pool-Table/Color.h
+C:/Users/samue/Documents/Pool-Table/Color.h
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-C:/Users/Alex/Documents/Pool-Table/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 iostream
 -
 Color.h
-C:/Users/Alex/Documents/Pool-Table/Color.h
+C:/Users/samue/Documents/Pool-Table/Color.h
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-C:/Users/Alex/Documents/Pool-Table/Drawables.h
+C:/Users/samue/Documents/Pool-Table/Drawables.h
 vector
 -
 Drawable.h
-C:/Users/Alex/Documents/Pool-Table/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 
-C:/Users/Alex/Documents/Pool-Table/Main.cpp
+C:/Users/samue/Documents/Pool-Table/Main.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
@@ -113,40 +115,42 @@ ctime
 -
 lib/common/shader.hpp
 -
+stdlib.h
+-
 Ball.h
-C:/Users/Alex/Documents/Pool-Table/Ball.h
+C:/Users/samue/Documents/Pool-Table/Ball.h
 Wall.h
-C:/Users/Alex/Documents/Pool-Table/Wall.h
+C:/Users/samue/Documents/Pool-Table/Wall.h
 Drawables.h
-C:/Users/Alex/Documents/Pool-Table/Drawables.h
+C:/Users/samue/Documents/Pool-Table/Drawables.h
 Collidables.h
-C:/Users/Alex/Documents/Pool-Table/Collidables.h
+C:/Users/samue/Documents/Pool-Table/Collidables.h
 Pocket.h
-C:/Users/Alex/Documents/Pool-Table/Pocket.h
+C:/Users/samue/Documents/Pool-Table/Pocket.h
 ShootAI.h
-C:/Users/Alex/Documents/Pool-Table/ShootAI.h
+C:/Users/samue/Documents/Pool-Table/ShootAI.h
 iostream
 -
 vector
 -
 
-C:/Users/Alex/Documents/Pool-Table/Pocket.h
+C:/Users/samue/Documents/Pool-Table/Pocket.h
 utility
 -
 string
 -
 Drawable.h
-C:/Users/Alex/Documents/Pool-Table/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 
-C:/Users/Alex/Documents/Pool-Table/ShootAI.h
+C:/Users/samue/Documents/Pool-Table/ShootAI.h
 Ball.h
-C:/Users/Alex/Documents/Pool-Table/Ball.h
+C:/Users/samue/Documents/Pool-Table/Ball.h
 utility
 -
 
-C:/Users/Alex/Documents/Pool-Table/Wall.h
+C:/Users/samue/Documents/Pool-Table/Wall.h
 Color.h
-C:/Users/Alex/Documents/Pool-Table/Color.h
+C:/Users/samue/Documents/Pool-Table/Color.h
 Drawable.h
-C:/Users/Alex/Documents/Pool-Table/Drawable.h
+C:/Users/samue/Documents/Pool-Table/Drawable.h
 

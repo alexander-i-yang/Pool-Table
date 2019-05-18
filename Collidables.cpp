@@ -5,11 +5,12 @@
 #include "Collidables.h"
 #include "Drawables.h"
 #include "ShootAI.h"
-#include "Ball.h"
-#include <ctime>
+#include "Set.h"
 #include <cmath>
 #include <algorithm>
+#include <climits>
 
+#define INF INT_MAX
 
 Collidables::Collidables() {
 	objects = {};
@@ -100,26 +101,16 @@ void Collidables::updateAll(Drawables * drawables) {
 				i->setVelocity(newVelocity.first, newVelocity.second);
 			}
 		}
+//		std::pair<int, int> closestPoints = closestPair();
+//		std::cout << closestPoints.first << " " << closestPoints.second << std::endl;
 		i->updateFrame(friction);
 		double xv = i->getXVelocity();
 		double yv = i->getYVelocity();
 		i->setVelocity((xv)*friction, (yv)*friction);
 		for(auto j : pockets){
 			if(collision(i, j)){
-				if(i->getNumber()==0){
-					i->setPos(i->getWindowWidth()/2, i->getWindowHeight()/2);
-					i->setVelocity(0, 0);
-					std::cout<<"white ball fell in hole!"<<'\n';
-				}
-				else if(i->getNumber()==8){
-				    objects.clear();
-				    std::cout<<"8 Ball!"<<'\n';
-				}
-				else{
-                    objects.erase(std::remove(objects.begin(), objects.end(), i), objects.end());
-                    drawables->objects.erase(std::remove(drawables->objects.begin(), drawables->objects.end(), i), drawables->objects.end());
-				}
-
+				objects.erase(std::remove(objects.begin(), objects.end(), i), objects.end());
+				drawables->objects.erase(std::remove(drawables->objects.begin(), drawables->objects.end(), i), drawables->objects.end());
 			}
 		}
 		for (auto j : walls) {
@@ -128,6 +119,59 @@ void Collidables::updateAll(Drawables * drawables) {
 	}
 }
 
+std::pair<int, int> Collidables::closestPair() {
+	std::pair<int, int> ret;
+	double minDist = INF;
+	std::vector<Point*>* balls = new std::vector<Point*>;
+	Set<Point>* s = new Set<Point>;
+	for (int i = 0; i < objects.size(); ++i) {
+		Point* p = new Point(objects[i]->getX(), objects[i]->getY(), objects[i]->getNumber());
+		balls->push_back(p);
+	}
+	std::sort(balls->begin(), balls->end(), HorizontalCompare());
+//	for (Point i : *balls) {
+//		std::cout << i.x << " " << i.y << " " << i.tag << '\n';
+//	}
+	int leftMost = 0;
+	for (int ii = 0; ii < balls->size(); ++ii) {
+		Point* i = balls->at(ii);
+		while (i->x - balls->at((unsigned)leftMost)->x >= minDist) {
+			s->remove(balls->at((unsigned)leftMost));
+			++leftMost;
+		}
+		Point* head = new Point(i->x, i->y + minDist, -1);
+		Point* tail = new Point(i->x, i->y - minDist, -1);
+		auto subSet = s->subset(s->root, *tail, *head);
+		for (int jj = 0; jj < subSet->size(); ++jj) {
+			Point* j = subSet->at(jj);
+			double distance = i->distance(*j);
+			if (distance < minDist) {
+				minDist = distance;
+				ret.first = i->tag;
+				ret.second = j->tag;
+			}
+		}
+//		for (Point j : s->subset(s->root, *tail, *head)) {
+////            std::cout << j.tag << std::endl;
+////			std::cout << "(" << j.x << ", " << j.y << ", " << j.tag << ") ";
+//			double distance = i->distance(j);
+//			if (distance < minDist) {
+//				minDist = distance;
+//				ret.first = i->tag;
+//				ret.second = j.tag;
+//			}
+//		}
+		free(head);
+		free(tail);
+		free(i);
+//		std::cout << '\n';
+		s->insert(i);
+	}
+	free(balls);
+	free(s);
+//	std::cout << "(" << ret.first << ", " << ret.second << ")" << std::endl;
+	return ret;
+}
 
 void Collidables::setFriction(double friction) {
 	Collidables::friction = friction;
@@ -137,7 +181,7 @@ bool Collidables::checkNotMoving(double threshold) {
 	for (auto i : objects) {
 		double vx = fabs(i->getXVelocity());
 		double vy = fabs(i->getYVelocity());
-		if(vx > threshold || vy>threshold) return false;
+		if(sqrt(vx * vx + vy * vy) > threshold) return false;
 	}
 	return true;
 }
@@ -155,19 +199,29 @@ void Collidables::slowAll() {
 void Collidables::shootAI() {
 	if(objects.size() > 1) {
 		Ball *whiteBall = objects.at(0);
-		for(auto b = objects.begin()+1; b!=objects.end(); ++b) {
-			std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, *b, pockets.at(0)->getX(), pockets.at(0)->getY());
-			bool theOne = true;
-			for(Ball* extra: objects) {
-				if(extra != *b && ShootAI::predictCollide(whiteBall, extra, v.first, v.second, (*b)->getX())) {
-					theOne = false;
-					break;
-				}
-			}
-			if(theOne) {
-				whiteBall->setVelocity(v.first, v.second);
-				break;
-			}
+		for (auto b : objects) {
+            std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, b, pockets.at(0)->getX(), pockets.at(0)->getY());
+            for (auto extra : objects) {
+                if(extra->getNumber() != (b)->getNumber() && ShootAI::predictCollide(whiteBall, extra, v.first, v.second, (b)->getX())) {
+                    continue;
+                }
+                whiteBall->setVelocity(v.first, v.second);
+                break;
+            }
 		}
+//		for(auto b = objects.begin()+1; b!=objects.end(); ++b) {
+//			std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, *b, pockets.at(0)->getX(), pockets.at(0)->getY());
+//			bool theOne = true;
+//			for(Ball* extra: objects) {
+//				if(extra->getNumber() != (*b)->getNumber() && ShootAI::predictCollide(whiteBall, extra, v.first, v.second, (*b)->getX())) {
+//					theOne = false;
+//					break;
+//				}
+//			}
+//			if(theOne) {
+//				whiteBall->setVelocity(v.first, v.second);
+//				break;
+//			}
+//		}
 	}
 }

@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\samue\Documents\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\samue\Documents\Pool-Table\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,31 +58,31 @@ CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -93,7 +93,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -114,25 +114,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\CMakeFiles\progress.marks
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\samue\Documents\Pool-Table\cmake-build-debug\lib\external\CMakeFiles\progress.marks
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\samue\Documents\Pool-Table\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/clean
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/preinstall
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/preinstall
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/external/CMakeFiles/GLEW_1130.dir/rule:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/CMakeFiles/GLEW_1130.dir/rule
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/CMakeFiles/GLEW_1130.dir/rule
 .PHONY : lib/external/CMakeFiles/GLEW_1130.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ GLEW_1130: lib/external/CMakeFiles/GLEW_1130.dir/rule
 
 # fast build rule for target.
 GLEW_1130/fast:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/build
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/build
 .PHONY : GLEW_1130/fast
 
 # Convenience name for target.
 lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/rule:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/rule
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/rule
 .PHONY : lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ ANTTWEAKBAR_116_OGLCORE_GLFW: lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GL
 
 # fast build rule for target.
 ANTTWEAKBAR_116_OGLCORE_GLFW/fast:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/build
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/build
 .PHONY : ANTTWEAKBAR_116_OGLCORE_GLFW/fast
 
 AntTweakBar-1.16/src/LoadOGL.obj: AntTweakBar-1.16/src/LoadOGL.cpp.obj
@@ -191,7 +191,7 @@ AntTweakBar-1.16/src/LoadOGL.obj: AntTweakBar-1.16/src/LoadOGL.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/LoadOGL.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGL.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGL.cpp.obj
 .PHONY : AntTweakBar-1.16/src/LoadOGL.cpp.obj
 
 AntTweakBar-1.16/src/LoadOGL.i: AntTweakBar-1.16/src/LoadOGL.cpp.i
@@ -200,7 +200,7 @@ AntTweakBar-1.16/src/LoadOGL.i: AntTweakBar-1.16/src/LoadOGL.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/LoadOGL.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGL.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGL.cpp.i
 .PHONY : AntTweakBar-1.16/src/LoadOGL.cpp.i
 
 AntTweakBar-1.16/src/LoadOGL.s: AntTweakBar-1.16/src/LoadOGL.cpp.s
@@ -209,7 +209,7 @@ AntTweakBar-1.16/src/LoadOGL.s: AntTweakBar-1.16/src/LoadOGL.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/LoadOGL.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGL.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGL.cpp.s
 .PHONY : AntTweakBar-1.16/src/LoadOGL.cpp.s
 
 AntTweakBar-1.16/src/LoadOGLCore.obj: AntTweakBar-1.16/src/LoadOGLCore.cpp.obj
@@ -218,7 +218,7 @@ AntTweakBar-1.16/src/LoadOGLCore.obj: AntTweakBar-1.16/src/LoadOGLCore.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/LoadOGLCore.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGLCore.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGLCore.cpp.obj
 .PHONY : AntTweakBar-1.16/src/LoadOGLCore.cpp.obj
 
 AntTweakBar-1.16/src/LoadOGLCore.i: AntTweakBar-1.16/src/LoadOGLCore.cpp.i
@@ -227,7 +227,7 @@ AntTweakBar-1.16/src/LoadOGLCore.i: AntTweakBar-1.16/src/LoadOGLCore.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/LoadOGLCore.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGLCore.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGLCore.cpp.i
 .PHONY : AntTweakBar-1.16/src/LoadOGLCore.cpp.i
 
 AntTweakBar-1.16/src/LoadOGLCore.s: AntTweakBar-1.16/src/LoadOGLCore.cpp.s
@@ -236,7 +236,7 @@ AntTweakBar-1.16/src/LoadOGLCore.s: AntTweakBar-1.16/src/LoadOGLCore.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/LoadOGLCore.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGLCore.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/LoadOGLCore.cpp.s
 .PHONY : AntTweakBar-1.16/src/LoadOGLCore.cpp.s
 
 AntTweakBar-1.16/src/TwBar.obj: AntTweakBar-1.16/src/TwBar.cpp.obj
@@ -245,7 +245,7 @@ AntTweakBar-1.16/src/TwBar.obj: AntTweakBar-1.16/src/TwBar.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwBar.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwBar.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwBar.cpp.obj
 .PHONY : AntTweakBar-1.16/src/TwBar.cpp.obj
 
 AntTweakBar-1.16/src/TwBar.i: AntTweakBar-1.16/src/TwBar.cpp.i
@@ -254,7 +254,7 @@ AntTweakBar-1.16/src/TwBar.i: AntTweakBar-1.16/src/TwBar.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwBar.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwBar.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwBar.cpp.i
 .PHONY : AntTweakBar-1.16/src/TwBar.cpp.i
 
 AntTweakBar-1.16/src/TwBar.s: AntTweakBar-1.16/src/TwBar.cpp.s
@@ -263,7 +263,7 @@ AntTweakBar-1.16/src/TwBar.s: AntTweakBar-1.16/src/TwBar.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwBar.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwBar.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwBar.cpp.s
 .PHONY : AntTweakBar-1.16/src/TwBar.cpp.s
 
 AntTweakBar-1.16/src/TwColors.obj: AntTweakBar-1.16/src/TwColors.cpp.obj
@@ -272,7 +272,7 @@ AntTweakBar-1.16/src/TwColors.obj: AntTweakBar-1.16/src/TwColors.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwColors.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwColors.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwColors.cpp.obj
 .PHONY : AntTweakBar-1.16/src/TwColors.cpp.obj
 
 AntTweakBar-1.16/src/TwColors.i: AntTweakBar-1.16/src/TwColors.cpp.i
@@ -281,7 +281,7 @@ AntTweakBar-1.16/src/TwColors.i: AntTweakBar-1.16/src/TwColors.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwColors.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwColors.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwColors.cpp.i
 .PHONY : AntTweakBar-1.16/src/TwColors.cpp.i
 
 AntTweakBar-1.16/src/TwColors.s: AntTweakBar-1.16/src/TwColors.cpp.s
@@ -290,7 +290,7 @@ AntTweakBar-1.16/src/TwColors.s: AntTweakBar-1.16/src/TwColors.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwColors.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwColors.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwColors.cpp.s
 .PHONY : AntTweakBar-1.16/src/TwColors.cpp.s
 
 AntTweakBar-1.16/src/TwEventGLFW.obj: AntTweakBar-1.16/src/TwEventGLFW.c.obj
@@ -299,7 +299,7 @@ AntTweakBar-1.16/src/TwEventGLFW.obj: AntTweakBar-1.16/src/TwEventGLFW.c.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwEventGLFW.c.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwEventGLFW.c.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwEventGLFW.c.obj
 .PHONY : AntTweakBar-1.16/src/TwEventGLFW.c.obj
 
 AntTweakBar-1.16/src/TwEventGLFW.i: AntTweakBar-1.16/src/TwEventGLFW.c.i
@@ -308,7 +308,7 @@ AntTweakBar-1.16/src/TwEventGLFW.i: AntTweakBar-1.16/src/TwEventGLFW.c.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwEventGLFW.c.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwEventGLFW.c.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwEventGLFW.c.i
 .PHONY : AntTweakBar-1.16/src/TwEventGLFW.c.i
 
 AntTweakBar-1.16/src/TwEventGLFW.s: AntTweakBar-1.16/src/TwEventGLFW.c.s
@@ -317,7 +317,7 @@ AntTweakBar-1.16/src/TwEventGLFW.s: AntTweakBar-1.16/src/TwEventGLFW.c.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwEventGLFW.c.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwEventGLFW.c.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwEventGLFW.c.s
 .PHONY : AntTweakBar-1.16/src/TwEventGLFW.c.s
 
 AntTweakBar-1.16/src/TwFonts.obj: AntTweakBar-1.16/src/TwFonts.cpp.obj
@@ -326,7 +326,7 @@ AntTweakBar-1.16/src/TwFonts.obj: AntTweakBar-1.16/src/TwFonts.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwFonts.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwFonts.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwFonts.cpp.obj
 .PHONY : AntTweakBar-1.16/src/TwFonts.cpp.obj
 
 AntTweakBar-1.16/src/TwFonts.i: AntTweakBar-1.16/src/TwFonts.cpp.i
@@ -335,7 +335,7 @@ AntTweakBar-1.16/src/TwFonts.i: AntTweakBar-1.16/src/TwFonts.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwFonts.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwFonts.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwFonts.cpp.i
 .PHONY : AntTweakBar-1.16/src/TwFonts.cpp.i
 
 AntTweakBar-1.16/src/TwFonts.s: AntTweakBar-1.16/src/TwFonts.cpp.s
@@ -344,7 +344,7 @@ AntTweakBar-1.16/src/TwFonts.s: AntTweakBar-1.16/src/TwFonts.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwFonts.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwFonts.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwFonts.cpp.s
 .PHONY : AntTweakBar-1.16/src/TwFonts.cpp.s
 
 AntTweakBar-1.16/src/TwMgr.obj: AntTweakBar-1.16/src/TwMgr.cpp.obj
@@ -353,7 +353,7 @@ AntTweakBar-1.16/src/TwMgr.obj: AntTweakBar-1.16/src/TwMgr.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwMgr.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwMgr.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwMgr.cpp.obj
 .PHONY : AntTweakBar-1.16/src/TwMgr.cpp.obj
 
 AntTweakBar-1.16/src/TwMgr.i: AntTweakBar-1.16/src/TwMgr.cpp.i
@@ -362,7 +362,7 @@ AntTweakBar-1.16/src/TwMgr.i: AntTweakBar-1.16/src/TwMgr.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwMgr.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwMgr.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwMgr.cpp.i
 .PHONY : AntTweakBar-1.16/src/TwMgr.cpp.i
 
 AntTweakBar-1.16/src/TwMgr.s: AntTweakBar-1.16/src/TwMgr.cpp.s
@@ -371,7 +371,7 @@ AntTweakBar-1.16/src/TwMgr.s: AntTweakBar-1.16/src/TwMgr.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwMgr.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwMgr.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwMgr.cpp.s
 .PHONY : AntTweakBar-1.16/src/TwMgr.cpp.s
 
 AntTweakBar-1.16/src/TwOpenGL.obj: AntTweakBar-1.16/src/TwOpenGL.cpp.obj
@@ -380,7 +380,7 @@ AntTweakBar-1.16/src/TwOpenGL.obj: AntTweakBar-1.16/src/TwOpenGL.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwOpenGL.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGL.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGL.cpp.obj
 .PHONY : AntTweakBar-1.16/src/TwOpenGL.cpp.obj
 
 AntTweakBar-1.16/src/TwOpenGL.i: AntTweakBar-1.16/src/TwOpenGL.cpp.i
@@ -389,7 +389,7 @@ AntTweakBar-1.16/src/TwOpenGL.i: AntTweakBar-1.16/src/TwOpenGL.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwOpenGL.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGL.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGL.cpp.i
 .PHONY : AntTweakBar-1.16/src/TwOpenGL.cpp.i
 
 AntTweakBar-1.16/src/TwOpenGL.s: AntTweakBar-1.16/src/TwOpenGL.cpp.s
@@ -398,7 +398,7 @@ AntTweakBar-1.16/src/TwOpenGL.s: AntTweakBar-1.16/src/TwOpenGL.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwOpenGL.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGL.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGL.cpp.s
 .PHONY : AntTweakBar-1.16/src/TwOpenGL.cpp.s
 
 AntTweakBar-1.16/src/TwOpenGLCore.obj: AntTweakBar-1.16/src/TwOpenGLCore.cpp.obj
@@ -407,7 +407,7 @@ AntTweakBar-1.16/src/TwOpenGLCore.obj: AntTweakBar-1.16/src/TwOpenGLCore.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwOpenGLCore.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGLCore.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGLCore.cpp.obj
 .PHONY : AntTweakBar-1.16/src/TwOpenGLCore.cpp.obj
 
 AntTweakBar-1.16/src/TwOpenGLCore.i: AntTweakBar-1.16/src/TwOpenGLCore.cpp.i
@@ -416,7 +416,7 @@ AntTweakBar-1.16/src/TwOpenGLCore.i: AntTweakBar-1.16/src/TwOpenGLCore.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwOpenGLCore.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGLCore.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGLCore.cpp.i
 .PHONY : AntTweakBar-1.16/src/TwOpenGLCore.cpp.i
 
 AntTweakBar-1.16/src/TwOpenGLCore.s: AntTweakBar-1.16/src/TwOpenGLCore.cpp.s
@@ -425,7 +425,7 @@ AntTweakBar-1.16/src/TwOpenGLCore.s: AntTweakBar-1.16/src/TwOpenGLCore.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwOpenGLCore.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGLCore.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwOpenGLCore.cpp.s
 .PHONY : AntTweakBar-1.16/src/TwOpenGLCore.cpp.s
 
 AntTweakBar-1.16/src/TwPrecomp.obj: AntTweakBar-1.16/src/TwPrecomp.cpp.obj
@@ -434,7 +434,7 @@ AntTweakBar-1.16/src/TwPrecomp.obj: AntTweakBar-1.16/src/TwPrecomp.cpp.obj
 
 # target to build an object file
 AntTweakBar-1.16/src/TwPrecomp.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwPrecomp.cpp.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwPrecomp.cpp.obj
 .PHONY : AntTweakBar-1.16/src/TwPrecomp.cpp.obj
 
 AntTweakBar-1.16/src/TwPrecomp.i: AntTweakBar-1.16/src/TwPrecomp.cpp.i
@@ -443,7 +443,7 @@ AntTweakBar-1.16/src/TwPrecomp.i: AntTweakBar-1.16/src/TwPrecomp.cpp.i
 
 # target to preprocess a source file
 AntTweakBar-1.16/src/TwPrecomp.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwPrecomp.cpp.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwPrecomp.cpp.i
 .PHONY : AntTweakBar-1.16/src/TwPrecomp.cpp.i
 
 AntTweakBar-1.16/src/TwPrecomp.s: AntTweakBar-1.16/src/TwPrecomp.cpp.s
@@ -452,7 +452,7 @@ AntTweakBar-1.16/src/TwPrecomp.s: AntTweakBar-1.16/src/TwPrecomp.cpp.s
 
 # target to generate assembly for a file
 AntTweakBar-1.16/src/TwPrecomp.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwPrecomp.cpp.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\ANTTWEAKBAR_116_OGLCORE_GLFW.dir\build.make lib/external/CMakeFiles/ANTTWEAKBAR_116_OGLCORE_GLFW.dir/AntTweakBar-1.16/src/TwPrecomp.cpp.s
 .PHONY : AntTweakBar-1.16/src/TwPrecomp.cpp.s
 
 glew-1.13.0/src/glew.obj: glew-1.13.0/src/glew.c.obj
@@ -461,7 +461,7 @@ glew-1.13.0/src/glew.obj: glew-1.13.0/src/glew.c.obj
 
 # target to build an object file
 glew-1.13.0/src/glew.c.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.obj
 .PHONY : glew-1.13.0/src/glew.c.obj
 
 glew-1.13.0/src/glew.i: glew-1.13.0/src/glew.c.i
@@ -470,7 +470,7 @@ glew-1.13.0/src/glew.i: glew-1.13.0/src/glew.c.i
 
 # target to preprocess a source file
 glew-1.13.0/src/glew.c.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.i
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.i
 .PHONY : glew-1.13.0/src/glew.c.i
 
 glew-1.13.0/src/glew.s: glew-1.13.0/src/glew.c.s
@@ -479,7 +479,7 @@ glew-1.13.0/src/glew.s: glew-1.13.0/src/glew.c.s
 
 # target to generate assembly for a file
 glew-1.13.0/src/glew.c.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.s
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\CMakeFiles\GLEW_1130.dir\build.make lib/external/CMakeFiles/GLEW_1130.dir/glew-1.13.0/src/glew.c.s
 .PHONY : glew-1.13.0/src/glew.c.s
 
 # Help Target
@@ -540,6 +540,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\samue\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
