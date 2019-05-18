@@ -153,21 +153,54 @@ void Collidables::slowAll() {
 }
 
 void Collidables::shootAI() {
+//	if(objects.size() > 1) {
+//		Ball *whiteBall = objects.at(0);
+//		for(auto b = objects.begin()+1; b!=objects.end(); ++b) {
+//			std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, *b, pockets.at(0)->getX(), pockets.at(0)->getY());
+//			bool theOne = true;
+//			for(Ball* extra: objects) {
+//				if(extra != *b && ShootAI::predictCollide(whiteBall, extra, v.first, v.second, (*b)->getX())) {
+//					theOne = false;
+//					break;
+//				}
+//			}
+//			if(theOne) {
+//				whiteBall->setVelocity(v.first, v.second);
+//				break;
+//			}
+//		}
+//	}
 	if(objects.size() > 1) {
 		Ball *whiteBall = objects.at(0);
-		for(auto b = objects.begin()+1; b!=objects.end(); ++b) {
-			std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, *b, pockets.at(0)->getX(), pockets.at(0)->getY());
-			bool theOne = true;
-			for(Ball* extra: objects) {
-				if(extra != *b && ShootAI::predictCollide(whiteBall, extra, v.first, v.second, (*b)->getX())) {
-					theOne = false;
-					break;
+		for (int i = 0; i < objects.size(); ++i) {
+			auto b = objects.at(i);
+			if (b->getNumber() == whiteBall->getNumber()) continue;
+			for (int j = 0; j < pockets.size(); ++j) {
+				auto p = pockets.at(j);
+				auto v = ShootAI::computePath(whiteBall, b, p);
+				auto o = &objects;
+				if (ShootAI::validPath(v, whiteBall, b, p, o)) {
+					std::cout << "Target: " << (b)->getNumber() << " -> " << p->getNumber() << '\n';
+					whiteBall->setVelocity(v.first.first*3000, v.first.second*3000);
+					return;
 				}
 			}
-			if(theOne) {
-				whiteBall->setVelocity(v.first, v.second);
-				break;
-			}
 		}
+
+		/*
+		for(auto b = objects.begin()+1; b!=objects.end(); ++b) {
+			auto v = ShootAI::computePath(whiteBall, *b, pockets.at(0));
+			auto o = &objects;
+			if (ShootAI::validPath(v, whiteBall, *b, pockets.at(0), o)) {
+				std::cout << "Target: " << (*b)->getNumber() << '\n';
+				whiteBall->setVelocity(v.first.first*3000, v.first.second*3000);
+				return;
+			}
+//			whiteBall->setVelocity(v.first.first*3000, v.first.second*3000);
+		}
+		*/
+
+		whiteBall->setVelocity(3000*sqrt(3), 3000);
+		std::cout << "Target: none" << std::endl;
 	}
 }

@@ -1,19 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Alex\Documents\Pool-Table
--- The C compiler identification is GNU 8.1.0
--- The CXX compiler identification is GNU 8.1.0
--- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe
--- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe
--- Check for working CXX compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Found OpenGL: opengl32   
+"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
 CMake Deprecation Warning at lib/external/glfw-3.1.2/CMakeLists.txt:8 (cmake_policy):
   The OLD behavior for policy CMP0042 will be removed from a future version
   of CMake.
@@ -24,32 +9,9 @@ CMake Deprecation Warning at lib/external/glfw-3.1.2/CMakeLists.txt:8 (cmake_pol
   behavior and not rely on setting a policy to OLD.
 
 
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Looking for pthread_create
--- Looking for pthread_create - found
--- Found Threads: TRUE  
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
--- Performing Test _GLFW_HAS_DEP
--- Performing Test _GLFW_HAS_DEP - Success
--- Performing Test _GLFW_HAS_ASLR
--- Performing Test _GLFW_HAS_ASLR - Success
--- Performing Test _GLFW_HAS_64ASLR
--- Performing Test _GLFW_HAS_64ASLR - Failed
 -- Using Win32 for window creation
 -- Using WGL for context creation
--- Looking for sys/types.h
--- Looking for sys/types.h - found
--- Looking for stdint.h
--- Looking for stdint.h - found
--- Looking for stddef.h
--- Looking for stddef.h - found
--- Check size of off64_t
--- Check size of off64_t - done
--- Looking for fseeko
--- Looking for fseeko - found
--- Looking for unistd.h
--- Looking for unistd.h - found
 CMake Deprecation Warning at CMakeLists.txt:21 (cmake_policy):
   The OLD behavior for policy CMP0026 will be removed from a future version
   of CMake.
@@ -62,4 +24,4 @@ CMake Deprecation Warning at CMakeLists.txt:21 (cmake_policy):
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Alex/Documents/Pool-Table/cmake-build-debug
+-- Build files have been written to: C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug

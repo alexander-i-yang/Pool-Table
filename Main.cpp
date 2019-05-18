@@ -90,12 +90,12 @@ int main()
 	double pocketHeight = radius*2.25/1.5;  //In modern pool tables pockets are 1.75-2.25 x larger than the diameter of the balls
 	Color pocketColor;
 	pocketColor.setColor(40, 45, 45);
-	Pocket * topRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
-	Pocket * middleTop = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (windowHeight-pocketHeight*1.9)*(10/10), 0);
-	Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
-	Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, 0+pocketHeight*2, 0);
-	Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (0+pocketHeight*1.9)*(10/10), 0);
-	Pocket * bottomRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, 0+pocketHeight*1.9, 0);
+	Pocket * topRight = new Pocket(pocketColor, pocketHeight, 0, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+	Pocket * middleTop = new Pocket(pocketColor, pocketHeight, 4, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (windowHeight-pocketHeight*1.9)*(10/10), 0);
+	Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 1, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+	Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 2, 0+pocketHeight*1.9, 0+pocketHeight*2, 0);
+	Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, 5, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (0+pocketHeight*1.9)*(10/10), 0);
+	Pocket * bottomRight = new Pocket(pocketColor, pocketHeight, 3, windowWidth-pocketHeight*1.9, 0+pocketHeight*1.9, 0);
 	drawables->add(topRight);
 	drawables->add(middleTop);
 	drawables->add(topLeft);

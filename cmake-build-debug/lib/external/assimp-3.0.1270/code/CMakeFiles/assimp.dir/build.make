@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/depend.make
@@ -59,1808 +59,1808 @@ include lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Assimp.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Assimp.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Assimp.cpp.obj: ../lib/external/assimp-3.0.1270/code/Assimp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Assimp.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Assimp.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Assimp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Assimp.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Assimp.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Assimp.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Assimp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Assimp.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Assimp.cpp > CMakeFiles\assimp.dir\Assimp.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Assimp.cpp > CMakeFiles\assimp.dir\Assimp.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Assimp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Assimp.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Assimp.cpp -o CMakeFiles\assimp.dir\Assimp.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Assimp.cpp -o CMakeFiles\assimp.dir\Assimp.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj: ../lib/external/assimp-3.0.1270/code/AssimpPCH.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpPCH.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpPCH.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpPCH.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpPCH.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/AssimpPCH.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpPCH.cpp > CMakeFiles\assimp.dir\AssimpPCH.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpPCH.cpp > CMakeFiles\assimp.dir\AssimpPCH.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpPCH.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/AssimpPCH.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpPCH.cpp -o CMakeFiles\assimp.dir\AssimpPCH.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpPCH.cpp -o CMakeFiles\assimp.dir\AssimpPCH.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/BaseImporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseImporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BaseImporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseImporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseImporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BaseImporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BaseImporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BaseImporter.cpp > CMakeFiles\assimp.dir\BaseImporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BaseImporter.cpp > CMakeFiles\assimp.dir\BaseImporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BaseImporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BaseImporter.cpp -o CMakeFiles\assimp.dir\BaseImporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BaseImporter.cpp -o CMakeFiles\assimp.dir\BaseImporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/BaseProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BaseProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BaseProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BaseProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BaseProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BaseProcess.cpp > CMakeFiles\assimp.dir\BaseProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BaseProcess.cpp > CMakeFiles\assimp.dir\BaseProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BaseProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BaseProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BaseProcess.cpp -o CMakeFiles\assimp.dir\BaseProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BaseProcess.cpp -o CMakeFiles\assimp.dir\BaseProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj: ../lib/external/assimp-3.0.1270/code/PostStepRegistry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PostStepRegistry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PostStepRegistry.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PostStepRegistry.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PostStepRegistry.cpp > CMakeFiles\assimp.dir\PostStepRegistry.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PostStepRegistry.cpp > CMakeFiles\assimp.dir\PostStepRegistry.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PostStepRegistry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PostStepRegistry.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PostStepRegistry.cpp -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PostStepRegistry.cpp -o CMakeFiles\assimp.dir\PostStepRegistry.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj: ../lib/external/assimp-3.0.1270/code/ImporterRegistry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ImporterRegistry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ImporterRegistry.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ImporterRegistry.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ImporterRegistry.cpp > CMakeFiles\assimp.dir\ImporterRegistry.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ImporterRegistry.cpp > CMakeFiles\assimp.dir\ImporterRegistry.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImporterRegistry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ImporterRegistry.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ImporterRegistry.cpp -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ImporterRegistry.cpp -o CMakeFiles\assimp.dir\ImporterRegistry.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj: ../lib/external/assimp-3.0.1270/code/DefaultIOStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOStream.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DefaultIOStream.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOStream.cpp > CMakeFiles\assimp.dir\DefaultIOStream.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOStream.cpp > CMakeFiles\assimp.dir\DefaultIOStream.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DefaultIOStream.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOStream.cpp -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOStream.cpp -o CMakeFiles\assimp.dir\DefaultIOStream.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj: ../lib/external/assimp-3.0.1270/code/DefaultIOSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOSystem.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DefaultIOSystem.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOSystem.cpp > CMakeFiles\assimp.dir\DefaultIOSystem.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOSystem.cpp > CMakeFiles\assimp.dir\DefaultIOSystem.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultIOSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DefaultIOSystem.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOSystem.cpp -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultIOSystem.cpp -o CMakeFiles\assimp.dir\DefaultIOSystem.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Importer.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Importer.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Importer.cpp.obj: ../lib/external/assimp-3.0.1270/code/Importer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Importer.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Importer.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Importer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Importer.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Importer.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Importer.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Importer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Importer.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Importer.cpp > CMakeFiles\assimp.dir\Importer.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Importer.cpp > CMakeFiles\assimp.dir\Importer.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Importer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Importer.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Importer.cpp -o CMakeFiles\assimp.dir\Importer.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Importer.cpp -o CMakeFiles\assimp.dir\Importer.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj: ../lib/external/assimp-3.0.1270/code/SGSpatialSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SGSpatialSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SGSpatialSort.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SGSpatialSort.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SGSpatialSort.cpp > CMakeFiles\assimp.dir\SGSpatialSort.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SGSpatialSort.cpp > CMakeFiles\assimp.dir\SGSpatialSort.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SGSpatialSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SGSpatialSort.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SGSpatialSort.cpp -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SGSpatialSort.cpp -o CMakeFiles\assimp.dir\SGSpatialSort.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj: ../lib/external/assimp-3.0.1270/code/VertexTriangleAdjacency.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp > CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp > CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/VertexTriangleAdjacency.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp -o CMakeFiles\assimp.dir\VertexTriangleAdjacency.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj: ../lib/external/assimp-3.0.1270/code/SpatialSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SpatialSort.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SpatialSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SpatialSort.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SpatialSort.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SpatialSort.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SpatialSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SpatialSort.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SpatialSort.cpp > CMakeFiles\assimp.dir\SpatialSort.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SpatialSort.cpp > CMakeFiles\assimp.dir\SpatialSort.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SpatialSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SpatialSort.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SpatialSort.cpp -o CMakeFiles\assimp.dir\SpatialSort.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SpatialSort.cpp -o CMakeFiles\assimp.dir\SpatialSort.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj: ../lib/external/assimp-3.0.1270/code/SceneCombiner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SceneCombiner.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SceneCombiner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SceneCombiner.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SceneCombiner.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SceneCombiner.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SceneCombiner.cpp > CMakeFiles\assimp.dir\SceneCombiner.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SceneCombiner.cpp > CMakeFiles\assimp.dir\SceneCombiner.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SceneCombiner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SceneCombiner.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SceneCombiner.cpp -o CMakeFiles\assimp.dir\SceneCombiner.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SceneCombiner.cpp -o CMakeFiles\assimp.dir\SceneCombiner.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj: ../lib/external/assimp-3.0.1270/code/ScenePreprocessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ScenePreprocessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ScenePreprocessor.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ScenePreprocessor.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ScenePreprocessor.cpp > CMakeFiles\assimp.dir\ScenePreprocessor.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ScenePreprocessor.cpp > CMakeFiles\assimp.dir\ScenePreprocessor.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ScenePreprocessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ScenePreprocessor.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ScenePreprocessor.cpp -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ScenePreprocessor.cpp -o CMakeFiles\assimp.dir\ScenePreprocessor.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj: ../lib/external/assimp-3.0.1270/code/SkeletonMeshBuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp > CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp > CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SkeletonMeshBuilder.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp -o CMakeFiles\assimp.dir\SkeletonMeshBuilder.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/SplitByBoneCountProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp > CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp > CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SplitByBoneCountProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp -o CMakeFiles\assimp.dir\SplitByBoneCountProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj: ../lib/external/assimp-3.0.1270/code/StandardShapes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\StandardShapes.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\StandardShapes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/StandardShapes.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\StandardShapes.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\StandardShapes.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/StandardShapes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/StandardShapes.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\StandardShapes.cpp > CMakeFiles\assimp.dir\StandardShapes.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\StandardShapes.cpp > CMakeFiles\assimp.dir\StandardShapes.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/StandardShapes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/StandardShapes.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\StandardShapes.cpp -o CMakeFiles\assimp.dir\StandardShapes.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\StandardShapes.cpp -o CMakeFiles\assimp.dir\StandardShapes.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj: ../lib/external/assimp-3.0.1270/code/TargetAnimation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TargetAnimation.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TargetAnimation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TargetAnimation.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TargetAnimation.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TargetAnimation.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TargetAnimation.cpp > CMakeFiles\assimp.dir\TargetAnimation.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TargetAnimation.cpp > CMakeFiles\assimp.dir\TargetAnimation.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TargetAnimation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TargetAnimation.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TargetAnimation.cpp -o CMakeFiles\assimp.dir\TargetAnimation.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TargetAnimation.cpp -o CMakeFiles\assimp.dir\TargetAnimation.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj: ../lib/external/assimp-3.0.1270/code/RemoveComments.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveComments.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveComments.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveComments.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveComments.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveComments.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveComments.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RemoveComments.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveComments.cpp > CMakeFiles\assimp.dir\RemoveComments.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveComments.cpp > CMakeFiles\assimp.dir\RemoveComments.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveComments.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RemoveComments.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveComments.cpp -o CMakeFiles\assimp.dir\RemoveComments.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveComments.cpp -o CMakeFiles\assimp.dir\RemoveComments.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj: ../lib/external/assimp-3.0.1270/code/Subdivision.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Subdivision.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Subdivision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Subdivision.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Subdivision.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Subdivision.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Subdivision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Subdivision.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Subdivision.cpp > CMakeFiles\assimp.dir\Subdivision.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Subdivision.cpp > CMakeFiles\assimp.dir\Subdivision.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Subdivision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Subdivision.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Subdivision.cpp -o CMakeFiles\assimp.dir\Subdivision.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Subdivision.cpp -o CMakeFiles\assimp.dir\Subdivision.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj: ../lib/external/assimp-3.0.1270/code/DefaultLogger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultLogger.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultLogger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DefaultLogger.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultLogger.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DefaultLogger.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultLogger.cpp > CMakeFiles\assimp.dir\DefaultLogger.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultLogger.cpp > CMakeFiles\assimp.dir\DefaultLogger.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DefaultLogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DefaultLogger.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultLogger.cpp -o CMakeFiles\assimp.dir\DefaultLogger.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DefaultLogger.cpp -o CMakeFiles\assimp.dir\DefaultLogger.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Exporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Exporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Exporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/Exporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Exporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Exporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Exporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Exporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Exporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Exporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Exporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Exporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Exporter.cpp > CMakeFiles\assimp.dir\Exporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Exporter.cpp > CMakeFiles\assimp.dir\Exporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Exporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Exporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Exporter.cpp -o CMakeFiles\assimp.dir\Exporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Exporter.cpp -o CMakeFiles\assimp.dir\Exporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj: ../lib/external/assimp-3.0.1270/code/AssimpCExport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpCExport.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpCExport.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\AssimpCExport.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpCExport.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/AssimpCExport.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpCExport.cpp > CMakeFiles\assimp.dir\AssimpCExport.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpCExport.cpp > CMakeFiles\assimp.dir\AssimpCExport.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/AssimpCExport.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/AssimpCExport.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpCExport.cpp -o CMakeFiles\assimp.dir\AssimpCExport.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\AssimpCExport.cpp -o CMakeFiles\assimp.dir\AssimpCExport.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/CalcTangentsProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp > CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp > CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/CalcTangentsProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp -o CMakeFiles\assimp.dir\CalcTangentsProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/ComputeUVMappingProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp > CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp > CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ComputeUVMappingProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp -o CMakeFiles\assimp.dir\ComputeUVMappingProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/ConvertToLHProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp > CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp > CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ConvertToLHProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp -o CMakeFiles\assimp.dir\ConvertToLHProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj: ../lib/external/assimp-3.0.1270/code/FindDegenerates.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindDegenerates.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindDegenerates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindDegenerates.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindDegenerates.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FindDegenerates.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindDegenerates.cpp > CMakeFiles\assimp.dir\FindDegenerates.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindDegenerates.cpp > CMakeFiles\assimp.dir\FindDegenerates.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindDegenerates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FindDegenerates.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindDegenerates.cpp -o CMakeFiles\assimp.dir\FindDegenerates.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindDegenerates.cpp -o CMakeFiles\assimp.dir\FindDegenerates.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/FindInstancesProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindInstancesProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindInstancesProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FindInstancesProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindInstancesProcess.cpp > CMakeFiles\assimp.dir\FindInstancesProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindInstancesProcess.cpp > CMakeFiles\assimp.dir\FindInstancesProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInstancesProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FindInstancesProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindInstancesProcess.cpp -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindInstancesProcess.cpp -o CMakeFiles\assimp.dir\FindInstancesProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/FindInvalidDataProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp > CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp > CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FindInvalidDataProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp -o CMakeFiles\assimp.dir\FindInvalidDataProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj: ../lib/external/assimp-3.0.1270/code/FixNormalsStep.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FixNormalsStep.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FixNormalsStep.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/FixNormalsStep.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FixNormalsStep.cpp > CMakeFiles\assimp.dir\FixNormalsStep.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FixNormalsStep.cpp > CMakeFiles\assimp.dir\FixNormalsStep.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/FixNormalsStep.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/FixNormalsStep.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\FixNormalsStep.cpp -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\FixNormalsStep.cpp -o CMakeFiles\assimp.dir\FixNormalsStep.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/GenFaceNormalsProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp > CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp > CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/GenFaceNormalsProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenFaceNormalsProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/GenVertexNormalsProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp > CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp > CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/GenVertexNormalsProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp -o CMakeFiles\assimp.dir\GenVertexNormalsProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj: ../lib/external/assimp-3.0.1270/code/PretransformVertices.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PretransformVertices.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PretransformVertices.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PretransformVertices.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PretransformVertices.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PretransformVertices.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PretransformVertices.cpp > CMakeFiles\assimp.dir\PretransformVertices.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PretransformVertices.cpp > CMakeFiles\assimp.dir\PretransformVertices.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PretransformVertices.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PretransformVertices.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PretransformVertices.cpp -o CMakeFiles\assimp.dir\PretransformVertices.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PretransformVertices.cpp -o CMakeFiles\assimp.dir\PretransformVertices.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj: ../lib/external/assimp-3.0.1270/code/ImproveCacheLocality.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp > CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp > CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ImproveCacheLocality.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp -o CMakeFiles\assimp.dir\ImproveCacheLocality.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/JoinVerticesProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp > CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp > CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/JoinVerticesProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp -o CMakeFiles\assimp.dir\JoinVerticesProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/LimitBoneWeightsProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp > CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp > CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LimitBoneWeightsProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp -o CMakeFiles\assimp.dir\LimitBoneWeightsProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj: ../lib/external/assimp-3.0.1270/code/RemoveRedundantMaterials.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp > CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp > CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RemoveRedundantMaterials.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp -o CMakeFiles\assimp.dir\RemoveRedundantMaterials.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/RemoveVCProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveVCProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveVCProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RemoveVCProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveVCProcess.cpp > CMakeFiles\assimp.dir\RemoveVCProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveVCProcess.cpp > CMakeFiles\assimp.dir\RemoveVCProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RemoveVCProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RemoveVCProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveVCProcess.cpp -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RemoveVCProcess.cpp -o CMakeFiles\assimp.dir\RemoveVCProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/SortByPTypeProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp > CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp > CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SortByPTypeProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp -o CMakeFiles\assimp.dir\SortByPTypeProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj: ../lib/external/assimp-3.0.1270/code/SplitLargeMeshes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp > CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp > CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SplitLargeMeshes.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp -o CMakeFiles\assimp.dir\SplitLargeMeshes.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/TerragenLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TerragenLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TerragenLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TerragenLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TerragenLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TerragenLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TerragenLoader.cpp > CMakeFiles\assimp.dir\TerragenLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TerragenLoader.cpp > CMakeFiles\assimp.dir\TerragenLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TerragenLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TerragenLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TerragenLoader.cpp -o CMakeFiles\assimp.dir\TerragenLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TerragenLoader.cpp -o CMakeFiles\assimp.dir\TerragenLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj: ../lib/external/assimp-3.0.1270/code/TextureTransform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TextureTransform.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TextureTransform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TextureTransform.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TextureTransform.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TextureTransform.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TextureTransform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TextureTransform.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TextureTransform.cpp > CMakeFiles\assimp.dir\TextureTransform.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TextureTransform.cpp > CMakeFiles\assimp.dir\TextureTransform.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TextureTransform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TextureTransform.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TextureTransform.cpp -o CMakeFiles\assimp.dir\TextureTransform.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TextureTransform.cpp -o CMakeFiles\assimp.dir\TextureTransform.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/TriangulateProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TriangulateProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TriangulateProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/TriangulateProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TriangulateProcess.cpp > CMakeFiles\assimp.dir\TriangulateProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TriangulateProcess.cpp > CMakeFiles\assimp.dir\TriangulateProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/TriangulateProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/TriangulateProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\TriangulateProcess.cpp -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\TriangulateProcess.cpp -o CMakeFiles\assimp.dir\TriangulateProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj: ../lib/external/assimp-3.0.1270/code/ValidateDataStructure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ValidateDataStructure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ValidateDataStructure.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ValidateDataStructure.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ValidateDataStructure.cpp > CMakeFiles\assimp.dir\ValidateDataStructure.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ValidateDataStructure.cpp > CMakeFiles\assimp.dir\ValidateDataStructure.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ValidateDataStructure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ValidateDataStructure.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ValidateDataStructure.cpp -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ValidateDataStructure.cpp -o CMakeFiles\assimp.dir\ValidateDataStructure.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj: ../lib/external/assimp-3.0.1270/code/OptimizeGraph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeGraph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeGraph.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OptimizeGraph.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeGraph.cpp > CMakeFiles\assimp.dir\OptimizeGraph.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeGraph.cpp > CMakeFiles\assimp.dir\OptimizeGraph.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeGraph.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OptimizeGraph.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeGraph.cpp -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeGraph.cpp -o CMakeFiles\assimp.dir\OptimizeGraph.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj: ../lib/external/assimp-3.0.1270/code/OptimizeMeshes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeMeshes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeMeshes.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OptimizeMeshes.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeMeshes.cpp > CMakeFiles\assimp.dir\OptimizeMeshes.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeMeshes.cpp > CMakeFiles\assimp.dir\OptimizeMeshes.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OptimizeMeshes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OptimizeMeshes.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeMeshes.cpp -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OptimizeMeshes.cpp -o CMakeFiles\assimp.dir\OptimizeMeshes.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj: ../lib/external/assimp-3.0.1270/code/DeboneProcess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DeboneProcess.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DeboneProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DeboneProcess.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DeboneProcess.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DeboneProcess.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DeboneProcess.cpp > CMakeFiles\assimp.dir\DeboneProcess.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DeboneProcess.cpp > CMakeFiles\assimp.dir\DeboneProcess.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DeboneProcess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DeboneProcess.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DeboneProcess.cpp -o CMakeFiles\assimp.dir\DeboneProcess.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DeboneProcess.cpp -o CMakeFiles\assimp.dir\DeboneProcess.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj: ../lib/external/assimp-3.0.1270/code/ProcessHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ProcessHelper.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ProcessHelper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ProcessHelper.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ProcessHelper.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ProcessHelper.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ProcessHelper.cpp > CMakeFiles\assimp.dir\ProcessHelper.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ProcessHelper.cpp > CMakeFiles\assimp.dir\ProcessHelper.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ProcessHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ProcessHelper.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ProcessHelper.cpp -o CMakeFiles\assimp.dir\ProcessHelper.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ProcessHelper.cpp -o CMakeFiles\assimp.dir\ProcessHelper.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj: ../lib/external/assimp-3.0.1270/code/MakeVerboseFormat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp > CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp > CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MakeVerboseFormat.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp -o CMakeFiles\assimp.dir\MakeVerboseFormat.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj: ../lib/external/assimp-3.0.1270/code/3DSConverter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSConverter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\3DSConverter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSConverter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSConverter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\3DSConverter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSConverter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/3DSConverter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\3DSConverter.cpp > CMakeFiles\assimp.dir\3DSConverter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\3DSConverter.cpp > CMakeFiles\assimp.dir\3DSConverter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSConverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/3DSConverter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\3DSConverter.cpp -o CMakeFiles\assimp.dir\3DSConverter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\3DSConverter.cpp -o CMakeFiles\assimp.dir\3DSConverter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/3DSLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\3DSLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\3DSLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\3DSLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/3DSLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\3DSLoader.cpp > CMakeFiles\assimp.dir\3DSLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\3DSLoader.cpp > CMakeFiles\assimp.dir\3DSLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/3DSLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/3DSLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\3DSLoader.cpp -o CMakeFiles\assimp.dir\3DSLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\3DSLoader.cpp -o CMakeFiles\assimp.dir\3DSLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/ACLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ACLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ACLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ACLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ACLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ACLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ACLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ACLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ACLoader.cpp > CMakeFiles\assimp.dir\ACLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ACLoader.cpp > CMakeFiles\assimp.dir\ACLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ACLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ACLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ACLoader.cpp -o CMakeFiles\assimp.dir\ACLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ACLoader.cpp -o CMakeFiles\assimp.dir\ACLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/ASELoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASELoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ASELoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASELoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASELoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ASELoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASELoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ASELoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ASELoader.cpp > CMakeFiles\assimp.dir\ASELoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ASELoader.cpp > CMakeFiles\assimp.dir\ASELoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASELoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ASELoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ASELoader.cpp -o CMakeFiles\assimp.dir\ASELoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ASELoader.cpp -o CMakeFiles\assimp.dir\ASELoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj: ../lib/external/assimp-3.0.1270/code/ASEParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASEParser.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ASEParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASEParser.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ASEParser.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ASEParser.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASEParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ASEParser.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ASEParser.cpp > CMakeFiles\assimp.dir\ASEParser.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ASEParser.cpp > CMakeFiles\assimp.dir\ASEParser.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ASEParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ASEParser.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ASEParser.cpp -o CMakeFiles\assimp.dir\ASEParser.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ASEParser.cpp -o CMakeFiles\assimp.dir\ASEParser.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/B3DImporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\B3DImporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\B3DImporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/B3DImporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\B3DImporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\B3DImporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/B3DImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/B3DImporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\B3DImporter.cpp > CMakeFiles\assimp.dir\B3DImporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\B3DImporter.cpp > CMakeFiles\assimp.dir\B3DImporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/B3DImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/B3DImporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\B3DImporter.cpp -o CMakeFiles\assimp.dir\B3DImporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\B3DImporter.cpp -o CMakeFiles\assimp.dir\B3DImporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/BVHLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BVHLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BVHLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BVHLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BVHLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BVHLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BVHLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BVHLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BVHLoader.cpp > CMakeFiles\assimp.dir\BVHLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BVHLoader.cpp > CMakeFiles\assimp.dir\BVHLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BVHLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BVHLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BVHLoader.cpp -o CMakeFiles\assimp.dir\BVHLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BVHLoader.cpp -o CMakeFiles\assimp.dir\BVHLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/ColladaLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ColladaLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaLoader.cpp > CMakeFiles\assimp.dir\ColladaLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaLoader.cpp > CMakeFiles\assimp.dir\ColladaLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ColladaLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaLoader.cpp -o CMakeFiles\assimp.dir\ColladaLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaLoader.cpp -o CMakeFiles\assimp.dir\ColladaLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj: ../lib/external/assimp-3.0.1270/code/ColladaParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaParser.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaParser.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaParser.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaParser.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ColladaParser.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaParser.cpp > CMakeFiles\assimp.dir\ColladaParser.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaParser.cpp > CMakeFiles\assimp.dir\ColladaParser.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ColladaParser.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaParser.cpp -o CMakeFiles\assimp.dir\ColladaParser.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaParser.cpp -o CMakeFiles\assimp.dir\ColladaParser.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/ColladaExporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaExporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaExporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ColladaExporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaExporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ColladaExporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaExporter.cpp > CMakeFiles\assimp.dir\ColladaExporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaExporter.cpp > CMakeFiles\assimp.dir\ColladaExporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ColladaExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ColladaExporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaExporter.cpp -o CMakeFiles\assimp.dir\ColladaExporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ColladaExporter.cpp -o CMakeFiles\assimp.dir\ColladaExporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/DXFLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DXFLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DXFLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DXFLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\DXFLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DXFLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DXFLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/DXFLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DXFLoader.cpp > CMakeFiles\assimp.dir\DXFLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DXFLoader.cpp > CMakeFiles\assimp.dir\DXFLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/DXFLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/DXFLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\DXFLoader.cpp -o CMakeFiles\assimp.dir\DXFLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\DXFLoader.cpp -o CMakeFiles\assimp.dir\DXFLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/CSMLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CSMLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\CSMLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CSMLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\CSMLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\CSMLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CSMLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/CSMLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\CSMLoader.cpp > CMakeFiles\assimp.dir\CSMLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\CSMLoader.cpp > CMakeFiles\assimp.dir\CSMLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/CSMLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/CSMLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\CSMLoader.cpp -o CMakeFiles\assimp.dir\CSMLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\CSMLoader.cpp -o CMakeFiles\assimp.dir\CSMLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/HMPLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\HMPLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\HMPLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/HMPLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\HMPLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\HMPLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/HMPLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/HMPLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\HMPLoader.cpp > CMakeFiles\assimp.dir\HMPLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\HMPLoader.cpp > CMakeFiles\assimp.dir\HMPLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/HMPLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/HMPLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\HMPLoader.cpp -o CMakeFiles\assimp.dir\HMPLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\HMPLoader.cpp -o CMakeFiles\assimp.dir\HMPLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/IRRLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IRRLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRLoader.cpp > CMakeFiles\assimp.dir\IRRLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRLoader.cpp > CMakeFiles\assimp.dir\IRRLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IRRLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRLoader.cpp -o CMakeFiles\assimp.dir\IRRLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRLoader.cpp -o CMakeFiles\assimp.dir\IRRLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/IRRMeshLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRMeshLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRMeshLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IRRMeshLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRMeshLoader.cpp > CMakeFiles\assimp.dir\IRRMeshLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRMeshLoader.cpp > CMakeFiles\assimp.dir\IRRMeshLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRMeshLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IRRMeshLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRMeshLoader.cpp -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRMeshLoader.cpp -o CMakeFiles\assimp.dir\IRRMeshLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj: ../lib/external/assimp-3.0.1270/code/IRRShared.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRShared.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRShared.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRShared.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IRRShared.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRShared.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRShared.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IRRShared.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRShared.cpp > CMakeFiles\assimp.dir\IRRShared.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRShared.cpp > CMakeFiles\assimp.dir\IRRShared.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IRRShared.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IRRShared.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IRRShared.cpp -o CMakeFiles\assimp.dir\IRRShared.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IRRShared.cpp -o CMakeFiles\assimp.dir\IRRShared.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj: ../lib/external/assimp-3.0.1270/code/LWOAnimation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOAnimation.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOAnimation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOAnimation.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOAnimation.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOAnimation.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOAnimation.cpp > CMakeFiles\assimp.dir\LWOAnimation.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOAnimation.cpp > CMakeFiles\assimp.dir\LWOAnimation.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOAnimation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOAnimation.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOAnimation.cpp -o CMakeFiles\assimp.dir\LWOAnimation.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOAnimation.cpp -o CMakeFiles\assimp.dir\LWOAnimation.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/LWOBLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOBLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOBLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOBLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOBLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOBLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOBLoader.cpp > CMakeFiles\assimp.dir\LWOBLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOBLoader.cpp > CMakeFiles\assimp.dir\LWOBLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOBLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOBLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOBLoader.cpp -o CMakeFiles\assimp.dir\LWOBLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOBLoader.cpp -o CMakeFiles\assimp.dir\LWOBLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/LWOLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOLoader.cpp > CMakeFiles\assimp.dir\LWOLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOLoader.cpp > CMakeFiles\assimp.dir\LWOLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOLoader.cpp -o CMakeFiles\assimp.dir\LWOLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOLoader.cpp -o CMakeFiles\assimp.dir\LWOLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj: ../lib/external/assimp-3.0.1270/code/LWOMaterial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOMaterial.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOMaterial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWOMaterial.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOMaterial.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWOMaterial.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOMaterial.cpp > CMakeFiles\assimp.dir\LWOMaterial.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOMaterial.cpp > CMakeFiles\assimp.dir\LWOMaterial.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWOMaterial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWOMaterial.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWOMaterial.cpp -o CMakeFiles\assimp.dir\LWOMaterial.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWOMaterial.cpp -o CMakeFiles\assimp.dir\LWOMaterial.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/LWSLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWSLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWSLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWSLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\LWSLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWSLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWSLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/LWSLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWSLoader.cpp > CMakeFiles\assimp.dir\LWSLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWSLoader.cpp > CMakeFiles\assimp.dir\LWSLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/LWSLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/LWSLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\LWSLoader.cpp -o CMakeFiles\assimp.dir\LWSLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\LWSLoader.cpp -o CMakeFiles\assimp.dir\LWSLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj: ../lib/external/assimp-3.0.1270/code/M3Importer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\M3Importer.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\M3Importer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/M3Importer.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\M3Importer.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\M3Importer.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/M3Importer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/M3Importer.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\M3Importer.cpp > CMakeFiles\assimp.dir\M3Importer.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\M3Importer.cpp > CMakeFiles\assimp.dir\M3Importer.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/M3Importer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/M3Importer.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\M3Importer.cpp -o CMakeFiles\assimp.dir\M3Importer.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\M3Importer.cpp -o CMakeFiles\assimp.dir\M3Importer.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj: ../lib/external/assimp-3.0.1270/code/MD2Loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD2Loader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD2Loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD2Loader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD2Loader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD2Loader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD2Loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD2Loader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD2Loader.cpp > CMakeFiles\assimp.dir\MD2Loader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD2Loader.cpp > CMakeFiles\assimp.dir\MD2Loader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD2Loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD2Loader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD2Loader.cpp -o CMakeFiles\assimp.dir\MD2Loader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD2Loader.cpp -o CMakeFiles\assimp.dir\MD2Loader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj: ../lib/external/assimp-3.0.1270/code/MD3Loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD3Loader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD3Loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD3Loader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD3Loader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD3Loader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD3Loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD3Loader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD3Loader.cpp > CMakeFiles\assimp.dir\MD3Loader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD3Loader.cpp > CMakeFiles\assimp.dir\MD3Loader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD3Loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD3Loader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD3Loader.cpp -o CMakeFiles\assimp.dir\MD3Loader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD3Loader.cpp -o CMakeFiles\assimp.dir\MD3Loader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj: ../lib/external/assimp-3.0.1270/code/MD5Loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Loader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Loader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Loader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Loader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Loader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Loader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD5Loader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Loader.cpp > CMakeFiles\assimp.dir\MD5Loader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Loader.cpp > CMakeFiles\assimp.dir\MD5Loader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Loader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD5Loader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Loader.cpp -o CMakeFiles\assimp.dir\MD5Loader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Loader.cpp -o CMakeFiles\assimp.dir\MD5Loader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj: ../lib/external/assimp-3.0.1270/code/MD5Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Parser.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Parser.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MD5Parser.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Parser.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MD5Parser.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Parser.cpp > CMakeFiles\assimp.dir\MD5Parser.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Parser.cpp > CMakeFiles\assimp.dir\MD5Parser.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MD5Parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MD5Parser.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Parser.cpp -o CMakeFiles\assimp.dir\MD5Parser.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MD5Parser.cpp -o CMakeFiles\assimp.dir\MD5Parser.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/MDCLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDCLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDCLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDCLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDCLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDCLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDCLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MDCLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDCLoader.cpp > CMakeFiles\assimp.dir\MDCLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDCLoader.cpp > CMakeFiles\assimp.dir\MDCLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDCLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MDCLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDCLoader.cpp -o CMakeFiles\assimp.dir\MDCLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDCLoader.cpp -o CMakeFiles\assimp.dir\MDCLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/MDLLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDLLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDLLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MDLLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDLLoader.cpp > CMakeFiles\assimp.dir\MDLLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDLLoader.cpp > CMakeFiles\assimp.dir\MDLLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MDLLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDLLoader.cpp -o CMakeFiles\assimp.dir\MDLLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDLLoader.cpp -o CMakeFiles\assimp.dir\MDLLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/MDLMaterialLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp > CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp > CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MDLMaterialLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp -o CMakeFiles\assimp.dir\MDLMaterialLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj: ../lib/external/assimp-3.0.1270/code/MaterialSystem.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MaterialSystem.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MaterialSystem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MaterialSystem.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MaterialSystem.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MaterialSystem.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MaterialSystem.cpp > CMakeFiles\assimp.dir\MaterialSystem.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MaterialSystem.cpp > CMakeFiles\assimp.dir\MaterialSystem.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MaterialSystem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MaterialSystem.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MaterialSystem.cpp -o CMakeFiles\assimp.dir\MaterialSystem.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MaterialSystem.cpp -o CMakeFiles\assimp.dir\MaterialSystem.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/NFFLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NFFLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\NFFLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NFFLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NFFLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\NFFLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NFFLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/NFFLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\NFFLoader.cpp > CMakeFiles\assimp.dir\NFFLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\NFFLoader.cpp > CMakeFiles\assimp.dir\NFFLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NFFLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/NFFLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\NFFLoader.cpp -o CMakeFiles\assimp.dir\NFFLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\NFFLoader.cpp -o CMakeFiles\assimp.dir\NFFLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/OFFLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OFFLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OFFLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OFFLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OFFLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OFFLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OFFLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OFFLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OFFLoader.cpp > CMakeFiles\assimp.dir\OFFLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OFFLoader.cpp > CMakeFiles\assimp.dir\OFFLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OFFLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OFFLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OFFLoader.cpp -o CMakeFiles\assimp.dir\OFFLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OFFLoader.cpp -o CMakeFiles\assimp.dir\OFFLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/ObjFileImporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileImporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileImporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjFileImporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileImporter.cpp > CMakeFiles\assimp.dir\ObjFileImporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileImporter.cpp > CMakeFiles\assimp.dir\ObjFileImporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjFileImporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileImporter.cpp -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileImporter.cpp -o CMakeFiles\assimp.dir\ObjFileImporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/ObjFileMtlImporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp > CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp > CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjFileMtlImporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp -o CMakeFiles\assimp.dir\ObjFileMtlImporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj: ../lib/external/assimp-3.0.1270/code/ObjFileParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileParser.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjFileParser.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileParser.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjFileParser.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileParser.cpp > CMakeFiles\assimp.dir\ObjFileParser.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileParser.cpp > CMakeFiles\assimp.dir\ObjFileParser.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjFileParser.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileParser.cpp -o CMakeFiles\assimp.dir\ObjFileParser.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjFileParser.cpp -o CMakeFiles\assimp.dir\ObjFileParser.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/ObjExporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjExporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjExporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjExporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\ObjExporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjExporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/ObjExporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjExporter.cpp > CMakeFiles\assimp.dir\ObjExporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjExporter.cpp > CMakeFiles\assimp.dir\ObjExporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/ObjExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/ObjExporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\ObjExporter.cpp -o CMakeFiles\assimp.dir\ObjExporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\ObjExporter.cpp -o CMakeFiles\assimp.dir\ObjExporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/OgreImporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreImporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreImporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreImporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreImporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreImporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreImporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreImporter.cpp > CMakeFiles\assimp.dir\OgreImporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreImporter.cpp > CMakeFiles\assimp.dir\OgreImporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreImporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreImporter.cpp -o CMakeFiles\assimp.dir\OgreImporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreImporter.cpp -o CMakeFiles\assimp.dir\OgreImporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj: ../lib/external/assimp-3.0.1270/code/OgreMaterial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMaterial.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMaterial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMaterial.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMaterial.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreMaterial.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMaterial.cpp > CMakeFiles\assimp.dir\OgreMaterial.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMaterial.cpp > CMakeFiles\assimp.dir\OgreMaterial.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMaterial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreMaterial.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMaterial.cpp -o CMakeFiles\assimp.dir\OgreMaterial.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMaterial.cpp -o CMakeFiles\assimp.dir\OgreMaterial.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj: ../lib/external/assimp-3.0.1270/code/OgreMesh.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMesh.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMesh.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreMesh.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMesh.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreMesh.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMesh.cpp > CMakeFiles\assimp.dir\OgreMesh.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMesh.cpp > CMakeFiles\assimp.dir\OgreMesh.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreMesh.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMesh.cpp -o CMakeFiles\assimp.dir\OgreMesh.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreMesh.cpp -o CMakeFiles\assimp.dir\OgreMesh.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj: ../lib/external/assimp-3.0.1270/code/OgreSkeleton.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreSkeleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreSkeleton.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/OgreSkeleton.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreSkeleton.cpp > CMakeFiles\assimp.dir\OgreSkeleton.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreSkeleton.cpp > CMakeFiles\assimp.dir\OgreSkeleton.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/OgreSkeleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/OgreSkeleton.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\OgreSkeleton.cpp -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\OgreSkeleton.cpp -o CMakeFiles\assimp.dir\OgreSkeleton.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/PlyLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PlyLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyLoader.cpp > CMakeFiles\assimp.dir\PlyLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyLoader.cpp > CMakeFiles\assimp.dir\PlyLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PlyLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyLoader.cpp -o CMakeFiles\assimp.dir\PlyLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyLoader.cpp -o CMakeFiles\assimp.dir\PlyLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj: ../lib/external/assimp-3.0.1270/code/PlyParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyParser.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyParser.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyParser.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyParser.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PlyParser.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyParser.cpp > CMakeFiles\assimp.dir\PlyParser.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyParser.cpp > CMakeFiles\assimp.dir\PlyParser.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PlyParser.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyParser.cpp -o CMakeFiles\assimp.dir\PlyParser.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyParser.cpp -o CMakeFiles\assimp.dir\PlyParser.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/PlyExporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyExporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyExporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyExporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\PlyExporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyExporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/PlyExporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyExporter.cpp > CMakeFiles\assimp.dir\PlyExporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyExporter.cpp > CMakeFiles\assimp.dir\PlyExporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/PlyExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/PlyExporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\PlyExporter.cpp -o CMakeFiles\assimp.dir\PlyExporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\PlyExporter.cpp -o CMakeFiles\assimp.dir\PlyExporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/Q3DLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3DLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3DLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3DLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3DLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3DLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3DLoader.cpp > CMakeFiles\assimp.dir\Q3DLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3DLoader.cpp > CMakeFiles\assimp.dir\Q3DLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3DLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3DLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3DLoader.cpp -o CMakeFiles\assimp.dir\Q3DLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3DLoader.cpp -o CMakeFiles\assimp.dir\Q3DLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj: ../lib/external/assimp-3.0.1270/code/Q3BSPFileParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp > CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp > CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3BSPFileParser.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp -o CMakeFiles\assimp.dir\Q3BSPFileParser.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/Q3BSPFileImporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp > CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp > CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3BSPFileImporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp -o CMakeFiles\assimp.dir\Q3BSPFileImporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj: ../lib/external/assimp-3.0.1270/code/Q3BSPZipArchive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp > CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp > CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/Q3BSPZipArchive.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp -o CMakeFiles\assimp.dir\Q3BSPZipArchive.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/RawLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RawLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RawLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RawLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\RawLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RawLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RawLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/RawLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RawLoader.cpp > CMakeFiles\assimp.dir\RawLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RawLoader.cpp > CMakeFiles\assimp.dir\RawLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/RawLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/RawLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\RawLoader.cpp -o CMakeFiles\assimp.dir\RawLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\RawLoader.cpp -o CMakeFiles\assimp.dir\RawLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/SMDLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SMDLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SMDLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SMDLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\SMDLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SMDLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SMDLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/SMDLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SMDLoader.cpp > CMakeFiles\assimp.dir\SMDLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SMDLoader.cpp > CMakeFiles\assimp.dir\SMDLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/SMDLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/SMDLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\SMDLoader.cpp -o CMakeFiles\assimp.dir\SMDLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\SMDLoader.cpp -o CMakeFiles\assimp.dir\SMDLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/STLLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STLLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STLLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/STLLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STLLoader.cpp > CMakeFiles\assimp.dir\STLLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STLLoader.cpp > CMakeFiles\assimp.dir\STLLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/STLLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STLLoader.cpp -o CMakeFiles\assimp.dir\STLLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STLLoader.cpp -o CMakeFiles\assimp.dir\STLLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/STLExporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLExporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STLExporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLExporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STLExporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STLExporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLExporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/STLExporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STLExporter.cpp > CMakeFiles\assimp.dir\STLExporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STLExporter.cpp > CMakeFiles\assimp.dir\STLExporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STLExporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/STLExporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STLExporter.cpp -o CMakeFiles\assimp.dir\STLExporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STLExporter.cpp -o CMakeFiles\assimp.dir\STLExporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/UnrealLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\UnrealLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\UnrealLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\UnrealLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\UnrealLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/UnrealLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\UnrealLoader.cpp > CMakeFiles\assimp.dir\UnrealLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\UnrealLoader.cpp > CMakeFiles\assimp.dir\UnrealLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/UnrealLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/UnrealLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\UnrealLoader.cpp -o CMakeFiles\assimp.dir\UnrealLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\UnrealLoader.cpp -o CMakeFiles\assimp.dir\UnrealLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj: ../lib/external/assimp-3.0.1270/code/XFileImporter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileImporter.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XFileImporter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileImporter.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileImporter.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XFileImporter.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileImporter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/XFileImporter.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XFileImporter.cpp > CMakeFiles\assimp.dir\XFileImporter.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XFileImporter.cpp > CMakeFiles\assimp.dir\XFileImporter.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileImporter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/XFileImporter.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XFileImporter.cpp -o CMakeFiles\assimp.dir\XFileImporter.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XFileImporter.cpp -o CMakeFiles\assimp.dir\XFileImporter.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj: ../lib/external/assimp-3.0.1270/code/XFileParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileParser.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XFileParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileParser.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XFileParser.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XFileParser.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/XFileParser.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XFileParser.cpp > CMakeFiles\assimp.dir\XFileParser.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XFileParser.cpp > CMakeFiles\assimp.dir\XFileParser.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/XFileParser.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XFileParser.cpp -o CMakeFiles\assimp.dir\XFileParser.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XFileParser.cpp -o CMakeFiles\assimp.dir\XFileParser.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/MS3DLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MS3DLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MS3DLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\MS3DLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MS3DLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/MS3DLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MS3DLoader.cpp > CMakeFiles\assimp.dir\MS3DLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MS3DLoader.cpp > CMakeFiles\assimp.dir\MS3DLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/MS3DLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/MS3DLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\MS3DLoader.cpp -o CMakeFiles\assimp.dir\MS3DLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\MS3DLoader.cpp -o CMakeFiles\assimp.dir\MS3DLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/COBLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\COBLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\COBLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/COBLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\COBLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\COBLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/COBLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/COBLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\COBLoader.cpp > CMakeFiles\assimp.dir\COBLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\COBLoader.cpp > CMakeFiles\assimp.dir\COBLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/COBLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/COBLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\COBLoader.cpp -o CMakeFiles\assimp.dir\COBLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\COBLoader.cpp -o CMakeFiles\assimp.dir\COBLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/BlenderLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderLoader.cpp > CMakeFiles\assimp.dir\BlenderLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderLoader.cpp > CMakeFiles\assimp.dir\BlenderLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderLoader.cpp -o CMakeFiles\assimp.dir\BlenderLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderLoader.cpp -o CMakeFiles\assimp.dir\BlenderLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj: ../lib/external/assimp-3.0.1270/code/BlenderDNA.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderDNA.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderDNA.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderDNA.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderDNA.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderDNA.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderDNA.cpp > CMakeFiles\assimp.dir\BlenderDNA.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderDNA.cpp > CMakeFiles\assimp.dir\BlenderDNA.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderDNA.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderDNA.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderDNA.cpp -o CMakeFiles\assimp.dir\BlenderDNA.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderDNA.cpp -o CMakeFiles\assimp.dir\BlenderDNA.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj: ../lib/external/assimp-3.0.1270/code/BlenderScene.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderScene.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderScene.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderScene.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderScene.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderScene.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderScene.cpp > CMakeFiles\assimp.dir\BlenderScene.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderScene.cpp > CMakeFiles\assimp.dir\BlenderScene.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderScene.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderScene.cpp -o CMakeFiles\assimp.dir\BlenderScene.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderScene.cpp -o CMakeFiles\assimp.dir\BlenderScene.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj: ../lib/external/assimp-3.0.1270/code/BlenderModifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderModifier.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderModifier.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\BlenderModifier.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderModifier.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/BlenderModifier.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderModifier.cpp > CMakeFiles\assimp.dir\BlenderModifier.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderModifier.cpp > CMakeFiles\assimp.dir\BlenderModifier.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/BlenderModifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/BlenderModifier.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderModifier.cpp -o CMakeFiles\assimp.dir\BlenderModifier.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\BlenderModifier.cpp -o CMakeFiles\assimp.dir\BlenderModifier.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/NDOLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NDOLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\NDOLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NDOLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\NDOLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\NDOLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NDOLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/NDOLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\NDOLoader.cpp > CMakeFiles\assimp.dir\NDOLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\NDOLoader.cpp > CMakeFiles\assimp.dir\NDOLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/NDOLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/NDOLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\NDOLoader.cpp -o CMakeFiles\assimp.dir\NDOLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\NDOLoader.cpp -o CMakeFiles\assimp.dir\NDOLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/IFCLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCLoader.cpp > CMakeFiles\assimp.dir\IFCLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCLoader.cpp > CMakeFiles\assimp.dir\IFCLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCLoader.cpp -o CMakeFiles\assimp.dir\IFCLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCLoader.cpp -o CMakeFiles\assimp.dir\IFCLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj: ../lib/external/assimp-3.0.1270/code/IFCReaderGen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCReaderGen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCReaderGen.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCReaderGen.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCReaderGen.cpp > CMakeFiles\assimp.dir\IFCReaderGen.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCReaderGen.cpp > CMakeFiles\assimp.dir\IFCReaderGen.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCReaderGen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCReaderGen.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCReaderGen.cpp -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCReaderGen.cpp -o CMakeFiles\assimp.dir\IFCReaderGen.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj: ../lib/external/assimp-3.0.1270/code/IFCUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCUtil.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCUtil.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCUtil.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCUtil.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCUtil.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCUtil.cpp > CMakeFiles\assimp.dir\IFCUtil.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCUtil.cpp > CMakeFiles\assimp.dir\IFCUtil.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCUtil.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCUtil.cpp -o CMakeFiles\assimp.dir\IFCUtil.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCUtil.cpp -o CMakeFiles\assimp.dir\IFCUtil.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj: ../lib/external/assimp-3.0.1270/code/IFCGeometry.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCGeometry.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCGeometry.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCGeometry.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCGeometry.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCGeometry.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCGeometry.cpp > CMakeFiles\assimp.dir\IFCGeometry.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCGeometry.cpp > CMakeFiles\assimp.dir\IFCGeometry.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCGeometry.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCGeometry.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCGeometry.cpp -o CMakeFiles\assimp.dir\IFCGeometry.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCGeometry.cpp -o CMakeFiles\assimp.dir\IFCGeometry.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj: ../lib/external/assimp-3.0.1270/code/IFCMaterial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCMaterial.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCMaterial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCMaterial.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCMaterial.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCMaterial.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCMaterial.cpp > CMakeFiles\assimp.dir\IFCMaterial.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCMaterial.cpp > CMakeFiles\assimp.dir\IFCMaterial.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCMaterial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCMaterial.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCMaterial.cpp -o CMakeFiles\assimp.dir\IFCMaterial.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCMaterial.cpp -o CMakeFiles\assimp.dir\IFCMaterial.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj: ../lib/external/assimp-3.0.1270/code/IFCProfile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCProfile.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCProfile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCProfile.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCProfile.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCProfile.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCProfile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCProfile.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCProfile.cpp > CMakeFiles\assimp.dir\IFCProfile.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCProfile.cpp > CMakeFiles\assimp.dir\IFCProfile.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCProfile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCProfile.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCProfile.cpp -o CMakeFiles\assimp.dir\IFCProfile.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCProfile.cpp -o CMakeFiles\assimp.dir\IFCProfile.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj: ../lib/external/assimp-3.0.1270/code/IFCCurve.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCCurve.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCCurve.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCCurve.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\IFCCurve.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCCurve.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCCurve.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/IFCCurve.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCCurve.cpp > CMakeFiles\assimp.dir\IFCCurve.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCCurve.cpp > CMakeFiles\assimp.dir\IFCCurve.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/IFCCurve.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/IFCCurve.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\IFCCurve.cpp -o CMakeFiles\assimp.dir\IFCCurve.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\IFCCurve.cpp -o CMakeFiles\assimp.dir\IFCCurve.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj: ../lib/external/assimp-3.0.1270/code/STEPFileReader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STEPFileReader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STEPFileReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\STEPFileReader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STEPFileReader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/STEPFileReader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STEPFileReader.cpp > CMakeFiles\assimp.dir\STEPFileReader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STEPFileReader.cpp > CMakeFiles\assimp.dir\STEPFileReader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/STEPFileReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/STEPFileReader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\STEPFileReader.cpp -o CMakeFiles\assimp.dir\STEPFileReader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\STEPFileReader.cpp -o CMakeFiles\assimp.dir\STEPFileReader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj: ../lib/external/assimp-3.0.1270/code/XGLLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XGLLoader.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XGLLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XGLLoader.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\XGLLoader.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XGLLoader.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XGLLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/XGLLoader.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XGLLoader.cpp > CMakeFiles\assimp.dir\XGLLoader.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XGLLoader.cpp > CMakeFiles\assimp.dir\XGLLoader.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/XGLLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/XGLLoader.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code\XGLLoader.cpp -o CMakeFiles\assimp.dir\XGLLoader.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code\XGLLoader.cpp -o CMakeFiles\assimp.dir\XGLLoader.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj: ../lib/external/assimp-3.0.1270/contrib/irrXML/irrXML.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp > CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp > CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/irrXML/irrXML.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp -o CMakeFiles\assimp.dir\__\contrib\irrXML\irrXML.cpp.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj: ../lib/external/assimp-3.0.1270/contrib/ConvertUTF/ConvertUTF.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.obj   -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c > CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c > CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assimp.dir/__/contrib/ConvertUTF/ConvertUTF.c.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c -o CMakeFiles\assimp.dir\__\contrib\ConvertUTF\ConvertUTF.c.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj: ../lib/external/assimp-3.0.1270/contrib/unzip/ioapi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.obj   -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\ioapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\ioapi.c
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\ioapi.c > CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\ioapi.c > CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assimp.dir/__/contrib/unzip/ioapi.c.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\ioapi.c -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\ioapi.c -o CMakeFiles\assimp.dir\__\contrib\unzip\ioapi.c.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_C.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj: ../lib/external/assimp-3.0.1270/contrib/unzip/unzip.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.obj   -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\unzip.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\unzip.c
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\unzip.c > CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\unzip.c > CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assimp.dir/__/contrib/unzip/unzip.c.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\unzip.c -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\unzip\unzip.c -o CMakeFiles\assimp.dir\__\contrib\unzip\unzip.c.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj: ../lib/external/assimp-3.0.1270/contrib/poly2tri/poly2tri/common/shapes.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/common/shapes.cc.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\common\shapes.cc.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj: ../lib/external/assimp-3.0.1270/contrib/poly2tri/poly2tri/sweep/advancing_front.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/advancing_front.cc.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\advancing_front.cc.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj: ../lib/external/assimp-3.0.1270/contrib/poly2tri/poly2tri/sweep/cdt.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/cdt.cc.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\cdt.cc.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj: ../lib/external/assimp-3.0.1270/contrib/poly2tri/poly2tri/sweep/sweep.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep.cc.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep.cc.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj: ../lib/external/assimp-3.0.1270/contrib/poly2tri/poly2tri/sweep/sweep_context.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc > CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/poly2tri/poly2tri/sweep/sweep_context.cc.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc -o CMakeFiles\assimp.dir\__\contrib\poly2tri\poly2tri\sweep\sweep_context.cc.s
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/flags.make
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/includes_CXX.rsp
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj: ../lib/external/assimp-3.0.1270/contrib/clipper/clipper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.obj -c C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\clipper\clipper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\clipper\clipper.cpp
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.i"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\clipper\clipper.cpp > CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\clipper\clipper.cpp > CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.i
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.s"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\contrib\clipper\clipper.cpp -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\contrib\clipper\clipper.cpp -o CMakeFiles\assimp.dir\__\contrib\clipper\clipper.cpp.s
 
 # Object files for target assimp
 assimp_OBJECTS = \
@@ -2128,9 +2128,9 @@ lib/external/assimp-3.0.1270/code/libassimp.a: lib/external/assimp-3.0.1270/code
 lib/external/assimp-3.0.1270/code/libassimp.a: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/__/contrib/clipper/clipper.cpp.obj
 lib/external/assimp-3.0.1270/code/libassimp.a: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build.make
 lib/external/assimp-3.0.1270/code/libassimp.a: lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Linking CXX static library libassimp.a"
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && $(CMAKE_COMMAND) -P CMakeFiles\assimp.dir\cmake_clean_target.cmake
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\assimp.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Linking CXX static library libassimp.a"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && $(CMAKE_COMMAND) -P CMakeFiles\assimp.dir\cmake_clean_target.cmake
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\assimp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build: lib/external/assimp-3.0.1270/code/libassimp.a
@@ -2138,10 +2138,10 @@ lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build: lib/external/assi
 .PHONY : lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/build
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/clean:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && $(CMAKE_COMMAND) -P CMakeFiles\assimp.dir\cmake_clean.cmake
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code && $(CMAKE_COMMAND) -P CMakeFiles\assimp.dir\cmake_clean.cmake
 .PHONY : lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/clean
 
 lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Alex\Documents\Pool-Table C:\Users\Alex\Documents\Pool-Table\lib\external\assimp-3.0.1270\code C:\Users\Alex\Documents\Pool-Table\cmake-build-debug C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code\CMakeFiles\assimp.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Samuel\Documents\Coding\LASA\Pool-Table C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\assimp-3.0.1270\code C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\assimp-3.0.1270\code\CMakeFiles\assimp.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/assimp-3.0.1270/code/CMakeFiles/assimp.dir/depend
 

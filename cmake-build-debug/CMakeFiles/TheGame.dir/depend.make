@@ -58,13 +58,18 @@ CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Drawable.h
 CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Pocket.cpp
 CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Pocket.h
 
+CMakeFiles/TheGame.dir/Point.cpp.obj: ../Point.cpp
+CMakeFiles/TheGame.dir/Point.cpp.obj: ../Point.h
+
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../lib/external/glew-1.13.0/include/GL/glew.h
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../Ball.h
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../Color.h
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../Drawable.h
+CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../Pocket.h
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../ShootAI.cpp
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../ShootAI.h
+CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../Wall.h
 
 CMakeFiles/TheGame.dir/Wall.cpp.obj: ../lib/external/glew-1.13.0/include/GL/glew.h
 CMakeFiles/TheGame.dir/Wall.cpp.obj: ../lib/external/glfw-3.1.2/include/GLFW/glfw3.h

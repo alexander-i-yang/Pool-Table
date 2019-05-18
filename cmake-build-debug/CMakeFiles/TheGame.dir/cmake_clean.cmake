@@ -9,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/TheGame.dir/ShootAI.cpp.obj"
   "CMakeFiles/TheGame.dir/Wall.cpp.obj"
   "CMakeFiles/TheGame.dir/Pocket.cpp.obj"
+  "CMakeFiles/TheGame.dir/Point.cpp.obj"
   "TheGame.pdb"
   "TheGame.exe"
   "TheGame.exe.manifest"

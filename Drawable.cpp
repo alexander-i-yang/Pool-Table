@@ -33,3 +33,11 @@ Drawable::Drawable(double x, double y, double z) {
 	this->setY(y);
 	this->setZ(z);
 }
+
+Drawable::Drawable(Color c, double x, double y, double z, int number) {
+	this->setColor(c);
+	this->setX(x);
+	this->setY(y);
+	this->setZ(z);
+	this->setNumber(number);
+}

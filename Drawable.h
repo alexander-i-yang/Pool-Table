@@ -15,21 +15,25 @@ class Drawable {
 protected:
 	Color color;
 	double x, y, z;
+	int number;
 
 public:
 	Drawable();
 	explicit Drawable(Color c);
 	Drawable(double x, double y, double z);
 	Drawable(Color c, double x, double y, double z);
+	Drawable(Color c, double x, double y, double z, int number);
 
 	double getX() {return x;}
 	double getY() {return y;}
 	double getZ() {return z;}
+	double getNumber() {return number;}
 	Color getColor() {return color;}
 
 	void setX(double x) {Drawable::x = x;}
 	void setY(double y) {Drawable::y = y;}
 	void setZ(double z) {Drawable::z = z;}
+	void setNumber(int num) {Drawable::number = num;}
 	void setColor(Color c) {color = c;}
 
 	virtual void draw() = 0;

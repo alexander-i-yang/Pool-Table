@@ -13,7 +13,7 @@
 Pocket::Pocket() : Drawable() {
 
 }
-Pocket::Pocket(Color c, double radius, double x, double y, double z):Drawable(c, x, y, z){
+Pocket::Pocket(Color c, double radius, int number, double x, double y, double z):Drawable(c, x, y, z, number){
     this->radius = radius;
 }
 void Pocket::draw(){
