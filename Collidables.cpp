@@ -103,7 +103,7 @@ void Collidables::updateAll(Drawables * drawables) {
 		i->updateFrame(friction);
 		double xv = i->getXVelocity();
 		double yv = i->getYVelocity();
-		i->setVelocity((xv)*friction, (yv)*friction);
+//		i->setVelocity((xv)*friction, (yv)*friction);
 		for(auto j : pockets){
 			if(collision(i, j)){
 				if(i->getNumber()==0){

@@ -7,6 +7,7 @@
 #include <utility>
 #include <iostream>
 #include <cmath>
+#include <climits>
 
 std::pair<double,double> ShootAI::shootWhiteBall(Ball *whiteBall, Ball* shoot, double targetX, double targetY) {
 	double a = whiteBall->getX();
@@ -53,6 +54,25 @@ bool ShootAI::predictCollide(Ball* whiteBall, Ball* other, double xv, double yv,
 }
 
 int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, Pocket **pockets, bool isMaximizer, int depth) {
+	// maximizer will go for solids
+	int score = evaluateTable(balls, isMaximizer);
+	if (score >= 8 || score <= -8) return score;
+	if (isMaximizer) {
+		int best = INT_MIN;
+		for (int i = 0; i < balls->size(); ++i) {
+			Ball* b = balls->at(i);
+			if (b->getNumber() == whiteBall->getNumber()) continue;
+			if (b->isStriped()) continue;
+			for (int j = 0; j < balls->size(); ++j) {
+				Pocket* p = pockets[j];
+				auto path = computePath(whiteBall, b, p);
+				if (!validPath(path, whiteBall, b, p, balls)) continue;
+				for (int power = 2000; power <= 6000; power += 2000) {
+
+				}
+			}
+		}
+	}
 	return 0;
 }
 
@@ -78,6 +98,7 @@ int ShootAI::evaluateTable(std::vector<Ball *> *balls, bool isMaximizer) {
 	else {
 		return numSolid - numStriped;
 	}
+	return 0;
 }
 
 std::pair<std::pair<double, double>, std::pair<double, double> > ShootAI::computePath(Ball *whiteBall, Ball *targetBall, Pocket *targetPocket) {
