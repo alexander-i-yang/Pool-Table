@@ -21,9 +21,12 @@ protected:
     double theta;
     double mass;
 	bool striped;
+	int number;
+	double windowWidth;
+	double windowHeight;
 public:
     Ball();
-    Ball(Color c, double x, double y, double z, double radius);
+    Ball(Color c, double x, double y, double z, double radius, int number, double windowWidth, double windowHeight);
     Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass);
 
     double getTime();
@@ -31,6 +34,15 @@ public:
 	bool isStriped() const;
 
 	void setStriped(bool striped);
+
+	void setNumber(int n);
+	int getNumber();
+
+	void setWindowWidth(double width);
+	double getWindowWidth();
+
+	void setWindowHeight(double height);
+	double getWindowHeight();
 
 	double getRadius();
 	double getTheta();
@@ -44,6 +56,8 @@ public:
 	void setTheta(double theta);
 	void setMass(double mass);
 	void setVelocity(double vx, double vy);
+	void setXVelocity(double vx);
+	void setYVelocity(double vy);
 	void updateAngle();
 	void setPos(double x, double y);
 	void setColorRGB(double r, double g, double b);
@@ -54,7 +68,7 @@ public:
 	int getNumSides();
 	void draw() override;
 	int getNumVertices() override;
-	void updateFrame() override; /* this is how the ball will 'move' */
+	void updateFrame(double friction) override; /* this is how the ball will 'move' */
 
 	/* for mechanics */
 	double friction(); /* returns the frictional force */

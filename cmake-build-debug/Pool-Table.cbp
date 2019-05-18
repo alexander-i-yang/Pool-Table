@@ -2165,7 +2165,22 @@
 		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Main.cpp">
 			<Option target="TheGame"/>
 		</Unit>
-		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Set.h">
+		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Pocket.cpp">
+			<Option target="TheGame"/>
+		</Unit>
+		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Pocket.h">
+			<Option target="TheGame"/>
+		</Unit>
+		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Point.cpp">
+			<Option target="TheGame"/>
+		</Unit>
+		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Point.h">
+			<Option target="TheGame"/>
+		</Unit>
+		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/ShootAI.cpp">
+			<Option target="TheGame"/>
+		</Unit>
+		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/ShootAI.h">
 			<Option target="TheGame"/>
 		</Unit>
 		<Unit filename="C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Wall.cpp">

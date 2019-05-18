@@ -28,7 +28,7 @@ public:
 	int getNumVertices() override;
 	void draw() override;
 
-	void updateFrame() override;
+	void updateFrame(double friction) override;
 };
 
 

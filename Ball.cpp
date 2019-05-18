@@ -6,7 +6,6 @@
 #include <string>
 #include <cmath>
 #include <iostream>
-
 #include "Ball.h"
 #include "Drawable.h"
 
@@ -22,9 +21,12 @@ Ball::Ball() : Drawable() {
 	this->referenceTime = glfwGetTime();
 }
 
-Ball::Ball(Color c, double x, double y, double z, double radius) : Drawable(c, x, y, z) {
+Ball::Ball(Color c, double x, double y, double z, double radius, int number, double windowWidth, double windowHeight) : Drawable(c, x, y, z) {
 	this->referenceTime = glfwGetTime();
 	this->radius = radius;
+	this->number = number;
+	this->windowWidth = windowWidth;
+	this->windowHeight = windowHeight;
 }
 
 Ball::Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass) : Drawable(c, x, y, z) {
@@ -34,6 +36,15 @@ Ball::Ball(Color c, double x, double y, double z, double radius, std::pair<doubl
 	this->theta = theta;
 	this->mass = mass;
 }
+
+void Ball::setNumber(int n){this->number = n;}
+int Ball::getNumber(){return this->number;}
+
+void Ball::setWindowWidth(double width){this->windowWidth = width;}
+double Ball::getWindowWidth(){return this->windowWidth;}
+
+void Ball::setWindowHeight(double width){this->windowHeight = width;}
+double Ball::getWindowHeight(){return this->windowHeight;}
 
 double Ball::getTime() {return this->referenceTime;}
 double Ball::getRadius() {return this->radius;}
@@ -87,13 +98,16 @@ int Ball::getNumVertices() {
 	return numberOfVertices;
 }
 
-void Ball::updateFrame() {
+void Ball::updateFrame(double friction = 0) {
 	double xVelocity = this->getXVelocity();
 	double yVelocity = this->getYVelocity();
 	double timeElapsed = glfwGetTime() - this->getTime();
 	this->setTime(glfwGetTime());
 	Drawable::setX(this->getX() + timeElapsed * xVelocity);
 	Drawable::setY(this->getY() + timeElapsed * yVelocity);
+	double addX = 1-0.5*timeElapsed*friction*timeElapsed*mass;
+	double addY = 1-0.5*timeElapsed*friction*timeElapsed*mass;
+	setVelocity(xVelocity*addX, yVelocity*addY);
 }
 
 /* needs implementation */
@@ -119,23 +133,20 @@ bool Ball::checkCollide(Ball *other) {
 		double b = this->getY();
 		double c = other->getX();
 		double d = other->getY();
-		double t = tan((b-d)/(a-c));
+		double t = atanf((b-d)/(a-c));
+		if(a-c < 0) t += 3.14;
 		double midX = (a+c)/2;
 		double midY = (b+d)/2;
 		double r = this->getRadius();
 		double addX = r*cos(t);
 		double addY = r*sin(t);
-		//wait(0.1);
-		if(a < c && b<d) {
+		if(sqrt((a-(midX-addX))*(a-(midX-addX))-(b-(midY-addY))*(b-(midY-addY))) < r-1) {
 			this->setPos(midX-addX, midY-addY);
 			other->setPos(midX+addX, midY+addY);
 		} else {
 			this->setPos(midX+addX, midY+addY);
 			other->setPos(midX-addX, midY-addY);
 		}
-		this->draw();
-		other->draw();
-		//wait(0.1);
 	}
 	return distBetween <= radiiSum;
 }
@@ -147,7 +158,9 @@ void Ball::setPos(double x, double y) {
 
 /* clean up */
 std::pair<double, double> Ball::getNewVelocity(Ball *other) {
-	if(other->mass == 0 || this->mass == 0) {
+	double m2 = other->getMass();
+
+	if(m2 == 0 || this->mass == 0) {
 		std::cout << "ERROR: Mass is 0" <<std::endl;
 		return this->velocity;
 	}
@@ -164,7 +177,7 @@ std::pair<double, double> Ball::getNewVelocity(Ball *other) {
 	double v1n = un.first*vf + un.second*vs;
 	double v2n = un.first*vof + un.second*vos;
 	double v2t = ut.first*vof + ut.second*vos;
-	double vPrime1n = (v1n*(this->mass-other->mass)+2*other->mass*v2n)/(this->mass+other->mass);
+	double vPrime1n = (v1n*(this->mass-m2)+2*m2*v2n)/(this->mass+other->mass);
 	double vPrime2n = (v2n*(other->mass-mass)+2*mass*v1n)/(mass+other->mass);
 	double vPrime1t = ut.first*velocity.first + ut.second*velocity.second;
 	this->setVelocity(vPrime1n*un.first+vPrime1t*ut.first, vPrime1n*un.second+vPrime1t*ut.second);
@@ -193,4 +206,12 @@ bool Ball::isStriped() const {
 
 void Ball::setStriped(bool striped) {
 	Ball::striped = striped;
+}
+
+void Ball::setXVelocity(double vx) {
+	velocity.first = vx;
+}
+
+void Ball::setYVelocity(double vy) {
+	velocity.second = vy;
 }

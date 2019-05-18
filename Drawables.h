@@ -10,9 +10,8 @@
 #include "Drawable.h"
 
 class Drawables {
-private:
-	std::vector<Drawable*> objects;
 public:
+    std::vector<Drawable*> objects;
 	Drawables();
 	~Drawables();
 	void drawAll();

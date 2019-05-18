@@ -8,6 +8,8 @@
 #include "Wall.h"
 #include "Drawables.h"
 #include "Collidables.h"
+#include "Pocket.h"
+#include "ShootAI.h"
 
 #include <iostream>
 #include <vector>
@@ -39,13 +41,14 @@ int main()
 	}
 
 	double rgbs[] = {
-		242, 227, 60,
-		73, 147, 244,
-		237, 18, 58,
-		139, 35, 224,
-		242, 163, 16,
-		27, 214, 34,
-		0, 0, 0
+			242, 227, 60,
+			73, 147, 244,
+			237, 18, 58,
+			139, 35, 224,
+			242, 163, 16,
+			27, 214, 34,
+            176, 48, 96
+
 	};
 
 	// Make the window's context current
@@ -66,35 +69,6 @@ int main()
 
 	Drawables* drawables = new Drawables();
 	Collidables* collidables = new Collidables();
-	Color sunColor;
-	srand((unsigned)time(0));
-	srand(std::rand());
-	sunColor.setColor(1, 1, 1);
-	Ball* s1 = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius);
-	s1->setVelocity(windowHeight*4, windowHeight/40);
-	s1->setMass(1000);
-	drawables->add(s1);
-	collidables->add(s1);
-
-	int index = 0;
-	bool stripes = false;
-	for(int i = 0; i<5; ++i) {
-		for(int j = 0; j<=i; ++j) {
-			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius);
-			s2->setMass(1000);
-			s2->setVelocity(0, 0);
-			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
-			Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
-			               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
-			index+=3;
-			if(index >= 24) {index = 0; stripes = true;}
-			s2->setColor(newColor);
-			//s2->setStriped(j%2);
-			s2->setStriped(stripes);
-			drawables->add(s2);
-			collidables->add(s2);
-		}
-	}
 
 	Color wallColor;
 	int wallThickness = windowWidth/1024.0*40.0;
@@ -112,17 +86,107 @@ int main()
 	drawables->add(bottom);
 	collidables->add(bottom);
 
-	collidables->setFriction(0.99925);
+	//Adding pockets
+	double pocketHeight = radius*2.25/1.5;  //In modern pool tables pockets are 1.75-2.25 x larger than the diameter of the balls
+	Color pocketColor;
+	pocketColor.setColor(40, 45, 45);
+	Pocket * topRight = new Pocket(pocketColor, pocketHeight, 0, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+	Pocket * middleTop = new Pocket(pocketColor, pocketHeight, 4, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (windowHeight-pocketHeight*1.9)*(10/10), 0);
+	Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 1, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+	Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 2, 0+pocketHeight*1.9, 0+pocketHeight*2, 0);
+	Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, 5, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (0+pocketHeight*1.9)*(10/10), 0);
+	Pocket * bottomRight = new Pocket(pocketColor, pocketHeight, 3, windowWidth-pocketHeight*1.9, 0+pocketHeight*1.9, 0);
+	drawables->add(topRight);
+	drawables->add(middleTop);
+	drawables->add(topLeft);
+	drawables->add(bottomLeft);
+	drawables->add(middleBottom);
+	drawables->add(bottomRight);
+	collidables->add(topRight);
+	collidables->add(middleTop);
+	collidables->add(topLeft);
+	collidables->add(bottomLeft);
+	collidables->add(middleBottom);
+	collidables->add(bottomRight);
+
+	Color sunColor;
+	srand((unsigned)time(0));
+	srand(std::rand());
+	sunColor.setColor(1, 1, 1);
+	Ball* whiteBall = new Ball(sunColor, windowWidth / 4, windowHeight / 2, 0, radius, 0, windowWidth, windowHeight);
+	whiteBall->setMass(1000);
+	drawables->add(whiteBall);
+	collidables->add(whiteBall);
+
+	int index = 0;
+	bool stripes = true;
+	/*Ball* s2 = new Ball(sunColor, windowWidth*1/4-50, windowHeight/2+50, 0, radius);
+	s2->setMass(1000);
+	s2->setVelocity(0, 0);
+	//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+	Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
+	               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
+	index+=3;
+	s2->setColor(newColor);
+	s2->setStriped(stripes);
+	drawables->add(s2);
+	collidables->add(s2);
+
+	Ball* s3 = new Ball(sunColor, windowWidth*1/4-80, windowHeight/2+150, 0, radius);
+	s3->setMass(1000);
+	s3->setVelocity(0, 0);
+	//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+	Color newerColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
+	               static_cast<GLfloat>(rgbs[index + 2] / 255.0));
+	index+=3;
+	s3->setColor(newerColor);
+	s3->setStriped(stripes);
+	drawables->add(s3);
+	collidables->add(s3);*/
+	int number = 1;
+	for(int i = 0; i<5; ++i) {
+		for(int j = 0; j<=i; ++j) {
+			Ball* s2 = new Ball(sunColor, windowWidth*3/4 +horizontalSpacing*i, windowHeight / 2-(vertSpacing*j-vertSpacing/2*i), 0, radius, number, windowWidth, windowHeight);
+			s2->setMass(1000);
+			s2->setVelocity(0, 0);
+			//Color newColor((double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0, (double)(std::rand()%255)/255.0);
+            Color newColor(static_cast<GLfloat>(rgbs[index] / 255.0), static_cast<GLfloat>(rgbs[index + 1] / 255.0),
+                           static_cast<GLfloat>(rgbs[index + 2] / 255.0));
+			if(number==8){
+                Color newColor(static_cast<GLfloat>(0), static_cast<GLfloat>(0),
+                               static_cast<GLfloat>(0));
+			}
+
+			index+=3;
+
+			if(index >= 24) {index = 0; stripes = false;}
+			s2->setColor(newColor);
+			//s2->setStriped(j%2);
+			s2->setStriped(stripes);
+			drawables->add(s2);
+			collidables->add(s2);
+			number++;
+		}
+	}
+
+	collidables->setFriction(0.9999);
+
+	/*std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, s3, topLeft->getX(), topLeft->getY());
+	if(!ShootAI::predictCollide(whiteBall, s2, v.first, v.second, s3->getX())) {
+		whiteBall->setVelocity(v.first/10, v.second/10);
+	} else {
+		std::cerr << "ERROR!" << std::endl;
+		whiteBall->setVelocity(v.first, v.second);
+	}*/
 
 
-	bool slowed = false;
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();
 	while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
 		glClear( GL_COLOR_BUFFER_BIT );
 
+		collidables->updateAll(drawables);
 		drawables->drawAll();
-		collidables->updateAll();
 
 		// Swap front and back buffers
 		glfwSwapBuffers( window );
@@ -130,11 +194,8 @@ int main()
 		// Poll for and process events
 		glfwPollEvents( );
 
-		if(!slowed && collidables->checkNotMoving(30)) {
-			collidables->slowAll();
-			collidables->slowAll();
-			collidables->slowAll();
-			slowed = true;
+		if(collidables->checkNotMoving(1)) {
+			collidables->shootAI();
 		}
 		//wait(0.1);
 	}

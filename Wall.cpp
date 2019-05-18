@@ -55,6 +55,6 @@ void Wall::setHeight(int height) {
 	Wall::height = height;
 }
 
-void Wall::updateFrame() {
+void Wall::updateFrame(double friction) {
 
 }

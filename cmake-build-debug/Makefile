@@ -759,6 +759,87 @@ Main.cpp.s:
 	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
+Pocket.obj: Pocket.cpp.obj
+
+.PHONY : Pocket.obj
+
+# target to build an object file
+Pocket.cpp.obj:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Pocket.cpp.obj
+.PHONY : Pocket.cpp.obj
+
+Pocket.i: Pocket.cpp.i
+
+.PHONY : Pocket.i
+
+# target to preprocess a source file
+Pocket.cpp.i:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Pocket.cpp.i
+.PHONY : Pocket.cpp.i
+
+Pocket.s: Pocket.cpp.s
+
+.PHONY : Pocket.s
+
+# target to generate assembly for a file
+Pocket.cpp.s:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Pocket.cpp.s
+.PHONY : Pocket.cpp.s
+
+Point.obj: Point.cpp.obj
+
+.PHONY : Point.obj
+
+# target to build an object file
+Point.cpp.obj:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Point.cpp.obj
+.PHONY : Point.cpp.obj
+
+Point.i: Point.cpp.i
+
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
+ShootAI.obj: ShootAI.cpp.obj
+
+.PHONY : ShootAI.obj
+
+# target to build an object file
+ShootAI.cpp.obj:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/ShootAI.cpp.obj
+.PHONY : ShootAI.cpp.obj
+
+ShootAI.i: ShootAI.cpp.i
+
+.PHONY : ShootAI.i
+
+# target to preprocess a source file
+ShootAI.cpp.i:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/ShootAI.cpp.i
+.PHONY : ShootAI.cpp.i
+
+ShootAI.s: ShootAI.cpp.s
+
+.PHONY : ShootAI.s
+
+# target to generate assembly for a file
+ShootAI.cpp.s:
+	$(MAKE) -f CMakeFiles\TheGame.dir\build.make CMakeFiles/TheGame.dir/ShootAI.cpp.s
+.PHONY : ShootAI.cpp.s
+
 Wall.obj: Wall.cpp.obj
 
 .PHONY : Wall.obj
@@ -877,6 +958,15 @@ help:
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
+	@echo ... Pocket.obj
+	@echo ... Pocket.i
+	@echo ... Pocket.s
+	@echo ... Point.obj
+	@echo ... Point.i
+	@echo ... Point.s
+	@echo ... ShootAI.obj
+	@echo ... ShootAI.i
+	@echo ... ShootAI.s
 	@echo ... Wall.obj
 	@echo ... Wall.i
 	@echo ... Wall.s

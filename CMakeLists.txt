@@ -67,10 +67,11 @@ add_executable(TheGame Main.cpp
 		Collidables.h
 		Color.cpp
 		Color.h
+		ShootAI.h
+		ShootAI.cpp
 		Wall.cpp
 		Wall.h
-		Set.h
-		)
+        Pocket.h Pocket.cpp Pocket.cpp Pocket.h Point.cpp Point.h)
 target_link_libraries(TheGame
 		${ALL_LIBS}
 		)
