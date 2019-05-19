@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
+CMAKE_SOURCE_DIR = "E:\Programming\CLion - Projects\Pool-Table"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,31 +68,31 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -103,7 +103,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -114,25 +114,25 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\progress.marks
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles 0
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\progress.marks"
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/clean
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/preinstall
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/preinstall
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/rule:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/rule
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/rule
 .PHONY : lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ LinearMath: lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMat
 
 # fast build rule for target.
 LinearMath/fast:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build
 .PHONY : LinearMath/fast
 
 btAlignedAllocator.obj: btAlignedAllocator.cpp.obj
@@ -176,7 +176,7 @@ btAlignedAllocator.obj: btAlignedAllocator.cpp.obj
 
 # target to build an object file
 btAlignedAllocator.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.cpp.obj
 .PHONY : btAlignedAllocator.cpp.obj
 
 btAlignedAllocator.i: btAlignedAllocator.cpp.i
@@ -185,7 +185,7 @@ btAlignedAllocator.i: btAlignedAllocator.cpp.i
 
 # target to preprocess a source file
 btAlignedAllocator.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.cpp.i
 .PHONY : btAlignedAllocator.cpp.i
 
 btAlignedAllocator.s: btAlignedAllocator.cpp.s
@@ -194,7 +194,7 @@ btAlignedAllocator.s: btAlignedAllocator.cpp.s
 
 # target to generate assembly for a file
 btAlignedAllocator.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.cpp.s
 .PHONY : btAlignedAllocator.cpp.s
 
 btConvexHull.obj: btConvexHull.cpp.obj
@@ -203,7 +203,7 @@ btConvexHull.obj: btConvexHull.cpp.obj
 
 # target to build an object file
 btConvexHull.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.cpp.obj
 .PHONY : btConvexHull.cpp.obj
 
 btConvexHull.i: btConvexHull.cpp.i
@@ -212,7 +212,7 @@ btConvexHull.i: btConvexHull.cpp.i
 
 # target to preprocess a source file
 btConvexHull.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.cpp.i
 .PHONY : btConvexHull.cpp.i
 
 btConvexHull.s: btConvexHull.cpp.s
@@ -221,7 +221,7 @@ btConvexHull.s: btConvexHull.cpp.s
 
 # target to generate assembly for a file
 btConvexHull.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.cpp.s
 .PHONY : btConvexHull.cpp.s
 
 btConvexHullComputer.obj: btConvexHullComputer.cpp.obj
@@ -230,7 +230,7 @@ btConvexHullComputer.obj: btConvexHullComputer.cpp.obj
 
 # target to build an object file
 btConvexHullComputer.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.cpp.obj
 .PHONY : btConvexHullComputer.cpp.obj
 
 btConvexHullComputer.i: btConvexHullComputer.cpp.i
@@ -239,7 +239,7 @@ btConvexHullComputer.i: btConvexHullComputer.cpp.i
 
 # target to preprocess a source file
 btConvexHullComputer.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.cpp.i
 .PHONY : btConvexHullComputer.cpp.i
 
 btConvexHullComputer.s: btConvexHullComputer.cpp.s
@@ -248,7 +248,7 @@ btConvexHullComputer.s: btConvexHullComputer.cpp.s
 
 # target to generate assembly for a file
 btConvexHullComputer.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.cpp.s
 .PHONY : btConvexHullComputer.cpp.s
 
 btGeometryUtil.obj: btGeometryUtil.cpp.obj
@@ -257,7 +257,7 @@ btGeometryUtil.obj: btGeometryUtil.cpp.obj
 
 # target to build an object file
 btGeometryUtil.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.cpp.obj
 .PHONY : btGeometryUtil.cpp.obj
 
 btGeometryUtil.i: btGeometryUtil.cpp.i
@@ -266,7 +266,7 @@ btGeometryUtil.i: btGeometryUtil.cpp.i
 
 # target to preprocess a source file
 btGeometryUtil.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.cpp.i
 .PHONY : btGeometryUtil.cpp.i
 
 btGeometryUtil.s: btGeometryUtil.cpp.s
@@ -275,7 +275,7 @@ btGeometryUtil.s: btGeometryUtil.cpp.s
 
 # target to generate assembly for a file
 btGeometryUtil.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.cpp.s
 .PHONY : btGeometryUtil.cpp.s
 
 btPolarDecomposition.obj: btPolarDecomposition.cpp.obj
@@ -284,7 +284,7 @@ btPolarDecomposition.obj: btPolarDecomposition.cpp.obj
 
 # target to build an object file
 btPolarDecomposition.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.cpp.obj
 .PHONY : btPolarDecomposition.cpp.obj
 
 btPolarDecomposition.i: btPolarDecomposition.cpp.i
@@ -293,7 +293,7 @@ btPolarDecomposition.i: btPolarDecomposition.cpp.i
 
 # target to preprocess a source file
 btPolarDecomposition.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.cpp.i
 .PHONY : btPolarDecomposition.cpp.i
 
 btPolarDecomposition.s: btPolarDecomposition.cpp.s
@@ -302,7 +302,7 @@ btPolarDecomposition.s: btPolarDecomposition.cpp.s
 
 # target to generate assembly for a file
 btPolarDecomposition.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btPolarDecomposition.cpp.s
 .PHONY : btPolarDecomposition.cpp.s
 
 btQuickprof.obj: btQuickprof.cpp.obj
@@ -311,7 +311,7 @@ btQuickprof.obj: btQuickprof.cpp.obj
 
 # target to build an object file
 btQuickprof.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.cpp.obj
 .PHONY : btQuickprof.cpp.obj
 
 btQuickprof.i: btQuickprof.cpp.i
@@ -320,7 +320,7 @@ btQuickprof.i: btQuickprof.cpp.i
 
 # target to preprocess a source file
 btQuickprof.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.cpp.i
 .PHONY : btQuickprof.cpp.i
 
 btQuickprof.s: btQuickprof.cpp.s
@@ -329,7 +329,7 @@ btQuickprof.s: btQuickprof.cpp.s
 
 # target to generate assembly for a file
 btQuickprof.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.cpp.s
 .PHONY : btQuickprof.cpp.s
 
 btSerializer.obj: btSerializer.cpp.obj
@@ -338,7 +338,7 @@ btSerializer.obj: btSerializer.cpp.obj
 
 # target to build an object file
 btSerializer.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.cpp.obj
 .PHONY : btSerializer.cpp.obj
 
 btSerializer.i: btSerializer.cpp.i
@@ -347,7 +347,7 @@ btSerializer.i: btSerializer.cpp.i
 
 # target to preprocess a source file
 btSerializer.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.cpp.i
 .PHONY : btSerializer.cpp.i
 
 btSerializer.s: btSerializer.cpp.s
@@ -356,7 +356,7 @@ btSerializer.s: btSerializer.cpp.s
 
 # target to generate assembly for a file
 btSerializer.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.cpp.s
 .PHONY : btSerializer.cpp.s
 
 btVector3.obj: btVector3.cpp.obj
@@ -365,7 +365,7 @@ btVector3.obj: btVector3.cpp.obj
 
 # target to build an object file
 btVector3.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.cpp.obj
 .PHONY : btVector3.cpp.obj
 
 btVector3.i: btVector3.cpp.i
@@ -374,7 +374,7 @@ btVector3.i: btVector3.cpp.i
 
 # target to preprocess a source file
 btVector3.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.cpp.i
 .PHONY : btVector3.cpp.i
 
 btVector3.s: btVector3.cpp.s
@@ -383,7 +383,7 @@ btVector3.s: btVector3.cpp.s
 
 # target to generate assembly for a file
 btVector3.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\LinearMath\CMakeFiles\LinearMath.dir\build.make lib/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/btVector3.cpp.s
 .PHONY : btVector3.cpp.s
 
 # Help Target
@@ -434,6 +434,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

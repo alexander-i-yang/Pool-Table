@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Ball.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Collidables.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Collidables.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Color.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Color.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawable.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawables.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Main.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Main.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Pocket.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Pocket.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Point.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Point.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/ShootAI.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/ShootAI.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Wall.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Wall.cpp.obj"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/common/shader.cpp" "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Ball.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Collidables.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Collidables.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Color.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Color.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Drawable.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Drawables.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Main.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Main.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Pocket.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Pocket.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Point.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Point.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/ShootAI.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/ShootAI.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/Wall.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/Wall.cpp.obj"
+  "E:/Programming/CLion - Projects/Pool-Table/lib/common/shader.cpp" "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -40,8 +40,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/DependInfo.cmake"
-  "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/DependInfo.cmake"
+  "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/lib/external/CMakeFiles/GLEW_1130.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -24,6 +24,7 @@ public:
 	static bool validFirstLeg(std::pair<double, double>, Ball*, Ball*, std::vector<Ball*>*);
 	static bool validSecondLeg(std::pair<double, double>, Ball*, Pocket*, std::vector<Ball*>*);
 	static int minimax(Ball*, std::vector<Ball*>*, Wall*[], Pocket*[], bool, int);
+	static std::pair<double, double> predictFinalLocation(Ball*);
 };
 
 #endif //POOL_TABLE_SHOOTAI_H

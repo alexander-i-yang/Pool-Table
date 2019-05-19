@@ -98,6 +98,11 @@ int Ball::getNumVertices() {
 	return numberOfVertices;
 }
 
+double absoluteVal(double x){
+    if (x > 0) return x;
+    return -1 * x;
+}
+
 void Ball::updateFrame(double friction = 0) {
 	double xVelocity = this->getXVelocity();
 	double yVelocity = this->getYVelocity();
@@ -105,9 +110,32 @@ void Ball::updateFrame(double friction = 0) {
 	this->setTime(glfwGetTime());
 	Drawable::setX(this->getX() + timeElapsed * xVelocity);
 	Drawable::setY(this->getY() + timeElapsed * yVelocity);
-	double addX = 1-0.5*timeElapsed*friction*timeElapsed*mass;
-	double addY = 1-0.5*timeElapsed*friction*timeElapsed*mass;
-	setVelocity(xVelocity*addX, yVelocity*addY);
+//	double addX = 1-0.5*timeElapsed*friction*timeElapsed*mass;      THIS IS OLD MULTIPLICATIVE FRICTION
+//	double addY = 1-0.5*timeElapsed*friction*timeElapsed*mass;
+//	setVelocity(xVelocity*addX, yVelocity*addY);
+    double angle = 3.141592/2;
+    if (xVelocity != 0){
+        angle = atan(yVelocity/xVelocity);
+    }
+    if (xVelocity < 0){
+        angle += 3.141592;
+    }                                                       // GETTING ANGLE FROM 0 to 2pi
+    double frictionX = friction * cos(angle);
+    double frictionY = friction * sin(angle);              // GETS X AND Y COMPONENTS OF FRICTION
+
+    double newX = 0;
+    double newY = 0;
+    if (absoluteVal(xVelocity) > frictionX){
+        newX = xVelocity - frictionX;
+    }
+    if (absoluteVal(yVelocity) > frictionY){
+        newY = yVelocity - frictionY;
+    }                                                       // Does the acceleration, will set velocity to 0 if the acceleration would flip the sign.
+//    if (xVelocity > 0) std::cout << "Started with " << xVelocity << " " << yVelocity << std::endl;
+//    std::cout << "Setting to " << newX << " " << newY << std::endl;
+    setVelocity(newX, newY);
+
+
 }
 
 /* needs implementation */

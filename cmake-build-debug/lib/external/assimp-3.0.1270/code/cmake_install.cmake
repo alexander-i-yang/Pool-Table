@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code
+# Install script for directory: E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp3.0-r1270-OGLtutsx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug/lib/external/assimp-3.0.1270/code/libassimp.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug/lib/external/assimp-3.0.1270/code/libassimp.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -46,45 +46,45 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/assimp" TYPE FILE FILES
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/anim.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/ai_assert.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/camera.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/color4.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/color4.inl"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/config.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/defs.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/cfileio.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/light.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/material.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/material.inl"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.inl"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.inl"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/mesh.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/postprocess.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/quaternion.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/quaternion.inl"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/scene.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/texture.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/types.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector2.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector2.inl"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector3.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector3.inl"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/version.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/cimport.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/importerdesc.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Importer.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/DefaultLogger.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/ProgressHandler.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/IOStream.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/IOSystem.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Logger.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/LogStream.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/NullLogger.hpp"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/cexport.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Exporter.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/anim.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/ai_assert.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/camera.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/color4.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/color4.inl"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/config.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/defs.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/cfileio.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/light.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/material.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/material.inl"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.inl"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.inl"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/mesh.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/postprocess.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/quaternion.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/quaternion.inl"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/scene.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/texture.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/types.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector2.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector2.inl"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector3.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/vector3.inl"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/version.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/cimport.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/importerdesc.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Importer.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/DefaultLogger.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/ProgressHandler.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/IOStream.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/IOSystem.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Logger.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/LogStream.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/NullLogger.hpp"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/cexport.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Exporter.hpp"
     )
 endif()
 
@@ -98,9 +98,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/assimp/Compiler" TYPE FILE FILES
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Compiler/pushpack1.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Compiler/poppack1.h"
-    "C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/code/pstdint.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Compiler/pushpack1.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/../include/assimp/Compiler/poppack1.h"
+    "E:/Programming/CLion - Projects/Pool-Table/lib/external/assimp-3.0.1270/code/pstdint.h"
     )
 endif()
 

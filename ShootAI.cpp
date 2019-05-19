@@ -31,6 +31,31 @@ std::pair<double,double> ShootAI::shootWhiteBall(Ball *whiteBall, Ball* shoot, d
 	return ret;
 }
 
+static std::pair<double, double> predictFinalLocation(Ball* ball, double friction){
+	double x = ball->getX();
+	double y = ball->getY();
+	double xVelocity = ball->getXVelocity();
+	double yVelocity = ball->getYVelocity();
+
+	double angle = 3.141592/2;
+	if (xVelocity != 0){
+		angle = atan(yVelocity/xVelocity);
+	}
+	if (xVelocity < 0){
+		angle += 3.141592;
+	}                                                       // GETTING ANGLE FROM 0 to 2pi
+	double frictionX = friction * cos(angle);
+	double frictionY = friction * sin(angle);              // GETS X AND Y COMPONENTS OF FRICTION
+
+	double dx = pow(xVelocity, 2)/(2 * frictionX);
+	double dy = pow(yVelocity, 2)/(2 * frictionY);
+
+	std::pair<double, double> endLoc = {x + dx, y + dy};
+	return endLoc;
+
+
+
+}
 bool ShootAI::predictCollide(Ball* whiteBall, Ball* other, double xv, double yv, double stopX) {
 	double a = whiteBall->getX();
 	double b = whiteBall->getY();

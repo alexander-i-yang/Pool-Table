@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
+CMAKE_SOURCE_DIR = "E:\Programming\CLion - Projects\Pool-Table"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,31 +58,31 @@ CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -93,7 +93,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -114,25 +114,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\progress.marks
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles 0
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\progress.marks"
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/clean
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/preinstall
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/preinstall
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/rule:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/rule
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/rule
 .PHONY : lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ BulletCollision: lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles
 
 # fast build rule for target.
 BulletCollision/fast:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/build
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/build
 .PHONY : BulletCollision/fast
 
 BroadphaseCollision/btAxisSweep3.obj: BroadphaseCollision/btAxisSweep3.cpp.obj
@@ -176,7 +176,7 @@ BroadphaseCollision/btAxisSweep3.obj: BroadphaseCollision/btAxisSweep3.cpp.obj
 
 # target to build an object file
 BroadphaseCollision/btAxisSweep3.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btAxisSweep3.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btAxisSweep3.cpp.obj
 .PHONY : BroadphaseCollision/btAxisSweep3.cpp.obj
 
 BroadphaseCollision/btAxisSweep3.i: BroadphaseCollision/btAxisSweep3.cpp.i
@@ -185,7 +185,7 @@ BroadphaseCollision/btAxisSweep3.i: BroadphaseCollision/btAxisSweep3.cpp.i
 
 # target to preprocess a source file
 BroadphaseCollision/btAxisSweep3.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btAxisSweep3.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btAxisSweep3.cpp.i
 .PHONY : BroadphaseCollision/btAxisSweep3.cpp.i
 
 BroadphaseCollision/btAxisSweep3.s: BroadphaseCollision/btAxisSweep3.cpp.s
@@ -194,7 +194,7 @@ BroadphaseCollision/btAxisSweep3.s: BroadphaseCollision/btAxisSweep3.cpp.s
 
 # target to generate assembly for a file
 BroadphaseCollision/btAxisSweep3.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btAxisSweep3.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btAxisSweep3.cpp.s
 .PHONY : BroadphaseCollision/btAxisSweep3.cpp.s
 
 BroadphaseCollision/btBroadphaseProxy.obj: BroadphaseCollision/btBroadphaseProxy.cpp.obj
@@ -203,7 +203,7 @@ BroadphaseCollision/btBroadphaseProxy.obj: BroadphaseCollision/btBroadphaseProxy
 
 # target to build an object file
 BroadphaseCollision/btBroadphaseProxy.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btBroadphaseProxy.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btBroadphaseProxy.cpp.obj
 .PHONY : BroadphaseCollision/btBroadphaseProxy.cpp.obj
 
 BroadphaseCollision/btBroadphaseProxy.i: BroadphaseCollision/btBroadphaseProxy.cpp.i
@@ -212,7 +212,7 @@ BroadphaseCollision/btBroadphaseProxy.i: BroadphaseCollision/btBroadphaseProxy.c
 
 # target to preprocess a source file
 BroadphaseCollision/btBroadphaseProxy.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btBroadphaseProxy.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btBroadphaseProxy.cpp.i
 .PHONY : BroadphaseCollision/btBroadphaseProxy.cpp.i
 
 BroadphaseCollision/btBroadphaseProxy.s: BroadphaseCollision/btBroadphaseProxy.cpp.s
@@ -221,7 +221,7 @@ BroadphaseCollision/btBroadphaseProxy.s: BroadphaseCollision/btBroadphaseProxy.c
 
 # target to generate assembly for a file
 BroadphaseCollision/btBroadphaseProxy.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btBroadphaseProxy.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btBroadphaseProxy.cpp.s
 .PHONY : BroadphaseCollision/btBroadphaseProxy.cpp.s
 
 BroadphaseCollision/btCollisionAlgorithm.obj: BroadphaseCollision/btCollisionAlgorithm.cpp.obj
@@ -230,7 +230,7 @@ BroadphaseCollision/btCollisionAlgorithm.obj: BroadphaseCollision/btCollisionAlg
 
 # target to build an object file
 BroadphaseCollision/btCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btCollisionAlgorithm.cpp.obj
 .PHONY : BroadphaseCollision/btCollisionAlgorithm.cpp.obj
 
 BroadphaseCollision/btCollisionAlgorithm.i: BroadphaseCollision/btCollisionAlgorithm.cpp.i
@@ -239,7 +239,7 @@ BroadphaseCollision/btCollisionAlgorithm.i: BroadphaseCollision/btCollisionAlgor
 
 # target to preprocess a source file
 BroadphaseCollision/btCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btCollisionAlgorithm.cpp.i
 .PHONY : BroadphaseCollision/btCollisionAlgorithm.cpp.i
 
 BroadphaseCollision/btCollisionAlgorithm.s: BroadphaseCollision/btCollisionAlgorithm.cpp.s
@@ -248,7 +248,7 @@ BroadphaseCollision/btCollisionAlgorithm.s: BroadphaseCollision/btCollisionAlgor
 
 # target to generate assembly for a file
 BroadphaseCollision/btCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btCollisionAlgorithm.cpp.s
 .PHONY : BroadphaseCollision/btCollisionAlgorithm.cpp.s
 
 BroadphaseCollision/btDbvt.obj: BroadphaseCollision/btDbvt.cpp.obj
@@ -257,7 +257,7 @@ BroadphaseCollision/btDbvt.obj: BroadphaseCollision/btDbvt.cpp.obj
 
 # target to build an object file
 BroadphaseCollision/btDbvt.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvt.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvt.cpp.obj
 .PHONY : BroadphaseCollision/btDbvt.cpp.obj
 
 BroadphaseCollision/btDbvt.i: BroadphaseCollision/btDbvt.cpp.i
@@ -266,7 +266,7 @@ BroadphaseCollision/btDbvt.i: BroadphaseCollision/btDbvt.cpp.i
 
 # target to preprocess a source file
 BroadphaseCollision/btDbvt.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvt.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvt.cpp.i
 .PHONY : BroadphaseCollision/btDbvt.cpp.i
 
 BroadphaseCollision/btDbvt.s: BroadphaseCollision/btDbvt.cpp.s
@@ -275,7 +275,7 @@ BroadphaseCollision/btDbvt.s: BroadphaseCollision/btDbvt.cpp.s
 
 # target to generate assembly for a file
 BroadphaseCollision/btDbvt.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvt.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvt.cpp.s
 .PHONY : BroadphaseCollision/btDbvt.cpp.s
 
 BroadphaseCollision/btDbvtBroadphase.obj: BroadphaseCollision/btDbvtBroadphase.cpp.obj
@@ -284,7 +284,7 @@ BroadphaseCollision/btDbvtBroadphase.obj: BroadphaseCollision/btDbvtBroadphase.c
 
 # target to build an object file
 BroadphaseCollision/btDbvtBroadphase.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvtBroadphase.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvtBroadphase.cpp.obj
 .PHONY : BroadphaseCollision/btDbvtBroadphase.cpp.obj
 
 BroadphaseCollision/btDbvtBroadphase.i: BroadphaseCollision/btDbvtBroadphase.cpp.i
@@ -293,7 +293,7 @@ BroadphaseCollision/btDbvtBroadphase.i: BroadphaseCollision/btDbvtBroadphase.cpp
 
 # target to preprocess a source file
 BroadphaseCollision/btDbvtBroadphase.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvtBroadphase.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvtBroadphase.cpp.i
 .PHONY : BroadphaseCollision/btDbvtBroadphase.cpp.i
 
 BroadphaseCollision/btDbvtBroadphase.s: BroadphaseCollision/btDbvtBroadphase.cpp.s
@@ -302,7 +302,7 @@ BroadphaseCollision/btDbvtBroadphase.s: BroadphaseCollision/btDbvtBroadphase.cpp
 
 # target to generate assembly for a file
 BroadphaseCollision/btDbvtBroadphase.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvtBroadphase.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDbvtBroadphase.cpp.s
 .PHONY : BroadphaseCollision/btDbvtBroadphase.cpp.s
 
 BroadphaseCollision/btDispatcher.obj: BroadphaseCollision/btDispatcher.cpp.obj
@@ -311,7 +311,7 @@ BroadphaseCollision/btDispatcher.obj: BroadphaseCollision/btDispatcher.cpp.obj
 
 # target to build an object file
 BroadphaseCollision/btDispatcher.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDispatcher.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDispatcher.cpp.obj
 .PHONY : BroadphaseCollision/btDispatcher.cpp.obj
 
 BroadphaseCollision/btDispatcher.i: BroadphaseCollision/btDispatcher.cpp.i
@@ -320,7 +320,7 @@ BroadphaseCollision/btDispatcher.i: BroadphaseCollision/btDispatcher.cpp.i
 
 # target to preprocess a source file
 BroadphaseCollision/btDispatcher.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDispatcher.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDispatcher.cpp.i
 .PHONY : BroadphaseCollision/btDispatcher.cpp.i
 
 BroadphaseCollision/btDispatcher.s: BroadphaseCollision/btDispatcher.cpp.s
@@ -329,7 +329,7 @@ BroadphaseCollision/btDispatcher.s: BroadphaseCollision/btDispatcher.cpp.s
 
 # target to generate assembly for a file
 BroadphaseCollision/btDispatcher.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDispatcher.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btDispatcher.cpp.s
 .PHONY : BroadphaseCollision/btDispatcher.cpp.s
 
 BroadphaseCollision/btMultiSapBroadphase.obj: BroadphaseCollision/btMultiSapBroadphase.cpp.obj
@@ -338,7 +338,7 @@ BroadphaseCollision/btMultiSapBroadphase.obj: BroadphaseCollision/btMultiSapBroa
 
 # target to build an object file
 BroadphaseCollision/btMultiSapBroadphase.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btMultiSapBroadphase.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btMultiSapBroadphase.cpp.obj
 .PHONY : BroadphaseCollision/btMultiSapBroadphase.cpp.obj
 
 BroadphaseCollision/btMultiSapBroadphase.i: BroadphaseCollision/btMultiSapBroadphase.cpp.i
@@ -347,7 +347,7 @@ BroadphaseCollision/btMultiSapBroadphase.i: BroadphaseCollision/btMultiSapBroadp
 
 # target to preprocess a source file
 BroadphaseCollision/btMultiSapBroadphase.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btMultiSapBroadphase.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btMultiSapBroadphase.cpp.i
 .PHONY : BroadphaseCollision/btMultiSapBroadphase.cpp.i
 
 BroadphaseCollision/btMultiSapBroadphase.s: BroadphaseCollision/btMultiSapBroadphase.cpp.s
@@ -356,7 +356,7 @@ BroadphaseCollision/btMultiSapBroadphase.s: BroadphaseCollision/btMultiSapBroadp
 
 # target to generate assembly for a file
 BroadphaseCollision/btMultiSapBroadphase.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btMultiSapBroadphase.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btMultiSapBroadphase.cpp.s
 .PHONY : BroadphaseCollision/btMultiSapBroadphase.cpp.s
 
 BroadphaseCollision/btOverlappingPairCache.obj: BroadphaseCollision/btOverlappingPairCache.cpp.obj
@@ -365,7 +365,7 @@ BroadphaseCollision/btOverlappingPairCache.obj: BroadphaseCollision/btOverlappin
 
 # target to build an object file
 BroadphaseCollision/btOverlappingPairCache.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btOverlappingPairCache.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btOverlappingPairCache.cpp.obj
 .PHONY : BroadphaseCollision/btOverlappingPairCache.cpp.obj
 
 BroadphaseCollision/btOverlappingPairCache.i: BroadphaseCollision/btOverlappingPairCache.cpp.i
@@ -374,7 +374,7 @@ BroadphaseCollision/btOverlappingPairCache.i: BroadphaseCollision/btOverlappingP
 
 # target to preprocess a source file
 BroadphaseCollision/btOverlappingPairCache.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btOverlappingPairCache.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btOverlappingPairCache.cpp.i
 .PHONY : BroadphaseCollision/btOverlappingPairCache.cpp.i
 
 BroadphaseCollision/btOverlappingPairCache.s: BroadphaseCollision/btOverlappingPairCache.cpp.s
@@ -383,7 +383,7 @@ BroadphaseCollision/btOverlappingPairCache.s: BroadphaseCollision/btOverlappingP
 
 # target to generate assembly for a file
 BroadphaseCollision/btOverlappingPairCache.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btOverlappingPairCache.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btOverlappingPairCache.cpp.s
 .PHONY : BroadphaseCollision/btOverlappingPairCache.cpp.s
 
 BroadphaseCollision/btQuantizedBvh.obj: BroadphaseCollision/btQuantizedBvh.cpp.obj
@@ -392,7 +392,7 @@ BroadphaseCollision/btQuantizedBvh.obj: BroadphaseCollision/btQuantizedBvh.cpp.o
 
 # target to build an object file
 BroadphaseCollision/btQuantizedBvh.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btQuantizedBvh.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btQuantizedBvh.cpp.obj
 .PHONY : BroadphaseCollision/btQuantizedBvh.cpp.obj
 
 BroadphaseCollision/btQuantizedBvh.i: BroadphaseCollision/btQuantizedBvh.cpp.i
@@ -401,7 +401,7 @@ BroadphaseCollision/btQuantizedBvh.i: BroadphaseCollision/btQuantizedBvh.cpp.i
 
 # target to preprocess a source file
 BroadphaseCollision/btQuantizedBvh.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btQuantizedBvh.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btQuantizedBvh.cpp.i
 .PHONY : BroadphaseCollision/btQuantizedBvh.cpp.i
 
 BroadphaseCollision/btQuantizedBvh.s: BroadphaseCollision/btQuantizedBvh.cpp.s
@@ -410,7 +410,7 @@ BroadphaseCollision/btQuantizedBvh.s: BroadphaseCollision/btQuantizedBvh.cpp.s
 
 # target to generate assembly for a file
 BroadphaseCollision/btQuantizedBvh.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btQuantizedBvh.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btQuantizedBvh.cpp.s
 .PHONY : BroadphaseCollision/btQuantizedBvh.cpp.s
 
 BroadphaseCollision/btSimpleBroadphase.obj: BroadphaseCollision/btSimpleBroadphase.cpp.obj
@@ -419,7 +419,7 @@ BroadphaseCollision/btSimpleBroadphase.obj: BroadphaseCollision/btSimpleBroadpha
 
 # target to build an object file
 BroadphaseCollision/btSimpleBroadphase.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btSimpleBroadphase.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btSimpleBroadphase.cpp.obj
 .PHONY : BroadphaseCollision/btSimpleBroadphase.cpp.obj
 
 BroadphaseCollision/btSimpleBroadphase.i: BroadphaseCollision/btSimpleBroadphase.cpp.i
@@ -428,7 +428,7 @@ BroadphaseCollision/btSimpleBroadphase.i: BroadphaseCollision/btSimpleBroadphase
 
 # target to preprocess a source file
 BroadphaseCollision/btSimpleBroadphase.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btSimpleBroadphase.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btSimpleBroadphase.cpp.i
 .PHONY : BroadphaseCollision/btSimpleBroadphase.cpp.i
 
 BroadphaseCollision/btSimpleBroadphase.s: BroadphaseCollision/btSimpleBroadphase.cpp.s
@@ -437,7 +437,7 @@ BroadphaseCollision/btSimpleBroadphase.s: BroadphaseCollision/btSimpleBroadphase
 
 # target to generate assembly for a file
 BroadphaseCollision/btSimpleBroadphase.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btSimpleBroadphase.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/BroadphaseCollision/btSimpleBroadphase.cpp.s
 .PHONY : BroadphaseCollision/btSimpleBroadphase.cpp.s
 
 CollisionDispatch/SphereTriangleDetector.obj: CollisionDispatch/SphereTriangleDetector.cpp.obj
@@ -446,7 +446,7 @@ CollisionDispatch/SphereTriangleDetector.obj: CollisionDispatch/SphereTriangleDe
 
 # target to build an object file
 CollisionDispatch/SphereTriangleDetector.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/SphereTriangleDetector.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/SphereTriangleDetector.cpp.obj
 .PHONY : CollisionDispatch/SphereTriangleDetector.cpp.obj
 
 CollisionDispatch/SphereTriangleDetector.i: CollisionDispatch/SphereTriangleDetector.cpp.i
@@ -455,7 +455,7 @@ CollisionDispatch/SphereTriangleDetector.i: CollisionDispatch/SphereTriangleDete
 
 # target to preprocess a source file
 CollisionDispatch/SphereTriangleDetector.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/SphereTriangleDetector.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/SphereTriangleDetector.cpp.i
 .PHONY : CollisionDispatch/SphereTriangleDetector.cpp.i
 
 CollisionDispatch/SphereTriangleDetector.s: CollisionDispatch/SphereTriangleDetector.cpp.s
@@ -464,7 +464,7 @@ CollisionDispatch/SphereTriangleDetector.s: CollisionDispatch/SphereTriangleDete
 
 # target to generate assembly for a file
 CollisionDispatch/SphereTriangleDetector.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/SphereTriangleDetector.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/SphereTriangleDetector.cpp.s
 .PHONY : CollisionDispatch/SphereTriangleDetector.cpp.s
 
 CollisionDispatch/btActivatingCollisionAlgorithm.obj: CollisionDispatch/btActivatingCollisionAlgorithm.cpp.obj
@@ -473,7 +473,7 @@ CollisionDispatch/btActivatingCollisionAlgorithm.obj: CollisionDispatch/btActiva
 
 # target to build an object file
 CollisionDispatch/btActivatingCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btActivatingCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btActivatingCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btActivatingCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btActivatingCollisionAlgorithm.i: CollisionDispatch/btActivatingCollisionAlgorithm.cpp.i
@@ -482,7 +482,7 @@ CollisionDispatch/btActivatingCollisionAlgorithm.i: CollisionDispatch/btActivati
 
 # target to preprocess a source file
 CollisionDispatch/btActivatingCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btActivatingCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btActivatingCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btActivatingCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btActivatingCollisionAlgorithm.s: CollisionDispatch/btActivatingCollisionAlgorithm.cpp.s
@@ -491,7 +491,7 @@ CollisionDispatch/btActivatingCollisionAlgorithm.s: CollisionDispatch/btActivati
 
 # target to generate assembly for a file
 CollisionDispatch/btActivatingCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btActivatingCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btActivatingCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btActivatingCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btBox2dBox2dCollisionAlgorithm.obj: CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.obj
@@ -500,7 +500,7 @@ CollisionDispatch/btBox2dBox2dCollisionAlgorithm.obj: CollisionDispatch/btBox2dB
 
 # target to build an object file
 CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btBox2dBox2dCollisionAlgorithm.i: CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.i
@@ -509,7 +509,7 @@ CollisionDispatch/btBox2dBox2dCollisionAlgorithm.i: CollisionDispatch/btBox2dBox
 
 # target to preprocess a source file
 CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btBox2dBox2dCollisionAlgorithm.s: CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.s
@@ -518,7 +518,7 @@ CollisionDispatch/btBox2dBox2dCollisionAlgorithm.s: CollisionDispatch/btBox2dBox
 
 # target to generate assembly for a file
 CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btBox2dBox2dCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btBoxBoxCollisionAlgorithm.obj: CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.obj
@@ -527,7 +527,7 @@ CollisionDispatch/btBoxBoxCollisionAlgorithm.obj: CollisionDispatch/btBoxBoxColl
 
 # target to build an object file
 CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btBoxBoxCollisionAlgorithm.i: CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.i
@@ -536,7 +536,7 @@ CollisionDispatch/btBoxBoxCollisionAlgorithm.i: CollisionDispatch/btBoxBoxCollis
 
 # target to preprocess a source file
 CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btBoxBoxCollisionAlgorithm.s: CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.s
@@ -545,7 +545,7 @@ CollisionDispatch/btBoxBoxCollisionAlgorithm.s: CollisionDispatch/btBoxBoxCollis
 
 # target to generate assembly for a file
 CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btBoxBoxCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btBoxBoxDetector.obj: CollisionDispatch/btBoxBoxDetector.cpp.obj
@@ -554,7 +554,7 @@ CollisionDispatch/btBoxBoxDetector.obj: CollisionDispatch/btBoxBoxDetector.cpp.o
 
 # target to build an object file
 CollisionDispatch/btBoxBoxDetector.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxDetector.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxDetector.cpp.obj
 .PHONY : CollisionDispatch/btBoxBoxDetector.cpp.obj
 
 CollisionDispatch/btBoxBoxDetector.i: CollisionDispatch/btBoxBoxDetector.cpp.i
@@ -563,7 +563,7 @@ CollisionDispatch/btBoxBoxDetector.i: CollisionDispatch/btBoxBoxDetector.cpp.i
 
 # target to preprocess a source file
 CollisionDispatch/btBoxBoxDetector.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxDetector.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxDetector.cpp.i
 .PHONY : CollisionDispatch/btBoxBoxDetector.cpp.i
 
 CollisionDispatch/btBoxBoxDetector.s: CollisionDispatch/btBoxBoxDetector.cpp.s
@@ -572,7 +572,7 @@ CollisionDispatch/btBoxBoxDetector.s: CollisionDispatch/btBoxBoxDetector.cpp.s
 
 # target to generate assembly for a file
 CollisionDispatch/btBoxBoxDetector.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxDetector.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btBoxBoxDetector.cpp.s
 .PHONY : CollisionDispatch/btBoxBoxDetector.cpp.s
 
 CollisionDispatch/btCollisionDispatcher.obj: CollisionDispatch/btCollisionDispatcher.cpp.obj
@@ -581,7 +581,7 @@ CollisionDispatch/btCollisionDispatcher.obj: CollisionDispatch/btCollisionDispat
 
 # target to build an object file
 CollisionDispatch/btCollisionDispatcher.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionDispatcher.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionDispatcher.cpp.obj
 .PHONY : CollisionDispatch/btCollisionDispatcher.cpp.obj
 
 CollisionDispatch/btCollisionDispatcher.i: CollisionDispatch/btCollisionDispatcher.cpp.i
@@ -590,7 +590,7 @@ CollisionDispatch/btCollisionDispatcher.i: CollisionDispatch/btCollisionDispatch
 
 # target to preprocess a source file
 CollisionDispatch/btCollisionDispatcher.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionDispatcher.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionDispatcher.cpp.i
 .PHONY : CollisionDispatch/btCollisionDispatcher.cpp.i
 
 CollisionDispatch/btCollisionDispatcher.s: CollisionDispatch/btCollisionDispatcher.cpp.s
@@ -599,7 +599,7 @@ CollisionDispatch/btCollisionDispatcher.s: CollisionDispatch/btCollisionDispatch
 
 # target to generate assembly for a file
 CollisionDispatch/btCollisionDispatcher.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionDispatcher.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionDispatcher.cpp.s
 .PHONY : CollisionDispatch/btCollisionDispatcher.cpp.s
 
 CollisionDispatch/btCollisionObject.obj: CollisionDispatch/btCollisionObject.cpp.obj
@@ -608,7 +608,7 @@ CollisionDispatch/btCollisionObject.obj: CollisionDispatch/btCollisionObject.cpp
 
 # target to build an object file
 CollisionDispatch/btCollisionObject.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionObject.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionObject.cpp.obj
 .PHONY : CollisionDispatch/btCollisionObject.cpp.obj
 
 CollisionDispatch/btCollisionObject.i: CollisionDispatch/btCollisionObject.cpp.i
@@ -617,7 +617,7 @@ CollisionDispatch/btCollisionObject.i: CollisionDispatch/btCollisionObject.cpp.i
 
 # target to preprocess a source file
 CollisionDispatch/btCollisionObject.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionObject.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionObject.cpp.i
 .PHONY : CollisionDispatch/btCollisionObject.cpp.i
 
 CollisionDispatch/btCollisionObject.s: CollisionDispatch/btCollisionObject.cpp.s
@@ -626,7 +626,7 @@ CollisionDispatch/btCollisionObject.s: CollisionDispatch/btCollisionObject.cpp.s
 
 # target to generate assembly for a file
 CollisionDispatch/btCollisionObject.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionObject.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionObject.cpp.s
 .PHONY : CollisionDispatch/btCollisionObject.cpp.s
 
 CollisionDispatch/btCollisionWorld.obj: CollisionDispatch/btCollisionWorld.cpp.obj
@@ -635,7 +635,7 @@ CollisionDispatch/btCollisionWorld.obj: CollisionDispatch/btCollisionWorld.cpp.o
 
 # target to build an object file
 CollisionDispatch/btCollisionWorld.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionWorld.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionWorld.cpp.obj
 .PHONY : CollisionDispatch/btCollisionWorld.cpp.obj
 
 CollisionDispatch/btCollisionWorld.i: CollisionDispatch/btCollisionWorld.cpp.i
@@ -644,7 +644,7 @@ CollisionDispatch/btCollisionWorld.i: CollisionDispatch/btCollisionWorld.cpp.i
 
 # target to preprocess a source file
 CollisionDispatch/btCollisionWorld.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionWorld.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionWorld.cpp.i
 .PHONY : CollisionDispatch/btCollisionWorld.cpp.i
 
 CollisionDispatch/btCollisionWorld.s: CollisionDispatch/btCollisionWorld.cpp.s
@@ -653,7 +653,7 @@ CollisionDispatch/btCollisionWorld.s: CollisionDispatch/btCollisionWorld.cpp.s
 
 # target to generate assembly for a file
 CollisionDispatch/btCollisionWorld.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionWorld.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCollisionWorld.cpp.s
 .PHONY : CollisionDispatch/btCollisionWorld.cpp.s
 
 CollisionDispatch/btCompoundCollisionAlgorithm.obj: CollisionDispatch/btCompoundCollisionAlgorithm.cpp.obj
@@ -662,7 +662,7 @@ CollisionDispatch/btCompoundCollisionAlgorithm.obj: CollisionDispatch/btCompound
 
 # target to build an object file
 CollisionDispatch/btCompoundCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCompoundCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCompoundCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btCompoundCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btCompoundCollisionAlgorithm.i: CollisionDispatch/btCompoundCollisionAlgorithm.cpp.i
@@ -671,7 +671,7 @@ CollisionDispatch/btCompoundCollisionAlgorithm.i: CollisionDispatch/btCompoundCo
 
 # target to preprocess a source file
 CollisionDispatch/btCompoundCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCompoundCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCompoundCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btCompoundCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btCompoundCollisionAlgorithm.s: CollisionDispatch/btCompoundCollisionAlgorithm.cpp.s
@@ -680,7 +680,7 @@ CollisionDispatch/btCompoundCollisionAlgorithm.s: CollisionDispatch/btCompoundCo
 
 # target to generate assembly for a file
 CollisionDispatch/btCompoundCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCompoundCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btCompoundCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btCompoundCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btConvex2dConvex2dAlgorithm.obj: CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.obj
@@ -689,7 +689,7 @@ CollisionDispatch/btConvex2dConvex2dAlgorithm.obj: CollisionDispatch/btConvex2dC
 
 # target to build an object file
 CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.obj
 
 CollisionDispatch/btConvex2dConvex2dAlgorithm.i: CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.i
@@ -698,7 +698,7 @@ CollisionDispatch/btConvex2dConvex2dAlgorithm.i: CollisionDispatch/btConvex2dCon
 
 # target to preprocess a source file
 CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.i
 
 CollisionDispatch/btConvex2dConvex2dAlgorithm.s: CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.s
@@ -707,7 +707,7 @@ CollisionDispatch/btConvex2dConvex2dAlgorithm.s: CollisionDispatch/btConvex2dCon
 
 # target to generate assembly for a file
 CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btConvex2dConvex2dAlgorithm.cpp.s
 
 CollisionDispatch/btConvexConcaveCollisionAlgorithm.obj: CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.obj
@@ -716,7 +716,7 @@ CollisionDispatch/btConvexConcaveCollisionAlgorithm.obj: CollisionDispatch/btCon
 
 # target to build an object file
 CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btConvexConcaveCollisionAlgorithm.i: CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.i
@@ -725,7 +725,7 @@ CollisionDispatch/btConvexConcaveCollisionAlgorithm.i: CollisionDispatch/btConve
 
 # target to preprocess a source file
 CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btConvexConcaveCollisionAlgorithm.s: CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.s
@@ -734,7 +734,7 @@ CollisionDispatch/btConvexConcaveCollisionAlgorithm.s: CollisionDispatch/btConve
 
 # target to generate assembly for a file
 CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btConvexConcaveCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btConvexConvexAlgorithm.obj: CollisionDispatch/btConvexConvexAlgorithm.cpp.obj
@@ -743,7 +743,7 @@ CollisionDispatch/btConvexConvexAlgorithm.obj: CollisionDispatch/btConvexConvexA
 
 # target to build an object file
 CollisionDispatch/btConvexConvexAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConvexAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConvexAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btConvexConvexAlgorithm.cpp.obj
 
 CollisionDispatch/btConvexConvexAlgorithm.i: CollisionDispatch/btConvexConvexAlgorithm.cpp.i
@@ -752,7 +752,7 @@ CollisionDispatch/btConvexConvexAlgorithm.i: CollisionDispatch/btConvexConvexAlg
 
 # target to preprocess a source file
 CollisionDispatch/btConvexConvexAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConvexAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConvexAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btConvexConvexAlgorithm.cpp.i
 
 CollisionDispatch/btConvexConvexAlgorithm.s: CollisionDispatch/btConvexConvexAlgorithm.cpp.s
@@ -761,7 +761,7 @@ CollisionDispatch/btConvexConvexAlgorithm.s: CollisionDispatch/btConvexConvexAlg
 
 # target to generate assembly for a file
 CollisionDispatch/btConvexConvexAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConvexAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexConvexAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btConvexConvexAlgorithm.cpp.s
 
 CollisionDispatch/btConvexPlaneCollisionAlgorithm.obj: CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.obj
@@ -770,7 +770,7 @@ CollisionDispatch/btConvexPlaneCollisionAlgorithm.obj: CollisionDispatch/btConve
 
 # target to build an object file
 CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btConvexPlaneCollisionAlgorithm.i: CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.i
@@ -779,7 +779,7 @@ CollisionDispatch/btConvexPlaneCollisionAlgorithm.i: CollisionDispatch/btConvexP
 
 # target to preprocess a source file
 CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btConvexPlaneCollisionAlgorithm.s: CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.s
@@ -788,7 +788,7 @@ CollisionDispatch/btConvexPlaneCollisionAlgorithm.s: CollisionDispatch/btConvexP
 
 # target to generate assembly for a file
 CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btConvexPlaneCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btDefaultCollisionConfiguration.obj: CollisionDispatch/btDefaultCollisionConfiguration.cpp.obj
@@ -797,7 +797,7 @@ CollisionDispatch/btDefaultCollisionConfiguration.obj: CollisionDispatch/btDefau
 
 # target to build an object file
 CollisionDispatch/btDefaultCollisionConfiguration.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btDefaultCollisionConfiguration.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btDefaultCollisionConfiguration.cpp.obj
 .PHONY : CollisionDispatch/btDefaultCollisionConfiguration.cpp.obj
 
 CollisionDispatch/btDefaultCollisionConfiguration.i: CollisionDispatch/btDefaultCollisionConfiguration.cpp.i
@@ -806,7 +806,7 @@ CollisionDispatch/btDefaultCollisionConfiguration.i: CollisionDispatch/btDefault
 
 # target to preprocess a source file
 CollisionDispatch/btDefaultCollisionConfiguration.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btDefaultCollisionConfiguration.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btDefaultCollisionConfiguration.cpp.i
 .PHONY : CollisionDispatch/btDefaultCollisionConfiguration.cpp.i
 
 CollisionDispatch/btDefaultCollisionConfiguration.s: CollisionDispatch/btDefaultCollisionConfiguration.cpp.s
@@ -815,7 +815,7 @@ CollisionDispatch/btDefaultCollisionConfiguration.s: CollisionDispatch/btDefault
 
 # target to generate assembly for a file
 CollisionDispatch/btDefaultCollisionConfiguration.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btDefaultCollisionConfiguration.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btDefaultCollisionConfiguration.cpp.s
 .PHONY : CollisionDispatch/btDefaultCollisionConfiguration.cpp.s
 
 CollisionDispatch/btEmptyCollisionAlgorithm.obj: CollisionDispatch/btEmptyCollisionAlgorithm.cpp.obj
@@ -824,7 +824,7 @@ CollisionDispatch/btEmptyCollisionAlgorithm.obj: CollisionDispatch/btEmptyCollis
 
 # target to build an object file
 CollisionDispatch/btEmptyCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btEmptyCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btEmptyCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btEmptyCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btEmptyCollisionAlgorithm.i: CollisionDispatch/btEmptyCollisionAlgorithm.cpp.i
@@ -833,7 +833,7 @@ CollisionDispatch/btEmptyCollisionAlgorithm.i: CollisionDispatch/btEmptyCollisio
 
 # target to preprocess a source file
 CollisionDispatch/btEmptyCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btEmptyCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btEmptyCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btEmptyCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btEmptyCollisionAlgorithm.s: CollisionDispatch/btEmptyCollisionAlgorithm.cpp.s
@@ -842,7 +842,7 @@ CollisionDispatch/btEmptyCollisionAlgorithm.s: CollisionDispatch/btEmptyCollisio
 
 # target to generate assembly for a file
 CollisionDispatch/btEmptyCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btEmptyCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btEmptyCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btEmptyCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btGhostObject.obj: CollisionDispatch/btGhostObject.cpp.obj
@@ -851,7 +851,7 @@ CollisionDispatch/btGhostObject.obj: CollisionDispatch/btGhostObject.cpp.obj
 
 # target to build an object file
 CollisionDispatch/btGhostObject.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btGhostObject.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btGhostObject.cpp.obj
 .PHONY : CollisionDispatch/btGhostObject.cpp.obj
 
 CollisionDispatch/btGhostObject.i: CollisionDispatch/btGhostObject.cpp.i
@@ -860,7 +860,7 @@ CollisionDispatch/btGhostObject.i: CollisionDispatch/btGhostObject.cpp.i
 
 # target to preprocess a source file
 CollisionDispatch/btGhostObject.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btGhostObject.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btGhostObject.cpp.i
 .PHONY : CollisionDispatch/btGhostObject.cpp.i
 
 CollisionDispatch/btGhostObject.s: CollisionDispatch/btGhostObject.cpp.s
@@ -869,7 +869,7 @@ CollisionDispatch/btGhostObject.s: CollisionDispatch/btGhostObject.cpp.s
 
 # target to generate assembly for a file
 CollisionDispatch/btGhostObject.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btGhostObject.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btGhostObject.cpp.s
 .PHONY : CollisionDispatch/btGhostObject.cpp.s
 
 CollisionDispatch/btInternalEdgeUtility.obj: CollisionDispatch/btInternalEdgeUtility.cpp.obj
@@ -878,7 +878,7 @@ CollisionDispatch/btInternalEdgeUtility.obj: CollisionDispatch/btInternalEdgeUti
 
 # target to build an object file
 CollisionDispatch/btInternalEdgeUtility.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btInternalEdgeUtility.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btInternalEdgeUtility.cpp.obj
 .PHONY : CollisionDispatch/btInternalEdgeUtility.cpp.obj
 
 CollisionDispatch/btInternalEdgeUtility.i: CollisionDispatch/btInternalEdgeUtility.cpp.i
@@ -887,7 +887,7 @@ CollisionDispatch/btInternalEdgeUtility.i: CollisionDispatch/btInternalEdgeUtili
 
 # target to preprocess a source file
 CollisionDispatch/btInternalEdgeUtility.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btInternalEdgeUtility.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btInternalEdgeUtility.cpp.i
 .PHONY : CollisionDispatch/btInternalEdgeUtility.cpp.i
 
 CollisionDispatch/btInternalEdgeUtility.s: CollisionDispatch/btInternalEdgeUtility.cpp.s
@@ -896,7 +896,7 @@ CollisionDispatch/btInternalEdgeUtility.s: CollisionDispatch/btInternalEdgeUtili
 
 # target to generate assembly for a file
 CollisionDispatch/btInternalEdgeUtility.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btInternalEdgeUtility.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btInternalEdgeUtility.cpp.s
 .PHONY : CollisionDispatch/btInternalEdgeUtility.cpp.s
 
 CollisionDispatch/btManifoldResult.obj: CollisionDispatch/btManifoldResult.cpp.obj
@@ -905,7 +905,7 @@ CollisionDispatch/btManifoldResult.obj: CollisionDispatch/btManifoldResult.cpp.o
 
 # target to build an object file
 CollisionDispatch/btManifoldResult.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btManifoldResult.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btManifoldResult.cpp.obj
 .PHONY : CollisionDispatch/btManifoldResult.cpp.obj
 
 CollisionDispatch/btManifoldResult.i: CollisionDispatch/btManifoldResult.cpp.i
@@ -914,7 +914,7 @@ CollisionDispatch/btManifoldResult.i: CollisionDispatch/btManifoldResult.cpp.i
 
 # target to preprocess a source file
 CollisionDispatch/btManifoldResult.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btManifoldResult.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btManifoldResult.cpp.i
 .PHONY : CollisionDispatch/btManifoldResult.cpp.i
 
 CollisionDispatch/btManifoldResult.s: CollisionDispatch/btManifoldResult.cpp.s
@@ -923,7 +923,7 @@ CollisionDispatch/btManifoldResult.s: CollisionDispatch/btManifoldResult.cpp.s
 
 # target to generate assembly for a file
 CollisionDispatch/btManifoldResult.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btManifoldResult.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btManifoldResult.cpp.s
 .PHONY : CollisionDispatch/btManifoldResult.cpp.s
 
 CollisionDispatch/btSimulationIslandManager.obj: CollisionDispatch/btSimulationIslandManager.cpp.obj
@@ -932,7 +932,7 @@ CollisionDispatch/btSimulationIslandManager.obj: CollisionDispatch/btSimulationI
 
 # target to build an object file
 CollisionDispatch/btSimulationIslandManager.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSimulationIslandManager.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSimulationIslandManager.cpp.obj
 .PHONY : CollisionDispatch/btSimulationIslandManager.cpp.obj
 
 CollisionDispatch/btSimulationIslandManager.i: CollisionDispatch/btSimulationIslandManager.cpp.i
@@ -941,7 +941,7 @@ CollisionDispatch/btSimulationIslandManager.i: CollisionDispatch/btSimulationIsl
 
 # target to preprocess a source file
 CollisionDispatch/btSimulationIslandManager.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSimulationIslandManager.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSimulationIslandManager.cpp.i
 .PHONY : CollisionDispatch/btSimulationIslandManager.cpp.i
 
 CollisionDispatch/btSimulationIslandManager.s: CollisionDispatch/btSimulationIslandManager.cpp.s
@@ -950,7 +950,7 @@ CollisionDispatch/btSimulationIslandManager.s: CollisionDispatch/btSimulationIsl
 
 # target to generate assembly for a file
 CollisionDispatch/btSimulationIslandManager.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSimulationIslandManager.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSimulationIslandManager.cpp.s
 .PHONY : CollisionDispatch/btSimulationIslandManager.cpp.s
 
 CollisionDispatch/btSphereBoxCollisionAlgorithm.obj: CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.obj
@@ -959,7 +959,7 @@ CollisionDispatch/btSphereBoxCollisionAlgorithm.obj: CollisionDispatch/btSphereB
 
 # target to build an object file
 CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btSphereBoxCollisionAlgorithm.i: CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.i
@@ -968,7 +968,7 @@ CollisionDispatch/btSphereBoxCollisionAlgorithm.i: CollisionDispatch/btSphereBox
 
 # target to preprocess a source file
 CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btSphereBoxCollisionAlgorithm.s: CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.s
@@ -977,7 +977,7 @@ CollisionDispatch/btSphereBoxCollisionAlgorithm.s: CollisionDispatch/btSphereBox
 
 # target to generate assembly for a file
 CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btSphereBoxCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btSphereSphereCollisionAlgorithm.obj: CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.obj
@@ -986,7 +986,7 @@ CollisionDispatch/btSphereSphereCollisionAlgorithm.obj: CollisionDispatch/btSphe
 
 # target to build an object file
 CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btSphereSphereCollisionAlgorithm.i: CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.i
@@ -995,7 +995,7 @@ CollisionDispatch/btSphereSphereCollisionAlgorithm.i: CollisionDispatch/btSphere
 
 # target to preprocess a source file
 CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btSphereSphereCollisionAlgorithm.s: CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.s
@@ -1004,7 +1004,7 @@ CollisionDispatch/btSphereSphereCollisionAlgorithm.s: CollisionDispatch/btSphere
 
 # target to generate assembly for a file
 CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btSphereSphereCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btSphereTriangleCollisionAlgorithm.obj: CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.obj
@@ -1013,7 +1013,7 @@ CollisionDispatch/btSphereTriangleCollisionAlgorithm.obj: CollisionDispatch/btSp
 
 # target to build an object file
 CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.obj
 .PHONY : CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.obj
 
 CollisionDispatch/btSphereTriangleCollisionAlgorithm.i: CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.i
@@ -1022,7 +1022,7 @@ CollisionDispatch/btSphereTriangleCollisionAlgorithm.i: CollisionDispatch/btSphe
 
 # target to preprocess a source file
 CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.i
 .PHONY : CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.i
 
 CollisionDispatch/btSphereTriangleCollisionAlgorithm.s: CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.s
@@ -1031,7 +1031,7 @@ CollisionDispatch/btSphereTriangleCollisionAlgorithm.s: CollisionDispatch/btSphe
 
 # target to generate assembly for a file
 CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.s
 .PHONY : CollisionDispatch/btSphereTriangleCollisionAlgorithm.cpp.s
 
 CollisionDispatch/btUnionFind.obj: CollisionDispatch/btUnionFind.cpp.obj
@@ -1040,7 +1040,7 @@ CollisionDispatch/btUnionFind.obj: CollisionDispatch/btUnionFind.cpp.obj
 
 # target to build an object file
 CollisionDispatch/btUnionFind.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btUnionFind.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btUnionFind.cpp.obj
 .PHONY : CollisionDispatch/btUnionFind.cpp.obj
 
 CollisionDispatch/btUnionFind.i: CollisionDispatch/btUnionFind.cpp.i
@@ -1049,7 +1049,7 @@ CollisionDispatch/btUnionFind.i: CollisionDispatch/btUnionFind.cpp.i
 
 # target to preprocess a source file
 CollisionDispatch/btUnionFind.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btUnionFind.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btUnionFind.cpp.i
 .PHONY : CollisionDispatch/btUnionFind.cpp.i
 
 CollisionDispatch/btUnionFind.s: CollisionDispatch/btUnionFind.cpp.s
@@ -1058,7 +1058,7 @@ CollisionDispatch/btUnionFind.s: CollisionDispatch/btUnionFind.cpp.s
 
 # target to generate assembly for a file
 CollisionDispatch/btUnionFind.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btUnionFind.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionDispatch/btUnionFind.cpp.s
 .PHONY : CollisionDispatch/btUnionFind.cpp.s
 
 CollisionShapes/btBox2dShape.obj: CollisionShapes/btBox2dShape.cpp.obj
@@ -1067,7 +1067,7 @@ CollisionShapes/btBox2dShape.obj: CollisionShapes/btBox2dShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btBox2dShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBox2dShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBox2dShape.cpp.obj
 .PHONY : CollisionShapes/btBox2dShape.cpp.obj
 
 CollisionShapes/btBox2dShape.i: CollisionShapes/btBox2dShape.cpp.i
@@ -1076,7 +1076,7 @@ CollisionShapes/btBox2dShape.i: CollisionShapes/btBox2dShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btBox2dShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBox2dShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBox2dShape.cpp.i
 .PHONY : CollisionShapes/btBox2dShape.cpp.i
 
 CollisionShapes/btBox2dShape.s: CollisionShapes/btBox2dShape.cpp.s
@@ -1085,7 +1085,7 @@ CollisionShapes/btBox2dShape.s: CollisionShapes/btBox2dShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btBox2dShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBox2dShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBox2dShape.cpp.s
 .PHONY : CollisionShapes/btBox2dShape.cpp.s
 
 CollisionShapes/btBoxShape.obj: CollisionShapes/btBoxShape.cpp.obj
@@ -1094,7 +1094,7 @@ CollisionShapes/btBoxShape.obj: CollisionShapes/btBoxShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btBoxShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBoxShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBoxShape.cpp.obj
 .PHONY : CollisionShapes/btBoxShape.cpp.obj
 
 CollisionShapes/btBoxShape.i: CollisionShapes/btBoxShape.cpp.i
@@ -1103,7 +1103,7 @@ CollisionShapes/btBoxShape.i: CollisionShapes/btBoxShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btBoxShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBoxShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBoxShape.cpp.i
 .PHONY : CollisionShapes/btBoxShape.cpp.i
 
 CollisionShapes/btBoxShape.s: CollisionShapes/btBoxShape.cpp.s
@@ -1112,7 +1112,7 @@ CollisionShapes/btBoxShape.s: CollisionShapes/btBoxShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btBoxShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBoxShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBoxShape.cpp.s
 .PHONY : CollisionShapes/btBoxShape.cpp.s
 
 CollisionShapes/btBvhTriangleMeshShape.obj: CollisionShapes/btBvhTriangleMeshShape.cpp.obj
@@ -1121,7 +1121,7 @@ CollisionShapes/btBvhTriangleMeshShape.obj: CollisionShapes/btBvhTriangleMeshSha
 
 # target to build an object file
 CollisionShapes/btBvhTriangleMeshShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBvhTriangleMeshShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBvhTriangleMeshShape.cpp.obj
 .PHONY : CollisionShapes/btBvhTriangleMeshShape.cpp.obj
 
 CollisionShapes/btBvhTriangleMeshShape.i: CollisionShapes/btBvhTriangleMeshShape.cpp.i
@@ -1130,7 +1130,7 @@ CollisionShapes/btBvhTriangleMeshShape.i: CollisionShapes/btBvhTriangleMeshShape
 
 # target to preprocess a source file
 CollisionShapes/btBvhTriangleMeshShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBvhTriangleMeshShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBvhTriangleMeshShape.cpp.i
 .PHONY : CollisionShapes/btBvhTriangleMeshShape.cpp.i
 
 CollisionShapes/btBvhTriangleMeshShape.s: CollisionShapes/btBvhTriangleMeshShape.cpp.s
@@ -1139,7 +1139,7 @@ CollisionShapes/btBvhTriangleMeshShape.s: CollisionShapes/btBvhTriangleMeshShape
 
 # target to generate assembly for a file
 CollisionShapes/btBvhTriangleMeshShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBvhTriangleMeshShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btBvhTriangleMeshShape.cpp.s
 .PHONY : CollisionShapes/btBvhTriangleMeshShape.cpp.s
 
 CollisionShapes/btCapsuleShape.obj: CollisionShapes/btCapsuleShape.cpp.obj
@@ -1148,7 +1148,7 @@ CollisionShapes/btCapsuleShape.obj: CollisionShapes/btCapsuleShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btCapsuleShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCapsuleShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCapsuleShape.cpp.obj
 .PHONY : CollisionShapes/btCapsuleShape.cpp.obj
 
 CollisionShapes/btCapsuleShape.i: CollisionShapes/btCapsuleShape.cpp.i
@@ -1157,7 +1157,7 @@ CollisionShapes/btCapsuleShape.i: CollisionShapes/btCapsuleShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btCapsuleShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCapsuleShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCapsuleShape.cpp.i
 .PHONY : CollisionShapes/btCapsuleShape.cpp.i
 
 CollisionShapes/btCapsuleShape.s: CollisionShapes/btCapsuleShape.cpp.s
@@ -1166,7 +1166,7 @@ CollisionShapes/btCapsuleShape.s: CollisionShapes/btCapsuleShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btCapsuleShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCapsuleShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCapsuleShape.cpp.s
 .PHONY : CollisionShapes/btCapsuleShape.cpp.s
 
 CollisionShapes/btCollisionShape.obj: CollisionShapes/btCollisionShape.cpp.obj
@@ -1175,7 +1175,7 @@ CollisionShapes/btCollisionShape.obj: CollisionShapes/btCollisionShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btCollisionShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCollisionShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCollisionShape.cpp.obj
 .PHONY : CollisionShapes/btCollisionShape.cpp.obj
 
 CollisionShapes/btCollisionShape.i: CollisionShapes/btCollisionShape.cpp.i
@@ -1184,7 +1184,7 @@ CollisionShapes/btCollisionShape.i: CollisionShapes/btCollisionShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btCollisionShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCollisionShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCollisionShape.cpp.i
 .PHONY : CollisionShapes/btCollisionShape.cpp.i
 
 CollisionShapes/btCollisionShape.s: CollisionShapes/btCollisionShape.cpp.s
@@ -1193,7 +1193,7 @@ CollisionShapes/btCollisionShape.s: CollisionShapes/btCollisionShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btCollisionShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCollisionShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCollisionShape.cpp.s
 .PHONY : CollisionShapes/btCollisionShape.cpp.s
 
 CollisionShapes/btCompoundShape.obj: CollisionShapes/btCompoundShape.cpp.obj
@@ -1202,7 +1202,7 @@ CollisionShapes/btCompoundShape.obj: CollisionShapes/btCompoundShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btCompoundShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCompoundShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCompoundShape.cpp.obj
 .PHONY : CollisionShapes/btCompoundShape.cpp.obj
 
 CollisionShapes/btCompoundShape.i: CollisionShapes/btCompoundShape.cpp.i
@@ -1211,7 +1211,7 @@ CollisionShapes/btCompoundShape.i: CollisionShapes/btCompoundShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btCompoundShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCompoundShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCompoundShape.cpp.i
 .PHONY : CollisionShapes/btCompoundShape.cpp.i
 
 CollisionShapes/btCompoundShape.s: CollisionShapes/btCompoundShape.cpp.s
@@ -1220,7 +1220,7 @@ CollisionShapes/btCompoundShape.s: CollisionShapes/btCompoundShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btCompoundShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCompoundShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCompoundShape.cpp.s
 .PHONY : CollisionShapes/btCompoundShape.cpp.s
 
 CollisionShapes/btConcaveShape.obj: CollisionShapes/btConcaveShape.cpp.obj
@@ -1229,7 +1229,7 @@ CollisionShapes/btConcaveShape.obj: CollisionShapes/btConcaveShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btConcaveShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConcaveShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConcaveShape.cpp.obj
 .PHONY : CollisionShapes/btConcaveShape.cpp.obj
 
 CollisionShapes/btConcaveShape.i: CollisionShapes/btConcaveShape.cpp.i
@@ -1238,7 +1238,7 @@ CollisionShapes/btConcaveShape.i: CollisionShapes/btConcaveShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btConcaveShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConcaveShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConcaveShape.cpp.i
 .PHONY : CollisionShapes/btConcaveShape.cpp.i
 
 CollisionShapes/btConcaveShape.s: CollisionShapes/btConcaveShape.cpp.s
@@ -1247,7 +1247,7 @@ CollisionShapes/btConcaveShape.s: CollisionShapes/btConcaveShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btConcaveShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConcaveShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConcaveShape.cpp.s
 .PHONY : CollisionShapes/btConcaveShape.cpp.s
 
 CollisionShapes/btConeShape.obj: CollisionShapes/btConeShape.cpp.obj
@@ -1256,7 +1256,7 @@ CollisionShapes/btConeShape.obj: CollisionShapes/btConeShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btConeShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConeShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConeShape.cpp.obj
 .PHONY : CollisionShapes/btConeShape.cpp.obj
 
 CollisionShapes/btConeShape.i: CollisionShapes/btConeShape.cpp.i
@@ -1265,7 +1265,7 @@ CollisionShapes/btConeShape.i: CollisionShapes/btConeShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btConeShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConeShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConeShape.cpp.i
 .PHONY : CollisionShapes/btConeShape.cpp.i
 
 CollisionShapes/btConeShape.s: CollisionShapes/btConeShape.cpp.s
@@ -1274,7 +1274,7 @@ CollisionShapes/btConeShape.s: CollisionShapes/btConeShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btConeShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConeShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConeShape.cpp.s
 .PHONY : CollisionShapes/btConeShape.cpp.s
 
 CollisionShapes/btConvex2dShape.obj: CollisionShapes/btConvex2dShape.cpp.obj
@@ -1283,7 +1283,7 @@ CollisionShapes/btConvex2dShape.obj: CollisionShapes/btConvex2dShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btConvex2dShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvex2dShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvex2dShape.cpp.obj
 .PHONY : CollisionShapes/btConvex2dShape.cpp.obj
 
 CollisionShapes/btConvex2dShape.i: CollisionShapes/btConvex2dShape.cpp.i
@@ -1292,7 +1292,7 @@ CollisionShapes/btConvex2dShape.i: CollisionShapes/btConvex2dShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btConvex2dShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvex2dShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvex2dShape.cpp.i
 .PHONY : CollisionShapes/btConvex2dShape.cpp.i
 
 CollisionShapes/btConvex2dShape.s: CollisionShapes/btConvex2dShape.cpp.s
@@ -1301,7 +1301,7 @@ CollisionShapes/btConvex2dShape.s: CollisionShapes/btConvex2dShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btConvex2dShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvex2dShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvex2dShape.cpp.s
 .PHONY : CollisionShapes/btConvex2dShape.cpp.s
 
 CollisionShapes/btConvexHullShape.obj: CollisionShapes/btConvexHullShape.cpp.obj
@@ -1310,7 +1310,7 @@ CollisionShapes/btConvexHullShape.obj: CollisionShapes/btConvexHullShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btConvexHullShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexHullShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexHullShape.cpp.obj
 .PHONY : CollisionShapes/btConvexHullShape.cpp.obj
 
 CollisionShapes/btConvexHullShape.i: CollisionShapes/btConvexHullShape.cpp.i
@@ -1319,7 +1319,7 @@ CollisionShapes/btConvexHullShape.i: CollisionShapes/btConvexHullShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btConvexHullShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexHullShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexHullShape.cpp.i
 .PHONY : CollisionShapes/btConvexHullShape.cpp.i
 
 CollisionShapes/btConvexHullShape.s: CollisionShapes/btConvexHullShape.cpp.s
@@ -1328,7 +1328,7 @@ CollisionShapes/btConvexHullShape.s: CollisionShapes/btConvexHullShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btConvexHullShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexHullShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexHullShape.cpp.s
 .PHONY : CollisionShapes/btConvexHullShape.cpp.s
 
 CollisionShapes/btConvexInternalShape.obj: CollisionShapes/btConvexInternalShape.cpp.obj
@@ -1337,7 +1337,7 @@ CollisionShapes/btConvexInternalShape.obj: CollisionShapes/btConvexInternalShape
 
 # target to build an object file
 CollisionShapes/btConvexInternalShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexInternalShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexInternalShape.cpp.obj
 .PHONY : CollisionShapes/btConvexInternalShape.cpp.obj
 
 CollisionShapes/btConvexInternalShape.i: CollisionShapes/btConvexInternalShape.cpp.i
@@ -1346,7 +1346,7 @@ CollisionShapes/btConvexInternalShape.i: CollisionShapes/btConvexInternalShape.c
 
 # target to preprocess a source file
 CollisionShapes/btConvexInternalShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexInternalShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexInternalShape.cpp.i
 .PHONY : CollisionShapes/btConvexInternalShape.cpp.i
 
 CollisionShapes/btConvexInternalShape.s: CollisionShapes/btConvexInternalShape.cpp.s
@@ -1355,7 +1355,7 @@ CollisionShapes/btConvexInternalShape.s: CollisionShapes/btConvexInternalShape.c
 
 # target to generate assembly for a file
 CollisionShapes/btConvexInternalShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexInternalShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexInternalShape.cpp.s
 .PHONY : CollisionShapes/btConvexInternalShape.cpp.s
 
 CollisionShapes/btConvexPointCloudShape.obj: CollisionShapes/btConvexPointCloudShape.cpp.obj
@@ -1364,7 +1364,7 @@ CollisionShapes/btConvexPointCloudShape.obj: CollisionShapes/btConvexPointCloudS
 
 # target to build an object file
 CollisionShapes/btConvexPointCloudShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPointCloudShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPointCloudShape.cpp.obj
 .PHONY : CollisionShapes/btConvexPointCloudShape.cpp.obj
 
 CollisionShapes/btConvexPointCloudShape.i: CollisionShapes/btConvexPointCloudShape.cpp.i
@@ -1373,7 +1373,7 @@ CollisionShapes/btConvexPointCloudShape.i: CollisionShapes/btConvexPointCloudSha
 
 # target to preprocess a source file
 CollisionShapes/btConvexPointCloudShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPointCloudShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPointCloudShape.cpp.i
 .PHONY : CollisionShapes/btConvexPointCloudShape.cpp.i
 
 CollisionShapes/btConvexPointCloudShape.s: CollisionShapes/btConvexPointCloudShape.cpp.s
@@ -1382,7 +1382,7 @@ CollisionShapes/btConvexPointCloudShape.s: CollisionShapes/btConvexPointCloudSha
 
 # target to generate assembly for a file
 CollisionShapes/btConvexPointCloudShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPointCloudShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPointCloudShape.cpp.s
 .PHONY : CollisionShapes/btConvexPointCloudShape.cpp.s
 
 CollisionShapes/btConvexPolyhedron.obj: CollisionShapes/btConvexPolyhedron.cpp.obj
@@ -1391,7 +1391,7 @@ CollisionShapes/btConvexPolyhedron.obj: CollisionShapes/btConvexPolyhedron.cpp.o
 
 # target to build an object file
 CollisionShapes/btConvexPolyhedron.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPolyhedron.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPolyhedron.cpp.obj
 .PHONY : CollisionShapes/btConvexPolyhedron.cpp.obj
 
 CollisionShapes/btConvexPolyhedron.i: CollisionShapes/btConvexPolyhedron.cpp.i
@@ -1400,7 +1400,7 @@ CollisionShapes/btConvexPolyhedron.i: CollisionShapes/btConvexPolyhedron.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btConvexPolyhedron.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPolyhedron.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPolyhedron.cpp.i
 .PHONY : CollisionShapes/btConvexPolyhedron.cpp.i
 
 CollisionShapes/btConvexPolyhedron.s: CollisionShapes/btConvexPolyhedron.cpp.s
@@ -1409,7 +1409,7 @@ CollisionShapes/btConvexPolyhedron.s: CollisionShapes/btConvexPolyhedron.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btConvexPolyhedron.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPolyhedron.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexPolyhedron.cpp.s
 .PHONY : CollisionShapes/btConvexPolyhedron.cpp.s
 
 CollisionShapes/btConvexShape.obj: CollisionShapes/btConvexShape.cpp.obj
@@ -1418,7 +1418,7 @@ CollisionShapes/btConvexShape.obj: CollisionShapes/btConvexShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btConvexShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexShape.cpp.obj
 .PHONY : CollisionShapes/btConvexShape.cpp.obj
 
 CollisionShapes/btConvexShape.i: CollisionShapes/btConvexShape.cpp.i
@@ -1427,7 +1427,7 @@ CollisionShapes/btConvexShape.i: CollisionShapes/btConvexShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btConvexShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexShape.cpp.i
 .PHONY : CollisionShapes/btConvexShape.cpp.i
 
 CollisionShapes/btConvexShape.s: CollisionShapes/btConvexShape.cpp.s
@@ -1436,7 +1436,7 @@ CollisionShapes/btConvexShape.s: CollisionShapes/btConvexShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btConvexShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexShape.cpp.s
 .PHONY : CollisionShapes/btConvexShape.cpp.s
 
 CollisionShapes/btConvexTriangleMeshShape.obj: CollisionShapes/btConvexTriangleMeshShape.cpp.obj
@@ -1445,7 +1445,7 @@ CollisionShapes/btConvexTriangleMeshShape.obj: CollisionShapes/btConvexTriangleM
 
 # target to build an object file
 CollisionShapes/btConvexTriangleMeshShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexTriangleMeshShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexTriangleMeshShape.cpp.obj
 .PHONY : CollisionShapes/btConvexTriangleMeshShape.cpp.obj
 
 CollisionShapes/btConvexTriangleMeshShape.i: CollisionShapes/btConvexTriangleMeshShape.cpp.i
@@ -1454,7 +1454,7 @@ CollisionShapes/btConvexTriangleMeshShape.i: CollisionShapes/btConvexTriangleMes
 
 # target to preprocess a source file
 CollisionShapes/btConvexTriangleMeshShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexTriangleMeshShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexTriangleMeshShape.cpp.i
 .PHONY : CollisionShapes/btConvexTriangleMeshShape.cpp.i
 
 CollisionShapes/btConvexTriangleMeshShape.s: CollisionShapes/btConvexTriangleMeshShape.cpp.s
@@ -1463,7 +1463,7 @@ CollisionShapes/btConvexTriangleMeshShape.s: CollisionShapes/btConvexTriangleMes
 
 # target to generate assembly for a file
 CollisionShapes/btConvexTriangleMeshShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexTriangleMeshShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btConvexTriangleMeshShape.cpp.s
 .PHONY : CollisionShapes/btConvexTriangleMeshShape.cpp.s
 
 CollisionShapes/btCylinderShape.obj: CollisionShapes/btCylinderShape.cpp.obj
@@ -1472,7 +1472,7 @@ CollisionShapes/btCylinderShape.obj: CollisionShapes/btCylinderShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btCylinderShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCylinderShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCylinderShape.cpp.obj
 .PHONY : CollisionShapes/btCylinderShape.cpp.obj
 
 CollisionShapes/btCylinderShape.i: CollisionShapes/btCylinderShape.cpp.i
@@ -1481,7 +1481,7 @@ CollisionShapes/btCylinderShape.i: CollisionShapes/btCylinderShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btCylinderShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCylinderShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCylinderShape.cpp.i
 .PHONY : CollisionShapes/btCylinderShape.cpp.i
 
 CollisionShapes/btCylinderShape.s: CollisionShapes/btCylinderShape.cpp.s
@@ -1490,7 +1490,7 @@ CollisionShapes/btCylinderShape.s: CollisionShapes/btCylinderShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btCylinderShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCylinderShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btCylinderShape.cpp.s
 .PHONY : CollisionShapes/btCylinderShape.cpp.s
 
 CollisionShapes/btEmptyShape.obj: CollisionShapes/btEmptyShape.cpp.obj
@@ -1499,7 +1499,7 @@ CollisionShapes/btEmptyShape.obj: CollisionShapes/btEmptyShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btEmptyShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btEmptyShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btEmptyShape.cpp.obj
 .PHONY : CollisionShapes/btEmptyShape.cpp.obj
 
 CollisionShapes/btEmptyShape.i: CollisionShapes/btEmptyShape.cpp.i
@@ -1508,7 +1508,7 @@ CollisionShapes/btEmptyShape.i: CollisionShapes/btEmptyShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btEmptyShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btEmptyShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btEmptyShape.cpp.i
 .PHONY : CollisionShapes/btEmptyShape.cpp.i
 
 CollisionShapes/btEmptyShape.s: CollisionShapes/btEmptyShape.cpp.s
@@ -1517,7 +1517,7 @@ CollisionShapes/btEmptyShape.s: CollisionShapes/btEmptyShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btEmptyShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btEmptyShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btEmptyShape.cpp.s
 .PHONY : CollisionShapes/btEmptyShape.cpp.s
 
 CollisionShapes/btHeightfieldTerrainShape.obj: CollisionShapes/btHeightfieldTerrainShape.cpp.obj
@@ -1526,7 +1526,7 @@ CollisionShapes/btHeightfieldTerrainShape.obj: CollisionShapes/btHeightfieldTerr
 
 # target to build an object file
 CollisionShapes/btHeightfieldTerrainShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btHeightfieldTerrainShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btHeightfieldTerrainShape.cpp.obj
 .PHONY : CollisionShapes/btHeightfieldTerrainShape.cpp.obj
 
 CollisionShapes/btHeightfieldTerrainShape.i: CollisionShapes/btHeightfieldTerrainShape.cpp.i
@@ -1535,7 +1535,7 @@ CollisionShapes/btHeightfieldTerrainShape.i: CollisionShapes/btHeightfieldTerrai
 
 # target to preprocess a source file
 CollisionShapes/btHeightfieldTerrainShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btHeightfieldTerrainShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btHeightfieldTerrainShape.cpp.i
 .PHONY : CollisionShapes/btHeightfieldTerrainShape.cpp.i
 
 CollisionShapes/btHeightfieldTerrainShape.s: CollisionShapes/btHeightfieldTerrainShape.cpp.s
@@ -1544,7 +1544,7 @@ CollisionShapes/btHeightfieldTerrainShape.s: CollisionShapes/btHeightfieldTerrai
 
 # target to generate assembly for a file
 CollisionShapes/btHeightfieldTerrainShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btHeightfieldTerrainShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btHeightfieldTerrainShape.cpp.s
 .PHONY : CollisionShapes/btHeightfieldTerrainShape.cpp.s
 
 CollisionShapes/btMinkowskiSumShape.obj: CollisionShapes/btMinkowskiSumShape.cpp.obj
@@ -1553,7 +1553,7 @@ CollisionShapes/btMinkowskiSumShape.obj: CollisionShapes/btMinkowskiSumShape.cpp
 
 # target to build an object file
 CollisionShapes/btMinkowskiSumShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMinkowskiSumShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMinkowskiSumShape.cpp.obj
 .PHONY : CollisionShapes/btMinkowskiSumShape.cpp.obj
 
 CollisionShapes/btMinkowskiSumShape.i: CollisionShapes/btMinkowskiSumShape.cpp.i
@@ -1562,7 +1562,7 @@ CollisionShapes/btMinkowskiSumShape.i: CollisionShapes/btMinkowskiSumShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btMinkowskiSumShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMinkowskiSumShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMinkowskiSumShape.cpp.i
 .PHONY : CollisionShapes/btMinkowskiSumShape.cpp.i
 
 CollisionShapes/btMinkowskiSumShape.s: CollisionShapes/btMinkowskiSumShape.cpp.s
@@ -1571,7 +1571,7 @@ CollisionShapes/btMinkowskiSumShape.s: CollisionShapes/btMinkowskiSumShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btMinkowskiSumShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMinkowskiSumShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMinkowskiSumShape.cpp.s
 .PHONY : CollisionShapes/btMinkowskiSumShape.cpp.s
 
 CollisionShapes/btMultiSphereShape.obj: CollisionShapes/btMultiSphereShape.cpp.obj
@@ -1580,7 +1580,7 @@ CollisionShapes/btMultiSphereShape.obj: CollisionShapes/btMultiSphereShape.cpp.o
 
 # target to build an object file
 CollisionShapes/btMultiSphereShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultiSphereShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultiSphereShape.cpp.obj
 .PHONY : CollisionShapes/btMultiSphereShape.cpp.obj
 
 CollisionShapes/btMultiSphereShape.i: CollisionShapes/btMultiSphereShape.cpp.i
@@ -1589,7 +1589,7 @@ CollisionShapes/btMultiSphereShape.i: CollisionShapes/btMultiSphereShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btMultiSphereShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultiSphereShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultiSphereShape.cpp.i
 .PHONY : CollisionShapes/btMultiSphereShape.cpp.i
 
 CollisionShapes/btMultiSphereShape.s: CollisionShapes/btMultiSphereShape.cpp.s
@@ -1598,7 +1598,7 @@ CollisionShapes/btMultiSphereShape.s: CollisionShapes/btMultiSphereShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btMultiSphereShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultiSphereShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultiSphereShape.cpp.s
 .PHONY : CollisionShapes/btMultiSphereShape.cpp.s
 
 CollisionShapes/btMultimaterialTriangleMeshShape.obj: CollisionShapes/btMultimaterialTriangleMeshShape.cpp.obj
@@ -1607,7 +1607,7 @@ CollisionShapes/btMultimaterialTriangleMeshShape.obj: CollisionShapes/btMultimat
 
 # target to build an object file
 CollisionShapes/btMultimaterialTriangleMeshShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultimaterialTriangleMeshShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultimaterialTriangleMeshShape.cpp.obj
 .PHONY : CollisionShapes/btMultimaterialTriangleMeshShape.cpp.obj
 
 CollisionShapes/btMultimaterialTriangleMeshShape.i: CollisionShapes/btMultimaterialTriangleMeshShape.cpp.i
@@ -1616,7 +1616,7 @@ CollisionShapes/btMultimaterialTriangleMeshShape.i: CollisionShapes/btMultimater
 
 # target to preprocess a source file
 CollisionShapes/btMultimaterialTriangleMeshShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultimaterialTriangleMeshShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultimaterialTriangleMeshShape.cpp.i
 .PHONY : CollisionShapes/btMultimaterialTriangleMeshShape.cpp.i
 
 CollisionShapes/btMultimaterialTriangleMeshShape.s: CollisionShapes/btMultimaterialTriangleMeshShape.cpp.s
@@ -1625,7 +1625,7 @@ CollisionShapes/btMultimaterialTriangleMeshShape.s: CollisionShapes/btMultimater
 
 # target to generate assembly for a file
 CollisionShapes/btMultimaterialTriangleMeshShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultimaterialTriangleMeshShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btMultimaterialTriangleMeshShape.cpp.s
 .PHONY : CollisionShapes/btMultimaterialTriangleMeshShape.cpp.s
 
 CollisionShapes/btOptimizedBvh.obj: CollisionShapes/btOptimizedBvh.cpp.obj
@@ -1634,7 +1634,7 @@ CollisionShapes/btOptimizedBvh.obj: CollisionShapes/btOptimizedBvh.cpp.obj
 
 # target to build an object file
 CollisionShapes/btOptimizedBvh.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btOptimizedBvh.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btOptimizedBvh.cpp.obj
 .PHONY : CollisionShapes/btOptimizedBvh.cpp.obj
 
 CollisionShapes/btOptimizedBvh.i: CollisionShapes/btOptimizedBvh.cpp.i
@@ -1643,7 +1643,7 @@ CollisionShapes/btOptimizedBvh.i: CollisionShapes/btOptimizedBvh.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btOptimizedBvh.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btOptimizedBvh.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btOptimizedBvh.cpp.i
 .PHONY : CollisionShapes/btOptimizedBvh.cpp.i
 
 CollisionShapes/btOptimizedBvh.s: CollisionShapes/btOptimizedBvh.cpp.s
@@ -1652,7 +1652,7 @@ CollisionShapes/btOptimizedBvh.s: CollisionShapes/btOptimizedBvh.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btOptimizedBvh.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btOptimizedBvh.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btOptimizedBvh.cpp.s
 .PHONY : CollisionShapes/btOptimizedBvh.cpp.s
 
 CollisionShapes/btPolyhedralConvexShape.obj: CollisionShapes/btPolyhedralConvexShape.cpp.obj
@@ -1661,7 +1661,7 @@ CollisionShapes/btPolyhedralConvexShape.obj: CollisionShapes/btPolyhedralConvexS
 
 # target to build an object file
 CollisionShapes/btPolyhedralConvexShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btPolyhedralConvexShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btPolyhedralConvexShape.cpp.obj
 .PHONY : CollisionShapes/btPolyhedralConvexShape.cpp.obj
 
 CollisionShapes/btPolyhedralConvexShape.i: CollisionShapes/btPolyhedralConvexShape.cpp.i
@@ -1670,7 +1670,7 @@ CollisionShapes/btPolyhedralConvexShape.i: CollisionShapes/btPolyhedralConvexSha
 
 # target to preprocess a source file
 CollisionShapes/btPolyhedralConvexShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btPolyhedralConvexShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btPolyhedralConvexShape.cpp.i
 .PHONY : CollisionShapes/btPolyhedralConvexShape.cpp.i
 
 CollisionShapes/btPolyhedralConvexShape.s: CollisionShapes/btPolyhedralConvexShape.cpp.s
@@ -1679,7 +1679,7 @@ CollisionShapes/btPolyhedralConvexShape.s: CollisionShapes/btPolyhedralConvexSha
 
 # target to generate assembly for a file
 CollisionShapes/btPolyhedralConvexShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btPolyhedralConvexShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btPolyhedralConvexShape.cpp.s
 .PHONY : CollisionShapes/btPolyhedralConvexShape.cpp.s
 
 CollisionShapes/btScaledBvhTriangleMeshShape.obj: CollisionShapes/btScaledBvhTriangleMeshShape.cpp.obj
@@ -1688,7 +1688,7 @@ CollisionShapes/btScaledBvhTriangleMeshShape.obj: CollisionShapes/btScaledBvhTri
 
 # target to build an object file
 CollisionShapes/btScaledBvhTriangleMeshShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btScaledBvhTriangleMeshShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btScaledBvhTriangleMeshShape.cpp.obj
 .PHONY : CollisionShapes/btScaledBvhTriangleMeshShape.cpp.obj
 
 CollisionShapes/btScaledBvhTriangleMeshShape.i: CollisionShapes/btScaledBvhTriangleMeshShape.cpp.i
@@ -1697,7 +1697,7 @@ CollisionShapes/btScaledBvhTriangleMeshShape.i: CollisionShapes/btScaledBvhTrian
 
 # target to preprocess a source file
 CollisionShapes/btScaledBvhTriangleMeshShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btScaledBvhTriangleMeshShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btScaledBvhTriangleMeshShape.cpp.i
 .PHONY : CollisionShapes/btScaledBvhTriangleMeshShape.cpp.i
 
 CollisionShapes/btScaledBvhTriangleMeshShape.s: CollisionShapes/btScaledBvhTriangleMeshShape.cpp.s
@@ -1706,7 +1706,7 @@ CollisionShapes/btScaledBvhTriangleMeshShape.s: CollisionShapes/btScaledBvhTrian
 
 # target to generate assembly for a file
 CollisionShapes/btScaledBvhTriangleMeshShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btScaledBvhTriangleMeshShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btScaledBvhTriangleMeshShape.cpp.s
 .PHONY : CollisionShapes/btScaledBvhTriangleMeshShape.cpp.s
 
 CollisionShapes/btShapeHull.obj: CollisionShapes/btShapeHull.cpp.obj
@@ -1715,7 +1715,7 @@ CollisionShapes/btShapeHull.obj: CollisionShapes/btShapeHull.cpp.obj
 
 # target to build an object file
 CollisionShapes/btShapeHull.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btShapeHull.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btShapeHull.cpp.obj
 .PHONY : CollisionShapes/btShapeHull.cpp.obj
 
 CollisionShapes/btShapeHull.i: CollisionShapes/btShapeHull.cpp.i
@@ -1724,7 +1724,7 @@ CollisionShapes/btShapeHull.i: CollisionShapes/btShapeHull.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btShapeHull.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btShapeHull.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btShapeHull.cpp.i
 .PHONY : CollisionShapes/btShapeHull.cpp.i
 
 CollisionShapes/btShapeHull.s: CollisionShapes/btShapeHull.cpp.s
@@ -1733,7 +1733,7 @@ CollisionShapes/btShapeHull.s: CollisionShapes/btShapeHull.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btShapeHull.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btShapeHull.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btShapeHull.cpp.s
 .PHONY : CollisionShapes/btShapeHull.cpp.s
 
 CollisionShapes/btSphereShape.obj: CollisionShapes/btSphereShape.cpp.obj
@@ -1742,7 +1742,7 @@ CollisionShapes/btSphereShape.obj: CollisionShapes/btSphereShape.cpp.obj
 
 # target to build an object file
 CollisionShapes/btSphereShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btSphereShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btSphereShape.cpp.obj
 .PHONY : CollisionShapes/btSphereShape.cpp.obj
 
 CollisionShapes/btSphereShape.i: CollisionShapes/btSphereShape.cpp.i
@@ -1751,7 +1751,7 @@ CollisionShapes/btSphereShape.i: CollisionShapes/btSphereShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btSphereShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btSphereShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btSphereShape.cpp.i
 .PHONY : CollisionShapes/btSphereShape.cpp.i
 
 CollisionShapes/btSphereShape.s: CollisionShapes/btSphereShape.cpp.s
@@ -1760,7 +1760,7 @@ CollisionShapes/btSphereShape.s: CollisionShapes/btSphereShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btSphereShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btSphereShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btSphereShape.cpp.s
 .PHONY : CollisionShapes/btSphereShape.cpp.s
 
 CollisionShapes/btStaticPlaneShape.obj: CollisionShapes/btStaticPlaneShape.cpp.obj
@@ -1769,7 +1769,7 @@ CollisionShapes/btStaticPlaneShape.obj: CollisionShapes/btStaticPlaneShape.cpp.o
 
 # target to build an object file
 CollisionShapes/btStaticPlaneShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStaticPlaneShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStaticPlaneShape.cpp.obj
 .PHONY : CollisionShapes/btStaticPlaneShape.cpp.obj
 
 CollisionShapes/btStaticPlaneShape.i: CollisionShapes/btStaticPlaneShape.cpp.i
@@ -1778,7 +1778,7 @@ CollisionShapes/btStaticPlaneShape.i: CollisionShapes/btStaticPlaneShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btStaticPlaneShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStaticPlaneShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStaticPlaneShape.cpp.i
 .PHONY : CollisionShapes/btStaticPlaneShape.cpp.i
 
 CollisionShapes/btStaticPlaneShape.s: CollisionShapes/btStaticPlaneShape.cpp.s
@@ -1787,7 +1787,7 @@ CollisionShapes/btStaticPlaneShape.s: CollisionShapes/btStaticPlaneShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btStaticPlaneShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStaticPlaneShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStaticPlaneShape.cpp.s
 .PHONY : CollisionShapes/btStaticPlaneShape.cpp.s
 
 CollisionShapes/btStridingMeshInterface.obj: CollisionShapes/btStridingMeshInterface.cpp.obj
@@ -1796,7 +1796,7 @@ CollisionShapes/btStridingMeshInterface.obj: CollisionShapes/btStridingMeshInter
 
 # target to build an object file
 CollisionShapes/btStridingMeshInterface.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStridingMeshInterface.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStridingMeshInterface.cpp.obj
 .PHONY : CollisionShapes/btStridingMeshInterface.cpp.obj
 
 CollisionShapes/btStridingMeshInterface.i: CollisionShapes/btStridingMeshInterface.cpp.i
@@ -1805,7 +1805,7 @@ CollisionShapes/btStridingMeshInterface.i: CollisionShapes/btStridingMeshInterfa
 
 # target to preprocess a source file
 CollisionShapes/btStridingMeshInterface.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStridingMeshInterface.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStridingMeshInterface.cpp.i
 .PHONY : CollisionShapes/btStridingMeshInterface.cpp.i
 
 CollisionShapes/btStridingMeshInterface.s: CollisionShapes/btStridingMeshInterface.cpp.s
@@ -1814,7 +1814,7 @@ CollisionShapes/btStridingMeshInterface.s: CollisionShapes/btStridingMeshInterfa
 
 # target to generate assembly for a file
 CollisionShapes/btStridingMeshInterface.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStridingMeshInterface.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btStridingMeshInterface.cpp.s
 .PHONY : CollisionShapes/btStridingMeshInterface.cpp.s
 
 CollisionShapes/btTetrahedronShape.obj: CollisionShapes/btTetrahedronShape.cpp.obj
@@ -1823,7 +1823,7 @@ CollisionShapes/btTetrahedronShape.obj: CollisionShapes/btTetrahedronShape.cpp.o
 
 # target to build an object file
 CollisionShapes/btTetrahedronShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTetrahedronShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTetrahedronShape.cpp.obj
 .PHONY : CollisionShapes/btTetrahedronShape.cpp.obj
 
 CollisionShapes/btTetrahedronShape.i: CollisionShapes/btTetrahedronShape.cpp.i
@@ -1832,7 +1832,7 @@ CollisionShapes/btTetrahedronShape.i: CollisionShapes/btTetrahedronShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btTetrahedronShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTetrahedronShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTetrahedronShape.cpp.i
 .PHONY : CollisionShapes/btTetrahedronShape.cpp.i
 
 CollisionShapes/btTetrahedronShape.s: CollisionShapes/btTetrahedronShape.cpp.s
@@ -1841,7 +1841,7 @@ CollisionShapes/btTetrahedronShape.s: CollisionShapes/btTetrahedronShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btTetrahedronShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTetrahedronShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTetrahedronShape.cpp.s
 .PHONY : CollisionShapes/btTetrahedronShape.cpp.s
 
 CollisionShapes/btTriangleBuffer.obj: CollisionShapes/btTriangleBuffer.cpp.obj
@@ -1850,7 +1850,7 @@ CollisionShapes/btTriangleBuffer.obj: CollisionShapes/btTriangleBuffer.cpp.obj
 
 # target to build an object file
 CollisionShapes/btTriangleBuffer.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleBuffer.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleBuffer.cpp.obj
 .PHONY : CollisionShapes/btTriangleBuffer.cpp.obj
 
 CollisionShapes/btTriangleBuffer.i: CollisionShapes/btTriangleBuffer.cpp.i
@@ -1859,7 +1859,7 @@ CollisionShapes/btTriangleBuffer.i: CollisionShapes/btTriangleBuffer.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btTriangleBuffer.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleBuffer.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleBuffer.cpp.i
 .PHONY : CollisionShapes/btTriangleBuffer.cpp.i
 
 CollisionShapes/btTriangleBuffer.s: CollisionShapes/btTriangleBuffer.cpp.s
@@ -1868,7 +1868,7 @@ CollisionShapes/btTriangleBuffer.s: CollisionShapes/btTriangleBuffer.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btTriangleBuffer.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleBuffer.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleBuffer.cpp.s
 .PHONY : CollisionShapes/btTriangleBuffer.cpp.s
 
 CollisionShapes/btTriangleCallback.obj: CollisionShapes/btTriangleCallback.cpp.obj
@@ -1877,7 +1877,7 @@ CollisionShapes/btTriangleCallback.obj: CollisionShapes/btTriangleCallback.cpp.o
 
 # target to build an object file
 CollisionShapes/btTriangleCallback.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleCallback.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleCallback.cpp.obj
 .PHONY : CollisionShapes/btTriangleCallback.cpp.obj
 
 CollisionShapes/btTriangleCallback.i: CollisionShapes/btTriangleCallback.cpp.i
@@ -1886,7 +1886,7 @@ CollisionShapes/btTriangleCallback.i: CollisionShapes/btTriangleCallback.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btTriangleCallback.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleCallback.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleCallback.cpp.i
 .PHONY : CollisionShapes/btTriangleCallback.cpp.i
 
 CollisionShapes/btTriangleCallback.s: CollisionShapes/btTriangleCallback.cpp.s
@@ -1895,7 +1895,7 @@ CollisionShapes/btTriangleCallback.s: CollisionShapes/btTriangleCallback.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btTriangleCallback.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleCallback.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleCallback.cpp.s
 .PHONY : CollisionShapes/btTriangleCallback.cpp.s
 
 CollisionShapes/btTriangleIndexVertexArray.obj: CollisionShapes/btTriangleIndexVertexArray.cpp.obj
@@ -1904,7 +1904,7 @@ CollisionShapes/btTriangleIndexVertexArray.obj: CollisionShapes/btTriangleIndexV
 
 # target to build an object file
 CollisionShapes/btTriangleIndexVertexArray.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexArray.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexArray.cpp.obj
 .PHONY : CollisionShapes/btTriangleIndexVertexArray.cpp.obj
 
 CollisionShapes/btTriangleIndexVertexArray.i: CollisionShapes/btTriangleIndexVertexArray.cpp.i
@@ -1913,7 +1913,7 @@ CollisionShapes/btTriangleIndexVertexArray.i: CollisionShapes/btTriangleIndexVer
 
 # target to preprocess a source file
 CollisionShapes/btTriangleIndexVertexArray.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexArray.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexArray.cpp.i
 .PHONY : CollisionShapes/btTriangleIndexVertexArray.cpp.i
 
 CollisionShapes/btTriangleIndexVertexArray.s: CollisionShapes/btTriangleIndexVertexArray.cpp.s
@@ -1922,7 +1922,7 @@ CollisionShapes/btTriangleIndexVertexArray.s: CollisionShapes/btTriangleIndexVer
 
 # target to generate assembly for a file
 CollisionShapes/btTriangleIndexVertexArray.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexArray.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexArray.cpp.s
 .PHONY : CollisionShapes/btTriangleIndexVertexArray.cpp.s
 
 CollisionShapes/btTriangleIndexVertexMaterialArray.obj: CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.obj
@@ -1931,7 +1931,7 @@ CollisionShapes/btTriangleIndexVertexMaterialArray.obj: CollisionShapes/btTriang
 
 # target to build an object file
 CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.obj
 .PHONY : CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.obj
 
 CollisionShapes/btTriangleIndexVertexMaterialArray.i: CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.i
@@ -1940,7 +1940,7 @@ CollisionShapes/btTriangleIndexVertexMaterialArray.i: CollisionShapes/btTriangle
 
 # target to preprocess a source file
 CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.i
 .PHONY : CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.i
 
 CollisionShapes/btTriangleIndexVertexMaterialArray.s: CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.s
@@ -1949,7 +1949,7 @@ CollisionShapes/btTriangleIndexVertexMaterialArray.s: CollisionShapes/btTriangle
 
 # target to generate assembly for a file
 CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.s
 .PHONY : CollisionShapes/btTriangleIndexVertexMaterialArray.cpp.s
 
 CollisionShapes/btTriangleMesh.obj: CollisionShapes/btTriangleMesh.cpp.obj
@@ -1958,7 +1958,7 @@ CollisionShapes/btTriangleMesh.obj: CollisionShapes/btTriangleMesh.cpp.obj
 
 # target to build an object file
 CollisionShapes/btTriangleMesh.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMesh.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMesh.cpp.obj
 .PHONY : CollisionShapes/btTriangleMesh.cpp.obj
 
 CollisionShapes/btTriangleMesh.i: CollisionShapes/btTriangleMesh.cpp.i
@@ -1967,7 +1967,7 @@ CollisionShapes/btTriangleMesh.i: CollisionShapes/btTriangleMesh.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btTriangleMesh.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMesh.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMesh.cpp.i
 .PHONY : CollisionShapes/btTriangleMesh.cpp.i
 
 CollisionShapes/btTriangleMesh.s: CollisionShapes/btTriangleMesh.cpp.s
@@ -1976,7 +1976,7 @@ CollisionShapes/btTriangleMesh.s: CollisionShapes/btTriangleMesh.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btTriangleMesh.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMesh.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMesh.cpp.s
 .PHONY : CollisionShapes/btTriangleMesh.cpp.s
 
 CollisionShapes/btTriangleMeshShape.obj: CollisionShapes/btTriangleMeshShape.cpp.obj
@@ -1985,7 +1985,7 @@ CollisionShapes/btTriangleMeshShape.obj: CollisionShapes/btTriangleMeshShape.cpp
 
 # target to build an object file
 CollisionShapes/btTriangleMeshShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMeshShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMeshShape.cpp.obj
 .PHONY : CollisionShapes/btTriangleMeshShape.cpp.obj
 
 CollisionShapes/btTriangleMeshShape.i: CollisionShapes/btTriangleMeshShape.cpp.i
@@ -1994,7 +1994,7 @@ CollisionShapes/btTriangleMeshShape.i: CollisionShapes/btTriangleMeshShape.cpp.i
 
 # target to preprocess a source file
 CollisionShapes/btTriangleMeshShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMeshShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMeshShape.cpp.i
 .PHONY : CollisionShapes/btTriangleMeshShape.cpp.i
 
 CollisionShapes/btTriangleMeshShape.s: CollisionShapes/btTriangleMeshShape.cpp.s
@@ -2003,7 +2003,7 @@ CollisionShapes/btTriangleMeshShape.s: CollisionShapes/btTriangleMeshShape.cpp.s
 
 # target to generate assembly for a file
 CollisionShapes/btTriangleMeshShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMeshShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btTriangleMeshShape.cpp.s
 .PHONY : CollisionShapes/btTriangleMeshShape.cpp.s
 
 CollisionShapes/btUniformScalingShape.obj: CollisionShapes/btUniformScalingShape.cpp.obj
@@ -2012,7 +2012,7 @@ CollisionShapes/btUniformScalingShape.obj: CollisionShapes/btUniformScalingShape
 
 # target to build an object file
 CollisionShapes/btUniformScalingShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btUniformScalingShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btUniformScalingShape.cpp.obj
 .PHONY : CollisionShapes/btUniformScalingShape.cpp.obj
 
 CollisionShapes/btUniformScalingShape.i: CollisionShapes/btUniformScalingShape.cpp.i
@@ -2021,7 +2021,7 @@ CollisionShapes/btUniformScalingShape.i: CollisionShapes/btUniformScalingShape.c
 
 # target to preprocess a source file
 CollisionShapes/btUniformScalingShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btUniformScalingShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btUniformScalingShape.cpp.i
 .PHONY : CollisionShapes/btUniformScalingShape.cpp.i
 
 CollisionShapes/btUniformScalingShape.s: CollisionShapes/btUniformScalingShape.cpp.s
@@ -2030,7 +2030,7 @@ CollisionShapes/btUniformScalingShape.s: CollisionShapes/btUniformScalingShape.c
 
 # target to generate assembly for a file
 CollisionShapes/btUniformScalingShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btUniformScalingShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/CollisionShapes/btUniformScalingShape.cpp.s
 .PHONY : CollisionShapes/btUniformScalingShape.cpp.s
 
 Gimpact/btContactProcessing.obj: Gimpact/btContactProcessing.cpp.obj
@@ -2039,7 +2039,7 @@ Gimpact/btContactProcessing.obj: Gimpact/btContactProcessing.cpp.obj
 
 # target to build an object file
 Gimpact/btContactProcessing.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btContactProcessing.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btContactProcessing.cpp.obj
 .PHONY : Gimpact/btContactProcessing.cpp.obj
 
 Gimpact/btContactProcessing.i: Gimpact/btContactProcessing.cpp.i
@@ -2048,7 +2048,7 @@ Gimpact/btContactProcessing.i: Gimpact/btContactProcessing.cpp.i
 
 # target to preprocess a source file
 Gimpact/btContactProcessing.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btContactProcessing.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btContactProcessing.cpp.i
 .PHONY : Gimpact/btContactProcessing.cpp.i
 
 Gimpact/btContactProcessing.s: Gimpact/btContactProcessing.cpp.s
@@ -2057,7 +2057,7 @@ Gimpact/btContactProcessing.s: Gimpact/btContactProcessing.cpp.s
 
 # target to generate assembly for a file
 Gimpact/btContactProcessing.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btContactProcessing.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btContactProcessing.cpp.s
 .PHONY : Gimpact/btContactProcessing.cpp.s
 
 Gimpact/btGImpactBvh.obj: Gimpact/btGImpactBvh.cpp.obj
@@ -2066,7 +2066,7 @@ Gimpact/btGImpactBvh.obj: Gimpact/btGImpactBvh.cpp.obj
 
 # target to build an object file
 Gimpact/btGImpactBvh.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactBvh.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactBvh.cpp.obj
 .PHONY : Gimpact/btGImpactBvh.cpp.obj
 
 Gimpact/btGImpactBvh.i: Gimpact/btGImpactBvh.cpp.i
@@ -2075,7 +2075,7 @@ Gimpact/btGImpactBvh.i: Gimpact/btGImpactBvh.cpp.i
 
 # target to preprocess a source file
 Gimpact/btGImpactBvh.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactBvh.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactBvh.cpp.i
 .PHONY : Gimpact/btGImpactBvh.cpp.i
 
 Gimpact/btGImpactBvh.s: Gimpact/btGImpactBvh.cpp.s
@@ -2084,7 +2084,7 @@ Gimpact/btGImpactBvh.s: Gimpact/btGImpactBvh.cpp.s
 
 # target to generate assembly for a file
 Gimpact/btGImpactBvh.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactBvh.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactBvh.cpp.s
 .PHONY : Gimpact/btGImpactBvh.cpp.s
 
 Gimpact/btGImpactCollisionAlgorithm.obj: Gimpact/btGImpactCollisionAlgorithm.cpp.obj
@@ -2093,7 +2093,7 @@ Gimpact/btGImpactCollisionAlgorithm.obj: Gimpact/btGImpactCollisionAlgorithm.cpp
 
 # target to build an object file
 Gimpact/btGImpactCollisionAlgorithm.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactCollisionAlgorithm.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactCollisionAlgorithm.cpp.obj
 .PHONY : Gimpact/btGImpactCollisionAlgorithm.cpp.obj
 
 Gimpact/btGImpactCollisionAlgorithm.i: Gimpact/btGImpactCollisionAlgorithm.cpp.i
@@ -2102,7 +2102,7 @@ Gimpact/btGImpactCollisionAlgorithm.i: Gimpact/btGImpactCollisionAlgorithm.cpp.i
 
 # target to preprocess a source file
 Gimpact/btGImpactCollisionAlgorithm.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactCollisionAlgorithm.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactCollisionAlgorithm.cpp.i
 .PHONY : Gimpact/btGImpactCollisionAlgorithm.cpp.i
 
 Gimpact/btGImpactCollisionAlgorithm.s: Gimpact/btGImpactCollisionAlgorithm.cpp.s
@@ -2111,7 +2111,7 @@ Gimpact/btGImpactCollisionAlgorithm.s: Gimpact/btGImpactCollisionAlgorithm.cpp.s
 
 # target to generate assembly for a file
 Gimpact/btGImpactCollisionAlgorithm.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactCollisionAlgorithm.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactCollisionAlgorithm.cpp.s
 .PHONY : Gimpact/btGImpactCollisionAlgorithm.cpp.s
 
 Gimpact/btGImpactQuantizedBvh.obj: Gimpact/btGImpactQuantizedBvh.cpp.obj
@@ -2120,7 +2120,7 @@ Gimpact/btGImpactQuantizedBvh.obj: Gimpact/btGImpactQuantizedBvh.cpp.obj
 
 # target to build an object file
 Gimpact/btGImpactQuantizedBvh.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactQuantizedBvh.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactQuantizedBvh.cpp.obj
 .PHONY : Gimpact/btGImpactQuantizedBvh.cpp.obj
 
 Gimpact/btGImpactQuantizedBvh.i: Gimpact/btGImpactQuantizedBvh.cpp.i
@@ -2129,7 +2129,7 @@ Gimpact/btGImpactQuantizedBvh.i: Gimpact/btGImpactQuantizedBvh.cpp.i
 
 # target to preprocess a source file
 Gimpact/btGImpactQuantizedBvh.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactQuantizedBvh.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactQuantizedBvh.cpp.i
 .PHONY : Gimpact/btGImpactQuantizedBvh.cpp.i
 
 Gimpact/btGImpactQuantizedBvh.s: Gimpact/btGImpactQuantizedBvh.cpp.s
@@ -2138,7 +2138,7 @@ Gimpact/btGImpactQuantizedBvh.s: Gimpact/btGImpactQuantizedBvh.cpp.s
 
 # target to generate assembly for a file
 Gimpact/btGImpactQuantizedBvh.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactQuantizedBvh.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactQuantizedBvh.cpp.s
 .PHONY : Gimpact/btGImpactQuantizedBvh.cpp.s
 
 Gimpact/btGImpactShape.obj: Gimpact/btGImpactShape.cpp.obj
@@ -2147,7 +2147,7 @@ Gimpact/btGImpactShape.obj: Gimpact/btGImpactShape.cpp.obj
 
 # target to build an object file
 Gimpact/btGImpactShape.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactShape.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactShape.cpp.obj
 .PHONY : Gimpact/btGImpactShape.cpp.obj
 
 Gimpact/btGImpactShape.i: Gimpact/btGImpactShape.cpp.i
@@ -2156,7 +2156,7 @@ Gimpact/btGImpactShape.i: Gimpact/btGImpactShape.cpp.i
 
 # target to preprocess a source file
 Gimpact/btGImpactShape.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactShape.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactShape.cpp.i
 .PHONY : Gimpact/btGImpactShape.cpp.i
 
 Gimpact/btGImpactShape.s: Gimpact/btGImpactShape.cpp.s
@@ -2165,7 +2165,7 @@ Gimpact/btGImpactShape.s: Gimpact/btGImpactShape.cpp.s
 
 # target to generate assembly for a file
 Gimpact/btGImpactShape.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactShape.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGImpactShape.cpp.s
 .PHONY : Gimpact/btGImpactShape.cpp.s
 
 Gimpact/btGenericPoolAllocator.obj: Gimpact/btGenericPoolAllocator.cpp.obj
@@ -2174,7 +2174,7 @@ Gimpact/btGenericPoolAllocator.obj: Gimpact/btGenericPoolAllocator.cpp.obj
 
 # target to build an object file
 Gimpact/btGenericPoolAllocator.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGenericPoolAllocator.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGenericPoolAllocator.cpp.obj
 .PHONY : Gimpact/btGenericPoolAllocator.cpp.obj
 
 Gimpact/btGenericPoolAllocator.i: Gimpact/btGenericPoolAllocator.cpp.i
@@ -2183,7 +2183,7 @@ Gimpact/btGenericPoolAllocator.i: Gimpact/btGenericPoolAllocator.cpp.i
 
 # target to preprocess a source file
 Gimpact/btGenericPoolAllocator.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGenericPoolAllocator.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGenericPoolAllocator.cpp.i
 .PHONY : Gimpact/btGenericPoolAllocator.cpp.i
 
 Gimpact/btGenericPoolAllocator.s: Gimpact/btGenericPoolAllocator.cpp.s
@@ -2192,7 +2192,7 @@ Gimpact/btGenericPoolAllocator.s: Gimpact/btGenericPoolAllocator.cpp.s
 
 # target to generate assembly for a file
 Gimpact/btGenericPoolAllocator.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGenericPoolAllocator.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btGenericPoolAllocator.cpp.s
 .PHONY : Gimpact/btGenericPoolAllocator.cpp.s
 
 Gimpact/btTriangleShapeEx.obj: Gimpact/btTriangleShapeEx.cpp.obj
@@ -2201,7 +2201,7 @@ Gimpact/btTriangleShapeEx.obj: Gimpact/btTriangleShapeEx.cpp.obj
 
 # target to build an object file
 Gimpact/btTriangleShapeEx.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btTriangleShapeEx.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btTriangleShapeEx.cpp.obj
 .PHONY : Gimpact/btTriangleShapeEx.cpp.obj
 
 Gimpact/btTriangleShapeEx.i: Gimpact/btTriangleShapeEx.cpp.i
@@ -2210,7 +2210,7 @@ Gimpact/btTriangleShapeEx.i: Gimpact/btTriangleShapeEx.cpp.i
 
 # target to preprocess a source file
 Gimpact/btTriangleShapeEx.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btTriangleShapeEx.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btTriangleShapeEx.cpp.i
 .PHONY : Gimpact/btTriangleShapeEx.cpp.i
 
 Gimpact/btTriangleShapeEx.s: Gimpact/btTriangleShapeEx.cpp.s
@@ -2219,7 +2219,7 @@ Gimpact/btTriangleShapeEx.s: Gimpact/btTriangleShapeEx.cpp.s
 
 # target to generate assembly for a file
 Gimpact/btTriangleShapeEx.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btTriangleShapeEx.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/btTriangleShapeEx.cpp.s
 .PHONY : Gimpact/btTriangleShapeEx.cpp.s
 
 Gimpact/gim_box_set.obj: Gimpact/gim_box_set.cpp.obj
@@ -2228,7 +2228,7 @@ Gimpact/gim_box_set.obj: Gimpact/gim_box_set.cpp.obj
 
 # target to build an object file
 Gimpact/gim_box_set.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_box_set.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_box_set.cpp.obj
 .PHONY : Gimpact/gim_box_set.cpp.obj
 
 Gimpact/gim_box_set.i: Gimpact/gim_box_set.cpp.i
@@ -2237,7 +2237,7 @@ Gimpact/gim_box_set.i: Gimpact/gim_box_set.cpp.i
 
 # target to preprocess a source file
 Gimpact/gim_box_set.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_box_set.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_box_set.cpp.i
 .PHONY : Gimpact/gim_box_set.cpp.i
 
 Gimpact/gim_box_set.s: Gimpact/gim_box_set.cpp.s
@@ -2246,7 +2246,7 @@ Gimpact/gim_box_set.s: Gimpact/gim_box_set.cpp.s
 
 # target to generate assembly for a file
 Gimpact/gim_box_set.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_box_set.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_box_set.cpp.s
 .PHONY : Gimpact/gim_box_set.cpp.s
 
 Gimpact/gim_contact.obj: Gimpact/gim_contact.cpp.obj
@@ -2255,7 +2255,7 @@ Gimpact/gim_contact.obj: Gimpact/gim_contact.cpp.obj
 
 # target to build an object file
 Gimpact/gim_contact.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_contact.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_contact.cpp.obj
 .PHONY : Gimpact/gim_contact.cpp.obj
 
 Gimpact/gim_contact.i: Gimpact/gim_contact.cpp.i
@@ -2264,7 +2264,7 @@ Gimpact/gim_contact.i: Gimpact/gim_contact.cpp.i
 
 # target to preprocess a source file
 Gimpact/gim_contact.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_contact.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_contact.cpp.i
 .PHONY : Gimpact/gim_contact.cpp.i
 
 Gimpact/gim_contact.s: Gimpact/gim_contact.cpp.s
@@ -2273,7 +2273,7 @@ Gimpact/gim_contact.s: Gimpact/gim_contact.cpp.s
 
 # target to generate assembly for a file
 Gimpact/gim_contact.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_contact.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_contact.cpp.s
 .PHONY : Gimpact/gim_contact.cpp.s
 
 Gimpact/gim_memory.obj: Gimpact/gim_memory.cpp.obj
@@ -2282,7 +2282,7 @@ Gimpact/gim_memory.obj: Gimpact/gim_memory.cpp.obj
 
 # target to build an object file
 Gimpact/gim_memory.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_memory.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_memory.cpp.obj
 .PHONY : Gimpact/gim_memory.cpp.obj
 
 Gimpact/gim_memory.i: Gimpact/gim_memory.cpp.i
@@ -2291,7 +2291,7 @@ Gimpact/gim_memory.i: Gimpact/gim_memory.cpp.i
 
 # target to preprocess a source file
 Gimpact/gim_memory.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_memory.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_memory.cpp.i
 .PHONY : Gimpact/gim_memory.cpp.i
 
 Gimpact/gim_memory.s: Gimpact/gim_memory.cpp.s
@@ -2300,7 +2300,7 @@ Gimpact/gim_memory.s: Gimpact/gim_memory.cpp.s
 
 # target to generate assembly for a file
 Gimpact/gim_memory.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_memory.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_memory.cpp.s
 .PHONY : Gimpact/gim_memory.cpp.s
 
 Gimpact/gim_tri_collision.obj: Gimpact/gim_tri_collision.cpp.obj
@@ -2309,7 +2309,7 @@ Gimpact/gim_tri_collision.obj: Gimpact/gim_tri_collision.cpp.obj
 
 # target to build an object file
 Gimpact/gim_tri_collision.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_tri_collision.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_tri_collision.cpp.obj
 .PHONY : Gimpact/gim_tri_collision.cpp.obj
 
 Gimpact/gim_tri_collision.i: Gimpact/gim_tri_collision.cpp.i
@@ -2318,7 +2318,7 @@ Gimpact/gim_tri_collision.i: Gimpact/gim_tri_collision.cpp.i
 
 # target to preprocess a source file
 Gimpact/gim_tri_collision.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_tri_collision.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_tri_collision.cpp.i
 .PHONY : Gimpact/gim_tri_collision.cpp.i
 
 Gimpact/gim_tri_collision.s: Gimpact/gim_tri_collision.cpp.s
@@ -2327,7 +2327,7 @@ Gimpact/gim_tri_collision.s: Gimpact/gim_tri_collision.cpp.s
 
 # target to generate assembly for a file
 Gimpact/gim_tri_collision.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_tri_collision.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/Gimpact/gim_tri_collision.cpp.s
 .PHONY : Gimpact/gim_tri_collision.cpp.s
 
 NarrowPhaseCollision/btContinuousConvexCollision.obj: NarrowPhaseCollision/btContinuousConvexCollision.cpp.obj
@@ -2336,7 +2336,7 @@ NarrowPhaseCollision/btContinuousConvexCollision.obj: NarrowPhaseCollision/btCon
 
 # target to build an object file
 NarrowPhaseCollision/btContinuousConvexCollision.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btContinuousConvexCollision.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btContinuousConvexCollision.cpp.obj
 .PHONY : NarrowPhaseCollision/btContinuousConvexCollision.cpp.obj
 
 NarrowPhaseCollision/btContinuousConvexCollision.i: NarrowPhaseCollision/btContinuousConvexCollision.cpp.i
@@ -2345,7 +2345,7 @@ NarrowPhaseCollision/btContinuousConvexCollision.i: NarrowPhaseCollision/btConti
 
 # target to preprocess a source file
 NarrowPhaseCollision/btContinuousConvexCollision.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btContinuousConvexCollision.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btContinuousConvexCollision.cpp.i
 .PHONY : NarrowPhaseCollision/btContinuousConvexCollision.cpp.i
 
 NarrowPhaseCollision/btContinuousConvexCollision.s: NarrowPhaseCollision/btContinuousConvexCollision.cpp.s
@@ -2354,7 +2354,7 @@ NarrowPhaseCollision/btContinuousConvexCollision.s: NarrowPhaseCollision/btConti
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btContinuousConvexCollision.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btContinuousConvexCollision.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btContinuousConvexCollision.cpp.s
 .PHONY : NarrowPhaseCollision/btContinuousConvexCollision.cpp.s
 
 NarrowPhaseCollision/btConvexCast.obj: NarrowPhaseCollision/btConvexCast.cpp.obj
@@ -2363,7 +2363,7 @@ NarrowPhaseCollision/btConvexCast.obj: NarrowPhaseCollision/btConvexCast.cpp.obj
 
 # target to build an object file
 NarrowPhaseCollision/btConvexCast.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btConvexCast.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btConvexCast.cpp.obj
 .PHONY : NarrowPhaseCollision/btConvexCast.cpp.obj
 
 NarrowPhaseCollision/btConvexCast.i: NarrowPhaseCollision/btConvexCast.cpp.i
@@ -2372,7 +2372,7 @@ NarrowPhaseCollision/btConvexCast.i: NarrowPhaseCollision/btConvexCast.cpp.i
 
 # target to preprocess a source file
 NarrowPhaseCollision/btConvexCast.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btConvexCast.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btConvexCast.cpp.i
 .PHONY : NarrowPhaseCollision/btConvexCast.cpp.i
 
 NarrowPhaseCollision/btConvexCast.s: NarrowPhaseCollision/btConvexCast.cpp.s
@@ -2381,7 +2381,7 @@ NarrowPhaseCollision/btConvexCast.s: NarrowPhaseCollision/btConvexCast.cpp.s
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btConvexCast.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btConvexCast.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btConvexCast.cpp.s
 .PHONY : NarrowPhaseCollision/btConvexCast.cpp.s
 
 NarrowPhaseCollision/btGjkConvexCast.obj: NarrowPhaseCollision/btGjkConvexCast.cpp.obj
@@ -2390,7 +2390,7 @@ NarrowPhaseCollision/btGjkConvexCast.obj: NarrowPhaseCollision/btGjkConvexCast.c
 
 # target to build an object file
 NarrowPhaseCollision/btGjkConvexCast.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkConvexCast.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkConvexCast.cpp.obj
 .PHONY : NarrowPhaseCollision/btGjkConvexCast.cpp.obj
 
 NarrowPhaseCollision/btGjkConvexCast.i: NarrowPhaseCollision/btGjkConvexCast.cpp.i
@@ -2399,7 +2399,7 @@ NarrowPhaseCollision/btGjkConvexCast.i: NarrowPhaseCollision/btGjkConvexCast.cpp
 
 # target to preprocess a source file
 NarrowPhaseCollision/btGjkConvexCast.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkConvexCast.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkConvexCast.cpp.i
 .PHONY : NarrowPhaseCollision/btGjkConvexCast.cpp.i
 
 NarrowPhaseCollision/btGjkConvexCast.s: NarrowPhaseCollision/btGjkConvexCast.cpp.s
@@ -2408,7 +2408,7 @@ NarrowPhaseCollision/btGjkConvexCast.s: NarrowPhaseCollision/btGjkConvexCast.cpp
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btGjkConvexCast.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkConvexCast.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkConvexCast.cpp.s
 .PHONY : NarrowPhaseCollision/btGjkConvexCast.cpp.s
 
 NarrowPhaseCollision/btGjkEpa2.obj: NarrowPhaseCollision/btGjkEpa2.cpp.obj
@@ -2417,7 +2417,7 @@ NarrowPhaseCollision/btGjkEpa2.obj: NarrowPhaseCollision/btGjkEpa2.cpp.obj
 
 # target to build an object file
 NarrowPhaseCollision/btGjkEpa2.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpa2.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpa2.cpp.obj
 .PHONY : NarrowPhaseCollision/btGjkEpa2.cpp.obj
 
 NarrowPhaseCollision/btGjkEpa2.i: NarrowPhaseCollision/btGjkEpa2.cpp.i
@@ -2426,7 +2426,7 @@ NarrowPhaseCollision/btGjkEpa2.i: NarrowPhaseCollision/btGjkEpa2.cpp.i
 
 # target to preprocess a source file
 NarrowPhaseCollision/btGjkEpa2.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpa2.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpa2.cpp.i
 .PHONY : NarrowPhaseCollision/btGjkEpa2.cpp.i
 
 NarrowPhaseCollision/btGjkEpa2.s: NarrowPhaseCollision/btGjkEpa2.cpp.s
@@ -2435,7 +2435,7 @@ NarrowPhaseCollision/btGjkEpa2.s: NarrowPhaseCollision/btGjkEpa2.cpp.s
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btGjkEpa2.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpa2.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpa2.cpp.s
 .PHONY : NarrowPhaseCollision/btGjkEpa2.cpp.s
 
 NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.obj: NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.obj
@@ -2444,7 +2444,7 @@ NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.obj: NarrowPhaseCollision/bt
 
 # target to build an object file
 NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.obj
 .PHONY : NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.obj
 
 NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.i: NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.i
@@ -2453,7 +2453,7 @@ NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.i: NarrowPhaseCollision/btGj
 
 # target to preprocess a source file
 NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.i
 .PHONY : NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.i
 
 NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.s: NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.s
@@ -2462,7 +2462,7 @@ NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.s: NarrowPhaseCollision/btGj
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.s
 .PHONY : NarrowPhaseCollision/btGjkEpaPenetrationDepthSolver.cpp.s
 
 NarrowPhaseCollision/btGjkPairDetector.obj: NarrowPhaseCollision/btGjkPairDetector.cpp.obj
@@ -2471,7 +2471,7 @@ NarrowPhaseCollision/btGjkPairDetector.obj: NarrowPhaseCollision/btGjkPairDetect
 
 # target to build an object file
 NarrowPhaseCollision/btGjkPairDetector.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkPairDetector.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkPairDetector.cpp.obj
 .PHONY : NarrowPhaseCollision/btGjkPairDetector.cpp.obj
 
 NarrowPhaseCollision/btGjkPairDetector.i: NarrowPhaseCollision/btGjkPairDetector.cpp.i
@@ -2480,7 +2480,7 @@ NarrowPhaseCollision/btGjkPairDetector.i: NarrowPhaseCollision/btGjkPairDetector
 
 # target to preprocess a source file
 NarrowPhaseCollision/btGjkPairDetector.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkPairDetector.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkPairDetector.cpp.i
 .PHONY : NarrowPhaseCollision/btGjkPairDetector.cpp.i
 
 NarrowPhaseCollision/btGjkPairDetector.s: NarrowPhaseCollision/btGjkPairDetector.cpp.s
@@ -2489,7 +2489,7 @@ NarrowPhaseCollision/btGjkPairDetector.s: NarrowPhaseCollision/btGjkPairDetector
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btGjkPairDetector.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkPairDetector.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btGjkPairDetector.cpp.s
 .PHONY : NarrowPhaseCollision/btGjkPairDetector.cpp.s
 
 NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.obj: NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.obj
@@ -2498,7 +2498,7 @@ NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.obj: NarrowPhaseCollision
 
 # target to build an object file
 NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.obj
 .PHONY : NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.obj
 
 NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.i: NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.i
@@ -2507,7 +2507,7 @@ NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.i: NarrowPhaseCollision/b
 
 # target to preprocess a source file
 NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.i
 .PHONY : NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.i
 
 NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.s: NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.s
@@ -2516,7 +2516,7 @@ NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.s: NarrowPhaseCollision/b
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.s
 .PHONY : NarrowPhaseCollision/btMinkowskiPenetrationDepthSolver.cpp.s
 
 NarrowPhaseCollision/btPersistentManifold.obj: NarrowPhaseCollision/btPersistentManifold.cpp.obj
@@ -2525,7 +2525,7 @@ NarrowPhaseCollision/btPersistentManifold.obj: NarrowPhaseCollision/btPersistent
 
 # target to build an object file
 NarrowPhaseCollision/btPersistentManifold.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPersistentManifold.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPersistentManifold.cpp.obj
 .PHONY : NarrowPhaseCollision/btPersistentManifold.cpp.obj
 
 NarrowPhaseCollision/btPersistentManifold.i: NarrowPhaseCollision/btPersistentManifold.cpp.i
@@ -2534,7 +2534,7 @@ NarrowPhaseCollision/btPersistentManifold.i: NarrowPhaseCollision/btPersistentMa
 
 # target to preprocess a source file
 NarrowPhaseCollision/btPersistentManifold.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPersistentManifold.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPersistentManifold.cpp.i
 .PHONY : NarrowPhaseCollision/btPersistentManifold.cpp.i
 
 NarrowPhaseCollision/btPersistentManifold.s: NarrowPhaseCollision/btPersistentManifold.cpp.s
@@ -2543,7 +2543,7 @@ NarrowPhaseCollision/btPersistentManifold.s: NarrowPhaseCollision/btPersistentMa
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btPersistentManifold.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPersistentManifold.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPersistentManifold.cpp.s
 .PHONY : NarrowPhaseCollision/btPersistentManifold.cpp.s
 
 NarrowPhaseCollision/btPolyhedralContactClipping.obj: NarrowPhaseCollision/btPolyhedralContactClipping.cpp.obj
@@ -2552,7 +2552,7 @@ NarrowPhaseCollision/btPolyhedralContactClipping.obj: NarrowPhaseCollision/btPol
 
 # target to build an object file
 NarrowPhaseCollision/btPolyhedralContactClipping.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPolyhedralContactClipping.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPolyhedralContactClipping.cpp.obj
 .PHONY : NarrowPhaseCollision/btPolyhedralContactClipping.cpp.obj
 
 NarrowPhaseCollision/btPolyhedralContactClipping.i: NarrowPhaseCollision/btPolyhedralContactClipping.cpp.i
@@ -2561,7 +2561,7 @@ NarrowPhaseCollision/btPolyhedralContactClipping.i: NarrowPhaseCollision/btPolyh
 
 # target to preprocess a source file
 NarrowPhaseCollision/btPolyhedralContactClipping.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPolyhedralContactClipping.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPolyhedralContactClipping.cpp.i
 .PHONY : NarrowPhaseCollision/btPolyhedralContactClipping.cpp.i
 
 NarrowPhaseCollision/btPolyhedralContactClipping.s: NarrowPhaseCollision/btPolyhedralContactClipping.cpp.s
@@ -2570,7 +2570,7 @@ NarrowPhaseCollision/btPolyhedralContactClipping.s: NarrowPhaseCollision/btPolyh
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btPolyhedralContactClipping.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPolyhedralContactClipping.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btPolyhedralContactClipping.cpp.s
 .PHONY : NarrowPhaseCollision/btPolyhedralContactClipping.cpp.s
 
 NarrowPhaseCollision/btRaycastCallback.obj: NarrowPhaseCollision/btRaycastCallback.cpp.obj
@@ -2579,7 +2579,7 @@ NarrowPhaseCollision/btRaycastCallback.obj: NarrowPhaseCollision/btRaycastCallba
 
 # target to build an object file
 NarrowPhaseCollision/btRaycastCallback.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btRaycastCallback.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btRaycastCallback.cpp.obj
 .PHONY : NarrowPhaseCollision/btRaycastCallback.cpp.obj
 
 NarrowPhaseCollision/btRaycastCallback.i: NarrowPhaseCollision/btRaycastCallback.cpp.i
@@ -2588,7 +2588,7 @@ NarrowPhaseCollision/btRaycastCallback.i: NarrowPhaseCollision/btRaycastCallback
 
 # target to preprocess a source file
 NarrowPhaseCollision/btRaycastCallback.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btRaycastCallback.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btRaycastCallback.cpp.i
 .PHONY : NarrowPhaseCollision/btRaycastCallback.cpp.i
 
 NarrowPhaseCollision/btRaycastCallback.s: NarrowPhaseCollision/btRaycastCallback.cpp.s
@@ -2597,7 +2597,7 @@ NarrowPhaseCollision/btRaycastCallback.s: NarrowPhaseCollision/btRaycastCallback
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btRaycastCallback.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btRaycastCallback.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btRaycastCallback.cpp.s
 .PHONY : NarrowPhaseCollision/btRaycastCallback.cpp.s
 
 NarrowPhaseCollision/btSubSimplexConvexCast.obj: NarrowPhaseCollision/btSubSimplexConvexCast.cpp.obj
@@ -2606,7 +2606,7 @@ NarrowPhaseCollision/btSubSimplexConvexCast.obj: NarrowPhaseCollision/btSubSimpl
 
 # target to build an object file
 NarrowPhaseCollision/btSubSimplexConvexCast.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btSubSimplexConvexCast.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btSubSimplexConvexCast.cpp.obj
 .PHONY : NarrowPhaseCollision/btSubSimplexConvexCast.cpp.obj
 
 NarrowPhaseCollision/btSubSimplexConvexCast.i: NarrowPhaseCollision/btSubSimplexConvexCast.cpp.i
@@ -2615,7 +2615,7 @@ NarrowPhaseCollision/btSubSimplexConvexCast.i: NarrowPhaseCollision/btSubSimplex
 
 # target to preprocess a source file
 NarrowPhaseCollision/btSubSimplexConvexCast.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btSubSimplexConvexCast.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btSubSimplexConvexCast.cpp.i
 .PHONY : NarrowPhaseCollision/btSubSimplexConvexCast.cpp.i
 
 NarrowPhaseCollision/btSubSimplexConvexCast.s: NarrowPhaseCollision/btSubSimplexConvexCast.cpp.s
@@ -2624,7 +2624,7 @@ NarrowPhaseCollision/btSubSimplexConvexCast.s: NarrowPhaseCollision/btSubSimplex
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btSubSimplexConvexCast.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btSubSimplexConvexCast.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btSubSimplexConvexCast.cpp.s
 .PHONY : NarrowPhaseCollision/btSubSimplexConvexCast.cpp.s
 
 NarrowPhaseCollision/btVoronoiSimplexSolver.obj: NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.obj
@@ -2633,7 +2633,7 @@ NarrowPhaseCollision/btVoronoiSimplexSolver.obj: NarrowPhaseCollision/btVoronoiS
 
 # target to build an object file
 NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.obj:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.obj
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.obj
 .PHONY : NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.obj
 
 NarrowPhaseCollision/btVoronoiSimplexSolver.i: NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.i
@@ -2642,7 +2642,7 @@ NarrowPhaseCollision/btVoronoiSimplexSolver.i: NarrowPhaseCollision/btVoronoiSim
 
 # target to preprocess a source file
 NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.i:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.i
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.i
 .PHONY : NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.i
 
 NarrowPhaseCollision/btVoronoiSimplexSolver.s: NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.s
@@ -2651,7 +2651,7 @@ NarrowPhaseCollision/btVoronoiSimplexSolver.s: NarrowPhaseCollision/btVoronoiSim
 
 # target to generate assembly for a file
 NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.s:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.s
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletCollision\CMakeFiles\BulletCollision.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletCollision/CMakeFiles/BulletCollision.dir/NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.s
 .PHONY : NarrowPhaseCollision/btVoronoiSimplexSolver.cpp.s
 
 # Help Target
@@ -2954,6 +2954,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

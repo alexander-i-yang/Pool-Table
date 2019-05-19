@@ -169,7 +169,7 @@ int main()
 		}
 	}
 
-	collidables->setFriction(0.9999);
+	collidables->setFriction(0.75);
 
 	/*std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, s3, topLeft->getX(), topLeft->getY());
 	if(!ShootAI::predictCollide(whiteBall, s2, v.first, v.second, s3->getX())) {
