@@ -6,8 +6,12 @@
 #include "Ball.h"
 #include <utility>
 #include <iostream>
+#include <algorithm>
 #include <cmath>
 #include <climits>
+#include "math.h"
+
+#define PI 3.14159265358979
 
 std::pair<double,double> ShootAI::shootWhiteBall(Ball *whiteBall, Ball* shoot, double targetX, double targetY) {
 	double a = whiteBall->getX();
@@ -31,31 +35,6 @@ std::pair<double,double> ShootAI::shootWhiteBall(Ball *whiteBall, Ball* shoot, d
 	return ret;
 }
 
-static std::pair<double, double> predictFinalLocation(Ball* ball, double friction){
-	double x = ball->getX();
-	double y = ball->getY();
-	double xVelocity = ball->getXVelocity();
-	double yVelocity = ball->getYVelocity();
-
-	double angle = 3.141592/2;
-	if (xVelocity != 0){
-		angle = atan(yVelocity/xVelocity);
-	}
-	if (xVelocity < 0){
-		angle += 3.141592;
-	}                                                       // GETTING ANGLE FROM 0 to 2pi
-	double frictionX = friction * cos(angle);
-	double frictionY = friction * sin(angle);              // GETS X AND Y COMPONENTS OF FRICTION
-
-	double dx = pow(xVelocity, 2)/(2 * frictionX);
-	double dy = pow(yVelocity, 2)/(2 * frictionY);
-
-	std::pair<double, double> endLoc = {x + dx, y + dy};
-	return endLoc;
-
-
-
-}
 bool ShootAI::predictCollide(Ball* whiteBall, Ball* other, double xv, double yv, double stopX) {
 	double a = whiteBall->getX();
 	double b = whiteBall->getY();
@@ -78,32 +57,115 @@ bool ShootAI::predictCollide(Ball* whiteBall, Ball* other, double xv, double yv,
 	return false;
 }
 
-int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, Pocket **pockets, bool isMaximizer, int depth) {
+int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, Pocket **pockets, bool isMaximizer, int depth, double friction) {
 	// maximizer will go for solids
 	int score = evaluateTable(balls, isMaximizer);
 	if (score >= 8 || score <= -8) return score;
-	if (isMaximizer) {
-		int best = INT_MIN;
-		for (int i = 0; i < balls->size(); ++i) {
-			Ball* b = balls->at(i);
-			if (b->getNumber() == whiteBall->getNumber()) continue;
-			if (b->isStriped()) continue;
-			for (int j = 0; j < balls->size(); ++j) {
-				Pocket* p = pockets[j];
-				auto path = computePath(whiteBall, b, p);
-				if (!validPath(path, whiteBall, b, p, balls)) continue;
-				for (int power = 2000; power <= 6000; power += 2000) {
-
+	if (depth >= 4) return score;
+//	if (isMaximizer) {
+	int best = isMaximizer ? INT_MIN : INT_MAX;
+	bool sinkflag = false;
+	bool hitEight = true;
+	for (int i = 0; i < balls->size(); ++i) {
+		Ball* b = balls->at(i);
+		if (b->getNumber() == whiteBall->getNumber() || b->getNumber() == 8) continue;
+		if (b->isStriped() ^ isMaximizer) continue;
+		hitEight = false;
+		for (int j = 0; j < 4; ++j) {
+			Pocket* p = pockets[j];
+			auto path = computePath(whiteBall, b, p);
+			if (!validPath(path, whiteBall, b, p, balls)) continue;
+			for (int power = 1000; power <= 2000; power += 500) {
+				// add a check to see if the power is actually strong enough to hit the ball in the pocket
+				auto newPaths = collisionVelocity(whiteBall, b, power, friction, path);
+				auto hitPos = std::make_pair(b->getX()-path.second.first*2*b->getRadius(), b->getY()-path.second.second*b->getRadius()*2);
+				auto newPos = predictFinalLocation(hitPos, newPaths.second, friction);
+				// x adjustments
+				while (newPos.first >= walls[0]->getX() || newPos.first <= walls[1]->getX()) {
+					if (newPos.first >= walls[0]->getX()) {
+						newPos.first -= 2*(newPos.first - walls[0]->getX());
+					}
+					else if (newPos.first <= walls[1]->getX()) {
+						newPos.first += 2*(walls[1]->getX() - newPos.first);
+					}
 				}
+				// y adjustments
+				while (newPos.second >= walls[2]->getY() || newPos.second <= walls[3]->getY()) {
+					if (newPos.second >= walls[2]->getY()) {
+						newPos.second -= 2*(newPos.second - walls[2]->getY());
+					}
+					else if (newPos.first <= walls[3]->getY()) {
+						newPos.second += 2*(walls[3]->getY() - newPos.second);
+					}
+				}
+				auto oldPos = std::make_pair(whiteBall->getX(), whiteBall->getY());
+				whiteBall->setPos(newPos.first, newPos.second);
+				balls->erase(std::find(balls->begin(), balls->end(), b));
+				best = isMaximizer ? std::max(best, minimax(whiteBall, balls, walls, pockets, isMaximizer, depth + 1, friction)) :
+						             std::min(best, minimax(whiteBall, balls, walls, pockets, isMaximizer, depth + 1, friction));
+				balls->push_back(b);
+				whiteBall->setPos(oldPos.first, oldPos.second);
+				sinkflag = true;
 			}
 		}
 	}
-	return 0;
+	if (hitEight) {
+		Ball* b;
+		for (int i = 0; i < balls->size(); ++i) {
+			if (balls->at(i)->getNumber() == 8) {
+				b = balls->at(i);
+			}
+		}
+		for (int j = 0; j < 4; ++j) {
+			Pocket* p = pockets[j];
+			auto path = computePath(whiteBall, b, p);
+			if (!validPath(path, whiteBall, b, p, balls)) continue;
+			balls->erase(std::find(balls->begin(), balls->end(), b));
+			return evaluateTable(balls, isMaximizer);
+		}
+	}
+	else if (!sinkflag) {
+		// change implementation
+		// right now it does not hit the cue ball if it can't find a move
+		best = isMaximizer ? std::max(best, minimax(whiteBall, balls, walls, pockets, !isMaximizer, depth + 1, friction)) :
+				             std::min(best, minimax(whiteBall, balls, walls, pockets, !isMaximizer, depth + 1, friction));
+	}
+	return best;
+//	}
+}
+
+std::pair<double, double> ShootAI::predictFinalLocation(std::pair<double, double> r, std::pair<double, double> v, double friction){
+	double x = r.first;
+	double y = r.second;
+	double xVelocity = v.first;
+	double yVelocity = v.second;
+
+	double angle = 3.141592/2;
+	if (xVelocity != 0){
+		angle = atan(yVelocity/xVelocity);
+	}
+	if (xVelocity < 0){
+		angle += 3.141592;
+	}                                                       // GETTING ANGLE FROM 0 to 2pi
+	double frictionX = friction * cos(angle);
+	double frictionY = friction * sin(angle);              // GETS X AND Y COMPONENTS OF FRICTION
+
+	double dx = pow(xVelocity, 2)/(2 * frictionX);
+	double dy = pow(yVelocity, 2)/(2 * frictionY);
+
+	std::pair<double, double> endLoc = {x + dx, y + dy};
+	return endLoc;
 }
 
 double ShootAI::ccw(double ax, double ay, double bx, double by, double cx, double cy) {
 	return (bx - ax) * (cy - ay) - (cx - ax) * (by - ay);
 }
+
+double ShootAI::distance(double x1, double y1, double x2, double y2) {
+	return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+}
+
+
 
 int ShootAI::evaluateTable(std::vector<Ball *> *balls, bool isMaximizer) {
 	int numStriped = 0, numSolid = 0;
@@ -215,5 +277,23 @@ bool ShootAI::validSecondLeg(std::pair<double, double> path, Ball *targetBall, P
 		}
 	}
 	return true;
+}
+
+std::pair<std::pair<double, double>, std::pair<double, double> > ShootAI::collisionVelocity(Ball *whiteBall, Ball *targetBall, double vi, double friction, std::pair<std::pair<double, double>, std::pair<double, double> > path) {
+	double pathx1 = path.second.second;
+	double pathy1 = path.first.second;
+	double pathx2 = path.second.first;
+	double pathy2 = path.second.second;
+	double x2 = targetBall->getX() - 2*targetBall->getRadius()*pathx2;
+	double y2 = targetBall->getY() - 2*targetBall->getRadius()*pathy2;
+	double d = ShootAI::distance(whiteBall->getX(), whiteBall->getY(), x2, y2);
+	double theta1 = atan2(pathy1, pathx1) + path.first.first < 0 ? PI : 0;
+//	double vfx = sqrt(fabs(vi*vi - 2*d*friction)) * cos(theta1);
+//	double vfy = sqrt(fabs(vi*vi - 2*d*friction)) * sin(theta1);
+	double vf = sqrt(fabs(vi*vi - 2*d*friction));
+	double theta = PI - acos((pathx1*pathx2+pathy1*pathy2)/(sqrt(pow(pathx1, 2)+pow(pathy1, 2))*sqrt(pow(pathx2, 2)+pow(pathy2, 2))));
+	std::pair<double, double> newWhite = std::make_pair(pathx1*sin(theta)*vf, pathy1*sin(theta)*vf);
+	std::pair<double, double> newTarget = std::make_pair(pathx2*cos(theta)*vf, pathy2*cos(theta)*vf);
+	return std::make_pair(newWhite, newTarget);
 }
 

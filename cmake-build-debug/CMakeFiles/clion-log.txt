@@ -1,21 +1,19 @@
-"E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "E:\Programming\CLion - Projects\Pool-Table"
+"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
 -- The C compiler identification is GNU 8.1.0
 -- The CXX compiler identification is GNU 8.1.0
--- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
--- Check for working C compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe -- works
+-- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe
+-- Check for working C compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/gcc.exe -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
--- Check for working CXX compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
--- Check for working CXX compiler: C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe -- works
+-- Check for working CXX compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe
+-- Check for working CXX compiler: C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/g++.exe -- works
 -- Detecting CXX compiler ABI info
 -- Detecting CXX compiler ABI info - done
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Found OpenGL: opengl32   
-Your Source Directory contains spaces. If you experience problems when compiling, this can be the cause.
-Your Build Directory contains spaces. If you experience problems when compiling, this can be the cause.
 CMake Deprecation Warning at lib/external/glfw-3.1.2/CMakeLists.txt:8 (cmake_policy):
   The OLD behavior for policy CMP0042 will be removed from a future version
   of CMake.
@@ -37,7 +35,7 @@ CMake Deprecation Warning at lib/external/glfw-3.1.2/CMakeLists.txt:8 (cmake_pol
 -- Performing Test _GLFW_HAS_ASLR
 -- Performing Test _GLFW_HAS_ASLR - Success
 -- Performing Test _GLFW_HAS_64ASLR
--- Performing Test _GLFW_HAS_64ASLR - Success
+-- Performing Test _GLFW_HAS_64ASLR - Failed
 -- Using Win32 for window creation
 -- Using WGL for context creation
 -- Looking for sys/types.h
@@ -64,4 +62,4 @@ CMake Deprecation Warning at CMakeLists.txt:21 (cmake_policy):
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: E:/Programming/CLion - Projects/Pool-Table/cmake-build-debug
+-- Build files have been written to: C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/cmake-build-debug

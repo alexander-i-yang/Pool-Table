@@ -60,49 +60,49 @@ GL/glext.h
 GL/glu.h
 -
 
-E:/Programming/CLion - Projects/Pool-Table/Ball.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Ball.h
 utility
 -
 string
 -
 Drawable.h
-E:/Programming/CLion - Projects/Pool-Table/Drawable.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawable.h
 
-E:/Programming/CLion - Projects/Pool-Table/Collidables.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Collidables.h
 vector
 -
 Ball.h
-E:/Programming/CLion - Projects/Pool-Table/Ball.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Ball.h
 Drawables.h
-E:/Programming/CLion - Projects/Pool-Table/Drawables.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawables.h
 Wall.h
-E:/Programming/CLion - Projects/Pool-Table/Wall.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Wall.h
 Pocket.h
-E:/Programming/CLion - Projects/Pool-Table/Pocket.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Pocket.h
 
-E:/Programming/CLion - Projects/Pool-Table/Color.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Color.h
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-E:/Programming/CLion - Projects/Pool-Table/Drawable.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawable.h
 iostream
 -
 Color.h
-E:/Programming/CLion - Projects/Pool-Table/Color.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Color.h
 GL/glew.h
 -
 GLFW/glfw3.h
 -
 
-E:/Programming/CLion - Projects/Pool-Table/Drawables.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawables.h
 vector
 -
 Drawable.h
-E:/Programming/CLion - Projects/Pool-Table/Drawable.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawable.h
 
-E:/Programming/CLion - Projects/Pool-Table/Main.cpp
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Main.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
@@ -114,45 +114,45 @@ ctime
 lib/common/shader.hpp
 -
 Ball.h
-E:/Programming/CLion - Projects/Pool-Table/Ball.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Ball.h
 Wall.h
-E:/Programming/CLion - Projects/Pool-Table/Wall.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Wall.h
 Drawables.h
-E:/Programming/CLion - Projects/Pool-Table/Drawables.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawables.h
 Collidables.h
-E:/Programming/CLion - Projects/Pool-Table/Collidables.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Collidables.h
 Pocket.h
-E:/Programming/CLion - Projects/Pool-Table/Pocket.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Pocket.h
 ShootAI.h
-E:/Programming/CLion - Projects/Pool-Table/ShootAI.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/ShootAI.h
 iostream
 -
 vector
 -
 
-E:/Programming/CLion - Projects/Pool-Table/Pocket.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Pocket.h
 utility
 -
 string
 -
 Drawable.h
-E:/Programming/CLion - Projects/Pool-Table/Drawable.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawable.h
 
-E:/Programming/CLion - Projects/Pool-Table/ShootAI.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/ShootAI.h
 Ball.h
-E:/Programming/CLion - Projects/Pool-Table/Ball.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Ball.h
 Wall.h
-E:/Programming/CLion - Projects/Pool-Table/Wall.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Wall.h
 Pocket.h
-E:/Programming/CLion - Projects/Pool-Table/Pocket.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Pocket.h
 utility
 -
 vector
 -
 
-E:/Programming/CLion - Projects/Pool-Table/Wall.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Wall.h
 Color.h
-E:/Programming/CLion - Projects/Pool-Table/Color.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Color.h
 Drawable.h
-E:/Programming/CLion - Projects/Pool-Table/Drawable.h
+C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/Drawable.h
 

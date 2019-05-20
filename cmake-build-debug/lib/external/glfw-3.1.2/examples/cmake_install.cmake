@@ -1,4 +1,4 @@
-# Install script for directory: E:/Programming/CLion - Projects/Pool-Table/lib/external/glfw-3.1.2/examples
+# Install script for directory: C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/glfw-3.1.2/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

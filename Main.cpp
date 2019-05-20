@@ -169,16 +169,7 @@ int main()
 		}
 	}
 
-	collidables->setFriction(0.75);
-
-	/*std::pair<double, double> v = ShootAI::shootWhiteBall(whiteBall, s3, topLeft->getX(), topLeft->getY());
-	if(!ShootAI::predictCollide(whiteBall, s2, v.first, v.second, s3->getX())) {
-		whiteBall->setVelocity(v.first/10, v.second/10);
-	} else {
-		std::cerr << "ERROR!" << std::endl;
-		whiteBall->setVelocity(v.first, v.second);
-	}*/
-
+	collidables->setFriction(0.5);
 
 	// Loop until the user closes the window
 	double setTime = glfwGetTime();

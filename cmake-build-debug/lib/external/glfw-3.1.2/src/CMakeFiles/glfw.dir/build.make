@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\Programming\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\Programming\CLion - Projects\Pool-Table"
+CMAKE_SOURCE_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/depend.make
@@ -59,170 +59,170 @@ include lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.obj: ../lib/external/glfw-3.1.2/src/context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\context.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\context.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\context.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\context.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/context.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\context.c" > CMakeFiles\glfw.dir\context.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\context.c > CMakeFiles\glfw.dir\context.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/context.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\context.c" -o CMakeFiles\glfw.dir\context.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\context.c -o CMakeFiles\glfw.dir\context.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.obj: ../lib/external/glfw-3.1.2/src/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\init.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\init.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\init.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\init.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/init.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\init.c" > CMakeFiles\glfw.dir\init.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\init.c > CMakeFiles\glfw.dir\init.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/init.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\init.c" -o CMakeFiles\glfw.dir\init.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\init.c -o CMakeFiles\glfw.dir\init.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.obj: ../lib/external/glfw-3.1.2/src/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\input.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\input.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\input.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\input.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/input.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\input.c" > CMakeFiles\glfw.dir\input.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\input.c > CMakeFiles\glfw.dir\input.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/input.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\input.c" -o CMakeFiles\glfw.dir\input.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\input.c -o CMakeFiles\glfw.dir\input.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.obj: ../lib/external/glfw-3.1.2/src/monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\monitor.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\monitor.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\monitor.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\monitor.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/monitor.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\monitor.c" > CMakeFiles\glfw.dir\monitor.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\monitor.c > CMakeFiles\glfw.dir\monitor.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/monitor.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\monitor.c" -o CMakeFiles\glfw.dir\monitor.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\monitor.c -o CMakeFiles\glfw.dir\monitor.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.obj: ../lib/external/glfw-3.1.2/src/window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\window.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\window.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\window.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\window.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/window.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\window.c" > CMakeFiles\glfw.dir\window.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\window.c > CMakeFiles\glfw.dir\window.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/window.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\window.c" -o CMakeFiles\glfw.dir\window.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\window.c -o CMakeFiles\glfw.dir\window.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_init.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_init.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_init.c.obj: ../lib/external/glfw-3.1.2/src/win32_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_init.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_init.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_init.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_init.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_init.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_init.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_init.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_init.c" > CMakeFiles\glfw.dir\win32_init.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_init.c > CMakeFiles\glfw.dir\win32_init.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_init.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_init.c" -o CMakeFiles\glfw.dir\win32_init.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_init.c -o CMakeFiles\glfw.dir\win32_init.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_monitor.c.obj: ../lib/external/glfw-3.1.2/src/win32_monitor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_monitor.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_monitor.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_monitor.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_monitor.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_monitor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_monitor.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_monitor.c" > CMakeFiles\glfw.dir\win32_monitor.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_monitor.c > CMakeFiles\glfw.dir\win32_monitor.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_monitor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_monitor.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_monitor.c" -o CMakeFiles\glfw.dir\win32_monitor.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_monitor.c -o CMakeFiles\glfw.dir\win32_monitor.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_time.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_time.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_time.c.obj: ../lib/external/glfw-3.1.2/src/win32_time.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_time.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_time.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_time.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_time.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_time.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_time.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_time.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_time.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_time.c" > CMakeFiles\glfw.dir\win32_time.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_time.c > CMakeFiles\glfw.dir\win32_time.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_time.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_time.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_time.c" -o CMakeFiles\glfw.dir\win32_time.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_time.c -o CMakeFiles\glfw.dir\win32_time.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_tls.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_tls.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_tls.c.obj: ../lib/external/glfw-3.1.2/src/win32_tls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_tls.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_tls.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_tls.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_tls.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_tls.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_tls.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_tls.c" > CMakeFiles\glfw.dir\win32_tls.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_tls.c > CMakeFiles\glfw.dir\win32_tls.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_tls.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_tls.c" -o CMakeFiles\glfw.dir\win32_tls.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_tls.c -o CMakeFiles\glfw.dir\win32_tls.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_window.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_window.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_window.c.obj: ../lib/external/glfw-3.1.2/src/win32_window.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_window.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_window.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_window.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_window.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\win32_window.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_window.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_window.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/win32_window.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_window.c" > CMakeFiles\glfw.dir\win32_window.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_window.c > CMakeFiles\glfw.dir\win32_window.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/win32_window.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/win32_window.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\win32_window.c" -o CMakeFiles\glfw.dir\win32_window.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\win32_window.c -o CMakeFiles\glfw.dir\win32_window.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj: ../lib/external/glfw-3.1.2/src/winmm_joystick.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\winmm_joystick.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\winmm_joystick.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/winmm_joystick.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\winmm_joystick.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\winmm_joystick.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/winmm_joystick.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/winmm_joystick.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\winmm_joystick.c" > CMakeFiles\glfw.dir\winmm_joystick.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\winmm_joystick.c > CMakeFiles\glfw.dir\winmm_joystick.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/winmm_joystick.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/winmm_joystick.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\winmm_joystick.c" -o CMakeFiles\glfw.dir\winmm_joystick.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\winmm_joystick.c -o CMakeFiles\glfw.dir\winmm_joystick.c.s
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/flags.make
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.obj: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/includes_C.rsp
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.obj: ../lib/external/glfw-3.1.2/src/wgl_context.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\wgl_context.c.obj   -c "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\wgl_context.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\glfw.dir\wgl_context.c.obj   -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\wgl_context.c
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/glfw.dir/wgl_context.c.i"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\wgl_context.c" > CMakeFiles\glfw.dir\wgl_context.c.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\wgl_context.c > CMakeFiles\glfw.dir\wgl_context.c.i
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/glfw.dir/wgl_context.c.s"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src\wgl_context.c" -o CMakeFiles\glfw.dir\wgl_context.c.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src\wgl_context.c -o CMakeFiles\glfw.dir\wgl_context.c.s
 
 # Object files for target glfw
 glfw_OBJECTS = \
@@ -256,9 +256,9 @@ lib/external/glfw-3.1.2/src/libglfw3.a: lib/external/glfw-3.1.2/src/CMakeFiles/g
 lib/external/glfw-3.1.2/src/libglfw3.a: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/wgl_context.c.obj
 lib/external/glfw-3.1.2/src/libglfw3.a: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/build.make
 lib/external/glfw-3.1.2/src/libglfw3.a: lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libglfw3.a"
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C static library libglfw3.a"
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean_target.cmake
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\glfw.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/build: lib/external/glfw-3.1.2/src/libglfw3.a
@@ -266,10 +266,10 @@ lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/build: lib/external/glfw-3.1.2/s
 .PHONY : lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/build
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/clean:
-	cd /d "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src && $(CMAKE_COMMAND) -P CMakeFiles\glfw.dir\cmake_clean.cmake
 .PHONY : lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/clean
 
 lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\Programming\CLion - Projects\Pool-Table" "E:\Programming\CLion - Projects\Pool-Table\lib\external\glfw-3.1.2\src" "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug" "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src" "E:\Programming\CLion - Projects\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src\CMakeFiles\glfw.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Samuel\Documents\Coding\LASA\Pool-Table C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\lib\external\glfw-3.1.2\src C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\glfw-3.1.2\src\CMakeFiles\glfw.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/external/glfw-3.1.2/src/CMakeFiles/glfw.dir/depend
 
