@@ -7,6 +7,9 @@
 
 #include <utility>
 #include <string>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <sys/ioctl.h>
 
 #include "Drawable.h"
 
@@ -16,21 +19,37 @@ private:
 	double referenceTime;
 
 protected:
-    double radius;
-    std::pair<double, double> velocity;
-    double theta;
-    double mass;
+	double radius;
+	std::pair<double, double> velocity;
+	double theta;
+	double mass;
+	int option;
+	bool myTurn;
 	bool striped;
+	int fd;
+	bool hasShot;
 public:
-    Ball();
-    Ball(Color c, double x, double y, double z, double radius);
-    Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass);
+	Ball();
+	Ball(Color c, double x, double y, double z, double radius);
+	Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass);
 
-    double getTime();
+	double getTime();
 
 	bool isStriped() const;
 
+	void setTurnStatus(bool turnStatus);
+	bool getTurnStatus();
+
 	void setStriped(bool striped);
+
+	void setOption(int option);
+	int getOption();
+
+    void setShotStatus(bool hasShot);
+    int getShotStatus();
+
+    void setFd(int fd);
+    int getFd();
 
 	double getRadius();
 	double getTheta();

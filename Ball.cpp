@@ -11,29 +11,62 @@
 #include "Drawable.h"
 
 void wait(double seconds) {
-	double last = glfwGetTime();
-	//std::cout << last << std::endl;
-	while(last+seconds > glfwGetTime()) {
-		//std::cout << glfwGetTime()<< std::endl;
-	}
+    double last = glfwGetTime();
+    //std::cout << last << std::endl;
+    while(last+seconds > glfwGetTime()) {
+        //std::cout << glfwGetTime()<< std::endl;
+    }
 }
 
 Ball::Ball() : Drawable() {
-	this->referenceTime = glfwGetTime();
+    this->referenceTime = glfwGetTime();
 }
 
 Ball::Ball(Color c, double x, double y, double z, double radius) : Drawable(c, x, y, z) {
-	this->referenceTime = glfwGetTime();
-	this->radius = radius;
+    this->referenceTime = glfwGetTime();
+    this->radius = radius;
 }
 
 Ball::Ball(Color c, double x, double y, double z, double radius, std::pair<double, double> velocity, double theta, double mass) : Drawable(c, x, y, z) {
-	this->referenceTime = glfwGetTime();
-	this->radius = radius;
-	this->velocity = std::make_pair(velocity.first, velocity.second);
-	this->theta = theta;
-	this->mass = mass;
+    this->referenceTime = glfwGetTime();
+    this->radius = radius;
+    this->velocity = std::make_pair(velocity.first, velocity.second);
+    this->theta = theta;
+    this->mass = mass;
 }
+
+void Ball::setTurnStatus(bool turnStatus) {
+    this->myTurn = turnStatus;
+}
+
+bool Ball::getTurnStatus() {
+    return this->myTurn;
+}
+
+void Ball::setOption(int option) {
+    this->option = option;
+}
+
+int Ball::getOption() {
+    return this->option;
+}
+
+void Ball::setFd(int fd) {
+    this->fd = fd;
+}
+
+int Ball::getFd() {
+    return this->fd;
+}
+
+void Ball::setShotStatus(bool hasShot) {
+    this->hasShot = hasShot;
+}
+
+int Ball::getShotStatus() {
+    return this->hasShot;
+}
+
 
 double Ball::getTime() {return this->referenceTime;}
 double Ball::getRadius() {return this->radius;}
@@ -51,146 +84,160 @@ void Ball::setVelocity(double vx, double vy) {this->velocity = std::make_pair(vx
 void Ball::updateAngle() {this->setTheta(atan2(this->getYVelocity(), this->getXVelocity()));}
 
 int Ball::getNumSides() {
-	return (int)this->getRadius() * 3;
+    return (int)this->getRadius() * 3;
 }
 
 /* needs implementation */
 void Ball::draw() {
-	double r = this->getRadius();
-	double x = this->getX();
-	double y = this->getY();
-	double triangleAmount = this->getNumVertices();
-	//glColorPointer(3, GL_FLOAT, 0, this->getColorArray());
-	glColor3f(this->getColor().getR(), this->getColor().getG(), this->getColor().getB());
-	glBegin(GL_TRIANGLE_FAN);
-	glVertex2f(x, y);
-	for (int i = 0; i <= triangleAmount; ++i) {
-		glVertex2f(x + r * cos(i * 2 * 3.1415926 / triangleAmount), y + r * sin(i * 2 * 3.1415926 / triangleAmount));
-	}
-	glEnd();
+    double r = this->getRadius();
+    double x = this->getX();
+    double y = this->getY();
+    double triangleAmount = this->getNumVertices();
+    //glColorPointer(3, GL_FLOAT, 0, this->getColorArray());
+    glColor3f(this->getColor().getR(), this->getColor().getG(), this->getColor().getB());
+    glBegin(GL_TRIANGLE_FAN);
+    glVertex2f(x, y);
+    for (int i = 0; i <= triangleAmount; ++i) {
+        glVertex2f(x + r * cos(i * 2 * 3.1415926 / triangleAmount), y + r * sin(i * 2 * 3.1415926 / triangleAmount));
+    }
+    glEnd();
 
-	if(striped) {
-		glColor3f(1, 1, 1);
-		glBegin(GL_TRIANGLE_FAN);
-		glVertex2f(x, y);
-		for (int i = triangleAmount / 8; i <= triangleAmount * 5 / 8; ++i) {
-			glVertex2f(x + r * cos(i * 2 * 3.1415926538979323846 / triangleAmount),
-			           y + r * sin(i * 2 * 3.1415926538979323846 / triangleAmount));
-		}
-		glEnd();
-	}
+    if(striped) {
+        glColor3f(1, 1, 1);
+        glBegin(GL_TRIANGLE_FAN);
+        glVertex2f(x, y);
+        for (int i = triangleAmount / 8; i <= triangleAmount * 5 / 8; ++i) {
+            glVertex2f(x + r * cos(i * 2 * 3.1415926538979323846 / triangleAmount),
+                       y + r * sin(i * 2 * 3.1415926538979323846 / triangleAmount));
+        }
+        glEnd();
+    }
 }
 
 int Ball::getNumVertices() {
-	int numberOfSides = (int)(this->getRadius());
-	int numberOfVertices = numberOfSides + 2;
-	return numberOfVertices;
+    int numberOfSides = (int)(this->getRadius());
+    int numberOfVertices = numberOfSides + 2;
+    return numberOfVertices;
 }
 
 void Ball::updateFrame() {
-	double xVelocity = this->getXVelocity();
-	double yVelocity = this->getYVelocity();
-	double timeElapsed = glfwGetTime() - this->getTime();
-	this->setTime(glfwGetTime());
-	Drawable::setX(this->getX() + timeElapsed * xVelocity);
-	Drawable::setY(this->getY() + timeElapsed * yVelocity);
+    double xVelocity = this->getXVelocity();
+    double yVelocity = this->getYVelocity();
+    double timeElapsed = glfwGetTime() - this->getTime();
+    this->setTime(glfwGetTime());
+    Drawable::setX(this->getX() + timeElapsed * xVelocity);
+    Drawable::setY(this->getY() + timeElapsed * yVelocity);
 }
 
 /* needs implementation */
 double Ball::friction() {
-	return 0;
+    return 0;
 }
 
 void Ball::setColorRGB(double r, double g, double b) {
-	this->getColor().setColor(r, g, b);
+    this->getColor().setColor(r, g, b);
 }
 
 bool Ball::checkCollide(Ball *other) {
-	/* calculate the distance between their centers
-	 * if this value is greater than the sum of their radii then they do not collide
-	 * otherwise they do
-	 */
-	double distBetween = this->perpendicularDistance(other);
-	double radiiSum = this->getRadius() + other->getRadius();
-	if(distBetween+1 < radiiSum) {
-		//Shifts the balls over if they're on top of each other.
-		//Assumes they both have the same radius.
-		double a = this->getX();
-		double b = this->getY();
-		double c = other->getX();
-		double d = other->getY();
-		double t = tan((b-d)/(a-c));
-		double midX = (a+c)/2;
-		double midY = (b+d)/2;
-		double r = this->getRadius();
-		double addX = r*cos(t);
-		double addY = r*sin(t);
-		//wait(0.1);
-		if(a < c && b<d) {
-			this->setPos(midX-addX, midY-addY);
-			other->setPos(midX+addX, midY+addY);
-		} else {
-			this->setPos(midX+addX, midY+addY);
-			other->setPos(midX-addX, midY-addY);
-		}
-		this->draw();
-		other->draw();
-		//wait(0.1);
-	}
-	return distBetween <= radiiSum;
+    /* calculate the distance between their centers
+     * if this value is greater than the sum of their radii then they do not collide
+     * otherwise they do
+     */
+    double distBetween = this->perpendicularDistance(other);
+    double radiiSum = this->getRadius() + other->getRadius();
+    if(distBetween+1 < radiiSum) {
+        //Shifts the balls over if they're on top of each other.
+        //Assumes they both have the same radius.
+        double a = this->getX();
+        double b = this->getY();
+        double c = other->getX();
+        double d = other->getY();
+        double t = atanf((b-d)/(a-c));
+        if(a-c < 0) t += 3.14;
+        double midX = (a+c)/2;
+        double midY = (b+d)/2;
+        double r = this->getRadius();
+        double addX = r*cos(t);
+        double addY = r*sin(t);
+        //wait(0.1);
+        std::cout << std::endl;
+        if(sqrt((a-(midX-addX))*(a-(midX-addX))-(b-(midY-addY))*(b-(midY-addY))) < r-1) {
+            this->setPos(midX-addX, midY-addY);
+            other->setPos(midX+addX, midY+addY);
+            /*if(sqrt((a-(midX-addX))*(a-(midX-addX))-(b-(midY-addY))*(b-(midY-addY))) > 20) {
+                printf("(%f, %f)", this->getX(), this->getY());
+                printf("(%f, %f)", other->getX(), other->getY());
+                std::cout << "rip" << std::endl;
+                printf("(%f, %f)", this->getX(), this->getY());
+                printf("(%f, %f)", other->getX(), other->getY());
+            }*/
+        } else {
+            this->setPos(midX+addX, midY+addY);
+            other->setPos(midX-addX, midY-addY);
+            /*if(sqrt((a-(midX+addX))*(a-(midX+addX))-(b-(midY+addY))*(b-(midY+addY))) > 20) {
+                printf("(%f, %f)", this->getX(), this->getY());
+                printf("(%f, %f)", other->getX(), other->getY());
+                std::cout << "rip" << std::endl;
+                printf("(%f, %f)", this->getX(), this->getY());
+                printf("(%f, %f)", other->getX(), other->getY());
+            }*/
+        }
+        std::cout << std::endl << std::endl;
+    }
+    return distBetween <= radiiSum;
 }
 
 void Ball::setPos(double x, double y) {
-	setX(x);
-	setY(y);
+    setX(x);
+    setY(y);
 }
 
 /* clean up */
 std::pair<double, double> Ball::getNewVelocity(Ball *other) {
-	if(other->mass == 0 || this->mass == 0) {
-		std::cout << "ERROR: Mass is 0" <<std::endl;
-		return this->velocity;
-	}
-	double vf = velocity.first;
-	double vs = velocity.second;
-	double vof = other->velocity.first;
-	double vos = other->velocity.second;
-	std::pair<double, double> n = {other->getX()-Drawable::getX(), other->getY()-Drawable::getY()};
-	std::pair<double, double> un = {n.first, n.second};
-	double nNorm = sqrt(n.first*n.first+n.second*n.second);
-	un.first /= nNorm;
-	un.second /= nNorm;
-	std::pair<double, double> ut = {-1*un.second, un.first};
-	double v1n = un.first*vf + un.second*vs;
-	double v2n = un.first*vof + un.second*vos;
-	double v2t = ut.first*vof + ut.second*vos;
-	double vPrime1n = (v1n*(this->mass-other->mass)+2*other->mass*v2n)/(this->mass+other->mass);
-	double vPrime2n = (v2n*(other->mass-mass)+2*mass*v1n)/(mass+other->mass);
-	double vPrime1t = ut.first*velocity.first + ut.second*velocity.second;
-	this->setVelocity(vPrime1n*un.first+vPrime1t*ut.first, vPrime1n*un.second+vPrime1t*ut.second);
-	std::pair<double, double> vPrime2nVector = {vPrime2n*un.first, vPrime2n*un.second};
-	std::pair<double, double> vPrime2tVector = {v2t*ut.first, v2t*ut.second};
-	other->setVelocity(vPrime2nVector.first+vPrime2tVector.first, vPrime2nVector.second+vPrime2tVector.second);
-	return velocity;
+    if(other->mass == 0 || this->mass == 0) {
+        std::cout << "ERROR: Mass is 0" <<std::endl;
+        return this->velocity;
+    }
+    double vf = velocity.first;
+    double vs = velocity.second;
+    double vof = other->velocity.first;
+    double vos = other->velocity.second;
+    std::pair<double, double> n = {other->getX()-Drawable::getX(), other->getY()-Drawable::getY()};
+    std::pair<double, double> un = {n.first, n.second};
+    double nNorm = sqrt(n.first*n.first+n.second*n.second);
+    un.first /= nNorm;
+    un.second /= nNorm;
+    std::pair<double, double> ut = {-1*un.second, un.first};
+    double v1n = un.first*vf + un.second*vs;
+    double v2n = un.first*vof + un.second*vos;
+    double v2t = ut.first*vof + ut.second*vos;
+    double vPrime1n = (v1n*(this->mass-other->mass)+2*other->mass*v2n)/(this->mass+other->mass);
+    double vPrime2n = (v2n*(other->mass-mass)+2*mass*v1n)/(mass+other->mass);
+    double vPrime1t = ut.first*velocity.first + ut.second*velocity.second;
+    this->setVelocity(vPrime1n*un.first+vPrime1t*ut.first, vPrime1n*un.second+vPrime1t*ut.second);
+    std::pair<double, double> vPrime2nVector = {vPrime2n*un.first, vPrime2n*un.second};
+    std::pair<double, double> vPrime2tVector = {v2t*ut.first, v2t*ut.second};
+    other->setVelocity(vPrime2nVector.first+vPrime2tVector.first, vPrime2nVector.second+vPrime2tVector.second);
+    return velocity;
 }
 
 /* needs implementation */
 double Ball::getNewAngle(Ball* other) {
-	return 0;
+    return 0;
 }
 
 double Ball::perpendicularDistance(Ball *other) {
-	double x1 = this->getX();
-	double y1 = this->getY();
-	double x2 = other->getX();
-	double y2 = other->getY();
-	return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+    double x1 = this->getX();
+    double y1 = this->getY();
+    double x2 = other->getX();
+    double y2 = other->getY();
+    return sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
 }
 
 bool Ball::isStriped() const {
-	return striped;
+    return striped;
 }
 
 void Ball::setStriped(bool striped) {
-	Ball::striped = striped;
+    Ball::striped = striped;
 }
