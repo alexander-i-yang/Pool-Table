@@ -212,7 +212,7 @@ int main()
 
         if (aiType == 0 && playerType == 0) {
             if (num != 0) {
-                if (!pplayerTurn) {
+                if (!playerTurn) {
                     if (num == 1) {
                         playerType = -1;
                         aiType = 1;

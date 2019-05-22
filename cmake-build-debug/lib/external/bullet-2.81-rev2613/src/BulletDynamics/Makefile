@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Alex\Documents\Pool-Table
+CMAKE_SOURCE_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,31 +58,31 @@ CMAKE_BINARY_DIR = C:\Users\Alex\Documents\Pool-Table\cmake-build-debug
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -93,7 +93,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -114,25 +114,25 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\progress.marks
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Alex\Documents\Pool-Table\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\progress.marks
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/clean
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/preinstall
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/preinstall
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/rule:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/rule
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/rule
 .PHONY : lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ BulletDynamics: lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/B
 
 # fast build rule for target.
 BulletDynamics/fast:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/build
 .PHONY : BulletDynamics/fast
 
 Character/btKinematicCharacterController.obj: Character/btKinematicCharacterController.cpp.obj
@@ -176,7 +176,7 @@ Character/btKinematicCharacterController.obj: Character/btKinematicCharacterCont
 
 # target to build an object file
 Character/btKinematicCharacterController.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Character/btKinematicCharacterController.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Character/btKinematicCharacterController.cpp.obj
 .PHONY : Character/btKinematicCharacterController.cpp.obj
 
 Character/btKinematicCharacterController.i: Character/btKinematicCharacterController.cpp.i
@@ -185,7 +185,7 @@ Character/btKinematicCharacterController.i: Character/btKinematicCharacterContro
 
 # target to preprocess a source file
 Character/btKinematicCharacterController.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Character/btKinematicCharacterController.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Character/btKinematicCharacterController.cpp.i
 .PHONY : Character/btKinematicCharacterController.cpp.i
 
 Character/btKinematicCharacterController.s: Character/btKinematicCharacterController.cpp.s
@@ -194,7 +194,7 @@ Character/btKinematicCharacterController.s: Character/btKinematicCharacterContro
 
 # target to generate assembly for a file
 Character/btKinematicCharacterController.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Character/btKinematicCharacterController.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Character/btKinematicCharacterController.cpp.s
 .PHONY : Character/btKinematicCharacterController.cpp.s
 
 ConstraintSolver/btConeTwistConstraint.obj: ConstraintSolver/btConeTwistConstraint.cpp.obj
@@ -203,7 +203,7 @@ ConstraintSolver/btConeTwistConstraint.obj: ConstraintSolver/btConeTwistConstrai
 
 # target to build an object file
 ConstraintSolver/btConeTwistConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btConeTwistConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btConeTwistConstraint.cpp.obj
 .PHONY : ConstraintSolver/btConeTwistConstraint.cpp.obj
 
 ConstraintSolver/btConeTwistConstraint.i: ConstraintSolver/btConeTwistConstraint.cpp.i
@@ -212,7 +212,7 @@ ConstraintSolver/btConeTwistConstraint.i: ConstraintSolver/btConeTwistConstraint
 
 # target to preprocess a source file
 ConstraintSolver/btConeTwistConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btConeTwistConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btConeTwistConstraint.cpp.i
 .PHONY : ConstraintSolver/btConeTwistConstraint.cpp.i
 
 ConstraintSolver/btConeTwistConstraint.s: ConstraintSolver/btConeTwistConstraint.cpp.s
@@ -221,7 +221,7 @@ ConstraintSolver/btConeTwistConstraint.s: ConstraintSolver/btConeTwistConstraint
 
 # target to generate assembly for a file
 ConstraintSolver/btConeTwistConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btConeTwistConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btConeTwistConstraint.cpp.s
 .PHONY : ConstraintSolver/btConeTwistConstraint.cpp.s
 
 ConstraintSolver/btContactConstraint.obj: ConstraintSolver/btContactConstraint.cpp.obj
@@ -230,7 +230,7 @@ ConstraintSolver/btContactConstraint.obj: ConstraintSolver/btContactConstraint.c
 
 # target to build an object file
 ConstraintSolver/btContactConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btContactConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btContactConstraint.cpp.obj
 .PHONY : ConstraintSolver/btContactConstraint.cpp.obj
 
 ConstraintSolver/btContactConstraint.i: ConstraintSolver/btContactConstraint.cpp.i
@@ -239,7 +239,7 @@ ConstraintSolver/btContactConstraint.i: ConstraintSolver/btContactConstraint.cpp
 
 # target to preprocess a source file
 ConstraintSolver/btContactConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btContactConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btContactConstraint.cpp.i
 .PHONY : ConstraintSolver/btContactConstraint.cpp.i
 
 ConstraintSolver/btContactConstraint.s: ConstraintSolver/btContactConstraint.cpp.s
@@ -248,7 +248,7 @@ ConstraintSolver/btContactConstraint.s: ConstraintSolver/btContactConstraint.cpp
 
 # target to generate assembly for a file
 ConstraintSolver/btContactConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btContactConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btContactConstraint.cpp.s
 .PHONY : ConstraintSolver/btContactConstraint.cpp.s
 
 ConstraintSolver/btGearConstraint.obj: ConstraintSolver/btGearConstraint.cpp.obj
@@ -257,7 +257,7 @@ ConstraintSolver/btGearConstraint.obj: ConstraintSolver/btGearConstraint.cpp.obj
 
 # target to build an object file
 ConstraintSolver/btGearConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGearConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGearConstraint.cpp.obj
 .PHONY : ConstraintSolver/btGearConstraint.cpp.obj
 
 ConstraintSolver/btGearConstraint.i: ConstraintSolver/btGearConstraint.cpp.i
@@ -266,7 +266,7 @@ ConstraintSolver/btGearConstraint.i: ConstraintSolver/btGearConstraint.cpp.i
 
 # target to preprocess a source file
 ConstraintSolver/btGearConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGearConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGearConstraint.cpp.i
 .PHONY : ConstraintSolver/btGearConstraint.cpp.i
 
 ConstraintSolver/btGearConstraint.s: ConstraintSolver/btGearConstraint.cpp.s
@@ -275,7 +275,7 @@ ConstraintSolver/btGearConstraint.s: ConstraintSolver/btGearConstraint.cpp.s
 
 # target to generate assembly for a file
 ConstraintSolver/btGearConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGearConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGearConstraint.cpp.s
 .PHONY : ConstraintSolver/btGearConstraint.cpp.s
 
 ConstraintSolver/btGeneric6DofConstraint.obj: ConstraintSolver/btGeneric6DofConstraint.cpp.obj
@@ -284,7 +284,7 @@ ConstraintSolver/btGeneric6DofConstraint.obj: ConstraintSolver/btGeneric6DofCons
 
 # target to build an object file
 ConstraintSolver/btGeneric6DofConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofConstraint.cpp.obj
 .PHONY : ConstraintSolver/btGeneric6DofConstraint.cpp.obj
 
 ConstraintSolver/btGeneric6DofConstraint.i: ConstraintSolver/btGeneric6DofConstraint.cpp.i
@@ -293,7 +293,7 @@ ConstraintSolver/btGeneric6DofConstraint.i: ConstraintSolver/btGeneric6DofConstr
 
 # target to preprocess a source file
 ConstraintSolver/btGeneric6DofConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofConstraint.cpp.i
 .PHONY : ConstraintSolver/btGeneric6DofConstraint.cpp.i
 
 ConstraintSolver/btGeneric6DofConstraint.s: ConstraintSolver/btGeneric6DofConstraint.cpp.s
@@ -302,7 +302,7 @@ ConstraintSolver/btGeneric6DofConstraint.s: ConstraintSolver/btGeneric6DofConstr
 
 # target to generate assembly for a file
 ConstraintSolver/btGeneric6DofConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofConstraint.cpp.s
 .PHONY : ConstraintSolver/btGeneric6DofConstraint.cpp.s
 
 ConstraintSolver/btGeneric6DofSpringConstraint.obj: ConstraintSolver/btGeneric6DofSpringConstraint.cpp.obj
@@ -311,7 +311,7 @@ ConstraintSolver/btGeneric6DofSpringConstraint.obj: ConstraintSolver/btGeneric6D
 
 # target to build an object file
 ConstraintSolver/btGeneric6DofSpringConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofSpringConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofSpringConstraint.cpp.obj
 .PHONY : ConstraintSolver/btGeneric6DofSpringConstraint.cpp.obj
 
 ConstraintSolver/btGeneric6DofSpringConstraint.i: ConstraintSolver/btGeneric6DofSpringConstraint.cpp.i
@@ -320,7 +320,7 @@ ConstraintSolver/btGeneric6DofSpringConstraint.i: ConstraintSolver/btGeneric6Dof
 
 # target to preprocess a source file
 ConstraintSolver/btGeneric6DofSpringConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofSpringConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofSpringConstraint.cpp.i
 .PHONY : ConstraintSolver/btGeneric6DofSpringConstraint.cpp.i
 
 ConstraintSolver/btGeneric6DofSpringConstraint.s: ConstraintSolver/btGeneric6DofSpringConstraint.cpp.s
@@ -329,7 +329,7 @@ ConstraintSolver/btGeneric6DofSpringConstraint.s: ConstraintSolver/btGeneric6Dof
 
 # target to generate assembly for a file
 ConstraintSolver/btGeneric6DofSpringConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofSpringConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btGeneric6DofSpringConstraint.cpp.s
 .PHONY : ConstraintSolver/btGeneric6DofSpringConstraint.cpp.s
 
 ConstraintSolver/btHinge2Constraint.obj: ConstraintSolver/btHinge2Constraint.cpp.obj
@@ -338,7 +338,7 @@ ConstraintSolver/btHinge2Constraint.obj: ConstraintSolver/btHinge2Constraint.cpp
 
 # target to build an object file
 ConstraintSolver/btHinge2Constraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHinge2Constraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHinge2Constraint.cpp.obj
 .PHONY : ConstraintSolver/btHinge2Constraint.cpp.obj
 
 ConstraintSolver/btHinge2Constraint.i: ConstraintSolver/btHinge2Constraint.cpp.i
@@ -347,7 +347,7 @@ ConstraintSolver/btHinge2Constraint.i: ConstraintSolver/btHinge2Constraint.cpp.i
 
 # target to preprocess a source file
 ConstraintSolver/btHinge2Constraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHinge2Constraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHinge2Constraint.cpp.i
 .PHONY : ConstraintSolver/btHinge2Constraint.cpp.i
 
 ConstraintSolver/btHinge2Constraint.s: ConstraintSolver/btHinge2Constraint.cpp.s
@@ -356,7 +356,7 @@ ConstraintSolver/btHinge2Constraint.s: ConstraintSolver/btHinge2Constraint.cpp.s
 
 # target to generate assembly for a file
 ConstraintSolver/btHinge2Constraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHinge2Constraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHinge2Constraint.cpp.s
 .PHONY : ConstraintSolver/btHinge2Constraint.cpp.s
 
 ConstraintSolver/btHingeConstraint.obj: ConstraintSolver/btHingeConstraint.cpp.obj
@@ -365,7 +365,7 @@ ConstraintSolver/btHingeConstraint.obj: ConstraintSolver/btHingeConstraint.cpp.o
 
 # target to build an object file
 ConstraintSolver/btHingeConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHingeConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHingeConstraint.cpp.obj
 .PHONY : ConstraintSolver/btHingeConstraint.cpp.obj
 
 ConstraintSolver/btHingeConstraint.i: ConstraintSolver/btHingeConstraint.cpp.i
@@ -374,7 +374,7 @@ ConstraintSolver/btHingeConstraint.i: ConstraintSolver/btHingeConstraint.cpp.i
 
 # target to preprocess a source file
 ConstraintSolver/btHingeConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHingeConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHingeConstraint.cpp.i
 .PHONY : ConstraintSolver/btHingeConstraint.cpp.i
 
 ConstraintSolver/btHingeConstraint.s: ConstraintSolver/btHingeConstraint.cpp.s
@@ -383,7 +383,7 @@ ConstraintSolver/btHingeConstraint.s: ConstraintSolver/btHingeConstraint.cpp.s
 
 # target to generate assembly for a file
 ConstraintSolver/btHingeConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHingeConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btHingeConstraint.cpp.s
 .PHONY : ConstraintSolver/btHingeConstraint.cpp.s
 
 ConstraintSolver/btPoint2PointConstraint.obj: ConstraintSolver/btPoint2PointConstraint.cpp.obj
@@ -392,7 +392,7 @@ ConstraintSolver/btPoint2PointConstraint.obj: ConstraintSolver/btPoint2PointCons
 
 # target to build an object file
 ConstraintSolver/btPoint2PointConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btPoint2PointConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btPoint2PointConstraint.cpp.obj
 .PHONY : ConstraintSolver/btPoint2PointConstraint.cpp.obj
 
 ConstraintSolver/btPoint2PointConstraint.i: ConstraintSolver/btPoint2PointConstraint.cpp.i
@@ -401,7 +401,7 @@ ConstraintSolver/btPoint2PointConstraint.i: ConstraintSolver/btPoint2PointConstr
 
 # target to preprocess a source file
 ConstraintSolver/btPoint2PointConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btPoint2PointConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btPoint2PointConstraint.cpp.i
 .PHONY : ConstraintSolver/btPoint2PointConstraint.cpp.i
 
 ConstraintSolver/btPoint2PointConstraint.s: ConstraintSolver/btPoint2PointConstraint.cpp.s
@@ -410,7 +410,7 @@ ConstraintSolver/btPoint2PointConstraint.s: ConstraintSolver/btPoint2PointConstr
 
 # target to generate assembly for a file
 ConstraintSolver/btPoint2PointConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btPoint2PointConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btPoint2PointConstraint.cpp.s
 .PHONY : ConstraintSolver/btPoint2PointConstraint.cpp.s
 
 ConstraintSolver/btSequentialImpulseConstraintSolver.obj: ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.obj
@@ -419,7 +419,7 @@ ConstraintSolver/btSequentialImpulseConstraintSolver.obj: ConstraintSolver/btSeq
 
 # target to build an object file
 ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.obj
 .PHONY : ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.obj
 
 ConstraintSolver/btSequentialImpulseConstraintSolver.i: ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.i
@@ -428,7 +428,7 @@ ConstraintSolver/btSequentialImpulseConstraintSolver.i: ConstraintSolver/btSeque
 
 # target to preprocess a source file
 ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.i
 .PHONY : ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.i
 
 ConstraintSolver/btSequentialImpulseConstraintSolver.s: ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.s
@@ -437,7 +437,7 @@ ConstraintSolver/btSequentialImpulseConstraintSolver.s: ConstraintSolver/btSeque
 
 # target to generate assembly for a file
 ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.s
 .PHONY : ConstraintSolver/btSequentialImpulseConstraintSolver.cpp.s
 
 ConstraintSolver/btSliderConstraint.obj: ConstraintSolver/btSliderConstraint.cpp.obj
@@ -446,7 +446,7 @@ ConstraintSolver/btSliderConstraint.obj: ConstraintSolver/btSliderConstraint.cpp
 
 # target to build an object file
 ConstraintSolver/btSliderConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSliderConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSliderConstraint.cpp.obj
 .PHONY : ConstraintSolver/btSliderConstraint.cpp.obj
 
 ConstraintSolver/btSliderConstraint.i: ConstraintSolver/btSliderConstraint.cpp.i
@@ -455,7 +455,7 @@ ConstraintSolver/btSliderConstraint.i: ConstraintSolver/btSliderConstraint.cpp.i
 
 # target to preprocess a source file
 ConstraintSolver/btSliderConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSliderConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSliderConstraint.cpp.i
 .PHONY : ConstraintSolver/btSliderConstraint.cpp.i
 
 ConstraintSolver/btSliderConstraint.s: ConstraintSolver/btSliderConstraint.cpp.s
@@ -464,7 +464,7 @@ ConstraintSolver/btSliderConstraint.s: ConstraintSolver/btSliderConstraint.cpp.s
 
 # target to generate assembly for a file
 ConstraintSolver/btSliderConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSliderConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSliderConstraint.cpp.s
 .PHONY : ConstraintSolver/btSliderConstraint.cpp.s
 
 ConstraintSolver/btSolve2LinearConstraint.obj: ConstraintSolver/btSolve2LinearConstraint.cpp.obj
@@ -473,7 +473,7 @@ ConstraintSolver/btSolve2LinearConstraint.obj: ConstraintSolver/btSolve2LinearCo
 
 # target to build an object file
 ConstraintSolver/btSolve2LinearConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSolve2LinearConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSolve2LinearConstraint.cpp.obj
 .PHONY : ConstraintSolver/btSolve2LinearConstraint.cpp.obj
 
 ConstraintSolver/btSolve2LinearConstraint.i: ConstraintSolver/btSolve2LinearConstraint.cpp.i
@@ -482,7 +482,7 @@ ConstraintSolver/btSolve2LinearConstraint.i: ConstraintSolver/btSolve2LinearCons
 
 # target to preprocess a source file
 ConstraintSolver/btSolve2LinearConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSolve2LinearConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSolve2LinearConstraint.cpp.i
 .PHONY : ConstraintSolver/btSolve2LinearConstraint.cpp.i
 
 ConstraintSolver/btSolve2LinearConstraint.s: ConstraintSolver/btSolve2LinearConstraint.cpp.s
@@ -491,7 +491,7 @@ ConstraintSolver/btSolve2LinearConstraint.s: ConstraintSolver/btSolve2LinearCons
 
 # target to generate assembly for a file
 ConstraintSolver/btSolve2LinearConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSolve2LinearConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btSolve2LinearConstraint.cpp.s
 .PHONY : ConstraintSolver/btSolve2LinearConstraint.cpp.s
 
 ConstraintSolver/btTypedConstraint.obj: ConstraintSolver/btTypedConstraint.cpp.obj
@@ -500,7 +500,7 @@ ConstraintSolver/btTypedConstraint.obj: ConstraintSolver/btTypedConstraint.cpp.o
 
 # target to build an object file
 ConstraintSolver/btTypedConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btTypedConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btTypedConstraint.cpp.obj
 .PHONY : ConstraintSolver/btTypedConstraint.cpp.obj
 
 ConstraintSolver/btTypedConstraint.i: ConstraintSolver/btTypedConstraint.cpp.i
@@ -509,7 +509,7 @@ ConstraintSolver/btTypedConstraint.i: ConstraintSolver/btTypedConstraint.cpp.i
 
 # target to preprocess a source file
 ConstraintSolver/btTypedConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btTypedConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btTypedConstraint.cpp.i
 .PHONY : ConstraintSolver/btTypedConstraint.cpp.i
 
 ConstraintSolver/btTypedConstraint.s: ConstraintSolver/btTypedConstraint.cpp.s
@@ -518,7 +518,7 @@ ConstraintSolver/btTypedConstraint.s: ConstraintSolver/btTypedConstraint.cpp.s
 
 # target to generate assembly for a file
 ConstraintSolver/btTypedConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btTypedConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btTypedConstraint.cpp.s
 .PHONY : ConstraintSolver/btTypedConstraint.cpp.s
 
 ConstraintSolver/btUniversalConstraint.obj: ConstraintSolver/btUniversalConstraint.cpp.obj
@@ -527,7 +527,7 @@ ConstraintSolver/btUniversalConstraint.obj: ConstraintSolver/btUniversalConstrai
 
 # target to build an object file
 ConstraintSolver/btUniversalConstraint.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btUniversalConstraint.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btUniversalConstraint.cpp.obj
 .PHONY : ConstraintSolver/btUniversalConstraint.cpp.obj
 
 ConstraintSolver/btUniversalConstraint.i: ConstraintSolver/btUniversalConstraint.cpp.i
@@ -536,7 +536,7 @@ ConstraintSolver/btUniversalConstraint.i: ConstraintSolver/btUniversalConstraint
 
 # target to preprocess a source file
 ConstraintSolver/btUniversalConstraint.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btUniversalConstraint.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btUniversalConstraint.cpp.i
 .PHONY : ConstraintSolver/btUniversalConstraint.cpp.i
 
 ConstraintSolver/btUniversalConstraint.s: ConstraintSolver/btUniversalConstraint.cpp.s
@@ -545,7 +545,7 @@ ConstraintSolver/btUniversalConstraint.s: ConstraintSolver/btUniversalConstraint
 
 # target to generate assembly for a file
 ConstraintSolver/btUniversalConstraint.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btUniversalConstraint.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/ConstraintSolver/btUniversalConstraint.cpp.s
 .PHONY : ConstraintSolver/btUniversalConstraint.cpp.s
 
 Dynamics/Bullet-C-API.obj: Dynamics/Bullet-C-API.cpp.obj
@@ -554,7 +554,7 @@ Dynamics/Bullet-C-API.obj: Dynamics/Bullet-C-API.cpp.obj
 
 # target to build an object file
 Dynamics/Bullet-C-API.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/Bullet-C-API.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/Bullet-C-API.cpp.obj
 .PHONY : Dynamics/Bullet-C-API.cpp.obj
 
 Dynamics/Bullet-C-API.i: Dynamics/Bullet-C-API.cpp.i
@@ -563,7 +563,7 @@ Dynamics/Bullet-C-API.i: Dynamics/Bullet-C-API.cpp.i
 
 # target to preprocess a source file
 Dynamics/Bullet-C-API.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/Bullet-C-API.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/Bullet-C-API.cpp.i
 .PHONY : Dynamics/Bullet-C-API.cpp.i
 
 Dynamics/Bullet-C-API.s: Dynamics/Bullet-C-API.cpp.s
@@ -572,7 +572,7 @@ Dynamics/Bullet-C-API.s: Dynamics/Bullet-C-API.cpp.s
 
 # target to generate assembly for a file
 Dynamics/Bullet-C-API.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/Bullet-C-API.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/Bullet-C-API.cpp.s
 .PHONY : Dynamics/Bullet-C-API.cpp.s
 
 Dynamics/btDiscreteDynamicsWorld.obj: Dynamics/btDiscreteDynamicsWorld.cpp.obj
@@ -581,7 +581,7 @@ Dynamics/btDiscreteDynamicsWorld.obj: Dynamics/btDiscreteDynamicsWorld.cpp.obj
 
 # target to build an object file
 Dynamics/btDiscreteDynamicsWorld.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btDiscreteDynamicsWorld.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btDiscreteDynamicsWorld.cpp.obj
 .PHONY : Dynamics/btDiscreteDynamicsWorld.cpp.obj
 
 Dynamics/btDiscreteDynamicsWorld.i: Dynamics/btDiscreteDynamicsWorld.cpp.i
@@ -590,7 +590,7 @@ Dynamics/btDiscreteDynamicsWorld.i: Dynamics/btDiscreteDynamicsWorld.cpp.i
 
 # target to preprocess a source file
 Dynamics/btDiscreteDynamicsWorld.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btDiscreteDynamicsWorld.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btDiscreteDynamicsWorld.cpp.i
 .PHONY : Dynamics/btDiscreteDynamicsWorld.cpp.i
 
 Dynamics/btDiscreteDynamicsWorld.s: Dynamics/btDiscreteDynamicsWorld.cpp.s
@@ -599,7 +599,7 @@ Dynamics/btDiscreteDynamicsWorld.s: Dynamics/btDiscreteDynamicsWorld.cpp.s
 
 # target to generate assembly for a file
 Dynamics/btDiscreteDynamicsWorld.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btDiscreteDynamicsWorld.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btDiscreteDynamicsWorld.cpp.s
 .PHONY : Dynamics/btDiscreteDynamicsWorld.cpp.s
 
 Dynamics/btRigidBody.obj: Dynamics/btRigidBody.cpp.obj
@@ -608,7 +608,7 @@ Dynamics/btRigidBody.obj: Dynamics/btRigidBody.cpp.obj
 
 # target to build an object file
 Dynamics/btRigidBody.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btRigidBody.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btRigidBody.cpp.obj
 .PHONY : Dynamics/btRigidBody.cpp.obj
 
 Dynamics/btRigidBody.i: Dynamics/btRigidBody.cpp.i
@@ -617,7 +617,7 @@ Dynamics/btRigidBody.i: Dynamics/btRigidBody.cpp.i
 
 # target to preprocess a source file
 Dynamics/btRigidBody.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btRigidBody.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btRigidBody.cpp.i
 .PHONY : Dynamics/btRigidBody.cpp.i
 
 Dynamics/btRigidBody.s: Dynamics/btRigidBody.cpp.s
@@ -626,7 +626,7 @@ Dynamics/btRigidBody.s: Dynamics/btRigidBody.cpp.s
 
 # target to generate assembly for a file
 Dynamics/btRigidBody.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btRigidBody.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btRigidBody.cpp.s
 .PHONY : Dynamics/btRigidBody.cpp.s
 
 Dynamics/btSimpleDynamicsWorld.obj: Dynamics/btSimpleDynamicsWorld.cpp.obj
@@ -635,7 +635,7 @@ Dynamics/btSimpleDynamicsWorld.obj: Dynamics/btSimpleDynamicsWorld.cpp.obj
 
 # target to build an object file
 Dynamics/btSimpleDynamicsWorld.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btSimpleDynamicsWorld.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btSimpleDynamicsWorld.cpp.obj
 .PHONY : Dynamics/btSimpleDynamicsWorld.cpp.obj
 
 Dynamics/btSimpleDynamicsWorld.i: Dynamics/btSimpleDynamicsWorld.cpp.i
@@ -644,7 +644,7 @@ Dynamics/btSimpleDynamicsWorld.i: Dynamics/btSimpleDynamicsWorld.cpp.i
 
 # target to preprocess a source file
 Dynamics/btSimpleDynamicsWorld.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btSimpleDynamicsWorld.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btSimpleDynamicsWorld.cpp.i
 .PHONY : Dynamics/btSimpleDynamicsWorld.cpp.i
 
 Dynamics/btSimpleDynamicsWorld.s: Dynamics/btSimpleDynamicsWorld.cpp.s
@@ -653,7 +653,7 @@ Dynamics/btSimpleDynamicsWorld.s: Dynamics/btSimpleDynamicsWorld.cpp.s
 
 # target to generate assembly for a file
 Dynamics/btSimpleDynamicsWorld.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btSimpleDynamicsWorld.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Dynamics/btSimpleDynamicsWorld.cpp.s
 .PHONY : Dynamics/btSimpleDynamicsWorld.cpp.s
 
 Vehicle/btRaycastVehicle.obj: Vehicle/btRaycastVehicle.cpp.obj
@@ -662,7 +662,7 @@ Vehicle/btRaycastVehicle.obj: Vehicle/btRaycastVehicle.cpp.obj
 
 # target to build an object file
 Vehicle/btRaycastVehicle.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btRaycastVehicle.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btRaycastVehicle.cpp.obj
 .PHONY : Vehicle/btRaycastVehicle.cpp.obj
 
 Vehicle/btRaycastVehicle.i: Vehicle/btRaycastVehicle.cpp.i
@@ -671,7 +671,7 @@ Vehicle/btRaycastVehicle.i: Vehicle/btRaycastVehicle.cpp.i
 
 # target to preprocess a source file
 Vehicle/btRaycastVehicle.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btRaycastVehicle.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btRaycastVehicle.cpp.i
 .PHONY : Vehicle/btRaycastVehicle.cpp.i
 
 Vehicle/btRaycastVehicle.s: Vehicle/btRaycastVehicle.cpp.s
@@ -680,7 +680,7 @@ Vehicle/btRaycastVehicle.s: Vehicle/btRaycastVehicle.cpp.s
 
 # target to generate assembly for a file
 Vehicle/btRaycastVehicle.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btRaycastVehicle.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btRaycastVehicle.cpp.s
 .PHONY : Vehicle/btRaycastVehicle.cpp.s
 
 Vehicle/btWheelInfo.obj: Vehicle/btWheelInfo.cpp.obj
@@ -689,7 +689,7 @@ Vehicle/btWheelInfo.obj: Vehicle/btWheelInfo.cpp.obj
 
 # target to build an object file
 Vehicle/btWheelInfo.cpp.obj:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btWheelInfo.cpp.obj
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btWheelInfo.cpp.obj
 .PHONY : Vehicle/btWheelInfo.cpp.obj
 
 Vehicle/btWheelInfo.i: Vehicle/btWheelInfo.cpp.i
@@ -698,7 +698,7 @@ Vehicle/btWheelInfo.i: Vehicle/btWheelInfo.cpp.i
 
 # target to preprocess a source file
 Vehicle/btWheelInfo.cpp.i:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btWheelInfo.cpp.i
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btWheelInfo.cpp.i
 .PHONY : Vehicle/btWheelInfo.cpp.i
 
 Vehicle/btWheelInfo.s: Vehicle/btWheelInfo.cpp.s
@@ -707,7 +707,7 @@ Vehicle/btWheelInfo.s: Vehicle/btWheelInfo.cpp.s
 
 # target to generate assembly for a file
 Vehicle/btWheelInfo.cpp.s:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btWheelInfo.cpp.s
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(MAKE) -f lib\external\bullet-2.81-rev2613\src\BulletDynamics\CMakeFiles\BulletDynamics.dir\build.make lib/external/bullet-2.81-rev2613/src/BulletDynamics/CMakeFiles/BulletDynamics.dir/Vehicle/btWheelInfo.cpp.s
 .PHONY : Vehicle/btWheelInfo.cpp.s
 
 # Help Target
@@ -794,6 +794,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Alex\Documents\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

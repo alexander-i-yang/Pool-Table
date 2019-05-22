@@ -154,10 +154,24 @@ CMakeFiles/TheGame.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Color.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Color.cpp -o CMakeFiles\TheGame.dir\Color.cpp.s
 
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: CMakeFiles/TheGame.dir/flags.make
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
+CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Pocket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TheGame.dir/Pocket.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Pocket.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Pocket.cpp
+
+CMakeFiles/TheGame.dir/Pocket.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Pocket.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Pocket.cpp > CMakeFiles\TheGame.dir\Pocket.cpp.i
+
+CMakeFiles/TheGame.dir/Pocket.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Pocket.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Pocket.cpp -o CMakeFiles\TheGame.dir\Pocket.cpp.s
+
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/ShootAI.cpp.obj: ../ShootAI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/TheGame.dir/ShootAI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TheGame.dir/ShootAI.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\ShootAI.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\ShootAI.cpp
 
 CMakeFiles/TheGame.dir/ShootAI.cpp.i: cmake_force
@@ -171,7 +185,7 @@ CMakeFiles/TheGame.dir/ShootAI.cpp.s: cmake_force
 CMakeFiles/TheGame.dir/Wall.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Wall.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
 CMakeFiles/TheGame.dir/Wall.cpp.obj: ../Wall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/TheGame.dir/Wall.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TheGame.dir/Wall.cpp.obj"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Wall.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Wall.cpp
 
 CMakeFiles/TheGame.dir/Wall.cpp.i: cmake_force
@@ -181,20 +195,6 @@ CMakeFiles/TheGame.dir/Wall.cpp.i: cmake_force
 CMakeFiles/TheGame.dir/Wall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Wall.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Wall.cpp -o CMakeFiles\TheGame.dir\Wall.cpp.s
-
-CMakeFiles/TheGame.dir/Pocket.cpp.obj: CMakeFiles/TheGame.dir/flags.make
-CMakeFiles/TheGame.dir/Pocket.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
-CMakeFiles/TheGame.dir/Pocket.cpp.obj: ../Pocket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/TheGame.dir/Pocket.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\TheGame.dir\Pocket.cpp.obj -c C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Pocket.cpp
-
-CMakeFiles/TheGame.dir/Pocket.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TheGame.dir/Pocket.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Pocket.cpp > CMakeFiles\TheGame.dir\Pocket.cpp.i
-
-CMakeFiles/TheGame.dir/Pocket.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TheGame.dir/Pocket.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Samuel\Documents\Coding\LASA\Pool-Table\Pocket.cpp -o CMakeFiles\TheGame.dir\Pocket.cpp.s
 
 CMakeFiles/TheGame.dir/Point.cpp.obj: CMakeFiles/TheGame.dir/flags.make
 CMakeFiles/TheGame.dir/Point.cpp.obj: CMakeFiles/TheGame.dir/includes_CXX.rsp
@@ -219,9 +219,9 @@ TheGame_OBJECTS = \
 "CMakeFiles/TheGame.dir/Drawables.cpp.obj" \
 "CMakeFiles/TheGame.dir/Collidables.cpp.obj" \
 "CMakeFiles/TheGame.dir/Color.cpp.obj" \
+"CMakeFiles/TheGame.dir/Pocket.cpp.obj" \
 "CMakeFiles/TheGame.dir/ShootAI.cpp.obj" \
 "CMakeFiles/TheGame.dir/Wall.cpp.obj" \
-"CMakeFiles/TheGame.dir/Pocket.cpp.obj" \
 "CMakeFiles/TheGame.dir/Point.cpp.obj"
 
 # External object files for target TheGame
@@ -234,9 +234,9 @@ TheGame.exe: CMakeFiles/TheGame.dir/Drawable.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Drawables.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Collidables.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Color.cpp.obj
+TheGame.exe: CMakeFiles/TheGame.dir/Pocket.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/ShootAI.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Wall.cpp.obj
-TheGame.exe: CMakeFiles/TheGame.dir/Pocket.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/Point.cpp.obj
 TheGame.exe: CMakeFiles/TheGame.dir/build.make
 TheGame.exe: lib/external/glfw-3.1.2/src/libglfw3.a

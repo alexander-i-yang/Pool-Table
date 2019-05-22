@@ -15,6 +15,7 @@ protected:
 public:
     Pocket();
     Pocket(Color c, double radius, double x, double y, double z);
+    Pocket(Color c, double radius, int number, double x, double y, double z);
     void setRadius(double radius);
     double getRadius();
     void draw() override;

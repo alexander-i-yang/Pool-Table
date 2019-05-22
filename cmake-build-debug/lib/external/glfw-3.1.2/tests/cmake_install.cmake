@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Alex/Documents/Pool-Table/lib/external/glfw-3.1.2/tests
+# Install script for directory: C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/glfw-3.1.2/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

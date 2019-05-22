@@ -42,3 +42,7 @@ int Pocket::getNumVertices() {
     int numberOfVertices = numberOfSides + 2;
     return numberOfVertices;
 }
+
+Pocket::Pocket(Color c, double radius, int number, double x, double y, double z) : Drawable(c, x, y, z, number) {
+    this->radius = radius;
+}

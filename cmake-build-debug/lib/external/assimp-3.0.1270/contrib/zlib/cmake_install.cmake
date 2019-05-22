@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Alex/Documents/Pool-Table/lib/external/assimp-3.0.1270/contrib/zlib
+# Install script for directory: C:/Users/Samuel/Documents/Coding/LASA/Pool-Table/lib/external/assimp-3.0.1270/contrib/zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
