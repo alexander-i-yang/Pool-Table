@@ -38,6 +38,7 @@ public:
     void stopAll();
     void slowAll();
     void shootAI();
+    void shootAI(int);
     int updateAll(Drawables * drawables); // will this update the Ball in Drawables as well?
     // it should, but this will pose problems if it doesn't
     // lol nvm we good

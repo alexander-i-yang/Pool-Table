@@ -2,65 +2,65 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Pool-Table" targetName="threads" />
-      <config projectName="Pool-Table" targetName="tutorial01_first_window" />
       <config projectName="Pool-Table" targetName="tutorial05_textured_cube" />
-      <config projectName="Pool-Table" targetName="tutorial15_lightmaps" />
-      <config projectName="Pool-Table" targetName="tutorial09_vbo_indexing" />
-      <config projectName="Pool-Table" targetName="splitview" />
-      <config projectName="Pool-Table" targetName="glfw" />
-      <config projectName="Pool-Table" targetName="gears" />
       <config projectName="Pool-Table" targetName="empty" />
-      <config projectName="Pool-Table" targetName="tutorial04_colored_cube" />
-      <config projectName="Pool-Table" targetName="tutorial10_transparency" />
-      <config projectName="Pool-Table" targetName="title" />
-      <config projectName="Pool-Table" targetName="tutorial03_matrices" />
-      <config projectName="Pool-Table" targetName="clipboard" />
-      <config projectName="Pool-Table" targetName="boing" />
-      <config projectName="Pool-Table" targetName="wave" />
-      <config projectName="Pool-Table" targetName="tutorial14_render_to_texture" />
       <config projectName="Pool-Table" targetName="zlib" />
-      <config projectName="Pool-Table" targetName="tutorial07_model_loading" />
-      <config projectName="Pool-Table" targetName="tutorial09_several_objects" />
-      <config projectName="Pool-Table" targetName="TheGame" />
-      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps" />
-      <config projectName="Pool-Table" targetName="tutorial09_AssImp" />
-      <config projectName="Pool-Table" targetName="ANTTWEAKBAR_116_OGLCORE_GLFW" />
-      <config projectName="Pool-Table" targetName="heightmap" />
-      <config projectName="Pool-Table" targetName="tutorial18_particles" />
-      <config projectName="Pool-Table" targetName="misc05_picking_custom" />
       <config projectName="Pool-Table" targetName="LinearMath" />
-      <config projectName="Pool-Table" targetName="BulletDynamics" />
-      <config projectName="Pool-Table" targetName="sharing" />
-      <config projectName="Pool-Table" targetName="joysticks" />
-      <config projectName="Pool-Table" targetName="assimp" />
-      <config projectName="Pool-Table" targetName="simple" />
-      <config projectName="Pool-Table" targetName="tutorial11_2d_fonts" />
-      <config projectName="Pool-Table" targetName="BulletSoftBody" />
-      <config projectName="Pool-Table" targetName="cursor" />
-      <config projectName="Pool-Table" targetName="glfwinfo" />
-      <config projectName="Pool-Table" targetName="msaa" />
-      <config projectName="Pool-Table" targetName="iconify" />
-      <config projectName="Pool-Table" targetName="particles" />
-      <config projectName="Pool-Table" targetName="reopen" />
-      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps_simple" />
-      <config projectName="Pool-Table" targetName="tutorial12_extensions" />
-      <config projectName="Pool-Table" targetName="tutorial13_normal_mapping" />
-      <config projectName="Pool-Table" targetName="tutorial06_keyboard_and_mouse" />
-      <config projectName="Pool-Table" targetName="BulletCollision" />
-      <config projectName="Pool-Table" targetName="tutorial18_billboards" />
       <config projectName="Pool-Table" targetName="tutorial17_rotations" />
+      <config projectName="Pool-Table" targetName="msaa" />
+      <config projectName="Pool-Table" targetName="tutorial18_billboards" />
       <config projectName="Pool-Table" targetName="events" />
-      <config projectName="Pool-Table" targetName="tutorial02_red_triangle" />
-      <config projectName="Pool-Table" targetName="misc05_picking_BulletPhysics" />
-      <config projectName="Pool-Table" targetName="monitors" />
-      <config projectName="Pool-Table" targetName="GLEW_1130" />
-      <config projectName="Pool-Table" targetName="gamma" />
-      <config projectName="Pool-Table" targetName="tutorial08_basic_shading" />
-      <config projectName="Pool-Table" targetName="misc05_picking_slow_easy" />
-      <config projectName="Pool-Table" targetName="windows" />
       <config projectName="Pool-Table" targetName="tearing" />
+      <config projectName="Pool-Table" targetName="heightmap" />
+      <config projectName="Pool-Table" targetName="assimp" />
+      <config projectName="Pool-Table" targetName="joysticks" />
+      <config projectName="Pool-Table" targetName="tutorial12_extensions" />
+      <config projectName="Pool-Table" targetName="tutorial14_render_to_texture" />
+      <config projectName="Pool-Table" targetName="BulletCollision" />
       <config projectName="Pool-Table" targetName="uninstall" />
+      <config projectName="Pool-Table" targetName="tutorial03_matrices" />
+      <config projectName="Pool-Table" targetName="TheGame" />
+      <config projectName="Pool-Table" targetName="tutorial09_several_objects" />
+      <config projectName="Pool-Table" targetName="tutorial06_keyboard_and_mouse" />
+      <config projectName="Pool-Table" targetName="monitors" />
+      <config projectName="Pool-Table" targetName="tutorial08_basic_shading" />
+      <config projectName="Pool-Table" targetName="gears" />
+      <config projectName="Pool-Table" targetName="BulletDynamics" />
+      <config projectName="Pool-Table" targetName="glfwinfo" />
+      <config projectName="Pool-Table" targetName="clipboard" />
+      <config projectName="Pool-Table" targetName="tutorial18_particles" />
+      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps_simple" />
+      <config projectName="Pool-Table" targetName="misc05_picking_slow_easy" />
+      <config projectName="Pool-Table" targetName="glfw" />
+      <config projectName="Pool-Table" targetName="wave" />
+      <config projectName="Pool-Table" targetName="tutorial10_transparency" />
+      <config projectName="Pool-Table" targetName="gamma" />
+      <config projectName="Pool-Table" targetName="tutorial01_first_window" />
+      <config projectName="Pool-Table" targetName="boing" />
+      <config projectName="Pool-Table" targetName="GLEW_1130" />
+      <config projectName="Pool-Table" targetName="misc05_picking_custom" />
+      <config projectName="Pool-Table" targetName="ANTTWEAKBAR_116_OGLCORE_GLFW" />
+      <config projectName="Pool-Table" targetName="iconify" />
+      <config projectName="Pool-Table" targetName="reopen" />
+      <config projectName="Pool-Table" targetName="sharing" />
+      <config projectName="Pool-Table" targetName="BulletSoftBody" />
+      <config projectName="Pool-Table" targetName="tutorial09_vbo_indexing" />
+      <config projectName="Pool-Table" targetName="tutorial13_normal_mapping" />
+      <config projectName="Pool-Table" targetName="tutorial11_2d_fonts" />
+      <config projectName="Pool-Table" targetName="tutorial07_model_loading" />
+      <config projectName="Pool-Table" targetName="tutorial04_colored_cube" />
+      <config projectName="Pool-Table" targetName="tutorial16_shadowmaps" />
+      <config projectName="Pool-Table" targetName="particles" />
+      <config projectName="Pool-Table" targetName="simple" />
+      <config projectName="Pool-Table" targetName="title" />
+      <config projectName="Pool-Table" targetName="tutorial09_AssImp" />
+      <config projectName="Pool-Table" targetName="windows" />
+      <config projectName="Pool-Table" targetName="splitview" />
+      <config projectName="Pool-Table" targetName="misc05_picking_BulletPhysics" />
+      <config projectName="Pool-Table" targetName="threads" />
+      <config projectName="Pool-Table" targetName="cursor" />
+      <config projectName="Pool-Table" targetName="tutorial02_red_triangle" />
+      <config projectName="Pool-Table" targetName="tutorial15_lightmaps" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -70,31 +70,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cb7374bc-7566-4326-ba81-34c8fa7f0b11" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Collidables.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Collidables.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collidables.h" beforeDir="false" afterPath="$PROJECT_DIR$/Collidables.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Ball.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Collidables.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Color.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Drawable.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Drawables.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Main.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Pocket.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Point.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/ShootAI.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/Wall.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/includes_CXX.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/lib/common/shader.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/linklibs.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/objects1.rsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TheGame.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShootAI.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ShootAI.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShootAI.h" beforeDir="false" afterPath="$PROJECT_DIR$/ShootAI.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TheGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TheGame.exe" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,108 +93,96 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="247" column="5" lean-forward="true" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Wall.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-              <folding>
-                <element signature="e#43#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ball.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1788">
-              <caret line="230" column="15" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="15" />
-              <folding>
-                <element signature="e#41#59#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ball.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-              <folding>
-                <element signature="e#94#112#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drawables.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drawables.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collidables.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Collidables.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="27" column="1" selection-end-line="295" />
-              <folding>
-                <element signature="e#42#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Main.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3000">
+                  <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="211">
+                  <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ShootAI.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
+                  <folding>
+                    <element signature="e#98#115#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Collidables.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="413">
+                  <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Ball.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="62">
+                  <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+                  <folding>
+                    <element signature="e#41#59#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Collidables.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="368">
+                  <caret line="139" column="61" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
+                  <folding>
+                    <element signature="e#42#66#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ShootAI.cpp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3878">
+                  <caret line="314" column="47" selection-start-line="314" selection-start-column="39" selection-end-line="314" selection-end-column="47" />
+                  <folding>
+                    <element signature="e#39#59#0" expanded="true" />
+                    <element signature="e#222#1029#0" />
+                    <element signature="e#1031#1794#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>key</find>
-      <find>drawCircle</find>
-      <find>drawcircl</find>
-      <find>g_vertex_buffer_data</find>
       <find>programid</find>
       <find>speed</find>
       <find>Screen_width</find>
@@ -233,6 +209,10 @@
       <find>std::cout</find>
       <find>new</find>
       <find>shootai::minimax</find>
+      <find>friction</find>
+      <find>update</find>
+      <find>mouse_button_callback</find>
+      <find>hasCollided</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -281,8 +261,8 @@
         <option value="$PROJECT_DIR$/Ball.cpp" />
         <option value="$PROJECT_DIR$/ShootAI.h" />
         <option value="$PROJECT_DIR$/Collidables.h" />
-        <option value="$PROJECT_DIR$/Collidables.cpp" />
         <option value="$PROJECT_DIR$/ShootAI.cpp" />
+        <option value="$PROJECT_DIR$/Collidables.cpp" />
         <option value="$PROJECT_DIR$/Main.cpp" />
       </list>
     </option>
@@ -321,7 +301,8 @@
             </path>
             <path>
               <item name="Pool-Table" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Pool-Table" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -756,14 +737,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163162000" />
+    <option name="totallyTimeSpent" value="169221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18322147" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1359275" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="CMake" order="0" sideWeight="0.49731544" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.34560907" />
@@ -772,7 +753,7 @@
       <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.3557047" weight="0.2611051" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" sideWeight="0.49932885" weight="0.48866856" />
-      <window_info anchor="bottom" id="Run" order="7" sideWeight="0.357047" weight="0.305949" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" sideWeight="0.357047" visible="true" weight="0.30552545" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49798658" weight="0.4362606" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
@@ -845,7 +826,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tutorial18_billboards_and_particles/tutorial18_billboards.cpp" />
     <entry file="file://$PROJECT_DIR$/external/glfw-3.1.2/src/input.c" />
     <entry file="file://$PROJECT_DIR$/playground/SimpleVertexShader.vertexshader" />
     <entry file="file://$PROJECT_DIR$/tutorial02_red_triangle/SimpleVertexShader.vertexshader" />
@@ -1010,54 +990,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/lib/external/assimp-3.0.1270/code/Importer.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="69" column="17" selection-start-line="69" selection-start-column="17" selection-end-line="69" selection-end-column="17" />
+        <state relative-caret-position="205">
+          <caret line="217" column="19" selection-start-line="217" selection-start-column="19" selection-end-line="217" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Collidables.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ball.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1788">
-          <caret line="230" column="15" selection-start-line="230" selection-start-column="11" selection-end-line="230" selection-end-column="15" />
-          <folding>
-            <element signature="e#41#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Collidables.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="27" column="1" selection-end-line="295" />
-          <folding>
-            <element signature="e#42#66#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="413">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ShootAI.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="405">
+          <caret line="27" column="82" selection-start-line="27" selection-start-column="82" selection-end-line="27" selection-end-column="82" />
           <folding>
             <element signature="e#98#115#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ball.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+          <folding>
+            <element signature="e#41#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ShootAI.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="194" column="68" selection-start-line="194" selection-start-column="68" selection-end-line="194" selection-end-column="68" />
+        <state relative-caret-position="3878">
+          <caret line="314" column="47" selection-start-line="314" selection-start-column="39" selection-end-line="314" selection-end-column="47" />
           <folding>
             <element signature="e#39#59#0" expanded="true" />
             <element signature="e#222#1029#0" />
@@ -1066,10 +1043,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Collidables.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="139" column="61" selection-start-line="139" selection-start-column="61" selection-end-line="139" selection-end-column="61" />
+          <folding>
+            <element signature="e#42#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="247" column="5" lean-forward="true" selection-start-line="247" selection-start-column="5" selection-end-line="247" selection-end-column="5" />
+        <state relative-caret-position="3000">
+          <caret line="214" column="21" selection-start-line="214" selection-start-column="21" selection-end-line="214" selection-end-column="21" />
         </state>
       </provider>
     </entry>

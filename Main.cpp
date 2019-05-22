@@ -1,9 +1,7 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
-
 #include <cmath>
 #include <ctime>
-
 #include <lib/common/shader.hpp>
 
 #include "Ball.h"
@@ -18,6 +16,9 @@
 
 #define FULLSCREEN true
 bool playerTurn;
+bool playerClicked;
+bool allowSwitch;
+bool displayTurn;
 
 bool isStripes;
 
@@ -32,10 +33,12 @@ void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
             const GLFWvidmode *mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
             xpos = xpos;
             ypos = (mode->height - ypos);
-            std::cout << "xPos: " << xpos << ", yPos: " << ypos << std::endl;
-            std::cout << "BxPos: " << w->getX() << ", ByPos: " << w->getY() << std::endl;
-            w->setVelocity(-(xpos - w->getX()) * 4, -(ypos - w->getY()) * 4);
-            playerTurn = false;
+//            std::cout << "xPos: " << xpos << ", yPos: " << ypos << std::endl;
+//            std::cout << "BxPos: " << w->getX() << ", ByPos: " << w->getY() << std::endl;
+            w->setVelocity((xpos - w->getX())*2, (ypos - w->getY())*2);
+            playerClicked = true;
+            allowSwitch = true;
+            displayTurn = true;
         }
     }
 }
@@ -101,34 +104,32 @@ int main()
     Drawables* drawables = new Drawables();
     Collidables* collidables = new Collidables();
 
-
-
-    Color wallColor;
-    int wallThickness = windowWidth/1024.0*40.0;
-    wallColor.setColor(150.0/255, 104.0/255, 31.0/255);
-    Wall* right = new Wall(0, windowWidth-wallThickness, 0, wallColor, wallThickness, windowHeight);
-    Wall* left = new Wall(0, 0, 0, wallColor, wallThickness, windowHeight);
-    Wall* top = new Wall(0, wallThickness, 0, wallColor, windowWidth-wallThickness*2, wallThickness);
-    Wall* bottom = new Wall(0, wallThickness, windowHeight-wallThickness, wallColor, windowWidth-wallThickness*2, wallThickness);
-    drawables->add(right);
-    collidables->add(right);
-    drawables->add(left);
-    collidables->add(left);
-    drawables->add(top);
-    collidables->add(top);
-    drawables->add(bottom);
-    collidables->add(bottom);
+	Color wallColor;
+	int wallThickness = windowWidth/1024.0*40.0;
+	wallColor.setColor(150.0/255, 104.0/255, 31.0/255);
+	Wall* right = new Wall(0, windowWidth-wallThickness, 0, wallColor, wallThickness, windowHeight);
+	Wall* left = new Wall(0, 0, 0, wallColor, wallThickness, windowHeight);
+	Wall* top = new Wall(0, wallThickness, windowHeight-wallThickness, wallColor, windowWidth-wallThickness*2, wallThickness);
+	Wall* bottom = new Wall(0, wallThickness, 0, wallColor, windowWidth-wallThickness*2, wallThickness);
+	drawables->add(right);
+	collidables->add(right);
+	drawables->add(left);
+	collidables->add(left);
+	drawables->add(top);
+	collidables->add(top);
+	drawables->add(bottom);
+	collidables->add(bottom);
 
     //Adding pockets
     double pocketHeight = radius*2.25/1.5;  //In modern pool tables pockets are 1.75-2.25 x larger than the diameter of the balls
     Color pocketColor;
     pocketColor.setColor(40, 45, 45);
-    Pocket * topRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
-    Pocket * middleTop = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (windowHeight-pocketHeight*1.9)*(10/10), 0);
-    Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
-    Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 0+pocketHeight*1.9, 0+pocketHeight*2, 0);
-    Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (0+pocketHeight*1.9)*(10/10), 0);
-    Pocket * bottomRight = new Pocket(pocketColor, pocketHeight, windowWidth-pocketHeight*1.9, 0+pocketHeight*1.9, 0);
+    Pocket * topRight = new Pocket(pocketColor, pocketHeight, 0, windowWidth-pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+    Pocket * middleTop = new Pocket(pocketColor, pocketHeight, 1, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (windowHeight-pocketHeight*1.9)*(10/10), 0);
+    Pocket * topLeft = new Pocket(pocketColor, pocketHeight, 2, 0+pocketHeight*1.9, windowHeight-pocketHeight*1.9, 0);
+    Pocket * bottomLeft = new Pocket(pocketColor, pocketHeight, 3, 0+pocketHeight*1.9, 0+pocketHeight*2, 0);
+    Pocket * middleBottom = new Pocket(pocketColor, pocketHeight, 4, (windowWidth-pocketHeight*1.9)/2+pocketHeight, (0+pocketHeight*1.9)*(10/10), 0);
+    Pocket * bottomRight = new Pocket(pocketColor, pocketHeight, 5, windowWidth-pocketHeight*1.9, 0+pocketHeight*1.9, 0);
     drawables->add(topRight);
     drawables->add(middleTop);
     drawables->add(topLeft);
@@ -189,30 +190,120 @@ int main()
         }
     }
 
-    collidables->setFriction(1);
+    collidables->setFriction(0.5);
 
     // Loop until the user closes the window
     double setTime = glfwGetTime();
-    bool slowed = false;
-    bool hasCollided = false;
-    int numOfStripes = collidables->numOfStripes();
-    int numOfSolids = collidables->numOfSolids();
     isStripes = true;
+    int playerType = 0, aiType = 0;
+    bool sink = true;
+    playerTurn = true;
+    bool whiteBallHit = false;
     while( /*glfwGetTime() - setTime < 10 && */glfwGetKey(window, GLFW_KEY_ESCAPE ) != GLFW_PRESS && glfwWindowShouldClose(window) == 0) {
         glClear(GL_COLOR_BUFFER_BIT);
-        if(playerTurn) {
-            double xpos, ypos;
-            const GLFWvidmode *mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
-            glfwGetCursorPos(window, &xpos, &ypos);
-            xpos = xpos;
-            ypos = (mode->height - ypos);
+        double xpos, ypos;
+        const GLFWvidmode *mode = glfwGetVideoMode(glfwGetPrimaryMonitor());
+        glfwGetCursorPos(window, &xpos, &ypos);
+        xpos = xpos;
+        ypos = (mode->height - ypos);
 
-            if ((collidables->checkNotMoving(1))) {
-                GLfloat lineVertices[] =
-                        {
-                                static_cast<GLfloat>(xpos), static_cast<GLfloat>(ypos), 0,
-                                static_cast<GLfloat>(whiteBall->getX()), static_cast<GLfloat>(whiteBall->getY()), 0
-                        };
+        int num = collidables->updateAll(drawables);
+        drawables->drawAll();
+
+        if (aiType == 0 && playerType == 0) {
+            if (num != 0) {
+                if (!pplayerTurn) {
+                    if (num == 1) {
+                        playerType = -1;
+                        aiType = 1;
+                    }
+                    else if (num == 2) {
+                        playerType = 1;
+                        aiType = -1;
+                    }
+                }
+                else {
+                    if (num == 2) {
+                        playerType = -1;
+                        aiType = 1;
+                    }
+                    else if (num == 1) {
+                        playerType = 1;
+                        aiType = -1;
+                    }
+                }
+            }
+        }
+
+        if (playerTurn) {
+            // player just hit last turn
+            if (playerType == 1) {
+                if (num == -1) {
+                    sink = false;
+                    whiteBallHit = true;
+                }
+                else if (whiteBallHit) {}
+                else if (num == 1 || num == 3) {
+                    sink = true;
+                }
+            }
+            else if (playerType == -1) {
+                if (num == -1) {
+                    sink = false;
+                    whiteBallHit = true;
+                }
+                else if (whiteBallHit) {}
+                else if (num == 2 || num == 3) {
+                    sink = true;
+                }
+            }
+        }
+        else {
+            // player just hit last turn
+            if (aiType == 1) {
+                if (num == -1) {
+                    sink = false;
+                    whiteBallHit = true;
+                }
+                else if (whiteBallHit) {}
+                else if (num == 1 || num == 3) {
+                    sink = true;
+                }
+            }
+            else if (aiType == -1) {
+                if (num == -1) {
+                    sink = false;
+                    whiteBallHit = true;
+                }
+                else if (whiteBallHit) {}
+                else if (num == 2 || num == 3) {
+                    sink = true;
+                }
+            }
+        }
+
+        if ((collidables->checkNotMoving(1))) {
+            if (!sink && allowSwitch) {
+                playerTurn = !playerTurn;
+                allowSwitch = false;
+            }
+            if (playerTurn) {
+                GLfloat lineVertices[] ={
+                        static_cast<GLfloat>(xpos), static_cast<GLfloat>(ypos), 0,
+                        static_cast<GLfloat>(whiteBall->getX()), static_cast<GLfloat>(whiteBall->getY()), 0
+                };
+                if (displayTurn) {
+                    if (playerType == 0) {
+                        std::cout << "UNDECIDED" << '\n';
+                    }
+                    else if (playerType == 1) {
+                        std::cout << "STRIPES" << '\n';
+                    }
+                    else {
+                        std::cout << "SOLID" << '\n';
+                    }
+                    displayTurn = false;
+                }
                 glColor3f(256, 256, 256);
                 glEnable(GL_LINE_SMOOTH);
                 glEnable(GL_LINE_STIPPLE);
@@ -226,17 +317,49 @@ int main()
                 glPopAttrib();
                 glDisable(GL_LINE_STIPPLE);
                 glDisable(GL_LINE_SMOOTH);
-                int stripes = collidables->numOfStripes();
-                int solids = collidables->numOfSolids();
+            }
+            else {
+                collidables->shootAI(aiType);
+                sink = false;
+                allowSwitch = true;
+                whiteBallHit = false;
             }
         }
-        else if(!playerTurn && collidables->checkNotMoving(1)) {
-            collidables->shootAI();
-            playerTurn = true;
+        if (playerClicked) {
+            sink = false;
+            playerClicked = false;
+            whiteBallHit = false;
         }
-        int num = collidables->updateAll(drawables);
+        /*if(playerTurn) {
 
-        drawables->drawAll();
+		   if ((collidables->checkNotMoving(1))) {
+			   GLfloat lineVertices[] ={
+					   static_cast<GLfloat>(xpos), static_cast<GLfloat>(ypos), 0,
+					   static_cast<GLfloat>(whiteBall->getX()), static_cast<GLfloat>(whiteBall->getY()), 0
+			   };
+			   glColor3f(256, 256, 256);
+			   glEnable(GL_LINE_SMOOTH);
+			   glEnable(GL_LINE_STIPPLE);
+			   glPushAttrib(GL_LINE_BIT);
+			   glLineWidth(10);
+			   glLineStipple(1, 0x00FF);
+			   glEnableClientState(GL_VERTEX_ARRAY);
+			   glVertexPointer(3, GL_FLOAT, 0, lineVertices);
+			   glDrawArrays(GL_LINES, 0, 2);
+			   glDisableClientState(GL_VERTEX_ARRAY);
+			   glPopAttrib();
+			   glDisable(GL_LINE_STIPPLE);
+			   glDisable(GL_LINE_SMOOTH);
+			   numOfStripes = collidables->numOfStripes();
+			   numOfSolids = collidables->numOfSolids();
+		   }
+	   }
+	   else if(!playerTurn && collidables->checkNotMoving(1)) {
+		   collidables->shootAI(AIType);
+		   playerTurn = true;
+	   }
+		 */
+
 
         // Swap front and back buffers
         glfwSwapBuffers(window);

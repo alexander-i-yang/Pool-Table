@@ -12,6 +12,7 @@
 #include "math.h"
 
 #define PI 3.14159265358979
+#define ADJUST_FRICTION 0.002
 
 std::pair<double,double> ShootAI::shootWhiteBall(Ball *whiteBall, Ball* shoot, double targetX, double targetY) {
 	double a = whiteBall->getX();
@@ -57,7 +58,7 @@ bool ShootAI::predictCollide(Ball* whiteBall, Ball* other, double xv, double yv,
 	return false;
 }
 
-int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, Pocket **pockets, bool isMaximizer, int depth, double friction) {
+int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, Pocket **pockets, bool isMaximizer, int ballType, int depth, double friction) {
 	// maximizer will go for solids
 	int score = evaluateTable(balls, isMaximizer);
 	if (score >= 8 || score <= -8) return score;
@@ -69,7 +70,12 @@ int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, 
 	for (int i = 0; i < balls->size(); ++i) {
 		Ball* b = balls->at(i);
 		if (b->getNumber() == whiteBall->getNumber() || b->getNumber() == 8) continue;
-		if (b->isStriped() ^ isMaximizer) continue;
+		if (ballType == -1) {
+			if (b->isStriped()) continue;
+		}
+		else if (ballType == 1) {
+			if (!b->isStriped()) continue;
+		}
 		hitEight = false;
 		for (int j = 0; j < 4; ++j) {
 			Pocket* p = pockets[j];
@@ -77,9 +83,16 @@ int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, 
 			if (!validPath(path, whiteBall, b, p, balls)) continue;
 			for (int power = 1000; power <= 2000; power += 500) {
 				// add a check to see if the power is actually strong enough to hit the ball in the pocket
-				auto newPaths = collisionVelocity(whiteBall, b, power, friction, path);
+				auto newPaths = ShootAI::collisionVelocity(whiteBall, b, power, friction, path);
+				auto finalPos = ShootAI::predictFinalLocation(std::make_pair(b->getX(), b->getY()), std::make_pair(newPaths.second.first * power, newPaths.second.second * power), friction);
+				if (ShootAI::distance(finalPos.first, finalPos.second, b->getX(), b->getY()) < ShootAI::distance(b->getX(), b->getY(), p->getX(), p->getY())) {
+					continue;
+				}
+
 				auto hitPos = std::make_pair(b->getX()-path.second.first*2*b->getRadius(), b->getY()-path.second.second*b->getRadius()*2);
-				auto newPos = predictFinalLocation(hitPos, newPaths.second, friction);
+				auto newPos = ShootAI::predictFinalLocation(hitPos, newPaths.first, friction);
+
+				/*
 				// x adjustments
 				while (newPos.first >= walls[0]->getX() || newPos.first <= walls[1]->getX()) {
 					if (newPos.first >= walls[0]->getX()) {
@@ -98,11 +111,13 @@ int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, 
 						newPos.second += 2*(walls[3]->getY() - newPos.second);
 					}
 				}
+				 */
+
 				auto oldPos = std::make_pair(whiteBall->getX(), whiteBall->getY());
 				whiteBall->setPos(newPos.first, newPos.second);
 				balls->erase(std::find(balls->begin(), balls->end(), b));
-				best = isMaximizer ? std::max(best, minimax(whiteBall, balls, walls, pockets, isMaximizer, depth + 1, friction)) :
-						             std::min(best, minimax(whiteBall, balls, walls, pockets, isMaximizer, depth + 1, friction));
+				best = isMaximizer ? std::max(best, minimax(whiteBall, balls, walls, pockets, isMaximizer, ballType, depth + 1, friction)) :
+						             std::min(best, minimax(whiteBall, balls, walls, pockets, isMaximizer, ballType, depth + 1, friction));
 				balls->push_back(b);
 				whiteBall->setPos(oldPos.first, oldPos.second);
 				sinkflag = true;
@@ -121,14 +136,16 @@ int ShootAI::minimax(Ball *whiteBall, std::vector<Ball *> *balls, Wall **walls, 
 			auto path = computePath(whiteBall, b, p);
 			if (!validPath(path, whiteBall, b, p, balls)) continue;
 			balls->erase(std::find(balls->begin(), balls->end(), b));
-			return evaluateTable(balls, isMaximizer);
+			auto ret = evaluateTable(balls, isMaximizer);
+			balls->push_back(b);
+			return ret;
 		}
 	}
 	else if (!sinkflag) {
 		// change implementation
 		// right now it does not hit the cue ball if it can't find a move
-		best = isMaximizer ? std::max(best, minimax(whiteBall, balls, walls, pockets, !isMaximizer, depth + 1, friction)) :
-				             std::min(best, minimax(whiteBall, balls, walls, pockets, !isMaximizer, depth + 1, friction));
+		best = isMaximizer ? std::max(best, minimax(whiteBall, balls, walls, pockets, !isMaximizer, ballType, depth + 1, friction)) :
+				             std::min(best, minimax(whiteBall, balls, walls, pockets, !isMaximizer, ballType, depth + 1, friction));
 	}
 	return best;
 //	}
@@ -140,25 +157,27 @@ std::pair<double, double> ShootAI::predictFinalLocation(std::pair<double, double
 	double xVelocity = v.first;
 	double yVelocity = v.second;
 
-	double angle = 3.141592/2;
-	if (xVelocity != 0){
-		angle = atan(yVelocity/xVelocity);
-	}
-	if (xVelocity < 0){
-		angle += 3.141592;
-	}                                                       // GETTING ANGLE FROM 0 to 2pi
+	double angle = atan2(yVelocity, xVelocity);
+//	if (xVelocity < 0){
+//		angle += 3.141592;
+//	}                                                       // GETTING ANGLE FROM 0 to 2pi
 	double frictionX = friction * cos(angle);
 	double frictionY = friction * sin(angle);              // GETS X AND Y COMPONENTS OF FRICTION
 
-	double dx = pow(xVelocity, 2)/(2 * frictionX);
-	double dy = pow(yVelocity, 2)/(2 * frictionY);
+	double dx = frictionX == 0 ? 0 : pow(xVelocity, 2)/(2 * frictionX) * ADJUST_FRICTION;
+	double dy = frictionY == 0 ? 0 : pow(yVelocity, 2)/(2 * frictionY) * ADJUST_FRICTION;
 
 	std::pair<double, double> endLoc = {x + dx, y + dy};
 	return endLoc;
 }
 
-double ShootAI::ccw(double ax, double ay, double bx, double by, double cx, double cy) {
-	return (bx - ax) * (cy - ay) - (cx - ax) * (by - ay);
+bool ShootAI::ccw(double ax, double ay, double bx, double by, double cx, double cy) {
+	double dx1 = bx - ax;
+	double dy1 = by - ay;
+	double dx2 = cx - ax;
+	double dy2 = cy - ay;
+	if (dx1*dy2 >= dy1*dx2) return true;
+	return false;
 }
 
 double ShootAI::distance(double x1, double y1, double x2, double y2) {
@@ -220,33 +239,38 @@ std::pair<std::pair<double, double>, std::pair<double, double> > ShootAI::comput
 bool ShootAI::validPath(std::pair<std::pair<double, double>, std::pair<double, double> > path, Ball *whiteBall, Ball *targetBall, Pocket *targetPocket, std::vector<Ball *> *balls) {
 	// checks for valid angle
 	double x1, y1, x2, y2;
-	x1 = targetBall->getX() - targetBall->getRadius()*path.second.first;
-	y1 = targetBall->getY() - targetBall->getRadius()*path.second.second;
+	x1 = targetBall->getX() - targetBall->getRadius() * path.second.first;
+	y1 = targetBall->getY() - targetBall->getRadius() * path.second.second;
 	x2 = x1 + targetBall->getRadius()*path.second.second;
 	y2 = y1 - targetBall->getRadius()*path.second.first;
-	if (ccw(x1, y1, x2, y2, whiteBall->getX(), whiteBall->getY())>=0)
+	if (ccw(x1, y1, x2, y2, whiteBall->getX(), whiteBall->getY()))
 		return false;
 	// checks if there are any balls on the path
-	return ShootAI::validFirstLeg(path.first, whiteBall, targetBall, balls) && ShootAI::validSecondLeg(path.second, targetBall, targetPocket, balls);
+	return ShootAI::validFirstLeg(path, whiteBall, targetBall, balls) && ShootAI::validSecondLeg(path, targetBall, targetPocket, balls);
 //	return true;
 }
 
-bool ShootAI::validFirstLeg(std::pair<double, double> path, Ball* whiteBall, Ball* targetBall, std::vector<Ball *> *balls) {
+bool ShootAI::validFirstLeg(std::pair<std::pair<double, double>, std::pair<double, double> > path, Ball* whiteBall, Ball* targetBall, std::vector<Ball *> *balls) {
+	double dx = path.first.first;
+	double dy = path.first.second;
+	double nx1 = whiteBall->getX() - dy*(whiteBall->getRadius());
+	double ny1 = whiteBall->getY() + dx*(whiteBall->getRadius());
+	double newCenterX = targetBall->getX() - 2*path.second.first*targetBall->getRadius();
+	double newCenterY = targetBall->getY() - 2*path.second.second*targetBall->getRadius();
+	double nx2 = newCenterX - dy*(targetBall->getRadius());
+	double ny2 = newCenterY + dx*(targetBall->getRadius());
 	for (int i = 0; i < balls->size(); ++i) {
 		Ball* other = balls->at(i);
 		if (other->getNumber() == whiteBall->getNumber() || other->getNumber() == targetBall->getNumber()) {
 			continue;
 		}
-		double dx = path.first;
-		double dy = path.second;
-		double distance = (dy/dx*other->getX() - other->getY() + (whiteBall->getY()-whiteBall->getX()*dy/dx)) / sqrt((dy*dy)/(dx*dx)+1);
+		if (distance(newCenterX, newCenterY, other->getX(), other->getY()) < whiteBall->getRadius() + other->getRadius()) {
+			return false;
+		}
+		double distance = fabs(dy/dx*other->getX() - other->getY() + (whiteBall->getY()-whiteBall->getX()*dy/dx)) / sqrt((dy*dy)/(dx*dx)+1);
 		if (distance <= 2*whiteBall->getRadius()) {
-			double nx1 = -whiteBall->getY() - dy*(whiteBall->getRadius());
-			double ny1 = whiteBall->getX() + dx*(whiteBall->getRadius());
-			double nx2 = -targetBall->getRadius() - dy*(targetBall->getRadius());
-			double ny2 = targetBall->getRadius() + dx*(targetBall->getRadius());
-			if (ccw(whiteBall->getX(), whiteBall->getY(), nx1, ny1, other->getX(), other->getY())>=0) {
-				if (ccw(targetBall->getX(), targetBall->getY(), nx2, ny2, other->getX(), other->getY())<=0) {
+			if (!ccw(whiteBall->getX(), whiteBall->getY(), nx1, ny1, other->getX(), other->getY())) {
+				if (ccw(newCenterX, newCenterY, nx2, ny2, other->getX(), other->getY())) {
 					return false;
 				}
 			}
@@ -255,22 +279,22 @@ bool ShootAI::validFirstLeg(std::pair<double, double> path, Ball* whiteBall, Bal
 	return true;
 }
 
-bool ShootAI::validSecondLeg(std::pair<double, double> path, Ball *targetBall, Pocket *targetPocket, std::vector<Ball *> *balls) {
+bool ShootAI::validSecondLeg(std::pair<std::pair<double, double>, std::pair<double, double> > path, Ball *targetBall, Pocket *targetPocket, std::vector<Ball *> *balls) {
 	for (int i = 0; i < balls->size(); ++i) {
 		Ball* other = balls->at(i);
 		if (other->getNumber() == targetBall->getNumber()) {
 			continue;
 		}
-		double dx = path.first;
-		double dy = path.second;
-		double distance = (dy/dx*other->getX() - other->getY() + (targetBall->getY()-targetBall->getX()*dy/dx)) / sqrt((dy*dy)/(dx*dx)+1);
+		double dx = path.second.first;
+		double dy = path.second.second;
+		double distance = fabs(dy/dx*other->getX() - other->getY() + (targetBall->getY()-targetBall->getX()*dy/dx)) / sqrt((dy*dy)/(dx*dx)+1);
 		if (distance <= 2*targetBall->getRadius()) {
-			double nx1 = -targetBall->getY() - dy*(targetBall->getRadius());
-			double ny1 = targetBall->getX() + dx*(targetBall->getRadius());
-			double nx2 = -targetPocket->getX() - dy*(targetBall->getRadius());
+			double nx1 = targetBall->getX() - dy*(targetBall->getRadius());
+			double ny1 = targetBall->getY() + dx*(targetBall->getRadius());
+			double nx2 = targetPocket->getX() - dy*(targetBall->getRadius());
 			double ny2 = targetPocket->getY() + dx*(targetBall->getRadius());
-			if (ccw(targetBall->getX(), targetBall->getY(), nx1, ny1, other->getX(), other->getY())>=0) {
-				if (ccw(targetPocket->getX(), targetPocket->getY(), nx2, ny2, other->getX(), other->getY())<=0) {
+			if (!ccw(targetBall->getX(), targetBall->getY(), nx1, ny1, other->getX(), other->getY())) {
+				if (ccw(targetPocket->getX(), targetPocket->getY(), nx2, ny2, other->getX(), other->getY())) {
 					return false;
 				}
 			}
@@ -280,7 +304,7 @@ bool ShootAI::validSecondLeg(std::pair<double, double> path, Ball *targetBall, P
 }
 
 std::pair<std::pair<double, double>, std::pair<double, double> > ShootAI::collisionVelocity(Ball *whiteBall, Ball *targetBall, double vi, double friction, std::pair<std::pair<double, double>, std::pair<double, double> > path) {
-	double pathx1 = path.second.second;
+	double pathx1 = path.first.first;
 	double pathy1 = path.first.second;
 	double pathx2 = path.second.first;
 	double pathy2 = path.second.second;
@@ -290,7 +314,7 @@ std::pair<std::pair<double, double>, std::pair<double, double> > ShootAI::collis
 	double theta1 = atan2(pathy1, pathx1) + path.first.first < 0 ? PI : 0;
 //	double vfx = sqrt(fabs(vi*vi - 2*d*friction)) * cos(theta1);
 //	double vfy = sqrt(fabs(vi*vi - 2*d*friction)) * sin(theta1);
-	double vf = sqrt(fabs(vi*vi - 2*d*friction));
+	double vf = sqrt(fabs(vi*vi - 2*d*friction*ADJUST_FRICTION));
 	double theta = PI - acos((pathx1*pathx2+pathy1*pathy2)/(sqrt(pow(pathx1, 2)+pow(pathy1, 2))*sqrt(pow(pathx2, 2)+pow(pathy2, 2))));
 	std::pair<double, double> newWhite = std::make_pair(pathx1*sin(theta)*vf, pathy1*sin(theta)*vf);
 	std::pair<double, double> newTarget = std::make_pair(pathx2*cos(theta)*vf, pathy2*cos(theta)*vf);
