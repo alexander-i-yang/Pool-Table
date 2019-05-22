@@ -16,27 +16,31 @@
 class Collidables {
 
 private:
-	std::vector<Ball*> objects;
-	std::vector<Wall*> walls;
+    std::vector<Ball*> objects;
+    std::vector<Wall*> walls;
     std::vector<Pocket*> pockets;
     double friction;
 public:
-	void setFriction(double friction);
-	Collidables();
-	~Collidables();
-	void add(Ball* ball);
-	void add(Wall* wall);
+    int solids;
+    int stripes;
+    bool hasCollided;
+    void setFriction(double friction);
+    Collidables();
+    ~Collidables();
+    void add(Ball* ball);
+    void add(Wall* wall);
     void add(Pocket * pocket);
     Ball* getBall(int index) {return objects.at(index);}
     void clear();
-	bool checkNotMoving(double threshold);
-	void stopAll();
-	void slowAll();
-	void shootAI();
-	void shootAI(bool);
-    void updateAll(Drawables * drawables); // will this update the Ball in Drawables as well?
-	                  // it should, but this will pose problems if it doesn't
-	                  // lol nvm we good
+    int numOfStripes();
+    int numOfSolids();
+    bool checkNotMoving(double threshold);
+    void stopAll();
+    void slowAll();
+    void shootAI();
+    int updateAll(Drawables * drawables); // will this update the Ball in Drawables as well?
+    // it should, but this will pose problems if it doesn't
+    // lol nvm we good
 };
 
 #endif //POOL_TABLE_COLLIDABLES_H
